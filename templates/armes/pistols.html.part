@@ -1,0 +1,48 @@
+<section class="field-section armes-section" id="reperes" tabindex="-1">
+  <h2>Repères de la famille</h2>
+  <p>Trente et une armes de poing : vingt-six revolvers au sens du jeu, cinq pistolets au sens strict, douze calibres et un poids total qui va de 85 grammes pour le pistolet en plastique 20 x 1 mm à 3,3 kilos pour le lance-grenades M32A1. Ce sont les armes de secours du jeu, et l’export en décrit la logique : distance efficace de 50 à 70 mètres, cadence le plus souvent limitée à 30 coups par minute.</p>
+  <p>Trois exceptions méritent d’être signalées, parce qu’elles font partie du catalogue et qu’il serait malhonnête de les taire : le Glock 18C est la seule arme de la famille à accepter le tir automatique, à 1 200 coups par minute ; le Stechkin APS et l’APB acceptent l’automatique à 750 coups par minute ; et le jeu classe le fusil MTs-255-12 en 12 gauges et le lance-grenades M32A1 dans la catégorie « revolver », ce qui explique leur présence dans cette page.</p>
+  <div class="field-grid field-grid--three">
+    <div class="field-card"><p class="eyebrow">30 à 100</p><p><strong>Ergonomie.</strong> L’amplitude la plus large du catalogue avec les armes de mêlée : le pistolet en plastique 20 x 1 mm culmine à 100, le Chiappa Rhino 200DS à 95, le Glock 19X et le Lebedev PL-15 à 93. Le M32A1 ferme la marche à 30.</p></div>
+    <div class="field-card"><p class="eyebrow">238 à 553</p><p><strong>Recul vertical.</strong> Le M32A1 affiche le plus faible de la famille à 238, le Five-seveN MK2 à 281, et le TT-33 le plus fort à 553, avec sa version dorée identique.</p></div>
+    <div class="field-card"><p class="eyebrow">12</p><p><strong>Calibres.</strong> Du 9 x 18 mm PM au 12,7 x 33 mm, en passant par le .357 Magnum, le 9 x 21 mm et le 7,62 x 25 mm TT : c’est la plus large palette de calibres du catalogue, et la principale contrainte de cette famille.</p></div>
+  </div>
+  <div class="field-callout">
+    <p><strong>Une famille qui décide de la munition de secours.</strong> Douze calibres différents, dont certains ne comptent que deux ou trois cartouches dans le catalogue des munitions. Choisir une arme de poing, c’est d’abord choisir le calibre que l’on acceptera de transporter en réserve — et celui que l’on trouvera en magasin.</p>
+  </div>
+</section>
+
+<section class="field-section armes-section" id="catalogue" tabindex="-1">
+  <h2>Le catalogue de la famille</h2>
+  <p>Les trente et une armes de poing de l’export, avec leurs mesures à configuration de base.</p>
+  %%TABLE_CATALOGUE%%
+  <p class="armes-note">Plusieurs armes apparaissent en double dans l’export : le Five-seveN MK2 en version standard et FDE, le Desert Eagle L6 en version standard et WTS, le TT-33 et sa version dorée. Ce sont des objets distincts, avec des prix et des disponibilités parfois différents.</p>
+</section>
+
+<section class="field-section armes-section" id="presets" tabindex="-1">
+  <h2>Presets publiés</h2>
+  <p>Cinquante-quatre presets sont rattachés aux trente et une armes de la famille. Sur une arme de poing, le preset joue sur la crosse, le canon et le magasin : l’ergonomie progresse de quelques points, le recul baisse quand le canon s’allonge.</p>
+  %%TABLE_PRESETS%%
+</section>
+
+<section class="field-section armes-section" id="acquisition" tabindex="-1">
+  <h2>Acquisition et disponibilité</h2>
+  <p>Trois armes de la famille sont proposées en magasin, toutes au niveau 1 de fidélité du Mécanicien : le Glock 17 à 8 260 roubles, le Makarov PM (f) à 6 897 roubles et le SIG P226R à 7 798 roubles. Ce sont les seules acquisitions garanties de la famille, et les moins chères du catalogue avec les pistolets-mitrailleurs.</p>
+  %%TABLE_ACQUISITION%%
+  <p class="armes-note">Les prix relèvent de l’instantané du 18 novembre 2026 et sont exprimés en roubles. Une arme de poing achetée en magasin se revend plus cher que le même article acheté aux enchères : c’est l’un des rares arbitrages de la guide où l’achat en magasin est rentable.</p>
+</section>
+
+<section class="field-section armes-section" id="conduite" tabindex="-1">
+  <h2>Comment s’équiper</h2>
+  <ul class="armes-list">
+    <li><strong>Tenir compte de ce que l’on peut acheter.</strong> Le 9 x 19 mm Para équipe onze armes de la famille et se trouve chez les marchands ; le 9 x 18 mm PM en équipe cinq ; le 9 x 21 mm et le 12,7 x 33 mm beaucoup moins. Une arme de secours se choisit d’abord dans le catalogue des munitions, puis dans celui des armes.</li>
+    <li><strong>Les automatiques sont des exceptions utiles.</strong> Le Glock 18C, le Stechkin APS et l’APB acceptent l’automatique, à 1 200 et 750 coups par minute. Le Stechkin est le meilleur compromis de la famille : 70 d’ergonomie, 328 de recul et un 9 x 18 mm PM abondant en magasin.</li>
+    <li><strong>Le poids compte dans un raid.</strong> Le TT-33 pèse 664 grammes, le Magnum Research Desert Eagle Mk XIX 829, le M32A1 3,3 kilos. Une arme de secours est une arme qu’on porte tout le temps : au-delà d’un kilo, elle devient une arme principale.</li>
+  </ul>
+</section>
+
+<section class="field-section armes-section" id="sources" tabindex="-1">
+  <h2>Sources et limites</h2>
+  <p>Les chiffres viennent de l’export communautaire du 18 novembre 2026, et la répartition entre arme de poing et revolver suit la catégorie du jeu, pas l’appellation commerciale des objets : c’est pourquoi le fusil MTs-255-12 et le lance-grenades M32A1 figurent dans cette page. Les avis de joueurs sur la valeur d’une arme de poignarde une fois le raid terminé sont des opinions, jamais des sources de chiffres.</p>
+  %%SOURCES_FAMILLE%%
+</section>

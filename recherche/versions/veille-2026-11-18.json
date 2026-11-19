@@ -1,0 +1,52 @@
+{
+  "dateReference": "2026-11-18",
+  "fuseau": "UTC",
+  "eft": {
+    "patchEditorial": "1.3.0.0",
+    "patchEditorialPublieLe": "2026-10-29",
+    "sourceNotes": "bsg-1300",
+    "dernierBuildRapporte": {
+      "numero": "1.3.0.2.48779",
+      "dateRapportee": "2026-11-13",
+      "source": "wiki-changelog",
+      "preuve": "SECONDAIRE",
+      "clientControle": false
+    },
+    "noteHotfix": "BSG annonce un déploiement technique le 11 novembre sans numéro et des changements Seasonal le 12. Le wiki associe aussi des changements à 1.3.0.1.48558. Ne pas attribuer automatiquement le contenu du 12 au build .2.",
+    "unity6": {
+      "patchAnnonce": "1.3.5.0",
+      "deploiementConfirme": false
+    }
+  },
+  "kordBreach": {
+    "finAnnoncee": "2026-12-07",
+    "precision": "DATE_SANS_HEURE",
+    "source": "bsg-kord-fin",
+    "recompensesAcquisesConservees": true,
+    "succesUniquesTransferesVers": [
+      "regular",
+      "pve"
+    ],
+    "battlePassDisponibleDans": [
+      "regular",
+      "pve",
+      "pvp-season"
+    ]
+  },
+  "campaignDrops": {
+    "nom": "Tarkov City",
+    "debutAnnonce": "2026-11-16",
+    "finAnnonceeUtc": "2026-11-23T15:00:00Z",
+    "source": "bsg-city"
+  },
+  "arena": {
+    "patchNotes": "0.6.2.5",
+    "date": "2026-11-05",
+    "source": "arena-0625"
+  },
+  "spTushonka": {
+    "stable": "4.1.6",
+    "buildEft": "0.16.9.5.40743",
+    "source": "spt-stable"
+  }
+}

@@ -1,0 +1,50 @@
+<section class="field-section armes-section" id="reperes" tabindex="-1">
+  <h2>Repères de la famille</h2>
+  <p>Onze fusils de précision semi-automatiques : la famille qui reconcile les deux gestes qu’on oppose d’ordinaire, la visée longue et la rafale courte. Dix de ces armes ne tirent qu’en semi-automatique, une seule accepte l’automatique, et les cadences publiées vont de 25 à 900 coups par minute. Les six calibres sont lourds : 7,62 x 51 mm NATO pour six armes, puis 9,3 x 64 mm, 12,7 x 99 mm, 7,62 x 54 mm R, 8,6 x 70 mm et 9 x 39 mm.</p>
+  <div class="field-grid field-grid--three">
+    <div class="field-card"><p class="eyebrow">28 à 80</p><p><strong>Ergonomie.</strong> La Kel-Tec RFB en 7,62 x 51 mm atteint 80, l’AK-50 en .50 BMG 66, le Remington R11 RSASS 50. L’écart entre le bas et le haut de la famille est plus large que sur les fusiliers de précision.</p></div>
+    <div class="field-card"><p class="eyebrow">80 à 624</p><p><strong>Recul vertical.</strong> La VSS Vintorez est la plus docile à 80 ; l’AK-50 en .50 BMG monte à 624. En semi-automatique, ce chiffre décide de la qualité du second tir.</p></div>
+    <div class="field-card"><p class="eyebrow">400 à 1 000</p><p><strong>Distance efficace.</strong> L’AK-50 atteint mille mètres, la Kel-Tec RFB et la TKPD en 9,3 x 64 mm neuf cents, et le bas de la famille reste à quatre cents mètres.</p></div>
+  </div>
+  <div class="field-callout">
+    <p><strong>Le DMR est souvent un fusil à deux usages.</strong> Sa cadence semi-automatique permet de rester dans le combat sans perdre la visée longue. C’est ce qui explique le nombre de cartouches compatibles relevé dans le tableau : ces armes se nourrissent de cartouches lourdes, moins nombreuses en magasin et plus chères à l’unité.</p>
+  </div>
+</section>
+
+<section class="field-section armes-section" id="catalogue" tabindex="-1">
+  <h2>Le catalogue de la famille</h2>
+  <p>Les onze fusils de précision semi-automatiques de l’export, avec leurs mesures à configuration de base.</p>
+  %%TABLE_CATALOGUE%%
+  <p class="armes-note">Une seule de ces armes est vendue en magasin : le Springfield Armory M1A. Les dix autres n’ont aucune offre marchande dans l’export ; l’export ne portant pas de donnée de tâche au niveau de l’arme, leur mode d’acquisition réel — raid, tâche ou marché — se vérifie dans le client.</p>
+</section>
+
+<section class="field-section armes-section" id="presets" tabindex="-1">
+  <h2>Presets publiés</h2>
+  <p>Trente-trois presets sont rattachés aux onze armes de cette famille. Le preset type d’un DMR combine une optique, une crosse qui allonge la longueur du canon et un frein de bouche ou un cache-flamme : l’ergonomie progresse, le poids aussi.</p>
+  %%TABLE_PRESETS%%
+  <p class="armes-note">La précision en minutes d’angle se lit avec la distance : à six cents mètres, une minute d’angle représente près d’un mètre d’écart. Les valeurs de recul, elles, se comparent d’une arme à l’autre dans les mêmes conditions de tir semi-automatique.</p>
+</section>
+
+<section class="field-section armes-section" id="acquisition" tabindex="-1">
+  <h2>Acquisition et disponibilité</h2>
+  <p>Une seule arme de la famille est proposée en magasin dans l’instantané : le Springfield Armory M1A en 7,62 x 51 mm, au niveau 3 de fidélité du Mécanicien, à 37 830 roubles. Les dix autres ont une disponibilité qui passe par les tâches, les raids et le marché.</p>
+  %%TABLE_ACQUISITION%%
+  <div class="field-callout">
+    <p><strong>Le coût total d’un DMR.</strong> L’arme n’est que la moitié du poste. S’y ajoutent l’optique, qui se compte en dizaines de milliers de roubles, et la munition : le 7,62 x 51 mm NATO se trouve en magasin, mais les cartouches de précision fine s’y trouvent moins. Un DMR qui reste sans cartouche n’est qu’un canon sur un bipied.</p>
+  </div>
+</section>
+
+<section class="field-section armes-section" id="conduite" tabindex="-1">
+  <h2>Comment s’équiper</h2>
+  <ul class="armes-list">
+    <li><strong>Choisir le calibre avant la marque.</strong> Six des onze armes tirent du 7,62 x 51 mm NATO : c’est le calibre le mieux fourni en magasin de toute la famille, et le choix rationnel quand le budget compte. Le 12,7 x 99 mm de l’AK-50 est l’axe opposé : la puissance maximale, avec la munition la plus rare et la manipulation la plus lourde — 7,96 kg à configuration nue.</li>
+    <li><strong>Profiter du semi-automatique.</strong> Une cadence de 900 sur une seule arme de la famille — le SR-25 — autorise la rafale courte, mais cette rafale en 7,62 x 51 mm est un choix de close range assumé, pas une tactique de distance.</li>
+    <li><strong>Regarder la distance avant le prix.</strong> Une arme dont la distance efficace relève à quatre cents mètres n’a pas besoin d’une optique à grossissement élevé. Sur cette famille, l’optique coûte plus cher que l’arme, et c’est là que se joue le budget.</li>
+  </ul>
+</section>
+
+<section class="field-section armes-section" id="sources" tabindex="-1">
+  <h2>Sources et limites</h2>
+  <p>Les chiffres viennent de l’export communautaire du 18 novembre 2026, relevé dans les trois profils de jeu sans écart. Les prix marchands indiqués sont ceux de l’instantané et ne constituent pas une garantie de disponibilité future. Les avis communautaires sur la viabilité des DMR sont des retours de joueurs, utilisés comme contexte et jamais comme source de chiffres.</p>
+  %%SOURCES_FAMILLE%%
+</section>

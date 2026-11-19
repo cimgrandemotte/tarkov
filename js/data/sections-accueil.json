@@ -1,0 +1,8 @@
+[
+  {"id":"encyclopedie","titre":"Dossiers de terrain","description":"Les entrées vers l’atlas, l’armurerie, les Traders, le Hideout et le solo communautaire.","termes":["encyclopédie","dossiers","atlas","sommaire","thèmes"]},
+  {"id":"premiers-pas","titre":"Préparer son premier raid","description":"Checklist de l’accueil, objectifs, extractions et programme EXFIL Brothers.","termes":["premiers pas","raid débutant","checklist","aide","exfil brothers","préparation"]},
+  {"id":"modes","titre":"Comparer les modes de jeu","description":"PvP Zone, PvE Zone, Seasonal, Arena et Single Player Tushonka.","termes":["mode","solo","spt","tushonka","pve","pvp","arena","kord breach"]},
+  {"id":"actualites","titre":"Dernières transmissions","description":"Tarkov City, Kord Breach, notes 1.3.0.0 et correctif signalé.","termes":["actualités","nouveautés","patch","tarkov city","kord breach","twitch drops","unity"]},
+  {"id":"programme","titre":"Programme de publication","description":"Les phases prévues et le nombre de fiches par dossier. Aucun lien vers un fichier absent.","termes":["roadmap","programme","planning","prochaine étape","publications"]},
+  {"id":"sources","titre":"Sources et méthode du guide","description":"Éditeur, wiki, Tarkov.dev, TarkovTracker et atelier de démonstration.","termes":["crédits","source","données","chiffres","fandom","méthode","tarkov tracker"]}
+]

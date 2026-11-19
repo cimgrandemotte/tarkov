@@ -1,0 +1,107 @@
+{
+  "$schemaVersion": 1,
+  "etatInitial": "EN_COURS",
+  "instantane": {
+    "etat": "ATTENTE_CONTINUE",
+    "phase": "PHASE_6",
+    "dernierePhaseTerminee": "PHASE_6",
+    "prochainePhase": "PHASE_7",
+    "compteurs": {
+      "pagesPlanifiees": 86,
+      "pagesGenerees": 51,
+      "pagesHtmlTechniques": 1,
+      "imagesCreees": 885,
+      "audiosCrees": 8
+    },
+    "phasesTerminees": [
+      "PHASE_0",
+      "PHASE_1",
+      "PHASE_2",
+      "PHASE_3",
+      "PHASE_4",
+      "PHASE_5",
+      "PHASE_6"
+    ],
+    "prochainEvenementAttendu": "PHASE_7",
+    "prochaineAction": "Phase 6 validée et close : 50 / 86 routes publiées, vingt médias P6 sur disque. Les vingt routes armures et boss sont en ligne, le validateur statique et la recette navigateur passent. La phase 6 est terminée.",
+    "dateDerniereMiseAJour": "2026-11-18"
+  },
+  "ordre": [
+    "PHASE_0",
+    "PHASE_1",
+    "PHASE_2",
+    "PHASE_3",
+    "PHASE_4",
+    "PHASE_5",
+    "PHASE_6",
+    "PHASE_7",
+    "PHASE_8",
+    "PHASE_9",
+    "PHASE_10"
+  ],
+  "transitions": [
+    {
+      "de": "EN_COURS",
+      "evenement": "PHASE_VALIDEE",
+      "si": "phase != PHASE_10",
+      "vers": "ATTENTE_CONTINUE",
+      "actions": [
+        "enregistrer la phase terminée, les livrables et les compteurs",
+        "désigner la phase suivante",
+        "demander CONTINUE"
+      ]
+    },
+    {
+      "de": "ATTENTE_CONTINUE",
+      "evenement": "CONTINUE",
+      "si": "prochainePhase != null",
+      "vers": "EN_COURS",
+      "actions": [
+        "démarrer la phase suivante",
+        "ouvrir un nouveau budget de médias par réponse"
+      ]
+    },
+    {
+      "de": "EN_COURS",
+      "evenement": "LOT_MEDIA_EPUISE",
+      "si": "phase non validée et reste à produire",
+      "vers": "ATTENTE_LOT",
+      "actions": [
+        "enregistrer le lot",
+        "garder la phase courante",
+        "demander CONTINUE sans décision créative"
+      ]
+    },
+    {
+      "de": "ATTENTE_LOT",
+      "evenement": "CONTINUE",
+      "vers": "EN_COURS",
+      "actions": [
+        "reprendre la même phase",
+        "ouvrir un nouveau budget de médias par réponse"
+      ]
+    },
+    {
+      "de": "EN_COURS",
+      "evenement": "PHASE_VALIDEE",
+      "si": "phase == PHASE_10 et contrôles de livraison réussis",
+      "vers": "COMPLETE",
+      "actions": [
+        "enregistrer les contrôles et la livraison finale"
+      ]
+    }
+  ],
+  "normalisationEvenements": {
+    "continue": "CONTINUE",
+    "continuer": "CONTINUE",
+    "CONTINUER": "CONTINUE"
+  },
+  "reglesDeSuivi": [
+    "Les compteurs reflètent des fichiers existants, pas seulement prévus.",
+    "Un résultat absent ou contradictoire est documenté sans être présenté comme confirmé.",
+    "La recherche par page précède sa rédaction.",
+    "Les deux instantanés sont synchronisés après chaque point d’arrêt.",
+    "Un HTML technique n’est pas une route éditoriale publiée et a son propre compteur."
+  ],
+  "fuseau": "UTC"
+}

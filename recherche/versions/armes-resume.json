@@ -1,0 +1,56 @@
+{
+ "regular": {
+  "armes": 199,
+  "pieces": 2283,
+  "munitions": 200,
+  "grenades": 7,
+  "familles": {
+   "arme-de-melee": 27,
+   "dmr": 11,
+   "fusils-a-pompe": 16,
+   "fusils-assaut": 63,
+   "fusils-de-precision": 10,
+   "lance-grenades": 10,
+   "mitrailleuses": 8,
+   "pistolets": 31,
+   "pistolets-mitrailleurs": 23
+  },
+  "calibres": 31
+ },
+ "pve": {
+  "armes": 199,
+  "pieces": 2283,
+  "munitions": 200,
+  "grenades": 7,
+  "familles": {
+   "arme-de-melee": 27,
+   "dmr": 11,
+   "fusils-a-pompe": 16,
+   "fusils-assaut": 63,
+   "fusils-de-precision": 10,
+   "lance-grenades": 10,
+   "mitrailleuses": 8,
+   "pistolets": 31,
+   "pistolets-mitrailleurs": 23
+  },
+  "calibres": 31
+ },
+ "pvp-season": {
+  "armes": 199,
+  "pieces": 2283,
+  "munitions": 200,
+  "grenades": 7,
+  "familles": {
+   "arme-de-melee": 27,
+   "dmr": 11,
+   "fusils-a-pompe": 16,
+   "fusils-assaut": 63,
+   "fusils-de-precision": 10,
+   "lance-grenades": 10,
+   "mitrailleuses": 8,
+   "pistolets": 31,
+   "pistolets-mitrailleurs": 23
+  },
+  "calibres": 31
+ }
+}

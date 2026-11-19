@@ -1,0 +1,1475 @@
+{
+  "schemaVersion": 1,
+  "routesPlanifiees": 86,
+  "routesPubliees": 51,
+  "entrees": [
+    {
+      "titre": "Dossiers de terrain",
+      "description": "Les entrées vers l’atlas, l’armurerie, les Traders, le Hideout et le solo communautaire.",
+      "termes": [
+        "encyclopédie",
+        "dossiers",
+        "atlas",
+        "sommaire",
+        "thèmes"
+      ],
+      "etat": "accueil",
+      "url": "./#encyclopedie"
+    },
+    {
+      "titre": "Préparer son premier raid",
+      "description": "Checklist de l’accueil, objectifs, extractions et programme EXFIL Brothers.",
+      "termes": [
+        "premiers pas",
+        "raid débutant",
+        "checklist",
+        "aide",
+        "exfil brothers",
+        "préparation"
+      ],
+      "etat": "accueil",
+      "url": "./#premiers-pas"
+    },
+    {
+      "titre": "Comparer les modes de jeu",
+      "description": "PvP Zone, PvE Zone, Seasonal, Arena et Single Player Tushonka.",
+      "termes": [
+        "mode",
+        "solo",
+        "spt",
+        "tushonka",
+        "pve",
+        "pvp",
+        "arena",
+        "kord breach"
+      ],
+      "etat": "accueil",
+      "url": "./#modes"
+    },
+    {
+      "titre": "Dernières transmissions",
+      "description": "Tarkov City, Kord Breach, notes 1.3.0.0 et correctif signalé.",
+      "termes": [
+        "actualités",
+        "nouveautés",
+        "patch",
+        "tarkov city",
+        "kord breach",
+        "twitch drops",
+        "unity"
+      ],
+      "etat": "accueil",
+      "url": "./#actualites"
+    },
+    {
+      "titre": "Programme de publication",
+      "description": "Les phases prévues et le nombre de fiches par dossier. Aucun lien vers un fichier absent.",
+      "termes": [
+        "roadmap",
+        "programme",
+        "planning",
+        "prochaine étape",
+        "publications"
+      ],
+      "etat": "accueil",
+      "url": "./#programme"
+    },
+    {
+      "titre": "Sources et méthode du guide",
+      "description": "Éditeur, wiki, Tarkov.dev, TarkovTracker et atelier de démonstration.",
+      "termes": [
+        "crédits",
+        "source",
+        "données",
+        "chiffres",
+        "fandom",
+        "méthode",
+        "tarkov tracker"
+      ],
+      "etat": "accueil",
+      "url": "./#sources"
+    },
+    {
+      "titre": "Atelier des fondations",
+      "description": "Le banc d’essai de l’interface du guide.",
+      "termes": [
+        "socle",
+        "aperçu",
+        "phase 1",
+        "HUD"
+      ],
+      "etat": "atelier",
+      "url": "atelier/#vue-ensemble"
+    },
+    {
+      "titre": "Composants de l’atelier",
+      "description": "Recherche, navigation et outils interactifs.",
+      "termes": [
+        "fuse",
+        "fuzzy",
+        "interface",
+        "navigation",
+        "index"
+      ],
+      "etat": "atelier",
+      "url": "atelier/#outils"
+    },
+    {
+      "titre": "Modes de jeu",
+      "description": "PvP Zone, PvE Zone, Seasonal, Arena et SP-Tushonka.",
+      "termes": [
+        "solo",
+        "spt",
+        "saisonnier",
+        "Kord Breach",
+        "mode jeu"
+      ],
+      "etat": "atelier",
+      "url": "atelier/#modes"
+    },
+    {
+      "titre": "Catalogue et filtres",
+      "description": "Filtrer les cartes de démonstration par mode et type.",
+      "termes": [
+        "catalogue",
+        "filtrer",
+        "liste",
+        "atlas",
+        "terrain"
+      ],
+      "etat": "atelier",
+      "url": "atelier/#filtres"
+    },
+    {
+      "titre": "Comparateur de cartes",
+      "description": "Comparer deux ou trois lieux à partir d’un export Tarkov.dev.",
+      "termes": [
+        "tableau",
+        "comparaison",
+        "extracts",
+        "extractions",
+        "transits",
+        "Tarkov.dev"
+      ],
+      "etat": "atelier",
+      "url": "atelier/#comparateur"
+    },
+    {
+      "titre": "Tier list de prise en main",
+      "description": "Une liste de priorités avec ses critères et ses justifications.",
+      "termes": [
+        "rangs",
+        "classement",
+        "checklist",
+        "conseils",
+        "niveau",
+        "méthode"
+      ],
+      "etat": "atelier",
+      "url": "atelier/#priorites"
+    },
+    {
+      "titre": "Ambiances et sons UI",
+      "description": "Quatre boucles MP3 originales et trois sons d’interface.",
+      "termes": [
+        "pluie",
+        "forêt",
+        "industrie",
+        "ruines",
+        "son",
+        "audio",
+        "mp3",
+        "radio",
+        "lecteur"
+      ],
+      "etat": "atelier",
+      "url": "atelier/#ambiances"
+    },
+    {
+      "titre": "Journal de veille",
+      "description": "Référence 1.3.0.0, correctifs signalés et fin de saison.",
+      "termes": [
+        "actualités",
+        "novembre",
+        "1.3.0.0",
+        "1.3.0.2",
+        "Unity 6",
+        "tarkov city",
+        "Kord Breach"
+      ],
+      "etat": "atelier",
+      "url": "atelier/#veille"
+    },
+    {
+      "titre": "Tarkov Ultimate Guide",
+      "description": "Brief de raid, guide débutant, sélection de dossiers, navigation transversale, 1.3.0.0 et nouvelles datées.",
+      "termes": [
+        "index"
+      ],
+      "etat": "publiee",
+      "phase": 2,
+      "url": "index.html"
+    },
+    {
+      "titre": "Premiers pas dans Tarkov",
+      "description": "USEC/BEAR, choix du mode, pré-raid → raid → après-raid, santé et soins, sorties, stash, traders, paramètres, touches, dix étapes et FAQ 20+.",
+      "termes": [
+        "getting started",
+        "débutant",
+        "guide débutant",
+        "raid",
+        "commencer",
+        "nouveau",
+        "pve",
+        "paramètres"
+      ],
+      "etat": "publiee",
+      "phase": 3,
+      "url": "pages/getting-started.html"
+    },
+    {
+      "titre": "Norvinsk : lore et chronologie",
+      "description": "TerraGroup, Contract Wars, USEC, BEAR, Scavs, protagonistes et liens avec les arcs du jeu. Distinguer canon, interprétations et révélations.",
+      "termes": [
+        "lore",
+        "Norvinsk",
+        "histoire",
+        "TerraGroup",
+        "univers",
+        "chronologie",
+        "Contract Wars"
+      ],
+      "etat": "publiee",
+      "phase": 3,
+      "url": "pages/lore/index.html"
+    },
+    {
+      "titre": "Atlas des cartes",
+      "description": "Treize lieux de référence ; variantes jour/nuit, niveau, tutoriel et événement regroupées sous leur carte ou dossier. Accès, profils, durée, difficulté et menaces.",
+      "termes": [
+        "maps",
+        "cartes",
+        "atlas",
+        "extract",
+        "extraction",
+        "lieux",
+        "raid"
+      ],
+      "etat": "publiee",
+      "phase": 4,
+      "url": "pages/maps/index.html"
+    },
+    {
+      "titre": "Factory",
+      "description": "Jour/nuit, sous-sols et passerelles, sorties avec et sans clé, Tagilla et variantes infectées.",
+      "termes": [
+        "maps",
+        "factory",
+        "Factory",
+        "Usine"
+      ],
+      "etat": "publiee",
+      "phase": 4,
+      "url": "pages/maps/factory.html"
+    },
+    {
+      "titre": "Customs",
+      "description": "Dortoirs, Big Red, entrepôts et forteresse ; circuits de premières quêtes et nouveaux exfils du 1.2.",
+      "termes": [
+        "maps",
+        "customs",
+        "Customs",
+        "Douanes"
+      ],
+      "etat": "publiee",
+      "phase": 4,
+      "url": "pages/maps/customs.html"
+    },
+    {
+      "titre": "Woods",
+      "description": "Scierie et Shturman, limites du terrain, camps et repères naturels ; l’événement Wild Wild Woods séparé des règles normales.",
+      "termes": [
+        "maps",
+        "woods",
+        "Woods",
+        "Bois"
+      ],
+      "etat": "publiee",
+      "phase": 4,
+      "url": "pages/maps/woods.html"
+    },
+    {
+      "titre": "Shoreline",
+      "description": "Resort, jetée, villages et Sanitar ; différences entre exfils, transits Icebreaker, Labyrinth et Terminal.",
+      "termes": [
+        "maps",
+        "shoreline"
+      ],
+      "etat": "publiee",
+      "phase": 4,
+      "url": "pages/maps/shoreline.html"
+    },
+    {
+      "titre": "Interchange",
+      "description": "ULTRA, IDEA/OLI/Goshan, niveaux et alimentation ; Killa, butin tech et corrections du 1.2.",
+      "termes": [
+        "maps",
+        "interchange",
+        "Interchange",
+        "Échangeur"
+      ],
+      "etat": "publiee",
+      "phase": 4,
+      "url": "pages/maps/interchange.html"
+    },
+    {
+      "titre": "Reserve",
+      "description": "Bunkers, surface, train, leviers, Raiders et Glukhar ; contraintes des exfils et clés des bâtiments.",
+      "termes": [
+        "maps",
+        "reserve"
+      ],
+      "etat": "publiee",
+      "phase": 4,
+      "url": "pages/maps/reserve.html"
+    },
+    {
+      "titre": "The Lab",
+      "description": "Accès par keycard, niveaux, alarmes, Raiders et extractions activées ; variantes Blackout et Infected en archives séparées.",
+      "termes": [
+        "maps",
+        "the lab"
+      ],
+      "etat": "publiee",
+      "phase": 4,
+      "url": "pages/maps/the-lab.html"
+    },
+    {
+      "titre": "Lighthouse",
+      "description": "Chalets, Rogues, BTR, Lightkeeper, transit Icebreaker et passages ; vérifier les zones de danger restantes hors Water Treatment.",
+      "termes": [
+        "maps",
+        "lighthouse"
+      ],
+      "etat": "publiee",
+      "phase": 4,
+      "url": "pages/maps/lighthouse.html"
+    },
+    {
+      "titre": "Streets of Tarkov",
+      "description": "Concession, mall, entrées d’immeubles, BTR et signes d’extraction ; Kaban, Kollontay, trajets selon la quête.",
+      "termes": [
+        "maps",
+        "streets of tarkov"
+      ],
+      "etat": "publiee",
+      "phase": 4,
+      "url": "pages/maps/streets-of-tarkov.html"
+    },
+    {
+      "titre": "Ground Zero",
+      "description": "Départ, TerraGroup et premières tâches ; tutoriel, tranches de niveau et Cultists hors confusions de mode.",
+      "termes": [
+        "maps",
+        "ground zero",
+        "Ground Zero",
+        "Point zéro"
+      ],
+      "etat": "publiee",
+      "phase": 4,
+      "url": "pages/maps/ground-zero.html"
+    },
+    {
+      "titre": "The Labyrinth",
+      "description": "Accès Shoreline, conditions d’entrée, phases et sorties ; Shadow of Tagilla, Vengeful Killa, aperçu sans spoiler.",
+      "termes": [
+        "maps",
+        "the labyrinth"
+      ],
+      "etat": "publiee",
+      "phase": 4,
+      "url": "pages/maps/the-labyrinth.html"
+    },
+    {
+      "titre": "Icebreaker",
+      "description": "Boreas, transits, kit et accès direct ; étages du navire, Wedge, Knight, activités de groupe et sorties.",
+      "termes": [
+        "maps",
+        "icebreaker",
+        "Icebreaker",
+        "Brise-glace"
+      ],
+      "etat": "publiee",
+      "phase": 4,
+      "url": "pages/maps/icebreaker.html"
+    },
+    {
+      "titre": "Terminal",
+      "description": "Port et fin de l’histoire, accès depuis Shoreline, variantes et conditions. Durée et sorties à recouper ; éviter de gâcher les fins.",
+      "termes": [
+        "maps",
+        "terminal"
+      ],
+      "etat": "publiee",
+      "phase": 4,
+      "url": "pages/maps/terminal.html"
+    },
+    {
+      "titre": "Arsenal EFT",
+      "description": "Catalogue exhaustif au périmètre de l’instantané : familles, objets jouables, presets et variantes distincts. Builds conditionnés par munitions et mode.",
+      "termes": [
+        "weapons"
+      ],
+      "etat": "publiee",
+      "phase": 5,
+      "url": "pages/weapons/index.html"
+    },
+    {
+      "titre": "Fusils d’assaut et carabines",
+      "description": "Scinder les classes officielles rifle/carbine ; comparer M4, AK et alternatives pour différents accès.",
+      "termes": [
+        "weapons",
+        "assault rifles"
+      ],
+      "etat": "publiee",
+      "phase": 5,
+      "url": "pages/weapons/assault-rifles.html"
+    },
+    {
+      "titre": "Pistolets-mitrailleurs (SMG)",
+      "description": "Progression 9×19, 4,6×30 et 5,7×28 ; cadence, chargeur et disponibilité par profil.",
+      "termes": [
+        "weapons",
+        "smgs"
+      ],
+      "etat": "publiee",
+      "phase": 5,
+      "url": "pages/weapons/smgs.html"
+    },
+    {
+      "titre": "Fusils à pompe et semi-automatiques",
+      "description": "Coût d’entrée, longueur, plombs vs slugs et projectiles multiples ; MP-133 et alternatives.",
+      "termes": [
+        "weapons",
+        "shotguns"
+      ],
+      "etat": "publiee",
+      "phase": 5,
+      "url": "pages/weapons/shotguns.html"
+    },
+    {
+      "titre": "Fusils de précision à verrou",
+      "description": "Catalogue bolt-action, distance efficace en jeu, stabilité des presets, coût des optiques et quêtes liées.",
+      "termes": [
+        "weapons",
+        "sniper rifles"
+      ],
+      "etat": "publiee",
+      "phase": 5,
+      "url": "pages/weapons/sniper-rifles.html"
+    },
+    {
+      "titre": "Fusils de précision semi-auto (DMR)",
+      "description": "Effets de configuration sur SR-25, SVD et autres DMR ; distinguer cadence théorique et confort en jeu.",
+      "termes": [
+        "weapons",
+        "dmrs"
+      ],
+      "etat": "publiee",
+      "phase": 5,
+      "url": "pages/weapons/dmrs.html"
+    },
+    {
+      "titre": "Mitrailleuses légères et polyvalentes",
+      "description": "RPK, familles à bande et autres LMG ; poids, tailles de chargeur et contraintes propres au jeu.",
+      "termes": [
+        "weapons",
+        "lmgs"
+      ],
+      "etat": "publiee",
+      "phase": 5,
+      "url": "pages/weapons/lmgs.html"
+    },
+    {
+      "titre": "Pistolets et revolvers",
+      "description": "Regrouper visuellement sans confondre handgun et revolver ; tableaux des calibres, secours et quêtes.",
+      "termes": [
+        "weapons",
+        "pistols"
+      ],
+      "etat": "publiee",
+      "phase": 5,
+      "url": "pages/weapons/pistols.html"
+    },
+    {
+      "titre": "Armes de mêlée",
+      "description": "Portée et dégâts de coups (pas de variables de munitions) ; drops, quêtes et usages en jeu.",
+      "termes": [
+        "weapons",
+        "melee"
+      ],
+      "etat": "publiee",
+      "phase": 5,
+      "url": "pages/weapons/melee.html"
+    },
+    {
+      "titre": "Lance-grenades et lanceurs spéciaux",
+      "description": "Lanceurs autonomes, sous-canon et lance-roquettes annotés comme sous-familles distinctes ; profil et restriction en jeu.",
+      "termes": [
+        "weapons",
+        "grenade launchers"
+      ],
+      "etat": "publiee",
+      "phase": 5,
+      "url": "pages/weapons/grenade-launchers.html"
+    },
+    {
+      "titre": "Modifications et accessoires",
+      "description": "Compatibilité de slots, pièces requises, crosse dépliée/repliée, présélection et mesures de build ; dépendances de pièces.",
+      "termes": [
+        "weapons",
+        "weapon mods"
+      ],
+      "etat": "publiee",
+      "phase": 5,
+      "url": "pages/weapons/weapon-mods.html"
+    },
+    {
+      "titre": "Munitions : comprendre la balistique",
+      "description": "Dégâts, pénétration, classes, perte de vitesse, tirs multiples et champs sans effet confirmé. Choix budget et disponibilité par calibre/mode.",
+      "termes": [
+        "ammo",
+        "ballistique",
+        "munitions",
+        "calibre",
+        "pénétration",
+        "dégâts",
+        "tableau"
+      ],
+      "etat": "publiee",
+      "phase": 5,
+      "url": "pages/ammo/index.html"
+    },
+    {
+      "titre": "Tableau balistique interactif",
+      "description": "Séparer profils balistiques et autres munitions, indiquer unités, prix et horodatage, comparer munitions, offre trader et craft.",
+      "termes": [
+        "ammo",
+        "ammo chart"
+      ],
+      "etat": "publiee",
+      "phase": 5,
+      "url": "pages/ammo/ammo-chart.html"
+    },
+    {
+      "titre": "Armures et protection",
+      "description": "Expliquer modèle de zones, classes, matériaux, durabilité et compatibilité de plaques.",
+      "termes": [
+        "armor"
+      ],
+      "etat": "publiee",
+      "phase": 6,
+      "url": "pages/armor/index.html"
+    },
+    {
+      "titre": "Gilets et porte-plaques",
+      "description": "Séparer tissu, plaques et zones ; exemples légers/lourds et compromis de mobilité.",
+      "termes": [
+        "armor",
+        "body armor"
+      ],
+      "etat": "publiee",
+      "phase": 6,
+      "url": "pages/armor/body-armor.html"
+    },
+    {
+      "titre": "Casques et visières",
+      "description": "Coquilles, visières, protections d’oreilles, compatibilité de casque audio et ricochet en jeu.",
+      "termes": [
+        "armor",
+        "helmets"
+      ],
+      "etat": "publiee",
+      "phase": 6,
+      "url": "pages/armor/helmets.html"
+    },
+    {
+      "titre": "Rigs et poches",
+      "description": "Rigs blindés ou non, capacité brute vs géométrie, coût, poids et place ; ne pas assimiler un rig à une classe de protection.",
+      "termes": [
+        "armor",
+        "rigs"
+      ],
+      "etat": "publiee",
+      "phase": 6,
+      "url": "pages/armor/rigs.html"
+    },
+    {
+      "titre": "Comparateur d’armures",
+      "description": "Comparer valeurs à configuration cohérente ; afficher plaques, indices, pénalités et données manquantes.",
+      "termes": [
+        "armor",
+        "armor chart"
+      ],
+      "etat": "publiee",
+      "phase": 6,
+      "url": "pages/armor/armor-chart.html"
+    },
+    {
+      "titre": "Boss et rencontres",
+      "description": "Profils majeurs, alternatives événementielles, groupes, gardes et distinction des Raiders/Rogues. Résumé des PV et apparitions sans agrégation trompeuse.",
+      "termes": [
+        "bosses"
+      ],
+      "etat": "publiee",
+      "phase": 6,
+      "url": "pages/bosses/index.html"
+    },
+    {
+      "titre": "Reshala",
+      "description": "Dortoirs, station et Stronghold ; gardes et intérêt du Golden TT.",
+      "termes": [
+        "bosses",
+        "reshala"
+      ],
+      "etat": "publiee",
+      "phase": 6,
+      "url": "pages/bosses/reshala.html"
+    },
+    {
+      "titre": "Killa",
+      "description": "ULTRA et variantes ; casque Maska, loot, dissocier l’apparition de Vengeful Killa.",
+      "termes": [
+        "bosses",
+        "killa"
+      ],
+      "etat": "publiee",
+      "phase": 6,
+      "url": "pages/bosses/killa.html"
+    },
+    {
+      "titre": "Shturman",
+      "description": "Scierie, deux gardes, cache dédiée et statut du Red Rebel.",
+      "termes": [
+        "bosses",
+        "shturman"
+      ],
+      "etat": "publiee",
+      "phase": 6,
+      "url": "pages/bosses/shturman.html"
+    },
+    {
+      "titre": "Glukhar",
+      "description": "Reserve et variantes ; rôles des gardes et mobilité, taux par carte.",
+      "termes": [
+        "bosses",
+        "glukhar"
+      ],
+      "etat": "publiee",
+      "phase": 6,
+      "url": "pages/bosses/glukhar.html"
+    },
+    {
+      "titre": "Sanitar",
+      "description": "Resort, jetée et autres zones vérifiées ; comportement, soins et objets de quête.",
+      "termes": [
+        "bosses",
+        "sanitar"
+      ],
+      "etat": "publiee",
+      "phase": 6,
+      "url": "pages/bosses/sanitar.html"
+    },
+    {
+      "titre": "Tagilla",
+      "description": "Factory et variantes jour/nuit, poursuite en jeu, masques et forme infectée séparée.",
+      "termes": [
+        "bosses",
+        "tagilla"
+      ],
+      "etat": "publiee",
+      "phase": 6,
+      "url": "pages/bosses/tagilla.html"
+    },
+    {
+      "titre": "Kaban",
+      "description": "Concession, gardes et accès ; inventaire spécial, clés et dangers du secteur.",
+      "termes": [
+        "bosses",
+        "kaban"
+      ],
+      "etat": "publiee",
+      "phase": 6,
+      "url": "pages/bosses/kaban.html"
+    },
+    {
+      "titre": "Kollontay",
+      "description": "Zones de Streets, équipiers, matraque et conditions de son effet en jeu.",
+      "termes": [
+        "bosses",
+        "kollontay"
+      ],
+      "etat": "publiee",
+      "phase": 6,
+      "url": "pages/bosses/kollontay.html"
+    },
+    {
+      "titre": "Zryachiy",
+      "description": "Île, gardes et relation avec l’accès Lightkeeper ; séparer les variantes saisonnières.",
+      "termes": [
+        "bosses",
+        "zryachiy"
+      ],
+      "etat": "publiee",
+      "phase": 6,
+      "url": "pages/bosses/zryachiy.html"
+    },
+    {
+      "titre": "Partisan",
+      "description": "Karma PMC et conditions d’apparition : appliquer le correctif 1.3.0.0 et dater les exceptions.",
+      "termes": [
+        "bosses",
+        "partisan"
+      ],
+      "etat": "publiee",
+      "phase": 6,
+      "url": "pages/bosses/partisan.html"
+    },
+    {
+      "titre": "Cultist Priest",
+      "description": "Nuit, classes de lieu et tranches de Ground Zero ; vocabulaire Sectant et distinction des événements.",
+      "termes": [
+        "bosses",
+        "cultist priest"
+      ],
+      "etat": "publiee",
+      "phase": 6,
+      "url": "pages/bosses/cultist-priest.html"
+    },
+    {
+      "titre": "The Goons",
+      "description": "Sous-fiches Knight, Big Pipe, Birdeye ; rotation selon mode, composition et faux doubles comptages.",
+      "termes": [
+        "bosses",
+        "the goons"
+      ],
+      "etat": "publiee",
+      "phase": 6,
+      "url": "pages/bosses/the-goons.html"
+    },
+    {
+      "titre": "Shadow of Tagilla",
+      "description": "Labyrinth ; séquence de rencontre et apparition de Vengeful Killa si vérifiée.",
+      "termes": [
+        "bosses",
+        "shadow of tagilla"
+      ],
+      "etat": "publiee",
+      "phase": 6,
+      "url": "pages/bosses/shadow-of-tagilla.html"
+    },
+    {
+      "titre": "The Wedge",
+      "description": "Icebreaker, escortes par taille de groupe et variante de Blackout ; pas de taux universel.",
+      "termes": [
+        "bosses",
+        "the wedge"
+      ],
+      "etat": "publiee",
+      "phase": 6,
+      "url": "pages/bosses/the-wedge.html"
+    },
+    {
+      "titre": "Les traders de Tarkov",
+      "description": "Dix profils, indices de réputation, nouvelles règles de fidélité, relations et inventaires clés.",
+      "termes": [
+        "traders",
+        "marchands",
+        "réputation",
+        "loyalty level",
+        "barter"
+      ],
+      "etat": "planifiee",
+      "phase": 7,
+      "url": null
+    },
+    {
+      "titre": "Prapor",
+      "description": "Armes, premiers objectifs, assurance et offres russes à plusieurs niveaux.",
+      "termes": [
+        "traders",
+        "prapor"
+      ],
+      "etat": "planifiee",
+      "phase": 7,
+      "url": null
+    },
+    {
+      "titre": "Therapist",
+      "description": "Soins, Salewa, matériel médical, achats prioritaires et options d’assurance.",
+      "termes": [
+        "traders",
+        "therapist"
+      ],
+      "etat": "planifiee",
+      "phase": 7,
+      "url": null
+    },
+    {
+      "titre": "Skier",
+      "description": "Premiers barters, quêtes d’accès, accessoires, et lien aux activités Halloween/Blackout.",
+      "termes": [
+        "traders",
+        "skier"
+      ],
+      "etat": "planifiee",
+      "phase": 7,
+      "url": null
+    },
+    {
+      "titre": "Peacekeeper",
+      "description": "Déblocage, USD, offres importées et paliers de quêtes.",
+      "termes": [
+        "traders",
+        "peacekeeper"
+      ],
+      "etat": "planifiee",
+      "phase": 7,
+      "url": null
+    },
+    {
+      "titre": "Mechanic",
+      "description": "Pièces, Gunsmith, déblocage de Jaeger, lien vers sorties d’atelier.",
+      "termes": [
+        "traders",
+        "mechanic"
+      ],
+      "etat": "planifiee",
+      "phase": 7,
+      "url": null
+    },
+    {
+      "titre": "Ragman",
+      "description": "Rigs, vêtements, armures, quêtes Interchange et accès au kit Icebreaker.",
+      "termes": [
+        "traders",
+        "ragman"
+      ],
+      "etat": "planifiee",
+      "phase": 7,
+      "url": null
+    },
+    {
+      "titre": "Jaeger",
+      "description": "Quêtes de survie et contraintes, équipement, assurance si attestée par mode.",
+      "termes": [
+        "traders",
+        "jaeger"
+      ],
+      "etat": "planifiee",
+      "phase": 7,
+      "url": null
+    },
+    {
+      "titre": "Fence",
+      "description": "Karma Scav, inventaire changeant, paliers réellement applicables et limites par événement.",
+      "termes": [
+        "traders",
+        "fence"
+      ],
+      "etat": "planifiee",
+      "phase": 7,
+      "url": null
+    },
+    {
+      "titre": "Lightkeeper",
+      "description": "Accès en raid, chaîne To the Light post-refonte, échanges et restrictions de zone.",
+      "termes": [
+        "traders",
+        "lightkeeper"
+      ],
+      "etat": "planifiee",
+      "phase": 7,
+      "url": null
+    },
+    {
+      "titre": "Ref",
+      "description": "Déblocage et échanges, quêtes croisées avec Arena, bilan des devises et conditions par mode.",
+      "termes": [
+        "traders",
+        "ref"
+      ],
+      "etat": "planifiee",
+      "phase": 7,
+      "url": null
+    },
+    {
+      "titre": "Catalogue des quêtes",
+      "description": "Objectifs, prérequis, récompenses, factions, missions principales/secondaires/opérationnelles et saisonnières séparées.",
+      "termes": [
+        "quests",
+        "quêtes",
+        "tasks",
+        "objectifs",
+        "Kappa",
+        "tracker"
+      ],
+      "etat": "planifiee",
+      "phase": 7,
+      "url": null
+    },
+    {
+      "titre": "Arbre de progression des quêtes",
+      "description": "Relations d’ordre, conditions composites, prérequis d’histoire et objectifs de groupe ; audit des cycles et liens incomplets.",
+      "termes": [
+        "quests",
+        "quest tree"
+      ],
+      "etat": "planifiee",
+      "phase": 7,
+      "url": null
+    },
+    {
+      "titre": "Obtenir le conteneur Kappa",
+      "description": "Accès à Collector, liste d’objets FIR, tâches requises par version et conditions saisonnières ; éviter de recycler les anciennes exigences.",
+      "termes": [
+        "quests",
+        "kappa guide"
+      ],
+      "etat": "planifiee",
+      "phase": 7,
+      "url": null
+    },
+    {
+      "titre": "Planque : modules et progression",
+      "description": "Stations, niveaux, conditions, matériaux, ordre de construction, consommation et coûts ; Bitcoin Farm et calculs par scénario.",
+      "termes": [
+        "hideout",
+        "planque",
+        "abri",
+        "craft",
+        "fabrication",
+        "stations"
+      ],
+      "etat": "planifiee",
+      "phase": 7,
+      "url": null
+    },
+    {
+      "titre": "Crafts et temps de retour",
+      "description": "Ingrédients vs outils, quantités de sortie, carburant, déverrouillages et calcul du net horaire.",
+      "termes": [
+        "hideout",
+        "crafting"
+      ],
+      "etat": "planifiee",
+      "phase": 7,
+      "url": null
+    },
+    {
+      "titre": "Compétences : progresser par mode",
+      "description": "Familles, XP, maîtrise, effets, limites et rendement ; Metabolism et bonus Seasonal du 1.3.0.0 distingués.",
+      "termes": [
+        "skills"
+      ],
+      "etat": "planifiee",
+      "phase": 8,
+      "url": null
+    },
+    {
+      "titre": "Économie du raid",
+      "description": "Flea vs traders, stratégies nettes après coût, devises et TarCoin de la boutique distinguées, renvoi aux routes et crafts.",
+      "termes": [
+        "economy"
+      ],
+      "etat": "planifiee",
+      "phase": 8,
+      "url": null
+    },
+    {
+      "titre": "Flea Market : accès et frais",
+      "description": "Niveaux d’accès et restrictions par profil/objet ; coût de transaction, prix observé, ruptures et limites de données.",
+      "termes": [
+        "economy",
+        "flea market"
+      ],
+      "etat": "planifiee",
+      "phase": 8,
+      "url": null
+    },
+    {
+      "titre": "Roubles : routes et rendement",
+      "description": "Routes de raid, liquidité, inventaire, revente par trader et butin prioritaire ; estimer en tenant compte des échecs.",
+      "termes": [
+        "economy",
+        "money making"
+      ],
+      "etat": "planifiee",
+      "phase": 8,
+      "url": null
+    },
+    {
+      "titre": "Stratégies et méta",
+      "description": "Parcours apprenti/régulier/vétéran, objectifs PvP/PvE, budget contre fin de progression et choix du kit.",
+      "termes": [
+        "strategy"
+      ],
+      "etat": "planifiee",
+      "phase": 8,
+      "url": null
+    },
+    {
+      "titre": "50+ astuces pour bien débuter",
+      "description": "Conseils triables : inventaire, assurance, exfils, santé, quêtes, Scav, progression et réglages.",
+      "termes": [
+        "strategy",
+        "beginner tips"
+      ],
+      "etat": "planifiee",
+      "phase": 8,
+      "url": null
+    },
+    {
+      "titre": "Tactiques avancées de raid",
+      "description": "Rythme, information, rotations, transits, gestion en groupe et analyse des erreurs propres à EFT.",
+      "termes": [
+        "strategy",
+        "advanced tactics"
+      ],
+      "etat": "planifiee",
+      "phase": 8,
+      "url": null
+    },
+    {
+      "titre": "Guide PvP",
+      "description": "Progression permanente et Seasonal séparées ; engagement, audio, budget et erreur de lecture du terrain dans le jeu.",
+      "termes": [
+        "strategy",
+        "pvp guide"
+      ],
+      "etat": "planifiee",
+      "phase": 8,
+      "url": null
+    },
+    {
+      "titre": "Guide PvE et Prestige",
+      "description": "Bots, modes local/en ligne, coop et exigences actuelles des six niveaux ; décisions de reset et conservation.",
+      "termes": [
+        "strategy",
+        "pve guide"
+      ],
+      "etat": "planifiee",
+      "phase": 8,
+      "url": null
+    },
+    {
+      "titre": "Builds méta et équivalents budget",
+      "description": "Combinaisons de pièces documentées, disponibilité trader, coût, calibre et contraintes de la saison. Aucun rang « absolu ».",
+      "termes": [
+        "strategy",
+        "meta builds"
+      ],
+      "etat": "planifiee",
+      "phase": 8,
+      "url": null
+    },
+    {
+      "titre": "Single Player Tushonka",
+      "description": "Chronologie de l’ancien SPT, projet successeur, 4.1.6 stable vs paquet 5.0 expérimental, comparaison avec le PvE officiel.",
+      "termes": [
+        "spt tushonka",
+        "spt",
+        "sp-tushonka",
+        "solo",
+        "single player",
+        "sp tarkov",
+        "mods",
+        "Fika"
+      ],
+      "etat": "planifiee",
+      "phase": 9,
+      "url": null
+    },
+    {
+      "titre": "Installer SP-Tushonka",
+      "description": "Prérequis de la version stable, copie légitime et isolée, installateur des mainteneurs, premier lancement et sauvegarde.",
+      "termes": [
+        "spt tushonka",
+        "installation"
+      ],
+      "etat": "planifiee",
+      "phase": 9,
+      "url": null
+    },
+    {
+      "titre": "Mods SP-Tushonka",
+      "description": "Sélection IA, qualité de vie et progression avec versions Forge, dépendances, conflits et date de contrôle.",
+      "termes": [
+        "spt tushonka",
+        "mods"
+      ],
+      "etat": "planifiee",
+      "phase": 9,
+      "url": null
+    },
+    {
+      "titre": "Coop privée avec Project Fika",
+      "description": "Versions client/serveur, parité des mods, préparation du groupe et test privé ; aucune confusion avec l’officiel ou le solo strict.",
+      "termes": [
+        "spt tushonka",
+        "fika"
+      ],
+      "etat": "planifiee",
+      "phase": 9,
+      "url": null
+    },
+    {
+      "titre": "Dépannage SP-Tushonka",
+      "description": "Boucle de démarrage, runtimes, erreurs de version et de mod, logs sans secrets, profil sauvegardé et retour au dernier état stable.",
+      "termes": [
+        "spt tushonka",
+        "troubleshooting"
+      ],
+      "etat": "planifiee",
+      "phase": 9,
+      "url": null
+    },
+    {
+      "titre": "Escape from Tarkov: Arena",
+      "description": "BlastGang, TeamFight, CheckPoint et autres modes attestés ; progression Ref, séparation de versions, mécaniques compétitives et tournois vérifiés.",
+      "termes": [
+        "arena"
+      ],
+      "etat": "planifiee",
+      "phase": 9,
+      "url": null
+    },
+    {
+      "titre": "Événements de 2026",
+      "description": "Calendrier des activités, dates officielles et extensions, quêtes, récompenses, variantes de carte ; Halloween, Blackout, Icebreaker, Full Speed Ahead, Wild Wild Woods, Duckov et Tarkov City.",
+      "termes": [
+        "events",
+        "événements",
+        "blackout",
+        "halloween",
+        "kord breach",
+        "full speed ahead",
+        "duckov",
+        "wild wild woods",
+        "tarkov city"
+      ],
+      "etat": "planifiee",
+      "phase": 9,
+      "url": null
+    },
+    {
+      "titre": "Notes de patch depuis la version 1.0",
+      "description": "Chronologie officielle, changements par système et impact éditorial justifié ; ETS, équilibrages et roadmap séparés des mises en production.",
+      "termes": [
+        "patch notes",
+        "changelog",
+        "historique",
+        "1.3.0.0",
+        "1.3.0.2",
+        "patchs",
+        "mises à jour",
+        "unity"
+      ],
+      "etat": "publiee",
+      "phase": 10,
+      "url": "pages/patch-notes.html"
+    },
+    {
+      "titre": "Ressources et outils",
+      "description": "Cartes, bases, marchés, trackers, YouTube, wiki, réseaux et Discord publics ; distinguer service officiel, outil tiers et contenu ancien.",
+      "termes": [
+        "resources"
+      ],
+      "etat": "planifiee",
+      "phase": 10,
+      "url": null
+    },
+    {
+      "titre": "Glossaire EFT (FR / EN)",
+      "description": "Au moins 200 termes et sigles, définitions courtes et contextualisées ; aliases, jargon, items, synonymes FR/EN et renvois.",
+      "termes": [
+        "resources",
+        "glossary"
+      ],
+      "etat": "planifiee",
+      "phase": 10,
+      "url": null
+    },
+    {
+      "titre": "Les dix étapes du premier raid",
+      "description": "Un parcours à cocher, de la préparation au débrief du raid.",
+      "termes": [
+        "checklist",
+        "10 étapes",
+        "parcours débutant"
+      ],
+      "etat": "dossier",
+      "url": "pages/getting-started.html#parcours",
+      "phase": 3
+    },
+    {
+      "titre": "Choisir son rôle et son mode",
+      "description": "Différences entre USEC, BEAR, PvP, PvE, Seasonal, Scav et entraînement.",
+      "termes": [
+        "modes",
+        "Practice",
+        "offline",
+        "faction",
+        "PvE",
+        "Seasonal"
+      ],
+      "etat": "dossier",
+      "url": "pages/getting-started.html#profil",
+      "phase": 3
+    },
+    {
+      "titre": "Tour : commencer le prologue",
+      "description": "Sortir du tutoriel Ground Zero et ouvrir le premier dialogue avec Therapist.",
+      "termes": [
+        "Tour",
+        "tutoriel",
+        "Therapist",
+        "débloquer marchands",
+        "Klimov Street",
+        "Ground Zero"
+      ],
+      "etat": "dossier",
+      "url": "pages/getting-started.html#debut-tour",
+      "phase": 3
+    },
+    {
+      "titre": "Vérifier son kit et son assurance",
+      "description": "Équipement remplaçable, soins accessibles, chargeurs et checklist de départ.",
+      "termes": [
+        "kit de départ",
+        "assurance",
+        "conteneur",
+        "gilet",
+        "chargeur",
+        "budget"
+      ],
+      "etat": "dossier",
+      "url": "pages/getting-started.html#pre-raid",
+      "phase": 3
+    },
+    {
+      "titre": "Lire l’interface du raid",
+      "description": "Temps, liste des sorties, santé, endurance et touches rapides sur une reconstitution.",
+      "termes": [
+        "HUD",
+        "interface raid",
+        "repères",
+        "navigation",
+        "Scav"
+      ],
+      "etat": "dossier",
+      "url": "pages/getting-started.html#en-raid",
+      "phase": 3
+    },
+    {
+      "titre": "Santé du personnage et soins",
+      "description": "Sept zones de vie et choix d’objets selon l’état du PMC dans le jeu.",
+      "termes": [
+        "santé",
+        "soins",
+        "pv",
+        "sante tarkov",
+        "saignement",
+        "fracture",
+        "chirurgie",
+        "CMS",
+        "Surv12"
+      ],
+      "etat": "dossier",
+      "url": "pages/getting-started.html#sante",
+      "phase": 3
+    },
+    {
+      "titre": "Extractions, transit et statut du raid",
+      "description": "Vérifier la sortie et le débrief : Survived, Run-Through ou MIA.",
+      "termes": [
+        "extraction",
+        "extract",
+        "run through",
+        "FIR",
+        "MIA",
+        "sortie",
+        "transit"
+      ],
+      "etat": "dossier",
+      "url": "pages/getting-started.html#extractions",
+      "phase": 3
+    },
+    {
+      "titre": "Après le raid : stash et Traders",
+      "description": "Trier le butin, refaire le kit et reprendre la progression chez les marchands.",
+      "termes": [
+        "stash",
+        "inventaire",
+        "traders",
+        "fidélité",
+        "planque",
+        "débrief"
+      ],
+      "etat": "dossier",
+      "url": "pages/getting-started.html#apres-raid",
+      "phase": 3
+    },
+    {
+      "titre": "Réglages et commandes Tarkov",
+      "description": "Un aide-mémoire QWERTY, AZERTY ou personnalisé, indépendant du jeu.",
+      "termes": [
+        "clavier",
+        "touches",
+        "AZERTY",
+        "QWERTY",
+        "graphismes",
+        "son",
+        "VOIP"
+      ],
+      "etat": "dossier",
+      "url": "pages/getting-started.html#touches",
+      "phase": 3
+    },
+    {
+      "titre": "FAQ du premier raid",
+      "description": "24 réponses sur le choix du profil, la préparation, l’extraction et les tâches.",
+      "termes": [
+        "faq",
+        "questions fréquentes",
+        "débutant",
+        "dépannage"
+      ],
+      "etat": "dossier",
+      "url": "pages/getting-started.html#faq",
+      "phase": 3
+    },
+    {
+      "titre": "Norvinsk : le territoire et son blocus",
+      "description": "Une carte illustrée, non officielle, pour situer le conflit fictif.",
+      "termes": [
+        "maquette Norvinsk",
+        "blocus",
+        "zone économique",
+        "port",
+        "lore"
+      ],
+      "etat": "dossier",
+      "url": "pages/lore/index.html#carte-norvinsk",
+      "phase": 3
+    },
+    {
+      "titre": "Factions du lore : TerraGroup, USEC et BEAR",
+      "description": "Distinguer l’entreprise, les deux sociétés privées, les Scavs et les forces du blocus.",
+      "termes": [
+        "factions",
+        "TerraGroup",
+        "USEC",
+        "BEAR",
+        "scavs",
+        "ONU"
+      ],
+      "etat": "dossier",
+      "url": "pages/lore/index.html#factions",
+      "phase": 3
+    },
+    {
+      "titre": "Chronologie de Norvinsk",
+      "description": "Deux fils sans révélations : ordre des événements et dates de publication.",
+      "termes": [
+        "chronologie",
+        "timeline",
+        "RAID",
+        "Contract Wars",
+        "Boreas"
+      ],
+      "etat": "dossier",
+      "url": "pages/lore/index.html#chronologie",
+      "phase": 3
+    },
+    {
+      "titre": "Personnages et marchands dans le récit",
+      "description": "Le PMC de Tour, les Traders et les visages de la série RAID.",
+      "termes": [
+        "personnages",
+        "Peacekeeper",
+        "Fence",
+        "Therapist",
+        "Skif",
+        "Mike"
+      ],
+      "etat": "dossier",
+      "url": "pages/lore/index.html#personnages",
+      "phase": 3
+    },
+    {
+      "titre": "Les chapitres de l’histoire",
+      "description": "Comprendre les arcs du jeu, du prologue Tour à Boreas, sans révélations sur les fins.",
+      "termes": [
+        "chapitres",
+        "scénario",
+        "Tour",
+        "Boreas",
+        "Icebreaker"
+      ],
+      "etat": "dossier",
+      "url": "pages/lore/index.html#chapitres",
+      "phase": 3
+    },
+    {
+      "titre": "Les treize lieux de raid",
+      "description": "La liste des lieux de référence, leurs durées, effectifs et profils.",
+      "termes": [
+        "cartes",
+        "lieux",
+        "atlas",
+        "13 lieux"
+      ],
+      "etat": "dossier",
+      "url": "pages/maps/index.html#lieux",
+      "phase": 4
+    },
+    {
+      "titre": "Comparer deux lieux",
+      "description": "Comparaison ligne à ligne de deux fiches de lieu.",
+      "termes": [
+        "comparatif",
+        "comparer",
+        "deux cartes"
+      ],
+      "etat": "dossier",
+      "url": "pages/maps/index.html#comparatif",
+      "phase": 4
+    },
+    {
+      "titre": "Le réseau de transits",
+      "description": "Les passages d’un lieu à l’autre, leurs conditions et leurs délais.",
+      "termes": [
+        "transit",
+        "passage",
+        "réseau"
+      ],
+      "etat": "dossier",
+      "url": "pages/maps/index.html#transits",
+      "phase": 4
+    },
+    {
+      "titre": "Variantes et événements",
+      "description": "Configurations d’Usine, de Labo et de Point zéro rattachées aux lieux.",
+      "termes": [
+        "variantes",
+        "événements",
+        "Halloween",
+        "tutoriel"
+      ],
+      "etat": "dossier",
+      "url": "pages/maps/index.html#variantes",
+      "phase": 4
+    }
+  ]
+}

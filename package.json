@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@sparticuz/chromium": "^147.0.0",
+    "axe-core": "^4.14.1",
+    "playwright": "^1.65.1"
+  }
+}

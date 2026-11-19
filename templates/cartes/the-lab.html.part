@@ -1,0 +1,89 @@
+<section class="field-section map-section" id="reperes" tabindex="-1">
+  <h2>Repères et accès</h2>
+  <p>Le Labo est un complexe de laboratoires souterrains TerraGroup, accolé au secteur industriel et accessible par une carte d’accès spécifique. L’accès direct se débloque avec le chapitre <em>Tour</em> ; l’entrée par transit se fait depuis les Rues de Tarkov. <a href="@source:The_Lab@">Fiche publique</a>.</p>
+  <div class="field-grid field-grid--three">
+    <div class="field-card"><p class="eyebrow">Volume</p><p><strong>30 minutes</strong>, 8 à 10 PMC, tous niveaux admis sauf le dernier palier. 134 points de spawn relevés.</p></div>
+    <div class="field-card"><p class="eyebrow">Électricité</p><p>Presque toutes les sorties dépendent du courant. Sans lui, le Labo n’est qu’un bunker : les ascenseurs et les portes commandées restent muets.</p></div>
+    <div class="field-card"><p class="eyebrow">Annonciateur</p><p>Un haut-parleur annonce les événements du complexe. La fiche publique le signale comme une caractéristique du lieu, avec une consigne d’activation d’alarmes.</p></div>
+  </div>
+  <div class="map-note map-note--warn">
+    <p><strong>Toutes les sorties sont réservées aux PMC.</strong> Aucune sortie Scav n’est documentée sur ce lieu. C’est une différence structurante avec le reste du jeu : le Scav qui entre au Labo n’a pas de porte de sortie prévue par la fiche consultée.</p>
+  </div>
+</section>
+
+<section class="field-section map-section" id="sorties" tabindex="-1">
+  <h2>Sorties et transits</h2>
+  <p>Sept sorties, toutes pour les PMC, toutes conditionnées. Cinq d’entre elles demandent de rétablir le courant au sous-sol, d’ouvrir une porte commandée ou d’abaisser le niveau d’eau. Aucune n’est ouverte en continu, à la différence de la plupart des cartes de référence.</p>
+  <div class="map-layers">
+    <div class="map-layers__bar" role="group" aria-label="Couches de données du Labo">
+      <span class="eyebrow">Couches</span>
+      <button type="button" class="badge" data-layer-toggle="sorties" aria-pressed="true">Sorties documentées</button>
+      <button type="button" class="badge" data-layer-toggle="transits" aria-pressed="true">Transits</button>
+      <button type="button" class="badge" data-layer-toggle="intitules" aria-pressed="false">Intitulés de jeu</button>
+    </div>
+    <div class="map-panel map-layer" data-layer="sorties">
+      <div class="map-layer__head"><h3>Sorties documentées</h3><p>Fiche publique du 18 novembre 2026.</p></div>
+      %%TABLE_SORTIES%%
+    </div>
+    <div class="map-panel map-layer" data-layer="transits">
+      <div class="map-layer__head"><h3>Transits sortants</h3><p>Une seule destination : les Rues de Tarkov.</p></div>
+      %%TABLE_TRANSITS%%
+    </div>
+    <div class="map-panel map-layer" data-layer="intitules" hidden>
+      <div class="map-layer__head"><h3>Intitulés de jeu</h3><p>Sept intitulés recensés par l’instantané des données.</p></div>
+      %%TABLE_SORTIES_JEU%%
+    </div>
+  </div>
+  <p>Le conduit d’évacuation exige d’abaisser le niveau d’eau ; la gaine de ventilation exige de ne pas porter de sac à dos ; la porte du hangar s’ouvre depuis la cabine B24 au deuxième étage, et la porte du parking depuis la chambre Y21, au deuxième étage également. L’ascenseur de charge est à usage unique. En activant une commande de sortie, le jeu peut faire apparaître des Raiders qui convergent vers le point activé : <a href="@source:The_Lab@">la fiche publique le signale explicitement</a>.</p>
+</section>
+
+<section class="field-section map-section" id="rencontres" tabindex="-1">
+  <h2>Rencontres et menaces</h2>
+  <p>Les Raiders sont la rencontre unique du lieu standard, présents dans 60 % des instantanés relevés, avec une escorte d’une trentaine de membres. Dans le profil saisonnier, ils sont remplacés par des opératifs de la Black Division. <a href="@source:wiki-events@">Inventaire des événements</a> et <a href="@source:blackout-head@">fiche de l’événement Blackout</a>.</p>
+  %%TABLE_RENCONTRES%%
+  <div class="map-note">
+    <p><strong>Deux variantes, deux règles.</strong> Les données enregistrent une variante <em>Le labo (Dark)</em>, de même durée et de même effectif, où les Raiders sont remplacés par la Black Division et où The Wedge apparaît, et une variante <em>Infected Lab</em> issue de l’événement d’Halloween du 29 octobre 2026, qui introduit l’Infected Tagilla et des infectés. <a href="@source:halloween-pr@">Communiqué Halloween</a>. Ni l’une ni l’autre n’est un lieu de raid ordinaire : ce sont des configurations d’événement, avec leurs propres règles d’assurance et de file d’attente.</p>
+  </div>
+</section>
+
+<section class="field-section map-section" id="terrain" tabindex="-1">
+  <h2>Dangers de terrain</h2>
+  <p>Aucun champ de mines, aucun sniper de bordure et aucune claymore n’est relevé dans les données du lieu. C’est cohérent avec un environnement clos : le danger est humain, pas topographique.</p>
+  %%TABLE_DANGERS%%
+</section>
+
+<section class="field-section map-section" id="cles" tabindex="-1">
+  <h2>Clés et butin</h2>
+  <p>Onze clés documentées, dont un jeu complet de cartes d’accès TerraGroup Labs — noire, bleue, verte, rouge, violette et jaune — plus la carte à marquage bleu, la clé du local d’armurerie, la clé du bureau du responsable et la carte d’accès de l’unité résidentielle. C’est la densité de clés la plus forte du jeu : le lieu n’est pas accessible sans stock.</p>
+  %%TABLE_CLES%%
+</section>
+
+<section class="field-section map-section" id="conduite" tabindex="-1">
+  <h2>Conduite selon le profil</h2>
+  <p>Le Labo est un lieu de gestion : on y passe plus de temps à ouvrir des portes qu’à tirer. La logique est toujours la même — trouver le sous-sol, rétablir le courant, décider de la sortie, puis tenir le trajet jusqu’à elle.</p>
+  <ol class="map-steps">
+    <li><strong>Débutant.</strong> Ne pas venir au Labo pour son premier raid. L’accès exige une carte d’accès, les sorties sont toutes conditionnées et les Raiders sont nombreux : le rapport coût/bénéfice est défavorable tant qu’on n’a pas la clé et l’habitude du lieu.</li>
+    <li><strong>Confirmé.</strong> Venir avec une carte d’accès et un moyen de rétablir le courant. Une fois le courant rétabli, les ascenseurs deviennent le meilleur outil de déplacement du complexe — et la sortie de l’ascenseur de charge, la plus proche de l’entrée, la plus exposée.</li>
+    <li><strong>Expérimenté.</strong> Optimiser le temps : chaque commande d’ascenseur ou de porte est une occasion de Rencontre. Le gain du lieu tient au butin des salles verrouillées, pas au combat.</li>
+  </ol>
+  %%TABLE_MODES%%
+  %%TABLE_VARIANTES%%
+  <div class="map-path"><strong>Écarts entre profils</strong><span>Ce que les trois profils consultés changent sur ce lieu.</span></div>
+  %%TABLE_ECARTS%%
+</section>
+
+  <div class="map-note">
+    <p><strong>Une correction de corps, pas de changement de règles.</strong> La même mise à jour technique de novembre 2026 a corrigé un corps de scientifique impossible à fouiller dans la configuration Laboratoire infecté. Ni les sorties ni les rencontres de la carte de base n’en sont affectées.</p>
+  </div>
+<section class="field-section map-section" id="sources" tabindex="-1">
+  <h2>Sources et limites</h2>
+  <p>Instantané communautaire des données de jeu du 18 novembre 2026 et fiche publique du même jour. Les variantes d’événement sont décrites par les sources officielles et par les données de jeu ; leurs règles complètes (assurance, effectifs de file d’attente, durée d’événement) ne sont pas toutes documentées et ne sont donc pas affirmées ici.</p>
+  <ul class="map-steps">
+    <li><a href="@source:The_Lab@">Le labo — fiche de lieu</a> : lore, sorties, clés, annonces et assurance.</li>
+    <li><a href="@source:data-maps@">Tarkov.dev — cartes et rencontres</a> : instantané du profil PvP Zone.</li>
+    <li><a href="@source:data-maps-fr@">Tarkov.dev — libellés français</a>, <a href="@source:data-maps-pve@">profil PvE</a> et <a href="@source:data-maps-season@">profil saisonnier</a> : intitulés et écarts.</li>
+    <li><a href="@source:wiki-events@">Inventaire des événements</a> et <a href="@source:blackout-head@">fiche Blackout</a> : contexte des variantes.</li>
+    <li><a href="@source:halloween-pr@">Communiqué Halloween</a> : variante infectée.</li>
+    <li><a href="@source:mapgenie@">MapGenie</a> et <a href="@source:kappa@">Kappa Guide</a> : aides de lecture communautaires.</li>
+  </ul>
+</section>

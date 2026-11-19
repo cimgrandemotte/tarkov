@@ -1,0 +1,51 @@
+<section class="field-section armes-section" id="reperes" tabindex="-1">
+  <h2>Repères de la famille</h2>
+  <p>Vingt-trois pistolets-mitrailleurs : la famille la plus compacte en nombre d’armes mais la plus homogène en usage. On y trouve des cadences comprises entre 600 et 1 100 coups par minute, des reculs verticaux qui ne dépassent jamais 89, et une distance efficace plafonnée à 500 mètres. Ces armes sont construites pour le corps à corps et pour le tir en mouvement, et les chiffres du catalogue le confirment.</p>
+  <p>Le prix à payer est la munition : cette famille est la seule où l’on trouve côte à côte le 4,6 x 30 mm, qui traverse largement une classe 4, et le 9 x 19 mm, qui frontalement s’arrête bien plus tôt. Deux armes de la même famille peuvent donc produire deux результата opposés.</p>
+  <div class="field-grid field-grid--three">
+    <div class="field-card"><p class="eyebrow">42 à 89</p><p><strong>Recul vertical.</strong> Aucun membre de la famille ne dépasse 89 de recul, contre 210 pour le haut de la famille des fusils d’assaut. C’est le prix de la cadence : l’arme se tient, mais elle consomme la munitions.</p></div>
+    <div class="field-card"><p class="eyebrow">600 à 1 100</p><p><strong>Cadence.</strong> Le haut du classement est tenu par des armes à plus de 1 000 coups par minute. À l’inverse, la carabine Saiga-9 affiche 42 de recul vertical, le plus contenu de la famille.</p></div>
+    <div class="field-card"><p class="eyebrow">100 à 500</p><p><strong>Distance efficace.</strong> La famille ne dépasse jamais 500 mètres : le Soyuz-TM STM-9 Gen. 2 et le SIG MPX sont les plus longs. La distance utile se joue bien en deçà.</p></div>
+  </div>
+  <div class="field-callout">
+    <p><strong>Une famille sans vente en magasin.</strong> Aucune des vingt-trois armes de cette famille n’a d’offre marchande dans l’instantané : elles s’acquièrent en raid, par tâche, ou au marché. C’est une contrainte de budget réelle, à intégrer dès le départ.</p>
+  </div>
+</section>
+
+<section class="field-section armes-section" id="catalogue" tabindex="-1">
+  <h2>Le catalogue de la famille</h2>
+  <p>Les vingt-trois pistolets-mitrailleurs de l’export, avec leurs mesures à configuration de base.</p>
+  %%TABLE_CATALOGUE%%
+  <p class="armes-note">La colonne <em>Munitions</em> recense le nombre de cartouches compatibles dans le catalogue des munitions ; elle ne préjuge ni de leur disponibilité en magasin ni de leur prix.</p>
+</section>
+
+<section class="field-section armes-section" id="presets" tabindex="-1">
+  <h2>Presets publiés</h2>
+  <p>Cinquante-quatre presets sont rattachés aux armes de cette famille, dont le preset par défaut de chacune. Les valeurs ci-dessous sont celles de chaque configuration publiée.</p>
+  %%TABLE_PRESETS%%
+  <p class="armes-note">La précision en minutes d’angle est mesurée sur la configuration du preset. Rapprochez-la de la distance à laquelle vous comptez tirer : une précision correcte à 50 mètres ne l’est pas à 200.</p>
+</section>
+
+<section class="field-section armes-section" id="acquisition" tabindex="-1">
+  <h2>Acquisition et disponibilité</h2>
+  <p>Aucune arme de cette famille n’est vendue en magasin dans l’instantané du 18 novembre 2026. Le tableau d’acquisition est donc vide, et c’est une information en soi : le budget consacré à cette famille part en totalité dans l’achat de cartouches au marché, quand elle n’est pas couverte par une tâche.</p>
+  %%TABLE_ACQUISITION%%
+  <div class="field-callout">
+    <p><strong>Ce que cela change en pratique.</strong> Une arme qu’on ne peut pas acheter se récupère une fois, ou pas. Les pièces, en revanche, restent disponibles et se montent sur ces armes comme sur les autres : c’est par là qu’on fait progresser une configuration de la famille.</p>
+  </div>
+</section>
+
+<section class="field-section armes-section" id="conduite" tabindex="-1">
+  <h2>Comment s’équiper</h2>
+  <ul class="armes-list">
+    <li><strong>Le 4,6 x 30 mm est l’exception de la famille.</strong> Le HK MP7A1 et le MP7A2 sont les deux seules armes en 4,6 x 30 mm du catalogue : leur cartouche est la plus pénétrante du jeu et leur permet de marquer des armures de classe 4. Si la famille est choisie pour cela, l’arme est imposée.</li>
+    <li><strong>Le 9 x 19 mm domine, en volume et en polyvalence.</strong> Seize des vingt-trois armes de la famille sont en 9 x 19 mm Para. La cartouche de cette calibre est bon marché, disponible chez les marchands et en quantité : c’est le réflexe de munition de secours.</li>
+    <li><strong>Regarder la cadence avant le nom.</strong> Entre une arme à 600 coups par minute et une autre à 1 100, l’écart de volume de feu est presque double. Le recul, lui, varie peu : la famille est stable, c’est la consommation de munitions qui varie.</li>
+  </ul>
+</section>
+
+<section class="field-section armes-section" id="sources" tabindex="-1">
+  <h2>Sources et limites</h2>
+  <p>Les chiffres viennent de l’export communautaire du 18 novembre 2026. Les retours de forums sur le rapport cadence-récurrence de cette famille sont des opinions de joueurs, jamais des données : seuls les chiffres publiés par l’export sont repris ici.</p>
+  %%SOURCES_FAMILLE%%
+</section>

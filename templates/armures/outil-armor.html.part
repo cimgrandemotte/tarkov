@@ -1,0 +1,95 @@
+<section class="field-section armures-section" id="reperes" tabindex="-1">
+  <h2>Repères du catalogue</h2>
+  <p>Le comparateur travaille sur les trois cent quatre-vingt-dix pièces de l’export du 18 novembre 2026. Il n’invente aucune mesure : chaque colonne affiche une valeur relevée, ou signale explicitement que l’export ne la donne pas.</p>
+  <div class="field-grid field-grid--three">
+    <div class="field-card"><p class="eyebrow">390</p><p><strong>Pièces comparables.</strong> Gilets tactiques, gilets pare-balles, casques, masques, plaques, accessoires blindés et protections oculaires.</p></div>
+    <div class="field-card"><p class="eyebrow">2 à 3</p><p><strong>Pièces sélectionnées.</strong> Le comparateur aligne les pièces choisies sur les mêmes colonnes, dans le même ordre, avec les mêmes unités.</p></div>
+    <div class="field-card"><p class="eyebrow">18 nov. 2026</p><p><strong>Horodatage.</strong> Les prix de base et les valeurs de marché changent : chaque lecture se rattache à l’instantané du 18 novembre 2026.</p></div>
+  </div>
+</section>
+
+<section class="field-section armures-section" id="modele" tabindex="-1">
+  <h2>Le modèle de protection</h2>
+  <p>Quatre couches successives, de la plus générale à la plus précise. C’est la couche la plus basse qui décide du résultat d’un tir.</p>
+  <div class="field-grid field-grid--four">
+    <div class="field-card"><p class="eyebrow">1</p><p><strong>La zone.</strong> Poitrine, ventre, bassin, tête, bras, jambes : le jeu calcule chaque tir zone par zone.</p></div>
+    <div class="field-card"><p class="eyebrow">2</p><p><strong>La classe.</strong> De 1 à 6, elle mesure la capacité d’une matière à arrêter une munition.</p></div>
+    <div class="field-card"><p class="eyebrow">3</p><p><strong>La durabilité.</strong> Chaque impact entame la matière jusqu’à sa rupture complète.</p></div>
+    <div class="field-card"><p class="eyebrow">4</p><p><strong>La mobilité.</strong> Poids, pénalité de vitesse, de rotation et d’ergonomie.</p></div>
+  </div>
+  <p class="armures-note">La règle de pénétration du correctif 0.14.6.0 est détaillée sur la page <a href="${root}pages/ammo/ammo-chart.html">balistique</a>.</p>
+</section>
+
+<section class="field-section armures-section" id="materiaux" tabindex="-1">
+  <h2>Les huit matériaux</h2>
+  <p>La destructibilité et l’usure de réparation sont des propriétés du matériau, identiques pour toutes les pièces qui l’utilisent. Le tableau ci-dessous est la référence du comparateur.</p>
+  %%TABLE_MATERIAUX%%
+</section>
+
+<section class="field-section armures-section" id="classes" tabindex="-1">
+  <h2>Les six classes</h2>
+  <p>La classe est une mesure de matière, pas de modèle. Une plaque de classe 6 dans un gilet de classe 2 protège autant que la plaque, sur les zones que la plaque couvre.</p>
+  %%TABLE_CLASSES%%
+</section>
+
+<section class="field-section armures-section" id="catalogue" tabindex="-1">
+  <h2>Le comparateur</h2>
+  <p>Choisissez deux ou trois pièces dans le catalogue filtrable : les colonnes se remplissent et se comparent côte à côte. Sans JavaScript, le tableau complet reste disponible et se lit ligne par ligne.</p>
+  <div class="armures-compare" data-armures-compare>
+    <div class="armures-compare__slots" role="group" aria-label="Pièces comparées">
+      <p class="eyebrow">Sélection</p>
+      <div class="armures-compare__row">
+        <label class="field" for="armure-compare-1"><span class="field__label">Pièce 1</span><select class="field__control" id="armure-compare-1" data-armures-compare-slot="1"></select></label>
+        <label class="field" for="armure-compare-2"><span class="field__label">Pièce 2</span><select class="field__control" id="armure-compare-2" data-armures-compare-slot="2"></select></label>
+        <label class="field" for="armure-compare-3"><span class="field__label">Pièce 3</span><select class="field__control" id="armure-compare-3" data-armures-compare-slot="3"></select></label>
+      </div>
+      <p class="eyebrow" role="status" data-armures-compare-compte>Deux pièces sélectionnées sur deux.</p>
+    </div>
+    <div class="armures-compare__grille" data-armures-compare-grille aria-live="polite">
+      <p class="armures-note">Choisissez au moins deux pièces pour lancer la comparaison.</p>
+    </div>
+  </div>
+  <div class="armures-filters" role="search" aria-label="Filtrer le catalogue d’armure">
+    <div class="armures-filters__row">
+      <label class="field" for="armures-recherche"><span class="field__label">Rechercher une pièce</span><input type="search" class="field__control" id="armures-recherche" data-armures-search placeholder="Granit, Maska, 6B13…" autocomplete="off"></label>
+      <label class="field" for="armures-categorie"><span class="field__label">Catégorie</span><select class="field__control" id="armures-categorie" data-armures-categorie><option value="toutes">Toutes</option></select></label>
+      <label class="field" for="armures-classe"><span class="field__label">Classe</span><select class="field__control" id="armures-classe" data-armures-classe><option value="toutes">Toutes</option><option value="1">Classe 1</option><option value="2">Classe 2</option><option value="3">Classe 3</option><option value="4">Classe 4</option><option value="5">Classe 5</option><option value="6">Classe 6</option><option value="sans">Sans classe</option></select></label>
+      <label class="field" for="armures-materiau"><span class="field__label">Matériau</span><select class="field__control" id="armures-materiau" data-armures-materiau><option value="tous">Tous</option></select></label>
+    </div>
+    <div class="armures-filters__row">
+      <label class="field" for="armures-poids"><span class="field__label">Poids maximal (kg)</span><input type="number" class="field__control" id="armures-poids" data-armures-poids min="0" step="0.1" placeholder="0" inputmode="decimal"></label>
+      <label class="field" for="armures-plaques"><span class="field__label">Emplacements de plaque</span><select class="field__control" id="armures-plaques" data-armures-plaques><option value="toutes">Toutes</option><option value="oui">Avec plaques</option><option value="non">Sans plaque</option></select></label>
+      <p class="eyebrow" role="status" data-armures-compte>390 pièces affichées sur 390</p>
+    </div>
+  </div>
+  <script type="application/json" data-armures-json>%%JSON_ARMURES%%</script>
+  %%TABLE_CATALOGUE%%
+  <p class="armures-note">Chaque ligne du tableau peut être ajoutée au comparateur : le bouton de sélection renvoie l’identifiant de la pièce, et la sélection se lit dans les trois listes au-dessus du tableau.</p>
+</section>
+
+<section class="field-section armures-section" id="plaques" tabindex="-1">
+  <h2>Plaques et emplacements</h2>
+  <p>Les plaques balistiques ne s’insèrent pas n’importe où. Chaque pièce à plaque déclare les emplacements qu’elle propose et les plaques autorisées pour chacun : c’est la compatibilité déclarée par l’export.</p>
+  %%TABLE_EMPLACEMENTS%%
+  %%TABLE_PLAQUES%%
+</section>
+
+<section class="field-section armures-section" id="conduite" tabindex="-1">
+  <h2>Comment lire une comparaison</h2>
+  <p>Quatre règles d’interprétation, valables pour toutes les paires de pièces du catalogue.</p>
+  <ul class="armures-list">
+    <li><strong>Comparer à configuration équivalente.</strong> Une pièce vide et une pièce montée n’ont pas le même poids ni la même mobilité. Les valeurs publiées ici sont celles de la fiche, sans configuration.</li>
+    <li><strong>Lire la zone avant la classe.</strong> Une classe 6 qui ne couvre pas la zone visée ne protège pas cette zone. Le nombre de zones est affiché à côté de la classe.</li>
+    <li><strong>Compter les plaques comme un seul ensemble.</strong> Quatre plaques de classe 5 ne valent pas une plaque de classe 6 : elles s’appliquent à des zones différentes et s’usent séparément.</li>
+    <li><strong>Une donnée manquante est une donnée manquante.</strong> Lorsque l’export ne donne pas de valeur, le comparateur affiche une tiret et le signale, plutôt que de remplacer par une moyenne.</li>
+  </ul>
+  <div class="field-callout">
+    <p><strong>Sur l’usage de l’outil.</strong> Le comparateur sert à départager deux pièces que l’on hésite à emporter. Il ne remplace pas le test en jeu : la validation d’une pose, d’un emplacement et d’un casque audio se vérifie dans le client.</p>
+  </div>
+</section>
+
+<section class="field-section armures-section" id="sources" tabindex="-1">
+  <h2>Sources et limites</h2>
+  <p>Les caractéristiques proviennent de l’export communautaire du 18 novembre 2026. Les règles de zone, de classe et de pénétration relèvent des notes de l’éditeur pour les correctifs 0.14.x. Les avis d’équipement sont signalés comme opinions et ne servent jamais de source chiffrée.</p>
+  %%SOURCES_ARMOR%%
+</section>

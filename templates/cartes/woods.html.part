@@ -1,0 +1,102 @@
+<section class="field-section map-section" id="reperes" tabindex="-1">
+  <h2>Repères et accès</h2>
+  <p>Les Bois couvrent la Réserve naturelle de Priozersky, zone boisée de taille moyenne avec plaines, petites collines, une scierie et les bunkers ZB-014 et ZB-016. Un BTR-82A parcourt le secteur : il est neutre tant qu’on ne l’attaque pas, mais le service « Transport de passager » peut en faire un allié ponctuel. <a href="@source:Woods@">Fiche publique</a>.</p>
+  <div class="field-grid field-grid--three">
+    <div class="field-card"><p class="eyebrow">Volume</p><p><strong>35 minutes</strong>, 10 à 14 PMC, tous niveaux admis. 332 points de spawn relevés : la carte est plus vaste que sontemps de parcours ne le laisse croire.</p></div>
+    <div class="field-card"><p class="eyebrow">Équipement fixe</p><p>Des armes fixes de type NSV Utyos, et la présence conjointe de <strong>snipers de bordure</strong> et de <strong>champs de mines</strong>.</p></div>
+    <div class="field-card"><p class="eyebrow">Bunkers</p><p>ZB-014 et ZB-016 ne s’ouvrent qu’à la lumière verte d’un lance-flammes. Ce sont des sorties à clé, pas des sorties de repli.</p></div>
+  </div>
+  <div class="map-note map-note--warn">
+    <p><strong>Les mines ne se désamorcent pas.</strong> Les champs de mines sont invisibles, se réarment après explosion et ne peuvent être déclenchés que par un joueur. Entrer dedans relève du hasard : aucun repère ne permet de les éviter avec certitude. La fiche publique signale des mines non balisées à l’ouest du camp USEC.</p>
+  </div>
+  <figure class="map-planche">
+    <img src="${root}images/maps/woods-lac-planche.jpg" alt="Lac et scierie dans la brume, vue plongeante" width="1376" height="768" loading="lazy">
+    <figcaption>Le lac central est le seul repère fiable de la carte : il donne l’orientation, mais il expose aussi ceux qui longent sa rive.</figcaption>
+  </figure>
+</section>
+
+<section class="field-section map-section" id="sorties" tabindex="-1">
+  <h2>Sorties et transits</h2>
+  <p>Dix-huit sorties sont documentées, dont cinq pour les PMC, sept pour les Scavs et cinq partagées. Le lac est le point de repère commun : plusieurs sorties de chaque côté de la carte y donnent accès, ce qui explique que les Bois soient considéré comme la carte aux sorties les plus faciles à retenir. <a href="@source:reddit-extracts@">Fil Reddit sur les sorties les plus faciles à retenir</a>.</p>
+  <div class="map-layers">
+    <div class="map-layers__bar" role="group" aria-label="Couches de données des Bois">
+      <span class="eyebrow">Couches</span>
+      <button type="button" class="badge" data-layer-toggle="sorties" aria-pressed="true">Sorties documentées</button>
+      <button type="button" class="badge" data-layer-toggle="transits" aria-pressed="true">Transits</button>
+      <button type="button" class="badge" data-layer-toggle="intitules" aria-pressed="false">Intitulés de jeu</button>
+    </div>
+    <div class="map-panel map-layer" data-layer="sorties">
+      <div class="map-layer__head"><h3>Sorties documentées</h3><p>Fiche publique du 18 novembre 2026.</p></div>
+      <label class="field" for="camp-bois"><span class="field__label">Filtrer par camp</span>
+        <select class="field__control" id="camp-bois" data-camp-filter>
+          <option value="tous">Toutes les sorties</option>
+          <option value="pmc">PMC</option>
+          <option value="scav">Scav</option>
+          <option value="shared">Partagées</option>
+        </select>
+      </label>
+      %%TABLE_SORTIES%%
+    </div>
+    <div class="map-panel map-layer" data-layer="transits">
+      <div class="map-layer__head"><h3>Transits sortants</h3><p>Quatre destinations, disponibles une minute après le début du raid.</p></div>
+      %%TABLE_TRANSITS%%
+    </div>
+    <div class="map-panel map-layer" data-layer="intitules" hidden>
+      <div class="map-layer__head"><h3>Intitulés de jeu</h3><p>Vingt intitulés recensés par l’instantané des données.</p></div>
+      %%TABLE_SORTIES_JEU%%
+    </div>
+  </div>
+  <p>Deux points méritent d’être notés. Le checkpoint de la route du nord et celui du barrage militaire signalent tous deux la présence de snipers de bordure au-delà de la limite. Le pont ferroviaire vers Tarkov traverse un champ de mines : la sortie est accessible, l’itinéraire ne l’est pas sans risque.</p>
+</section>
+
+<section class="field-section map-section" id="rencontres" tabindex="-1">
+  <h2>Rencontres et menaces</h2>
+  <p>Cinq rencontres sont possibles dans les Bois. Shturman, à 60 % de présence, tient la scierie et vient avec trois gardes ; le prêtre cultiste et son escorte occupent le village en ruine et la petite maison ; Knight et ses deux combattants se trouvent au second camp Scav ; Partisan, là encore, est à attendre partout.</p>
+  %%TABLE_RENCONTRES%%
+  <div class="field-card">
+    <p class="eyebrow">Le dossier de Shturman</p>
+    <p>La fiche publique recense une clé de cache de Shturman parmi les clés du lieu, avec la clé de la vieille maison et celles de ses dépendances. La cache est un objectif à part, pas une sortie : la calmer suppose de savoir où elle se trouve.</p>
+  </div>
+</section>
+
+<section class="field-section map-section" id="terrain" tabindex="-1">
+  <h2>Dangers de terrain</h2>
+  <p>Les Bois concentrent le danger de bordure le plus lourd du jeu : trente-neuf zones de snipers et vingt-cinq champs de mines relevés sur la carte. Les mines servent à dessiner des frontières artificielles et sont Invisibles ; les snipers, eux, tuent sans être tuables et laissent la cible à 1 % de vie.</p>
+  %%TABLE_DANGERS%%
+</section>
+
+<section class="field-section map-section" id="cles" tabindex="-1">
+  <h2>Clés et butin</h2>
+  <p>Cinq clés documentées, dont la clé du bunker ZB-014 qui conditionne une sortie, la clé de cache de Shturman et les clés de la vieille maison.</p>
+  %%TABLE_CLES%%
+  <div class="map-note">
+    <p><strong>Un événement à ne pas confondre avec les règles normales.</strong> L’événement <em>Wild Wild Woods</em> a été annoncé par le compte officiel le 25 juin 2026 : des groupes de Scavs avaient quitté l’autorité du Fence et attaquaient tout ce qu’ils croisaient, avec des revolvers et des fusils à levier. Le nombre maximal de PMC sur les Bois avait été réduit, les Scavs joueurs y apparaissaient plus tôt, et la pénalité pour agression entre Scavs était suspendue. La campagne a été prolongée puis close le 1er juillet 2026 ; les paramètres ont été rétablis. <a href="@source:wild-wild@">Annonce du 25 juin</a> et <a href="@source:wild-wild-end@">clôture du 1er juillet</a>. Ce cadre est historique : il ne décrit pas le fonctionnement actuel du lieu.</p>
+  </div>
+</section>
+
+<section class="field-section map-section" id="conduite" tabindex="-1">
+  <h2>Conduite selon le profil</h2>
+  <p>Sur les Bois, la carte récompense la lenteur. Un raid réussi se joue le long d’un axe identifié — le lac, la route, le bunker — plutôt qu’en surface. Les retours d’expérience publiés sur Reddit insistent sur ce point : les sorties sont de part et d’autre du lac, et le plus dur n’est pas la sortie mais de s’orienter.</p>
+  <ol class="map-steps">
+    <li><strong>Débutant.</strong> Se fixer une seule sortie, celle qui se trouve du côté opposé de l’apparition, et longer le lac pour l’atteindre. La sortie des <em>Outskirts</em> est partagée et sans condition documentée : c’est le repli par défaut.</li>
+    <li><strong>Confirmé.</strong> Utiliser les bunkers ZB-014 et ZB-016 comme des sorties de second choix : elles demandent une fusée verte, donc une ressource à garder en poche jusqu’au bout du raid.</li>
+    <li><strong>Expérimenté.</strong> Travailler le BTR : il est neutre et peut être mis à contribution contre une modification de l’infrastructure. Le wiki signale aussi des caches de Rogues ajoutées par la refonte d’autres lieux, une logique de butin dispersé qui s’applique bien aux Bois.</li>
+  </ol>
+  %%TABLE_MODES%%
+  %%TABLE_VARIANTES%%
+  <div class="map-path"><strong>Écarts entre profils</strong><span>Ce que les trois profils consultés changent sur ce lieu.</span></div>
+  %%TABLE_ECARTS%%
+</section>
+
+<section class="field-section map-section" id="sources" tabindex="-1">
+  <h2>Sources et limites</h2>
+  <p>Instantané communautaire des données de jeu du 18 novembre 2026, fiche publique du même jour, et annonces officielles de l’événement de juin 2026. Les positions et les taux d’apparition sont rapportés, non mesurés. Les pourcentages de présence décrivent un instantané : ils ne constituent pas une fréquence de raid.</p>
+  <ul class="map-steps">
+    <li><a href="@source:Woods@">Bois — fiche de lieu</a> : lore, sorties, clés, rencontres et dangers.</li>
+    <li><a href="@source:data-maps@">Tarkov.dev — cartes et rencontres</a> : instantané du profil PvP Zone.</li>
+    <li><a href="@source:data-maps-fr@">Tarkov.dev — libellés français</a>, <a href="@source:data-maps-pve@">profil PvE</a> et <a href="@source:data-maps-season@">profil saisonnier</a> : intitulés et écarts.</li>
+    <li><a href="@source:wild-wild@">Annonce officielle de l’événement</a> et <a href="@source:wild-wild-end@">sa clôture</a> : périmètre et durée.</li>
+    <li><a href="@source:reddit-extracts@">Fil Reddit</a> : retours d’expérience sur les sorties.</li>
+    <li><a href="@source:mapgenie@">MapGenie</a> et <a href="@source:kappa@">Kappa Guide</a> : aides de lecture communautaires.</li>
+  </ul>
+</section>

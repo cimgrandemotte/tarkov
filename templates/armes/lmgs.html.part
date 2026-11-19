@@ -1,0 +1,48 @@
+<section class="field-section armes-section" id="reperes" tabindex="-1">
+  <h2>Repères de la famille</h2>
+  <p>Huit mitrailleuses légères : la famille la plus homogène du catalogue. Sept de ces armes acceptent le mode automatique, une accepte le semi-automatique et la dernière les deux, leurs cadences publiées vont de 550 à 700 coups par minute, et leur recul vertical reste dans une fourchette étroite, de 106 à 138. Ce sont des armes de feu soutenu, construites pour tenir une position, pas pour en changer.</p>
+  <p>Le prix à payer est le poids : de 1,5 kilo pour le RPK-16 à 5,76 kilos pour le M60E6. Et la munition : quatre calibres seulement, dominés par le 7,62 x 51 mm NATO pour trois armes et le 7,62 x 54 mm R pour deux autres.</p>
+  <div class="field-grid field-grid--three">
+    <div class="field-card"><p class="eyebrow">106 à 138</p><p><strong>Recul vertical.</strong> L’amplitude la plus faible de tout le catalogue d’armes à feu : le RPK-16 est à 106, le RPD et le RPDN à 107. À l’inverse, ces valeurs restent hautes en valeur absolue : l’arme reste difficile à tenir.</p></div>
+    <div class="field-card"><p class="eyebrow">550 à 700</p><p><strong>Cadence.</strong> Le RPK-16 à 700 coups par minute est le plus rapide de la famille, le PKM et le PKP les plus lents à 550. Aucune de ces armes ne descend sous 550 : le feu soutenu est la règle, pas l’exception.</p></div>
+    <div class="field-card"><p class="eyebrow">650 à 800</p><p><strong>Distance efficace.</strong> Le RPD et le RPDN, puis le M60E4, atteignent 800 mètres ; le bas de la famille reste à 650. Ces armes servent à la moyenne et à la longue distance, mais leur précision à cette distance tient d’abord à la cartouche.</p></div>
+  </div>
+  <div class="field-callout">
+    <p><strong>Tenir ou changer de position.</strong> Un recul de 106 à 138 ne se néglige pas : en feu automatique prolongé, l’arme monte. C’est le principal argument de la famille, et la raison pour laquelle ses pièces — bipied, crosse et frein de bouche — comptent plus que sur une arme de recul modéré.</p>
+  </div>
+</section>
+
+<section class="field-section armes-section" id="catalogue" tabindex="-1">
+  <h2>Le catalogue de la famille</h2>
+  <p>Les huit mitrailleuses légères de l’export, avec leurs mesures à configuration de base.</p>
+  %%TABLE_CATALOGUE%%
+  <p class="armes-note">Le M60E6 apparaît deux fois, en version standard et en version FDE : ce sont deux objets distincts de l’export, avec des mesures identiques et des prix de base différents.</p>
+</section>
+
+<section class="field-section armes-section" id="presets" tabindex="-1">
+  <h2>Presets publiés</h2>
+  <p>Dix-huit presets sont rattachés aux huit armes de cette famille. Le preset type d’une mitrailleuse modifie la crosse, le canon et l’optique : l’ergonomie progresse de quelques points, et le poids augmente avec la longueur du canon.</p>
+  %%TABLE_PRESETS%%
+  <p class="armes-note">La précision en minutes d’angle se lit toujours avec la distance : à 700 mètres, une minute d’angle représente plus de vingt centimètres d’écart. Le tir en rafale longue exige de monter l’arme, pas de la poser.</p>
+</section>
+
+<section class="field-section armes-section" id="acquisition" tabindex="-1">
+  <h2>Acquisition et disponibilité</h2>
+  <p>Aucune des huit armes de cette famille n’a d’offre marchande dans l’instantané. Le tableau d’acquisition est donc vide : la famille s’acquiert en raid, par tâche ou au marché, et son prix d’entrée se compte en centaines de milliers de roubles, optic comprise.</p>
+  %%TABLE_ACQUISITION%%
+</section>
+
+<section class="field-section armes-section" id="conduite" tabindex="-1">
+  <h2>Comment s’équiper</h2>
+  <ul class="armes-list">
+    <li><strong>Le 7,62 x 54 mm R est le meilleur compromis de la famille.</strong> Le PKM et le PKP le partagent, avec le 7,62 x 51 mm NATO du M60 et le 7,62 x 39 mm du RPD. Quatre calibres, quatre budgets de munitions : le 5,45 x 39 mm du RPK-16 est le moins cher, le 7,62 x 54 mm R le plus coûteux à entretenir.</li>
+    <li><strong>Regarder le poids avant la cadence.</strong> Le M60E6 à 5,76 kilos et le M60E4 à 5,4 kilos sont les deux armes les plus lourdes de tout le catalogue des armes à feu, avant le lancer de couteau. Un RPK-16 à 1,5 kilo se porte sur une raid longue ; un M60 se pose.</li>
+    <li><strong>La cadence se compte en chargeurs vides.</strong> À 700 coups par minute, un chargeur de 100 cartouches est vidé en moins de dix secondes. La famille se prépare avec de la munition de réserve, pas avec un seul chargeur.</li>
+  </ul>
+</section>
+
+<section class="field-section armes-section" id="sources" tabindex="-1">
+  <h2>Sources et limites</h2>
+  <p>Les chiffres viennent de l’export communautaire du 18 novembre 2026. Les indications de tenue en position déduites des valeurs de recul restent des lectures de catalogue : le comportement réel d’une arme dans un raid dépend du joueur, de la posture et de la distance, rien de tout cela n’est mesuré par l’export.</p>
+  %%SOURCES_FAMILLE%%
+</section>

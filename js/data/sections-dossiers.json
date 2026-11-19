@@ -1,0 +1,254 @@
+[
+ {
+  "route": "pages/getting-started.html",
+  "id": "parcours",
+  "titre": "Les dix étapes du premier raid",
+  "description": "Un parcours à cocher, de la préparation au débrief du raid.",
+  "termes": [
+   "checklist",
+   "10 étapes",
+   "parcours débutant"
+  ]
+ },
+ {
+  "route": "pages/getting-started.html",
+  "id": "profil",
+  "titre": "Choisir son rôle et son mode",
+  "description": "Différences entre USEC, BEAR, PvP, PvE, Seasonal, Scav et entraînement.",
+  "termes": [
+   "modes",
+   "Practice",
+   "offline",
+   "faction",
+   "PvE",
+   "Seasonal"
+  ]
+ },
+ {
+  "route": "pages/getting-started.html",
+  "id": "debut-tour",
+  "titre": "Tour : commencer le prologue",
+  "description": "Sortir du tutoriel Ground Zero et ouvrir le premier dialogue avec Therapist.",
+  "termes": [
+   "Tour",
+   "tutoriel",
+   "Therapist",
+   "débloquer marchands",
+   "Klimov Street",
+   "Ground Zero"
+  ]
+ },
+ {
+  "route": "pages/getting-started.html",
+  "id": "pre-raid",
+  "titre": "Vérifier son kit et son assurance",
+  "description": "Équipement remplaçable, soins accessibles, chargeurs et checklist de départ.",
+  "termes": [
+   "kit de départ",
+   "assurance",
+   "conteneur",
+   "gilet",
+   "chargeur",
+   "budget"
+  ]
+ },
+ {
+  "route": "pages/getting-started.html",
+  "id": "en-raid",
+  "titre": "Lire l’interface du raid",
+  "description": "Temps, liste des sorties, santé, endurance et touches rapides sur une reconstitution.",
+  "termes": [
+   "HUD",
+   "interface raid",
+   "repères",
+   "navigation",
+   "Scav"
+  ]
+ },
+ {
+  "route": "pages/getting-started.html",
+  "id": "sante",
+  "titre": "Santé du personnage et soins",
+  "description": "Sept zones de vie et choix d’objets selon l’état du PMC dans le jeu.",
+  "termes": [
+   "santé",
+   "soins",
+   "pv",
+   "sante tarkov",
+   "saignement",
+   "fracture",
+   "chirurgie",
+   "CMS",
+   "Surv12"
+  ]
+ },
+ {
+  "route": "pages/getting-started.html",
+  "id": "extractions",
+  "titre": "Extractions, transit et statut du raid",
+  "description": "Vérifier la sortie et le débrief : Survived, Run-Through ou MIA.",
+  "termes": [
+   "extraction",
+   "extract",
+   "run through",
+   "FIR",
+   "MIA",
+   "sortie",
+   "transit"
+  ]
+ },
+ {
+  "route": "pages/getting-started.html",
+  "id": "apres-raid",
+  "titre": "Après le raid : stash et Traders",
+  "description": "Trier le butin, refaire le kit et reprendre la progression chez les marchands.",
+  "termes": [
+   "stash",
+   "inventaire",
+   "traders",
+   "fidélité",
+   "planque",
+   "débrief"
+  ]
+ },
+ {
+  "route": "pages/getting-started.html",
+  "id": "touches",
+  "titre": "Réglages et commandes Tarkov",
+  "description": "Un aide-mémoire QWERTY, AZERTY ou personnalisé, indépendant du jeu.",
+  "termes": [
+   "clavier",
+   "touches",
+   "AZERTY",
+   "QWERTY",
+   "graphismes",
+   "son",
+   "VOIP"
+  ]
+ },
+ {
+  "route": "pages/getting-started.html",
+  "id": "faq",
+  "titre": "FAQ du premier raid",
+  "description": "24 réponses sur le choix du profil, la préparation, l’extraction et les tâches.",
+  "termes": [
+   "faq",
+   "questions fréquentes",
+   "débutant",
+   "dépannage"
+  ]
+ },
+ {
+  "route": "pages/lore/index.html",
+  "id": "carte-norvinsk",
+  "titre": "Norvinsk : le territoire et son blocus",
+  "description": "Une carte illustrée, non officielle, pour situer le conflit fictif.",
+  "termes": [
+   "maquette Norvinsk",
+   "blocus",
+   "zone économique",
+   "port",
+   "lore"
+  ]
+ },
+ {
+  "route": "pages/lore/index.html",
+  "id": "factions",
+  "titre": "Factions du lore : TerraGroup, USEC et BEAR",
+  "description": "Distinguer l’entreprise, les deux sociétés privées, les Scavs et les forces du blocus.",
+  "termes": [
+   "factions",
+   "TerraGroup",
+   "USEC",
+   "BEAR",
+   "scavs",
+   "ONU"
+  ]
+ },
+ {
+  "route": "pages/lore/index.html",
+  "id": "chronologie",
+  "titre": "Chronologie de Norvinsk",
+  "description": "Deux fils sans révélations : ordre des événements et dates de publication.",
+  "termes": [
+   "chronologie",
+   "timeline",
+   "RAID",
+   "Contract Wars",
+   "Boreas"
+  ]
+ },
+ {
+  "route": "pages/lore/index.html",
+  "id": "personnages",
+  "titre": "Personnages et marchands dans le récit",
+  "description": "Le PMC de Tour, les Traders et les visages de la série RAID.",
+  "termes": [
+   "personnages",
+   "Peacekeeper",
+   "Fence",
+   "Therapist",
+   "Skif",
+   "Mike"
+  ]
+ },
+ {
+  "route": "pages/lore/index.html",
+  "id": "chapitres",
+  "titre": "Les chapitres de l’histoire",
+  "description": "Comprendre les arcs du jeu, du prologue Tour à Boreas, sans révélations sur les fins.",
+  "termes": [
+   "chapitres",
+   "scénario",
+   "Tour",
+   "Boreas",
+   "Icebreaker"
+  ]
+ },
+ {
+  "route": "pages/maps/index.html",
+  "id": "lieux",
+  "titre": "Les treize lieux de raid",
+  "description": "La liste des lieux de référence, leurs durées, effectifs et profils.",
+  "termes": [
+   "cartes",
+   "lieux",
+   "atlas",
+   "13 lieux"
+  ]
+ },
+ {
+  "route": "pages/maps/index.html",
+  "id": "comparatif",
+  "titre": "Comparer deux lieux",
+  "description": "Comparaison ligne à ligne de deux fiches de lieu.",
+  "termes": [
+   "comparatif",
+   "comparer",
+   "deux cartes"
+  ]
+ },
+ {
+  "route": "pages/maps/index.html",
+  "id": "transits",
+  "titre": "Le réseau de transits",
+  "description": "Les passages d’un lieu à l’autre, leurs conditions et leurs délais.",
+  "termes": [
+   "transit",
+   "passage",
+   "réseau"
+  ]
+ },
+ {
+  "route": "pages/maps/index.html",
+  "id": "variantes",
+  "titre": "Variantes et événements",
+  "description": "Configurations d’Usine, de Labo et de Point zéro rattachées aux lieux.",
+  "termes": [
+   "variantes",
+   "événements",
+   "Halloween",
+   "tutoriel"
+  ]
+ }
+]

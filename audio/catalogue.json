@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "origine": "Synthèse sonore originale, sans échantillon externe",
+  "format": "MP3",
+  "canaux": 2,
+  "echantillonnageHz": 44100,
+  "debitKbS": 160,
+  "clips": [
+    {
+      "fichier": "audio/ambient/ambient_rain.mp3",
+      "nom": "Pluie sur tôle",
+      "type": "ambiance",
+      "boucle": true,
+      "octets": 1200588,
+      "sha256": "c0287c8e456a1228e6eb6a8935a40f2d2a0976de6eaa9b292b413c1d8b8b37e8",
+      "secondesPcm": 60.0,
+      "rmsDbfsPcm": -24.1,
+      "cretesDbfsPcm": -8.3
+    },
+    {
+      "fichier": "audio/ambient/ambient_industrial.mp3",
+      "nom": "Bunker industriel",
+      "type": "ambiance",
+      "boucle": true,
+      "octets": 1200588,
+      "sha256": "1ca82f2a8cb12a9bf2e1b122cd7698f928f4a5173a6600fa5671a405ac162cd9",
+      "secondesPcm": 60.0,
+      "rmsDbfsPcm": -24.1,
+      "cretesDbfsPcm": -8.0
+    },
+    {
+      "fichier": "audio/ambient/ambient_forest.mp3",
+      "nom": "Forêt nocturne",
+      "type": "ambiance",
+      "boucle": true,
+      "octets": 1200588,
+      "sha256": "b3ffefd6a1660471c77d2807679f283f00b1eb848a8865baf9abf19a5ebfc3d6",
+      "secondesPcm": 60.0,
+      "rmsDbfsPcm": -24.1,
+      "cretesDbfsPcm": -8.0
+    },
+    {
+      "fichier": "audio/ambient/ambient_urban.mp3",
+      "nom": "Ruines urbaines",
+      "type": "ambiance",
+      "boucle": true,
+      "octets": 1200588,
+      "sha256": "df5d898fd73a6cf6472b3f9335babc666c06cc3a5a6d07602d3b02cd00bcc284",
+      "secondesPcm": 60.0,
+      "rmsDbfsPcm": -24.1,
+      "cretesDbfsPcm": -7.4
+    },
+    {
+      "fichier": "audio/ui/ui_hover.mp3",
+      "nom": "Effleurement métallique",
+      "type": "interface",
+      "boucle": false,
+      "octets": 4180,
+      "sha256": "1f70a74fe542d2857a3ba730d9ae854ddae1a49006d50d194379bfb1f1148887",
+      "secondesPcm": 0.16498866213151928,
+      "rmsDbfsPcm": -24.2,
+      "cretesDbfsPcm": -7.3
+    },
+    {
+      "fichier": "audio/ui/ui_click.mp3",
+      "nom": "Clic métallique",
+      "type": "interface",
+      "boucle": false,
+      "octets": 7314,
+      "sha256": "8545fdcbd59a12a578bff4dfa6033fcc2e639903474e33473939fccfc26e0421",
+      "secondesPcm": 0.32,
+      "rmsDbfsPcm": -24.2,
+      "cretesDbfsPcm": -7.6
+    },
+    {
+      "fichier": "audio/ui/ui_notification.mp3",
+      "nom": "Signal radio",
+      "type": "interface",
+      "boucle": false,
+      "octets": 17241,
+      "sha256": "375a21ff35923d77f70915e10765fc3d945b68dce87f8ddba6cbf8f5102c50d7",
+      "secondesPcm": 0.81,
+      "rmsDbfsPcm": -24.1,
+      "cretesDbfsPcm": -13.0
+    },
+    {
+      "fichier": "audio/themes/intro_norvinsk.mp3",
+      "nom": "Signal de Norvinsk",
+      "type": "theme",
+      "boucle": false,
+      "octets": 600816,
+      "sha256": "847f1688f7dc4ba44d3b0f4a328033697a8bede3cbae811e04684c8218b3db0c",
+      "secondesPcm": 30.0,
+      "rmsDbfsPcm": -22.6,
+      "cretesDbfsPcm": -6.5
+    }
+  ]
+}

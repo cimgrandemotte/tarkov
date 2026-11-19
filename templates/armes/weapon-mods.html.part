@@ -1,0 +1,55 @@
+<section class="field-section armes-section" id="reperes" tabindex="-1">
+  <h2>Repères de la famille</h2>
+  <p>Deux mille deux cent quatre-vingt-trois pièces d’arme, réparties sur vingt-trois emplacements : crossettes, garde-mains, rails, chargeurs, canons, optics, poignées, freins. C’est la plus grande famille du catalogue en volume, et la plus dispersée en valeur : les prix de base vont de 0 à 480 000 roubles, les poids de 2 grammes à 3,2 kilos.</p>
+  <p>Cette page a une fonction double : montrer la structure du catalogue de pièces, et rappeler une règle que les données ne donnent pas. L’export classe chaque pièce par emplacement, mais il ne dit pas à quelles armes elle s’applique. Les compatibilités ne se déduisent pas : elles se vérifient dans le client, sur l’arme concernée.</p>
+  <div class="field-grid field-grid--three">
+    <div class="field-card"><p class="eyebrow">292</p><p><strong>Crossettes.</strong> Le premier emplacement en volume, de 754 à 38 263 roubles, et jusqu’à 2,91 kilos pour la crosse en bois du SV-98. La crosse est le poste où le poids se paie le plus visiblement.</p></div>
+    <div class="field-card"><p class="eyebrow">196</p><p><strong>Canons.</strong> De 1 165 à 76 435 roubles, jusqu’à 3,2 kilos pour le canon de 658 mm en 7,62 x 54 mm R. Le canon décide de la vitesse initiale, donc des dégâts et de la pénétration.</p></div>
+    <div class="field-card"><p class="eyebrow">480 000</p><p><strong>Le record de prix.</strong> Les lunettes thermiques T-7 à fixation vision thermique coûtent 480 000 roubles de base. Les six pièces les plus chères du catalogue sont toutes des optiques thermiques ou nocturnes.</p></div>
+  </div>
+  <div class="field-callout">
+    <p><strong>Ce que la famille explique du rééquilibrage de 2026.</strong> Les pièces sont le lieu où se joue le rapport entre ce que coûte une arme et ce qu’elle vaut : un canon long, une lunette, un frein de bouche modifient la même arme dans des proportions très différentes. Les discussions de forums sur l’équilibrage de mars 2026 portaient précisément sur ce rapport ; elles sont ici traitées comme des opinions, et les chiffres viennent de l’export.</p>
+  </div>
+</section>
+
+<section class="field-section armes-section" id="catalogue" tabindex="-1">
+  <h2>Le catalogue des emplacements</h2>
+  <p>Les vingt-trois emplacements de pièces d’arme, avec le nombre de références, la plage de poids et la plage de prix de base relevées dans l’export.</p>
+  %%TABLE_EMPLACEMENTS%%
+  <h3>Les pièces, emplacement par emplacement</h3>
+  <p>Le tableau ci-dessous reprend les pièces elles-mêmes, classées par emplacement, avec leur poids et leur prix de base. L’export en compte 2 283 : le tableau en présente une sélection de 120, et le catalogue complet reste accessible dans les données publiées du guide.</p>
+  %%TABLE_PIECES%%
+  <p class="armes-note">Les prix indiqués sont des prix de base de l’export, et non des prix de marché : la valeur réelle d’une pièce dépend du lieu où elle est achetée et du jour où elle est vendue.</p>
+</section>
+
+<section class="field-section armes-section" id="presets" tabindex="-1">
+  <h2>Presets publiés</h2>
+  <p>Les presets associent des pièces et publient les mesures de la configuration obtenue. Le catalogue des pièces et le catalogue des presets sont donc deux vues du même objet : l’une décrit les pièces, l’autre décrit ce qu’elles produisent une fois montées. La liste des presets par famille d’arme se trouve sur chaque fiche de famille du guide.</p>
+  <div class="field-callout">
+    <p><strong>La limite à garder en tête.</strong> Un preset publié n’est pas une commande : il indique une configuration et ses résultats mesurés. Le catalogue ne permet pas de reconstituer la liste des pièces d’un preset ni de vérifier qu’une pièce est compatible avec une arme. Ces informations se contrôlent dans le jeu.</p>
+  </div>
+</section>
+
+<section class="field-section armes-section" id="acquisition" tabindex="-1">
+  <h2>Acquisition et disponibilité</h2>
+  <p>Les pièces suivent les mêmes règles que les armes : un prix de base dans l’export, un prix de marché qui lui est très supérieur, et une disponibilité qui dépend de la ville, de la manufacture et des tâches. Aucune pièce de cette famille n’a d’offre marchande directe dans le relevé des armes : leur canal d’achat est le magasin de pièces, la manufacture ou le marché.</p>
+  <div class="field-grid field-grid--two">
+    <div class="field-card"><p class="eyebrow">Manufacturer</p><p><strong>La manufacture.</strong> C’est le canal le plus économique pour les pièces : le prix de base de l’export correspond au prix de fabrication, la seule transformation étant le temps d’attente. Les pièces rares y restent bloquées longtemps.</p></div>
+    <div class="field-card"><p class="eyebrow">Marché</p><p><strong>Le marché.</strong> Une pièce achetée au marché puis revendue rapporte, c’est la règle la plus rentable du jeu pour qui sait produire. Le rapport entre prix de base et prix de marché est le premier indicateur de valeur d’une pièce.</p></div>
+  </div>
+</section>
+
+<section class="field-section armes-section" id="conduite" tabindex="-1">
+  <h2>Comment s’équiper</h2>
+  <ul class="armes-list">
+    <li><strong>Le canon d’abord.</strong> Parmi les pièces, le canon a l’effet le plus direct sur le jeu : sa longueur change la vitesse initiale de la balle, donc les dégâts et la pénétration. Les canons les plus lourds du catalogue pèsent jusqu’à 3,2 kilos, contre 60 grammes pour les plus courts.</li>
+    <li><strong>Le frein de bouche contre le canon long.</strong> Les cache-flammes et les freins de bouche sont bon marché — de 500 à 20 300 roubles pour les cache-flammes — et leur fonction est de réduire le recul. C’est le meilleur rapport effet-prix de l’emplacement quand on cherche à tenir une arme longue.</li>
+    <li><strong>Les optiques se budgètent à part.</strong> Les six pièces les plus chères du catalogue sont des optiques thermiques ou nocturnes, entre 145 000 et 480 000 roubles. Une lunette thermique à fixation vision thermique est l’achat le plus cher du catalogue des pièces, et son intérêt tactique se joue sur la nuit.</li>
+  </ul>
+</section>
+
+<section class="field-section armes-section" id="sources" tabindex="-1">
+  <h2>Sources et limites</h2>
+  <p>Les deux mille deux cent quatre-vingt-trois pièces, leurs emplacements, leurs poids et leurs prix de base viennent de l’export communautaire du 18 novembre 2026. Les discussions communautaires sur le rééquilibrage de mars 2026 et sur le prix des pièces sont des retours de joueurs : elles situent le contexte, jamais un chiffre.</p>
+  %%SOURCES_FAMILLE%%
+</section>

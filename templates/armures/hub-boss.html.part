@@ -1,0 +1,82 @@
+<section class="field-section boss-section" id="reperes" tabindex="-1">
+  <h2>Repères du corpus</h2>
+  <p>L’export du 18 novembre 2026 décrit les rencontres de trois profils de jeu : Regular, PvE Zone et Seasonal. Cette page rassemble les quatorze fiches éditoriales, la matrice des apparitions et les points de vie, sans agrégation trompeuse.</p>
+  <div class="field-grid field-grid--three">
+    <div class="field-card"><p class="eyebrow">14</p><p><strong>Fiches.</strong> Quatorze boss et groupes de boss, de Reshala à The Wedge, avec pour chacun les points de vie, les escortes, l’équipement et le butin.</p></div>
+    <div class="field-card"><p class="eyebrow">48</p><p><strong>Entrées d’export.</strong> Quarante-huit entrées de mobs dans l’export Regular : les quatorze fiches, leurs escortes, et dix-huit entrées qui n’ont pas de fiche.</p></div>
+    <div class="field-card"><p class="eyebrow">89</p><p><strong>Apparitions.</strong> Quatre-vingt-neuf occurrences d’apparition relevées sur les trois profils, après regroupement des entrées qui décrivent la même zone.</p></div>
+  </div>
+  <div class="field-callout">
+    <p><strong>La règle de séparation.</strong> Les chiffres de cette page viennent de l’export et sont datés du 18 novembre 2026. Les avis de la communauté sont présentés à part, datés, et ne sont jamais fusionnés avec les taux de données. Les suivis communautaires qui publient d’autres taux sont signalés comme tels.</p>
+  </div>
+</section>
+
+<section class="field-section boss-section" id="grille" tabindex="-1">
+  <h2>Les quatorze fiches</h2>
+  <p>Chaque fiche donne les points de vie membre par membre, les apparitions profil par profil, les escortes, l’équipement porté et le butin. Les entrées sans fiche propre sont documentées plus bas, pour que le décompte reste exact.</p>
+  <div class="boss-familles" role="group" aria-label="Filtrer les fiches par famille">
+    <button type="button" class="button button--quiet" data-boss-famille="toutes" aria-pressed="true">Toutes</button>
+    <button type="button" class="button button--quiet" data-boss-famille="scav" aria-pressed="false">Scav</button>
+    <button type="button" class="button button--quiet" data-boss-famille="cultiste" aria-pressed="false">Cultiste</button>
+    <button type="button" class="button button--quiet" data-boss-famille="pmc" aria-pressed="false">PMC</button>
+    <button type="button" class="button button--quiet" data-boss-famille="rogue" aria-pressed="false">Rogue</button>
+    <button type="button" class="button button--quiet" data-boss-famille="black-division" aria-pressed="false">Black Division</button>
+    <p class="eyebrow" role="status" data-boss-compte>14 fiches affichées sur 14</p>
+  </div>
+  <div class="boss-grid" data-boss-grid>
+    %%GRILLE_BOSS%%
+  </div>
+</section>
+
+<section class="field-section boss-section" id="matrice" tabindex="-1">
+  <h2>Cartes et apparitions</h2>
+  <p>La matrice croise les dix-neuf cartes de l’export et les quatorze fiches. Chaque case indique la chance d’apparition dans le profil Regular ; le détail par profil et par zone se trouve sur la fiche du boss concerné.</p>
+  %%TABLE_MATRICE%%
+  <p class="armures-note">La matrice ne compte que les quatorze fiches de cette phase. Les infectés, les Raiders, les Rogues et les Infectés de laboratoire figurent dans l’export mais n’ont pas de fiche : ils sont listés dans la section suivante pour que le total reste vérifiable.</p>
+</section>
+
+<section class="field-section boss-section" id="pv" tabindex="-1">
+  <h2>Points de vie comparés</h2>
+  <p>Les points de vie totaux sont la somme des sept zones du corps, telles que l’export les donne pour le mob principal de chaque fiche. Ce sont des valeurs de données, pas des estimations de temps de mise à mort.</p>
+  %%TABLE_PV%%
+  <p class="armures-note">Pour The Goons, la ligne porte les points de vie de Knight seul. Big Pipe et Birdeye sont comptés dans la section des escortes, parce que les additionner produirait un total que le jeu ne calcule pas.</p>
+</section>
+
+<section class="field-section boss-section" id="horsfiche" tabindex="-1">
+  <h2>Les entrées sans fiche</h2>
+  <p>Dix-huit entrées de l’export Regular n’ont pas de fiche éditoriale dans cette phase : infectés, Raiders, Rogues, Black Division et escortes déjà rattachés à une fiche. Elles sont listées ici pour que le décompte des quarante-huit entrées soit vérifiable ligne à ligne.</p>
+  %%TABLE_HORSFICHE%%
+  <p class="armures-note">Trois distinctions ne doivent pas être confondues : <em>bossTagilla</em> et <em>infectedTagilla</em> sont deux mobs distincts ; <em>bossTagillaAgro</em> est Shadow of Tagilla et a sa propre fiche ; <em>bossKillaAgro</em> est Vengeful Killa et n’en a pas.</p>
+</section>
+
+<section class="field-section boss-section" id="suivis" tabindex="-1">
+  <h2>Ce que disent les suivis</h2>
+  <p>Plusieurs sites communautaires publient leurs propres taux d’apparition et leurs propres fiches de points de vie. Ces valeurs ont été relevées en même temps que l’export, et elles en diffèrent souvent. Le guide les signale sans les fusionner.</p>
+  <div class="field-grid field-grid--three">
+    <div class="field-card"><p class="eyebrow">Écart assumé</p><p><strong>Taux d’apparition.</strong> Les suivis communautaires suivent les changements de chances d’apparition jour après jour. L’export reste la référence de cette page, datée du 18 novembre 2026 ; tout écart entre les deux est une différence de méthode, pas une erreur à corriger.</p></div>
+    <div class="field-card"><p class="eyebrow">Méthode</p><p><strong>Points de vie et escortes.</strong> Les fiches communautaires proviennent souvent de l’observation en jeu et de captures. L’export est une extraction de données : les deux sources ne mesurent pas la même chose, et le guide affiche la seconde.</p></div>
+    <div class="field-card"><p class="eyebrow">Statut</p><p><strong>Nature des sources.</strong> Aucun de ces sites n’est officiel. Le wiki de la communauté se présente comme tel et reste une source secondaire : c’est la position retenue dans tout le guide.</p></div>
+  </div>
+  <p class="armures-note">Les parties de ce guide qui citent ces avis les placent toujours dans une section identifiée comme telle, avec leur date. Aucun taux communautaire n’est présenté comme une valeur de l’export.</p>
+</section>
+
+<section class="field-section boss-section" id="conduite" tabindex="-1">
+  <h2>Comment lire ces données</h2>
+  <p>Cinq repères pour éviter les contresens que ces tableaux provoquent souvent.</p>
+  <ul class="boss-list">
+    <li><strong>Une chance n’est pas une garantie.</strong> Une valeur de 0,60 signifie que le boss est présent dans six raids sur dix en moyenne. Elle ne dit pas quand, ni dans quelle zone.</li>
+    <li><strong>Les profils se comparent profil par profil.</strong> Le profil PvE relève plusieurs chances à 0,75 sans modifier le profil Regular. Afficher une seule colonne mélange les deux.</li>
+    <li><strong>Les points de vie ne donnent pas un temps de mise à mort.</strong> Ils donnent une somme de zones. Le résultat dépend de la munition, de la distance, du blindage de la cible et du nombre de tirs.</li>
+    <li><strong>Un groupe n’est pas un boss.</strong> Les escortes ont leurs propres points de vie, et la composition change selon la carte : sur Icebreaker, The Goons est accompagné de deux Rogue, pas de Big Pipe et Birdeye.</li>
+    <li><strong>Les délais d’apparition sont des délais de raid.</strong> Un boss annoncé à 900 secondes n’est pas encore dans le jeu au début du raid, et la chance s’applique quand la fenêtre est atteinte.</li>
+  </ul>
+  <div class="field-callout">
+    <p><strong>Sur les sources d’avis.</strong> Les stratégies rapportées par les joueurs — se déplacer plutôt que camper, utiliser des grenades contre un groupe, attendre un rechargement — sont utiles et datées. Elles ne remplacent pas une donnée et ne sont jamais fusionnées avec elle.</p>
+  </div>
+</section>
+
+<section class="field-section boss-section" id="sources" tabindex="-1">
+  <h2>Sources et limites</h2>
+  <p>Les apparitions, points de vie, équipements et butins proviennent de l’export communautaire du 18 novembre 2026, dans ses trois profils. Les comportements décrits en avis sont attribués, datés et présentés comme des avis. Les notes de l’éditeur pour le correctif 1.3.0.0 du 29 octobre 2026 servent à dater les changements d’apparition.</p>
+  %%SOURCES_BOSS%%
+</section>

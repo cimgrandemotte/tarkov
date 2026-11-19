@@ -1,0 +1,97 @@
+[
+ {
+  "id": "cartes",
+  "tag": "ATLAS",
+  "titre": "Cartes & extractions",
+  "image": "atlas-norvinsk.jpg",
+  "alt": "Vue aérienne d’une avenue de Norvinsk, au milieu d’immeubles et d’un viaduc endommagé.",
+  "routes": [
+   "pages/maps/"
+  ],
+  "description": "De Factory à Terminal : sorties, transits, rencontres, dangers et variantes, comparés profil par profil à partir des données publiées.",
+  "lien": {
+   "url": "./atelier/#comparateur",
+   "texte": "Essayer le comparateur de cartes"
+  }
+ },
+ {
+  "id": "arsenal",
+  "tag": "ARMURERIE",
+  "titre": "Armes & munitions",
+  "image": "armurerie.jpg",
+  "alt": "Carabine du jeu et caisse de matériel posées sur un établi éclairé en ambre.",
+  "routes": [
+   "pages/weapons/",
+   "pages/ammo/"
+  ],
+  "description": "Armes par famille, builds et tableau des munitions. Les comparaisons sépareront le calibre, les performances du projectile et la disponibilité dans le mode choisi.",
+  "lien": {
+   "url": "#sources",
+   "texte": "Voir la provenance des données"
+  }
+ },
+ {
+  "id": "protection",
+  "tag": "RENCONTRES",
+  "titre": "Armures & boss",
+  "image": "protections-boss.jpg",
+  "alt": "Un personnage fictif masqué, équipé de protections épaisses, dans une halle industrielle.",
+  "routes": [
+   "pages/armor/",
+   "pages/bosses/"
+  ],
+  "description": "Zones protégées, classes, plaques et durabilité. Les fiches boss préciseront la carte, le mode et la date des taux éventuels afin de ne pas généraliser un chiffre de PvE au PvP.",
+  "lien": {
+   "url": "#modes",
+   "texte": "Vérifier le profil de jeu"
+  }
+ },
+ {
+  "id": "quetes",
+  "tag": "PROGRESSION",
+  "titre": "Quêtes & Traders",
+  "image": "echoppe-traders.jpg",
+  "alt": "Comptoir grillagé éclairé par une lampe, avec un carnet et du matériel en attente.",
+  "routes": [
+   "pages/quests/",
+   "pages/traders/"
+  ],
+  "description": "Prérequis des tasks, déblocage des Traders, récompenses et route Kappa. Les quêtes de l’histoire, de progression et de saison resteront séparées.",
+  "lien": {
+   "url": "https://tarkovtracker.org/",
+   "texte": "Ouvrir TarkovTracker (outil tiers)"
+  }
+ },
+ {
+  "id": "hideout",
+  "tag": "RESSOURCES",
+  "titre": "Hideout & économie",
+  "image": "hideout-atelier.jpg",
+  "alt": "Planque souterraine avec rangement, générateur et éclairage de récupération.",
+  "routes": [
+   "pages/hideout/",
+   "pages/economy/",
+   "pages/skills/"
+  ],
+  "description": "Ordre des stations, crafts et matériaux à conserver. Les calculs en roubles sépareront coût d’entrée, revente et durée, et les observations de prix seront datées.",
+  "lien": {
+   "url": "#programme",
+   "texte": "Voir les étapes de publication"
+  }
+ },
+ {
+  "id": "tushonka",
+  "tag": "SOLO NON OFFICIEL",
+  "titre": "Single Player Tushonka",
+  "image": "solo-lisiere.jpg",
+  "alt": "Un opérateur solitaire marche vers la brume sur une voie ferrée forestière.",
+  "routes": [
+   "pages/spt-tushonka/"
+  ],
+  "description": "Build requis, installation distincte, mods et dépannage. Les mécaniques ou chiffres du client EFT live ne se transposent pas automatiquement au solo communautaire.",
+  "lien": {
+   "url": "https://github.com/SP-Tushonka/build/releases/tag/4.1.6",
+   "texte": "Lire la release stable 4.1.6"
+  }
+ }
+]

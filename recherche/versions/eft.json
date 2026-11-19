@@ -1,0 +1,480 @@
+{
+  "schemaVersion": 1,
+  "sourceFlux": {
+    "url": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=3932890&count=100&maxlength=400&feeds=steam_community_announcements",
+    "dateServeurHttp": "Wed, 18 Nov 2026 12:21:27 GMT"
+  },
+  "dernierPatchNumeroteDansCeFlux": {
+    "titre": "Patch 1.3.0.0",
+    "dateUtc": "2026-10-29T16:56:30+00:00",
+    "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302235601",
+    "version": "1.3.0.0"
+  },
+  "derniereAnnonceDansCeFlux": {
+    "titre": "Tarkov City Drops Campaign!",
+    "dateUtc": "2026-11-16T15:08:57+00:00",
+    "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849458702689904"
+  },
+  "annoncesOfficiellesRecuperees": [
+    {
+      "titre": "Tarkov City Drops Campaign!",
+      "dateUtc": "2026-11-16T15:08:57+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849458702689904"
+    },
+    {
+      "titre": "Anniversary discount!",
+      "dateUtc": "2026-11-15T16:02:40+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849458702686626"
+    },
+    {
+      "titre": "Standard Edition & PvE Zone bundle!",
+      "dateUtc": "2026-11-13T17:26:13+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144188322"
+    },
+    {
+      "titre": "New in-game survey",
+      "dateUtc": "2026-11-13T11:07:03+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144186795"
+    },
+    {
+      "titre": "Patch 1.3.0.0",
+      "dateUtc": "2026-10-29T16:56:30+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302235601",
+      "version": "1.3.0.0"
+    },
+    {
+      "titre": "New in-game survey",
+      "dateUtc": "2026-10-16T11:21:08+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706681057"
+    },
+    {
+      "titre": "Watch EXFIL Brothers and get Twitch Drops!",
+      "dateUtc": "2026-10-08T17:23:27+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067930803"
+    },
+    {
+      "titre": "Patch 1.2.0.0",
+      "dateUtc": "2026-10-06T14:57:45+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1845383656396722",
+      "version": "1.2.0.0"
+    },
+    {
+      "titre": "Steam Autumn Sale discounts!",
+      "dateUtc": "2026-10-01T17:10:01+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1845383656382993"
+    },
+    {
+      "titre": "Leagues are live!",
+      "dateUtc": "2026-09-15T13:08:44+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1843481262704542"
+    },
+    {
+      "titre": "New in-game survey",
+      "dateUtc": "2026-09-11T15:11:15+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1843481262695602"
+    },
+    {
+      "titre": "Patch 1.1.5.0",
+      "dateUtc": "2026-09-08T13:04:24+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1842846814455578",
+      "version": "1.1.5.0"
+    },
+    {
+      "titre": "TarkovTV on August 10!",
+      "dateUtc": "2026-08-08T15:33:52+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1840310314347740"
+    },
+    {
+      "titre": "Twitch Drops for the launch of season one!",
+      "dateUtc": "2026-08-04T11:01:00+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1839676055897126"
+    },
+    {
+      "titre": "Patch 1.1.0.0",
+      "dateUtc": "2026-08-03T22:33:08+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1839676055896016",
+      "version": "1.1.0.0"
+    },
+    {
+      "titre": "Weekend XP bonus!",
+      "dateUtc": "2026-07-24T16:28:14+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1839041357030119"
+    },
+    {
+      "titre": "New in-game survey",
+      "dateUtc": "2026-07-24T11:49:34+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1839041357029317"
+    },
+    {
+      "titre": "Expansions Hub and TarCoin",
+      "dateUtc": "2026-07-08T17:12:27+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1836506165581325"
+    },
+    {
+      "titre": "Patch 1.0.6.0",
+      "dateUtc": "2026-07-03T16:47:13+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1836506165571045",
+      "version": "1.0.6.0"
+    },
+    {
+      "titre": "Battlestate Games is heading to ChinaJoy",
+      "dateUtc": "2026-07-01T09:01:40+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1836506165564784"
+    },
+    {
+      "titre": "An in-game survey is available",
+      "dateUtc": "2026-06-26T13:19:17+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1836506165553928"
+    },
+    {
+      "titre": "The Summer Sale has started!",
+      "dateUtc": "2026-06-25T17:09:02+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1836506165550832"
+    },
+    {
+      "titre": "Preliminary update plan",
+      "dateUtc": "2026-06-18T14:01:29+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1835871199304341"
+    },
+    {
+      "titre": "Weekend XP bonus is active!",
+      "dateUtc": "2026-06-12T18:31:38+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1835236783564408"
+    },
+    {
+      "titre": "What is TarCoin?",
+      "dateUtc": "2026-06-10T14:53:52+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1835236783557801"
+    },
+    {
+      "titre": "Streamer Challenge has concluded. Time for the results!",
+      "dateUtc": "2026-06-08T15:08:44+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1834602721199182"
+    },
+    {
+      "titre": "Streamer Challenge has begun!",
+      "dateUtc": "2026-06-03T15:01:53+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1834602721185060"
+    },
+    {
+      "titre": "Weekend XP boost!",
+      "dateUtc": "2026-05-29T15:03:31+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1833968530891376"
+    },
+    {
+      "titre": "Streamer Challenge Returns!",
+      "dateUtc": "2026-05-27T12:30:26+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1833968530885273"
+    },
+    {
+      "titre": "Icebreaker Twitch Drops are live!",
+      "dateUtc": "2026-05-26T15:08:49+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1833334318579628"
+    },
+    {
+      "titre": "Patch 1.0.5.0",
+      "dateUtc": "2026-05-25T12:45:48+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1833334318577081",
+      "version": "1.0.5.0"
+    },
+    {
+      "titre": "New in-game survey",
+      "dateUtc": "2026-05-22T11:58:35+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1833334318571485"
+    },
+    {
+      "titre": "The Unheard Steam Edition is available!",
+      "dateUtc": "2026-05-20T08:41:01+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1833334318565703"
+    },
+    {
+      "titre": "Patch 1.0.4.9",
+      "dateUtc": "2026-05-19T07:00:59+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1832700592800225",
+      "version": "1.0.4.9"
+    },
+    {
+      "titre": "All the previews from TarkovTV podcast",
+      "dateUtc": "2026-05-08T17:27:56+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1832065502815887"
+    },
+    {
+      "titre": "Developer’s Diary: Prestige system",
+      "dateUtc": "2026-05-08T16:19:40+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1832065502815698"
+    },
+    {
+      "titre": "Next episode of TarkovTV broadcast on May 8!",
+      "dateUtc": "2026-05-06T16:43:02+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1832065502809683"
+    },
+    {
+      "titre": "ETS testing is back!",
+      "dateUtc": "2026-04-30T18:42:11+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1831432155569341"
+    },
+    {
+      "titre": "Developer’s Diary: Lighthouse",
+      "dateUtc": "2026-04-30T11:00:46+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1831432155567660"
+    },
+    {
+      "titre": "New in-game survey",
+      "dateUtc": "2026-04-24T11:43:35+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1830797770235764"
+    },
+    {
+      "titre": "Patch 1.0.4.5",
+      "dateUtc": "2026-04-20T12:04:54+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1830163047265808",
+      "version": "1.0.4.5"
+    },
+    {
+      "titre": "Classic clothing sets are available on Steam",
+      "dateUtc": "2026-04-15T15:44:49+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1830163047255311"
+    },
+    {
+      "titre": "New clothing sets are now available!",
+      "dateUtc": "2026-04-13T13:59:17+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1829528821315523"
+    },
+    {
+      "titre": "A new in-game survey is now available",
+      "dateUtc": "2026-04-10T12:31:09+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1829528821310052"
+    },
+    {
+      "titre": "Developer's Diary: Anticheat",
+      "dateUtc": "2026-04-09T13:45:37+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1829528821306735"
+    },
+    {
+      "titre": "In-game survey and reward are now available",
+      "dateUtc": "2026-03-28T12:39:46+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1828441623106475"
+    },
+    {
+      "titre": "Patch 1.0.4.0",
+      "dateUtc": "2026-03-27T15:15:20+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1828441623104815",
+      "version": "1.0.4.0"
+    },
+    {
+      "titre": "Save up to 25% on Escape from Tarkov on Steam",
+      "dateUtc": "2026-03-19T17:05:58+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1827626365754527"
+    },
+    {
+      "titre": "Patch 1.0.2.5",
+      "dateUtc": "2026-03-05T11:51:26+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1826362059920738",
+      "version": "1.0.2.5"
+    },
+    {
+      "titre": "Tarkov Art creative contest",
+      "dateUtc": "2026-03-01T12:25:29+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1825727806715134"
+    },
+    {
+      "titre": "In-game survey and reward are now available to players",
+      "dateUtc": "2026-02-20T14:01:37+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1825093633187897"
+    },
+    {
+      "titre": "Preliminary roadmap for Escape from Tarkov for the first half of 2026.",
+      "dateUtc": "2026-02-18T12:00:52+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1825093633181979"
+    },
+    {
+      "titre": "Happy Lunar New Year!",
+      "dateUtc": "2026-02-16T10:23:53+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1824644522845018"
+    },
+    {
+      "titre": "Escape from Duckov Bundle on Steam; Unheard Edition Discount",
+      "dateUtc": "2026-02-10T17:06:22+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1823825466509039"
+    },
+    {
+      "titre": "Patch 1.0.2.0",
+      "dateUtc": "2026-02-10T06:59:02+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1823825466507490",
+      "version": "1.0.2.0"
+    },
+    {
+      "titre": "New Regional Pricing for Players in Mainland China",
+      "dateUtc": "2026-02-06T12:56:18+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1823825466499524"
+    },
+    {
+      "titre": "Tarkov Art Creative Contest",
+      "dateUtc": "2026-02-01T15:34:54+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1823191198609559"
+    },
+    {
+      "titre": "In-game survey and reward are now available to players",
+      "dateUtc": "2026-01-30T13:04:18+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1823191198605222"
+    },
+    {
+      "titre": "Technical update",
+      "dateUtc": "2026-01-14T10:45:17+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1821922921810232"
+    },
+    {
+      "titre": "Tarkov Art Creative Contest",
+      "dateUtc": "2026-01-05T15:46:39+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1819386365123663"
+    },
+    {
+      "titre": "The TarkovTV LIVE New Year's Special is now live!",
+      "dateUtc": "2025-12-27T15:50:20+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1819386365110539"
+    },
+    {
+      "titre": "Patch 1.0.1.0",
+      "dateUtc": "2025-12-24T12:23:30+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1819386365106437",
+      "version": "1.0.1.0"
+    },
+    {
+      "titre": "Get ready for Christmas adventures in Escape from Tarkov!",
+      "dateUtc": "2025-12-22T21:01:57+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1819386365102790"
+    },
+    {
+      "titre": "New Year’s holidays on Twitch together with Battlestate Games.",
+      "dateUtc": "2025-12-22T13:44:04+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1819386365102008"
+    },
+    {
+      "titre": "In-game survey",
+      "dateUtc": "2025-12-19T13:38:46+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1819386365095308"
+    },
+    {
+      "titre": "25% off Escape from Tarkov: Standard Edition on Steam",
+      "dateUtc": "2025-12-18T18:06:28+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1819386365091453"
+    },
+    {
+      "titre": "Balancing changes",
+      "dateUtc": "2025-12-18T13:47:20+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1819386365089857"
+    },
+    {
+      "titre": "Balancing changes",
+      "dateUtc": "2025-12-17T11:20:28+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1819386365086378"
+    },
+    {
+      "titre": "1 000 000+ sold since 1.0 release",
+      "dateUtc": "2025-12-15T17:32:51+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1818752592133574"
+    },
+    {
+      "titre": "Patch 1.0.0.5",
+      "dateUtc": "2025-12-11T10:41:21+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1818752592123181",
+      "version": "1.0.0.5"
+    },
+    {
+      "titre": "Patch 1.0.0.2",
+      "dateUtc": "2025-12-01T04:59:31+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1817483467044236",
+      "version": "1.0.0.2"
+    },
+    {
+      "titre": "Steam Awards Nomination | Get Head, Eyes with Escape from Tarkov",
+      "dateUtc": "2025-11-29T14:00:32+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1817483467041440"
+    },
+    {
+      "titre": "Technical update",
+      "dateUtc": "2025-11-28T16:05:26+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1817483467039735"
+    },
+    {
+      "titre": "Escape from Tarkov Steam trading cards",
+      "dateUtc": "2025-11-28T10:37:24+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1817483467038877"
+    },
+    {
+      "titre": "Release discounts are coming to an end",
+      "dateUtc": "2025-11-27T15:18:08+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1817483467036987"
+    },
+    {
+      "titre": "Twitch drops for subscriptions to streamers",
+      "dateUtc": "2025-11-25T15:40:27+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1816849002023881"
+    },
+    {
+      "titre": "Technical update",
+      "dateUtc": "2025-11-21T09:38:10+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1816849002013285"
+    },
+    {
+      "titre": "Technical update",
+      "dateUtc": "2025-11-20T17:49:56+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1816849002011622"
+    },
+    {
+      "titre": "Community update",
+      "dateUtc": "2025-11-20T14:31:32+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1816849002010930"
+    },
+    {
+      "titre": "Balancing changes",
+      "dateUtc": "2025-11-19T18:49:44+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1816849002008762"
+    },
+    {
+      "titre": "Technical update",
+      "dateUtc": "2025-11-18T17:17:39+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1816307528974265"
+    },
+    {
+      "titre": "Technical update",
+      "dateUtc": "2025-11-17T08:22:11+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1816307528969860"
+    },
+    {
+      "titre": "Community update",
+      "dateUtc": "2025-11-16T15:27:39+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1816307528968530"
+    },
+    {
+      "titre": "Technical update",
+      "dateUtc": "2025-11-16T11:18:08+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1816307528968135"
+    },
+    {
+      "titre": "Preoder rewards",
+      "dateUtc": "2025-11-14T19:41:12+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1816307528955920"
+    },
+    {
+      "titre": "Key features of the release update",
+      "dateUtc": "2025-11-14T17:16:00+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1816307528952566"
+    },
+    {
+      "titre": "Escape from Tarkov 1.0 Release Gameplay Trailer — Countdown to Release",
+      "dateUtc": "2025-11-14T13:10:49+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1816307528946614"
+    },
+    {
+      "titre": "Escape from Tarkov is available for preorder on Steam!",
+      "dateUtc": "2025-11-13T10:53:59+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1816307528910191"
+    },
+    {
+      "titre": "Get ready — the release is coming! Mark your calendars for November 15!",
+      "dateUtc": "2025-10-15T11:10:36+00:00",
+      "urlFlux": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1813674388901846"
+    }
+  ],
+  "limite": "Ce flux Steam n’épuise ni les hotfixes, ni les annonces BSG diffusées ailleurs."
+}

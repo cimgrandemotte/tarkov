@@ -1,0 +1,86 @@
+<section class="field-section map-section" id="reperes" tabindex="-1">
+  <h2>Repères et accès</h2>
+  <p>Le Labyrinthe est une installation de Knossos LLC, l’un des sous-traitants de TerraGroup. Officiellement, Knossos construit des parcs d’attractions et des parcs à thème ; sur place, l’ensemble ressemble bien plus à un bunker fortifié qu’à un parc. <a href="@source:The_Labyrinth@">Fiche publique</a>.</p>
+  <div class="field-grid field-grid--three">
+    <div class="field-card"><p class="eyebrow">Format</p><p><strong>5 PMC</strong>, 30 minutes. C’est le plus petit effectif du jeu, et le seul lieu où l’on sait à l’avance combien de personnes sont entrées.</p></div>
+    <div class="field-card"><p class="eyebrow">Accès</p><p>Uniquement par transit depuis le Littoral, avec une <strong>carte d’accès Labrys</strong> et la clé de la facility Knossos LLC. Le transit se trouve dans le sous-sol de l’aile ouest de la station de cure.</p></div>
+    <div class="field-card"><p class="eyebrow">Chambres</p><p>Cinq chambres-pièges sont documentées : bassin toxique, vapeur, feu, piège à fusil à pompe, flaque toxique. Chacune est un examen, pas un couloir.</p></div>
+  </div>
+  <div class="map-note">
+    <p><strong>Une porte, deux sorties.</strong> Les deux sorties sont partagées et ouvertes en principe ; celle qui monte n’est disponible qu’à partir de la quinzième minute de raid. Ce décalage structure tout le lieu : on entre tôt, on sort tard, et le temps passé entre les deux se passe sous terre.</p>
+  </div>
+</section>
+
+<section class="field-section map-section" id="sorties" tabindex="-1">
+  <h2>Sorties et transits</h2>
+  <p>Deux sorties seulement, toutes deux pour les PMC, toutes deux conditionnées. La fiche publique les présente comme des sorties <em>toujours disponibles</em>, mais l’une dépend de l’heure de raid et l’autre d’une clé.</p>
+  <div class="map-layers">
+    <div class="map-layers__bar" role="group" aria-label="Couches de données du Labyrinthe">
+      <span class="eyebrow">Couches</span>
+      <button type="button" class="badge" data-layer-toggle="sorties" aria-pressed="true">Sorties documentées</button>
+      <button type="button" class="badge" data-layer-toggle="transits" aria-pressed="true">Transits</button>
+      <button type="button" class="badge" data-layer-toggle="intitules" aria-pressed="false">Intitulés de jeu</button>
+    </div>
+    <div class="map-panel map-layer" data-layer="sorties">
+      <div class="map-layer__head"><h3>Sorties documentées</h3><p>Fiche publique du 18 novembre 2026.</p></div>
+      %%TABLE_SORTIES%%
+    </div>
+    <div class="map-panel map-layer" data-layer="transits">
+      <div class="map-layer__head"><h3>Transits sortants</h3><p>Aucun : on entre par le Littoral, on n’en sort que par une de ces deux sorties.</p></div>
+      %%TABLE_TRANSITS%%
+    </div>
+    <div class="map-panel map-layer" data-layer="intitules" hidden>
+      <div class="map-layer__head"><h3>Intitulés de jeu</h3><p>Deux intitulés recensés par l’instantané des données.</p></div>
+      %%TABLE_SORTIES_JEU%%
+    </div>
+  </div>
+  <p>La sortie <em>Le chemin d’Ariane</em> exige la clé au symbole d’Ariane. La sortie <em>Vers le haut</em> n’est disponible qu’à partir de la quinzième minute ; un bruit de porte qui s’ouvre l’annonce dans le complexe. Les clés du lieu sont peu nombreuses : la clé de la salle d’observation, la clé de la chambre des corps et quatre clés numérotées de 01 à 04.</p>
+</section>
+
+<section class="field-section map-section" id="rencontres" tabindex="-1">
+  <h2>Rencontres et menaces</h2>
+  <p>Une rencontre unique dans les données, <em>L’ombre de Tagilla</em>, présente à chaque fois, avec pour équipement notable une hache enchaînée et le masque de soudure de Tagilla. La fiche publique décrit une seconde rencontre, <em>Killa la Vengeresse</em>, qui n’apparaît qu’après la mort de la première. <a href="@source:wiki-maps@">Inventaire des lieux</a>.</p>
+  %%TABLE_RENCONTRES%%
+  <div class="map-note">
+    <p><strong>Pas de description de la fin.</strong> La fiche publique reste volontairement imprécise sur le dénouement du Labyrinthe, et nous n’en ajoutons rien. Ce qui est établi : deux rencontres, dont la seconde conditionnée par la mort de la première, et une récompense —— les notes de recherche de Labrys —— portée par la première.</p>
+  </div>
+</section>
+
+<section class="field-section map-section" id="terrain" tabindex="-1">
+  <h2>Dangers de terrain</h2>
+  <p>Dix-neuf zones de danger relevées, toutes de type « piège » : fils de déclenchement, barbelés empoisonnés et fosses à pointes. À quoi s’ajoutent les cinq chambres-pièges et l’alarme du complexe. Ce lieu n’a pas de champ de mines ni de sniper : tout le danger est intériorisé.</p>
+  %%TABLE_DANGERS%%
+</section>
+
+<section class="field-section map-section" id="cles" tabindex="-1">
+  <h2>Clés et butin</h2>
+  <p>Six clés documentées : la clé de la chambre des corps, la clé de la salle d’observation et quatre clés numérotées. Le lieu est volontairement pauvre en butin dispersé : sa valeur est narrative et technique, pas marchande.</p>
+  %%TABLE_CLES%%
+</section>
+
+<section class="field-section map-section" id="conduite" tabindex="-1">
+  <h2>Conduite selon le profil</h2>
+  <p>Le Labyrinthe est le seul lieu où l’on s.Unsafe de jouer en nombre. Cinq joueurs, cinq chambres, une sortie qui n’ouvre qu’à la quinzième minute : le raid se joue en silence ou se joue mal.</p>
+  <ol class="map-steps">
+    <li><strong>Débutant.</strong> Ne pas venir. Le lieu n’est accessible que par transit depuis le Littoral, avec deux clés à réunir, et sa mécanique de chambres-pièges n’est pas documentée dans le détail que l’on puisse transmettre par écrit.</li>
+    <li><strong>Confirmé.</strong> Se placer tôt et dans le coin : la sortie qui monte n’apparaît qu’après quinze minutes, il faut donc survivre au cœur du parcours avant de pouvoir sortir.</li>
+    <li><strong>Expérimenté.</strong> Travailler le temps, pas le butin : le lieu se vide de ses contenuants au profit de la progression de l’histoire, et le patch 1.1.5.0 aExplicitement réduit l’expérience gagnée en éliminant l’ombre de Tagilla, Killa la Vengeresse et les Scavs du Labyrinthe. <a href="@source:bsg-1150@">Notes du patch 1.1.5.0</a>.</li>
+  </ol>
+  %%TABLE_MODES%%
+  %%TABLE_VARIANTES%%
+  <div class="map-path"><strong>Écarts entre profils</strong><span>Ce que les trois profils consultés changent sur ce lieu.</span></div>
+  %%TABLE_ECARTS%%
+</section>
+
+<section class="field-section map-section" id="sources" tabindex="-1">
+  <h2>Sources et limites</h2>
+  <p>Instantané communautaire des données de jeu, fiche publique du même jour, et notes du patch 1.1.5.0. La mécanique des chambres et des pièges est décrite par la fiche publique sans schémas ni distances : nous la restituons telle quelle, sans la compléter. Le dénouement du lieu n’est pas raconté ici.</p>
+  <ul class="map-steps">
+    <li><a href="@source:The_Labyrinth@">Le labyrinthe — fiche de lieu</a> : lore, chambres, pièges, alarmes et sorties.</li>
+    <li><a href="@source:bsg-1150@">Patch 1.1.5.0</a> : réduction de l’expérience d’élimination sur ce lieu.</li>
+    <li><a href="@source:bsg-1200@">Patch 1.2.0.0</a> : ajout de PMC bots dans le Labyrinthe.</li>
+    <li><a href="@source:data-maps@">Tarkov.dev — cartes et rencontres</a> : instantané du profil PvP Zone.</li>
+    <li><a href="@source:data-maps-fr@">Tarkov.dev — libellés français</a> et <a href="@source:data-maps-pve@">profil PvE</a> : intitulés et écarts.</li>
+    <li><a href="@source:mapgenie@">MapGenie</a> et <a href="@source:kappa@">Kappa Guide</a> : aides de lecture communautaires.</li>
+  </ul>
+</section>

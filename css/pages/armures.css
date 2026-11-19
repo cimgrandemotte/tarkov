@@ -1,0 +1,150 @@
+/* Tarkov Ultimate Guide — pages Armures et Boss (phase 6).
+   Catalogue d’armure filtrable, comparateur à trois entrées, grille de boss
+   et lecture des apparitions. Palette or/vert, cohérente avec le guide. */
+
+.armures-page {
+  --armures-accent: var(--accent-bright);
+  --armures-edge: #6e5d3c;
+  --armures-line: rgba(198, 176, 118, .2);
+  --armures-card: #161a16;
+  --armures-muted: #b9c1b2;
+}
+
+.armures-page--index { --armures-accent: #f0c27a; --armures-edge: #7a6642; }
+.armures-page--body-armor { --armures-accent: #e0a08a; --armures-edge: #7a5344; }
+.armures-page--helmets { --armures-accent: #9fc6e8; --armures-edge: #5b7488; }
+.armures-page--rigs { --armures-accent: #a8d69a; --armures-edge: #4f6b48; }
+.armures-page--armor-chart { --armures-accent: #c4b6e8; --armures-edge: #635a80; }
+
+/* ---------- Sections ---------- */
+.armures-section,
+.boss-section { display: grid; align-content: start; gap: clamp(.85rem, 1.9vw, 1.35rem); min-inline-size: 0; }
+.armures-section > *,
+.boss-section > * { min-inline-size: 0; }
+.armures-section:not(:first-child),
+.boss-section:not(:first-child) { border-block-start: 1px solid var(--armures-line); padding-block-start: clamp(1.1rem, 2.4vw, 1.8rem); }
+.armures-section > h2,
+.boss-section > h2 { margin: 0; color: var(--armures-accent); font-size: clamp(1.16rem, 2.2vw, 1.5rem); letter-spacing: .01em; }
+.armures-section > h3,
+.boss-section > h3 { margin: 0; font-size: 1.02rem; }
+.armures-section p,
+.boss-section p { margin: 0; color: var(--armures-muted); max-inline-size: 74ch; font-size: .93rem; line-height: 1.62; }
+.armures-section strong,
+.boss-section strong { color: var(--text-primary, #f1efe7); font-weight: 650; }
+.armures-section a,
+.boss-section a { color: var(--armures-accent); }
+
+.armures-list,
+.boss-list { margin: 0; padding-inline-start: 1.1rem; display: grid; gap: .7rem; color: var(--armures-muted); font-size: .93rem; line-height: 1.6; }
+.armures-list li::marker,
+.boss-list li::marker { color: var(--armures-accent); }
+
+.armures-note {
+  border-inline-start: 2px solid var(--armures-line);
+  padding: .55rem .85rem;
+  background: rgba(255, 255, 255, .025);
+  color: var(--text-muted, #a5aa9e);
+  font-size: .86rem;
+  line-height: 1.58;
+}
+.armures-panel { border: 1px solid var(--armures-line); padding: 1rem; }
+.armures-panel .armures-note { border-inline-start: 0; padding: 0; background: none; }
+
+/* ---------- Filtres ---------- */
+.armures-filters {
+  display: grid; gap: .7rem;
+  border: 1px solid var(--armures-line);
+  background: linear-gradient(180deg, rgba(255, 255, 255, .03), rgba(255, 255, 255, 0));
+  padding: clamp(.8rem, 2vw, 1.05rem);
+}
+.armures-filters__row { display: grid; grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr)); gap: .7rem; align-items: end; }
+.armures-filters .field__control { min-inline-size: 0; }
+.armures-filters .eyebrow { margin: 0; align-self: center; }
+
+/* ---------- Tableaux ---------- */
+.armures-table { inline-size: 100%; border-collapse: collapse; font-size: .845rem; font-variant-numeric: tabular-nums; }
+.armures-table caption { text-align: start; color: var(--text-muted, #a5aa9e); font-size: .8rem; padding-block-end: .55rem; }
+.armures-table th, .armures-table td { text-align: start; vertical-align: top; padding: .48rem .55rem; border-block-end: 1px solid var(--armures-line); overflow-wrap: anywhere; }
+.armures-table thead th {
+  position: sticky; inset-block-start: 0; z-index: 1;
+  color: var(--armures-accent); background: var(--bg-card, #161a15);
+  font: 700 .66rem/1.25 var(--font-display, sans-serif); letter-spacing: .08em; text-transform: uppercase;
+}
+.armures-table tbody th { color: var(--text-primary, #f1efe7); font-weight: 600; }
+.armures-table tbody td { color: var(--armures-muted); }
+.armures-table tbody tr:last-child td, .armures-table tbody tr:last-child th { border-block-end: 0; }
+.armures-table small { display: block; color: var(--text-muted, #a5aa9e); font-size: .78rem; line-height: 1.35; }
+.armures-table tbody tr[hidden] { display: none; }
+.armures-table tbody tr:hover td { background: rgba(255, 255, 255, .035); }
+.armures-table tbody tr[data-compare-selected="oui"] td { background: rgba(198, 176, 118, .1); }
+
+/* ---------- Comparateur ---------- */
+.armures-compare { display: grid; gap: .85rem; }
+.armures-compare__slots {
+  display: grid; gap: .7rem;
+  border: 1px solid var(--armures-line);
+  background: linear-gradient(180deg, rgba(255, 255, 255, .03), rgba(255, 255, 255, 0));
+  padding: clamp(.8rem, 2vw, 1.05rem);
+}
+.armures-compare__slots .eyebrow { margin: 0; }
+.armures-compare__row { display: grid; grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr)); gap: .7rem; }
+.armures-compare__row .field__control { min-inline-size: 0; }
+.armures-compare__grille { display: grid; gap: .55rem; }
+.armures-compare__ligne {
+  display: grid; grid-template-columns: minmax(9rem, 14rem) repeat(3, minmax(0, 1fr));
+  gap: .5rem; align-items: baseline;
+  border-block-end: 1px solid var(--armures-line);
+  padding-block: .45rem;
+}
+.armures-compare__ligne:last-child { border-block-end: 0; }
+.armures-compare__ligne > *:first-child { color: var(--text-muted, #a5aa9e); font-size: .82rem; }
+.armures-compare__valeur { color: var(--text-primary, #f1efe7); font-size: .88rem; font-variant-numeric: tabular-nums; }
+.armures-compare__valeur[data-vide="oui"] { color: var(--text-muted, #a5aa9e); font-style: italic; }
+.armures-compare__entete { font-weight: 700; font-size: .92rem; }
+.armures-compare__pied { margin: 0; font-size: .82rem; color: var(--text-muted, #a5aa9e); }
+
+/* ---------- Grille des boss ---------- */
+.boss-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: .85rem; }
+.boss-card {
+  display: grid; align-content: start; gap: .45rem;
+  border: 1px solid var(--armures-line);
+  border-inline-start: 3px solid var(--armures-accent);
+  background: linear-gradient(180deg, rgba(255, 255, 255, .035), rgba(255, 255, 255, 0));
+  padding: clamp(.8rem, 2vw, 1.05rem);
+}
+.boss-card h3 { margin: 0; font-size: 1rem; }
+.boss-card h3 a { color: var(--text-primary, #f1efe7); text-decoration: none; }
+.boss-card h3 a:hover { color: var(--armures-accent); }
+.boss-card p { margin: 0; font-size: .84rem; line-height: 1.5; }
+.boss-card__meta { display: flex; flex-wrap: wrap; gap: .35rem; }
+.boss-card__lieu { color: var(--armures-muted); }
+.boss-card__escortes { color: var(--text-muted, #a5aa9e); font-size: .8rem; }
+.boss-card[hidden] { display: none; }
+
+.boss-familles { display: flex; flex-wrap: wrap; gap: .4rem; margin-block-end: .2rem; }
+.boss-familles .button[aria-pressed="true"] { border-color: var(--armures-accent); color: var(--armures-accent); }
+
+/* ---------- Miniatures d'objets ---------- */
+.objet-thumb {
+  display: inline-block;
+  vertical-align: middle;
+  inline-size: auto;
+  border-radius: .2rem;
+  background: var(--bg-card, #161a15);
+  border: 1px solid var(--armures-line, rgba(255,255,255,.1));
+  object-fit: contain;
+}
+.armures-table td:first-child .objet-thumb { inline-size: 48px; }
+
+/* ---------- Sources ---------- */
+.sources-list { margin: 0; padding-inline-start: 1.1rem; display: grid; gap: .4rem; color: var(--text-muted, #a5aa9e); font-size: .87rem; }
+.sources-list li { overflow-wrap: anywhere; }
+.sources-list small { display: block; color: var(--text-muted, #a5aa9e); opacity: .75; font-size: .76rem; }
+
+/* ---------- Adaptation ---------- */
+@media (max-width: 46rem) {
+  .armures-table thead th { position: static; }
+  .armures-filters__row { grid-template-columns: 1fr; }
+  .armures-compare__ligne { grid-template-columns: 1fr; gap: .15rem; }
+  .armures-compare__ligne > *:first-child { font-weight: 700; }
+}

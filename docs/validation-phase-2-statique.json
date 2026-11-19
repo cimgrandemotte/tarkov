@@ -1,0 +1,105 @@
+{
+  "statut": "OK",
+  "referenceUtc": "2026-11-18",
+  "compteursHtml": {
+    "published": 1,
+    "planned": 86,
+    "items": 5498,
+    "modes": 3
+  },
+  "publications": [
+    "atelier/index.html",
+    "index.html"
+  ],
+  "index": {
+    "accueil": 6,
+    "atelier": 8,
+    "publiee": 1,
+    "planifiee": 85
+  },
+  "liensCheminsLocauxVerifies": 45,
+  "sourcesExternesAnnoncees": 13,
+  "sourcesRegistre": 89,
+  "descriptionCaracteres": 152,
+  "images": {
+    "images/hero/tarkov-night-rain.jpg": {
+      "px": [
+        1376,
+        768
+      ],
+      "octets": 154538,
+      "sha256": "ed912d4640aa0b27d78b0de571292438285eceacb269df675b6d12e92595c3a1"
+    },
+    "images/hero/atlas-norvinsk.jpg": {
+      "px": [
+        1376,
+        768
+      ],
+      "octets": 209661,
+      "sha256": "f42861bf6a9de7b2d071d180a549dacb91445dc79020bdd549a877fb54373bfb"
+    },
+    "images/hero/armurerie.jpg": {
+      "px": [
+        1376,
+        768
+      ],
+      "octets": 215857,
+      "sha256": "92822abcea6da6949b3af6aa7de96b49e090b383fb770b5a0279c807d1645214"
+    },
+    "images/hero/protections-boss.jpg": {
+      "px": [
+        1376,
+        768
+      ],
+      "octets": 184503,
+      "sha256": "720f88a0e7ca540fb3bdaa03cc644cae1822934b5fd13f91bce0dd53e71581f9"
+    },
+    "images/hero/echoppe-traders.jpg": {
+      "px": [
+        1376,
+        768
+      ],
+      "octets": 142591,
+      "sha256": "10cdf64c441bb3ad6d5f9e2920b78c8edc93911428b25f68bffa1b9ef99da23a"
+    },
+    "images/hero/hideout-atelier.jpg": {
+      "px": [
+        1376,
+        768
+      ],
+      "octets": 240446,
+      "sha256": "ec9bac1e257f389574db70915f0f8b2f6e51d90d29f4a072a3019c2d66560901"
+    },
+    "images/hero/solo-lisiere.jpg": {
+      "px": [
+        1376,
+        768
+      ],
+      "octets": 236657,
+      "sha256": "07ba3211a78d7f924a3347d752191f0462dde34e6ff111cfa73a9cd6bdbd6b88"
+    },
+    "images/hero/premier-raid.jpg": {
+      "px": [
+        1376,
+        768
+      ],
+      "octets": 181895,
+      "sha256": "67cf831c54289b7d9efcb1ad1522aa45b8bad959dadc5b6b6180d82d87f9d6e8"
+    }
+  },
+  "introMp3": {
+    "secondesMp3": 30.0408,
+    "octets": 600816,
+    "boucle": false
+  },
+  "contrastesPalette": {
+    "héro · légende": 12.03,
+    "carte · label": 10.54,
+    "menu · texte": 15.46,
+    "compteur · valeur": 11.99,
+    "compteur · label": 9.4,
+    "texte · bouton or": 8.3
+  },
+  "renduReproductible": true,
+  "etatFinalControle": true
+}

@@ -1,0 +1,87 @@
+<section class="field-section map-section" id="reperes" tabindex="-1">
+  <h2>Repères et accès</h2>
+  <p>Dans le golfe de Finlande, piégé dans le blocus qui encercle Tarkov, se trouve le brise-glace nucléaire <em>Boreas</em>, propriété de la société logistique Paradigm Shipping. L’usage précis du <em>Boreas</em> et la cargaison qu’il transporte restent inconnus ; Paradigm Shipping et TerraGroup semblent avoir fait en sorte de ne pas mentionner le navire dans la presse et de classer ses routes et ses affectations. <a href="@source:Icebreaker@">Fiche publique</a>.</p>
+  <div class="field-grid field-grid--three">
+    <div class="field-card"><p class="eyebrow">Format</p><p><strong>50 minutes</strong>, 1 à 3 PMC, uniquement depuis son propre groupe. C’est le lieu le plus long et le plus petit du jeu.</p></div>
+    <div class="field-card"><p class="eyebrow">Accès</p><p>Par transit depuis le Phare ou le Littoral après le déblocage du chapitre <em>Boreas</em>. Les transits sont situés aux pontons et exigent un <strong>kit de réparation marine Sudak-Tudak</strong>.</p></div>
+    <div class="field-card"><p class="eyebrow">Direct</p><p>L’accès direct depuis l’écran de sélection est débloqué en terminant la ligne de quête <em>Stick to It</em>. L’exigence du kit de réparation reste.</p></div>
+  </div>
+  <div class="map-note">
+    <p><strong>Le nombre d[adversaires dépend du nombre de joueurs.</strong> La fiche publique le précise : le nombre d’opératifs de la Black Division rencontrés et celui desgirls de The Wedge dépendent du nombre de joueurs dans le raid. La difficulté du lieu est donc indexée sur la composition du groupe.</p>
+  </div>
+</section>
+
+<section class="field-section map-section" id="sorties" tabindex="-1">
+  <h2>Sorties et transits</h2>
+  <p>Une seule sortie, l’hélicoptère, et elle est à la fois conditionnée et payante. Aucune autre issue n’est documentée : le lieu n’a pas de repli.</p>
+  <div class="map-layers">
+    <div class="map-layers__bar" role="group" aria-label="Couches de données du Brise-glace">
+      <span class="eyebrow">Couches</span>
+      <button type="button" class="badge" data-layer-toggle="sorties" aria-pressed="true">Sorties documentées</button>
+      <button type="button" class="badge" data-layer-toggle="transits" aria-pressed="true">Transits</button>
+      <button type="button" class="badge" data-layer-toggle="intitules" aria-pressed="false">Intitulés de jeu</button>
+    </div>
+    <div class="map-panel map-layer" data-layer="sorties">
+      <div class="map-layer__head"><h3>Sorties documentées</h3><p>Fiche publique du 18 novembre 2026.</p></div>
+      %%TABLE_SORTIES%%
+    </div>
+    <div class="map-panel map-layer" data-layer="transits">
+      <div class="map-layer__head"><h3>Transits sortants</h3><p>Aucun : le lieu est un cul-de-sac, on y entre par transit et on en sort par hélicoptère.</p></div>
+      %%TABLE_TRANSITS%%
+    </div>
+    <div class="map-panel map-layer" data-layer="intitules" hidden>
+      <div class="map-layer__head"><h3>Intitulés de jeu</h3><p>Un intitulé recensé par l’instantané des données.</p></div>
+      %%TABLE_SORTIES_JEU%%
+    </div>
+  </div>
+  <p>Pour sortir, il faut tirer une fusée verte dans la zone de signalisation, à condition que la fusée atteigne une hauteur suffisante ; sinon l’hélicoptère ne vient pas. La fiche publique mentionne deux fusées utilisables — la fusée verte portative RSP-30 et le pistolet de signalisation en 26x75 mm — et un coût de 2 400 euros par joueur. Elle signale aussi une anomalie de rédaction : le texte de notification affiche un lieu nommé « Klimov Street », qui appartient aux Douanes et non au navire. Nous le mentionnons parce qu’il peut induire en erreur sur l’emplacement de la zone de signalisation.</p>
+</section>
+
+<section class="field-section map-section" id="rencontres" tabindex="-1">
+  <h2>Rencontres et menaces</h2>
+  <p>Le Brise-glace est le lieu le plus densément gardé du jeu. Dans les données, toutes les rencontres y sont présentes à chaque fois : The Wedge, Knight, les opératifs de la Black Division et les renégats. <a href="@source:wiki-maps@">Inventaire des lieux</a>.</p>
+  %%TABLE_RENCONTRES%%
+  <div class="field-card">
+    <p class="eyebrow">Où les trouver</p>
+    <p>La fiche publique situe The Wedge au troisième étage, dans la salle de sport, avec trois à six gardes ; Knight au rez-de-chaussée, avec deux gardes Rogue. L’équipement notable de The Wedge — plaque de protection, casque, MP7 — et celui de Knight complètent le tableau.</p>
+  </div>
+</section>
+
+<section class="field-section map-section" id="terrain" tabindex="-1">
+  <h2>Dangers de terrain</h2>
+  <p>Aucune zone de mines, aucun sniper de bordure, aucune claymore n’est relevé dans les données du lieu. Le danger est entièrement porté par les occupants du navire et par la durée : cinquante minutes à tenir un pont.</p>
+  %%TABLE_DANGERS%%
+</section>
+
+<section class="field-section map-section" id="cles" tabindex="-1">
+  <h2>Clés et butin</h2>
+  <p>Six clés documentées, toutes propres au navire : carte d’accès des quarters d’équipage, carte d’accès de la salle des machines, cartes des compartiments C-1 et C-3, torche BBQ-S43 et charge explosive SZ-1. Le pont est un espace clos à compartiments : les cartes d’accès y ouvrent l’accès.</p>
+  %%TABLE_CLES%%
+</section>
+
+<section class="field-section map-section" id="conduite" tabindex="-1">
+  <h2>Conduite selon le profil</h2>
+  <p>Le Brise-glace n’est pas un raid de butin : c’est une opération à trois, avec une seule porte de sortie et un prix à payer. Le <em>Boreas</em> est le cadre du chapitre d’histoire du même nom, annoncé par le compte officiel le 25 mai 2026. <a href="@source:bsg-boreas-x@">Annonce du 25 mai</a> et <a href="@source:ice-patch@">discussion Steam associée</a>.</p>
+  <ol class="map-steps">
+    <li><strong>Débutant.</strong> Ne pas venir seul : le lieu n’accepte qu’un groupe de un à trois joueurs et son seul critère de survie est l’extraction hélicoptère. Venir sans le kit de réparation, c’est ne pas venir.</li>
+    <li><strong>Confirmé.</strong> Réunir l’équipe avant d’entrer : la quantité de girls de The Wedge et d’opératifs de la Black Division dépend du nombre de joueurs, et une sortie unique ne pardonne pas un raid raté.</li>
+    <li><strong>Expérimenté.</strong> Organiser le chronomètre : la sortie par hélicoptère demande d’être en position, en hauteur, avec la fusée, avant que la durée du raid ne devienne un problème. Le patch 1.1.5.0 a d’ailleurs réduit l’expérience gagnée en éliminant Wedge, ses girls et les opératifs de la Black Division sur ce lieu. <a href="@source:bsg-1150@">Notes du patch 1.1.5.0</a>.</li>
+  </ol>
+  %%TABLE_MODES%%
+  %%TABLE_VARIANTES%%
+  <div class="map-path"><strong>Écarts entre profils</strong><span>Ce que les trois profils consultés changent sur ce lieu.</span></div>
+  %%TABLE_ECARTS%%
+</section>
+
+<section class="field-section map-section" id="sources" tabindex="-1">
+  <h2>Sources et limites</h2>
+  <p>Instantané communautaire des données de jeu, fiche publique du même jour, annonces officielles du 25 mai 2026 et patch 1.1.5.0. Le coût de 2 400 euros et le nom de zone « Klimov Street » proviennent de la fiche publique et sont signalés comme tels ; le premier n’a pas été vérifié dans le client, le second est une incohérence de rédaction de la fiche.</p>
+  <ul class="map-steps">
+    <li><a href="@source:Icebreaker@">Brise-glace — fiche de lieu</a> : lore, accès, clé et extraction.</li>
+    <li><a href="@source:bsg-boreas-x@">Annonce du 25 mai 2026</a> et <a href="@source:ice-patch@">discussion Steam</a> : ouverture du chapitre et du lieu.</li>
+    <li><a href="@source:bsg-1150@">Patch 1.1.5.0</a> : accès au lieu et expérience d’élimination.</li>
+    <li><a href="@source:data-maps@">Tarkov.dev — cartes et rencontres</a> : instantané du profil PvP Zone.</li>
+    <li><a href="@source:data-maps-fr@">Tarkov.dev — libellés français</a> : intitulés de sortie et de rencontre.</li>
+    <li><a href="@source:mapgenie@">MapGenie</a> et <a href="@source:kappa@">Kappa Guide</a> : aides de lecture communautaires.</li>
+  </ul>
+</section>

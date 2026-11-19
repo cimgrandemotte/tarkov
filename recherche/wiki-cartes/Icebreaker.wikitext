@@ -1,0 +1,142 @@
+{{Infobox location
+|image              =Icebreaker Banner.png
+|image size         =
+|icon               =
+|type               =
+|prev               =[[Lighthouse]]<br/>[[Shoreline]]
+|next               =
+|chapter            =
+|enemies            =[[Black Division]], [[Rogues]], [[The Wedge]], [[Knight]]
+|friendlies         =
+|players            =1-3 (only from own group)
+|difficulty         =
+|duration           =50 minutes
+|notable loot       =
+}}
+
+'''{{PAGENAME}}''' is a [[Map of Tarkov|location]] in ''[[Escape from Tarkov]]''. It is the thirteenth map that was added to the game.
+
+==Description==
+In the Gulf of Finland, trapped within the blockade surrounding Tarkov, lies the nuclear-powered icebreaker "Boreas", owned by the logistics corporation Paradigm Shipping. The exact purpose of "Boreas" and the cargo it carries remain unknown. It appears that Paradigm Shipping and TerraGroup made special efforts to minimize any mention of the icebreaker in the press and keep its routes and assignments classified.
+
+==Notes==
+* This location can initially only be entered through [[Transits|transiting]] from [[Lighthouse]] or [[Shoreline]] after unlocking it in the story chapter [[Boreas]]. The transits are located at the piers and require a [[Sudak-Tudak marine repair kit]].
+<li style="display: inline-block;"><gallery widths="300" heights="169" mode="packed">
+File:LighthouseTransitToIcebreakerMap.png|[[Lighthouse]] transit location marked on map
+File:LighthouseTransitToIcebreaker.png|The transit
+File:ShorelineTransitToIcebreakerMap.png|[[Shoreline]] transit location marked on map
+File:ShorelineTransitToIcebreaker.png|The transit
+</gallery></li>
+* Direct access from the location selection screen is unlocked upon completing the questline [[Stick to It]]. The requirement for a [[Sudak-Tudak marine repair kit]] still applies.
+* The number of encountered [[Black Division]] operatives and [[The Wedge]]'s followers depends on the number of players in the raid. Detailed numbers can be found on the [[Icebreaker#Maps|maps]] below.
+
+==Features==
+===Insurance===
+All insured items left in a raid by players will not be returned. Upon death, insurance [[Traders]] will send the usual in-game mail about dispatching people to recover the items, but when the insurance timer runs out they will explain that their people don't go to the location, didn't find it or died in the process.
+
+[[File:Icebreaker insurance message.png]]
+
+==Key Items==
+{| class="wikitable sortable"
+!Icon
+!Name
+|-
+![[File:BBQ-S43icon.png|link=BBQ-S43 gas torch]]
+|[[BBQ-S43 gas torch]]
+|-
+![[File:Boreas crew quarters keycard icon.png|link=Boreas crew quarters keycard]]
+|[[Boreas crew quarters keycard]]
+|-
+![[File:Boreas engine room keycard icon.png|link=Boreas engine room keycard]]
+|[[Boreas engine room keycard]]
+|-
+![[File: Compartment C-1 keycard icon.png|link=Compartment C-1 keycard]]
+|[[Compartment C-1 keycard]]
+|-
+![[File:Compartment C-3 keycard icon.png|link=Compartment C-3 keycard]]
+|[[Compartment C-3 keycard]]
+|-
+![[File:SZ-1 explosive charge icon.png|link=SZ-1 explosive charge (Icebreaker)|SZ-1 explosive charge]]
+|[[SZ-1 explosive charge (Icebreaker)|SZ-1 explosive charge]]
+|}
+
+==Bosses==
+{| class="wikitable sortable"
+!Name
+!Image
+!Location
+!Notable equipment
+!Followers
+|-
+|[[The Wedge]]
+![[File:The Wedge Portrait.png|frameless|140px|link=The Wedge]]
+|On level 3 in the gym
+|[[Spiritus Systems LV-119 Plate Carrier (MultiCam Black)]]<br/>[[TW EXFIL Peltor ComTac VI headset (Black)]]<br/>[[HK MP7 SureFire SF3P 4.6x30 flash hider]]<br/>[[HK MP7 FAB Defense ARS stock adapter]]<br/>[[FAB Defense FX-KPOS ARS stock]]
+|3-6 heavily armed and armored guards
+|-
+|[[Knight]]
+![[File:KnightPortrait.png|frameless|140px|link=Knight]]
+|On level 0
+|[[Death Knight mask]]<br/>[[Crye Precision CPC plate carrier (Goons Edition)]]<br/>[[Magnum Research Desert Eagle L6 .50 AE pistol (WTS)]]
+|2 [[Rogue]] guards
+|}
+
+==Extractions==
+{| class="wikitable sortable stickyheader" style="text-align: center;"
+!Extraction
+!Name
+!Faction
+!Always available
+!Single-Use
+!Requirements
+!Notes
+|-
+![[File:Helicopter.png|240px]]
+! style="text-align: left;" |Helicopter
+|PMC
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|Shoot a green flare '''into the sky''' while inside the signal flare area. If the flare doesn't reach a certain height, the helicopter '''won't''' come.<br/>Flares:<br/>[[RSP-30 reactive signal cartridge (Green)|Handheld RSP-30 green flare]]<br/>[[26x75mm flare cartridge (Green)|Signal pistol fired 26x75mm green flare]]
+[[File:2400 Euros icon.png|64x127px|link=Euros]] per player
+|Upon entering the signal flare area, a notification will pop up in the bottom right corner of the screen: [[File:KlimovStreetSignalAreaNote.png]]
+
+[[File:Helicopter2.png|240px]]<br/>The helicopter will arrive after a short period of time.
+|}
+
+==Maps==
+===Interactive Map===
+Click [[File:FS.png|link=]] for fullscreen. Separate map page [[Map:Icebreaker|here]].
+<interactive-map name="Icebreaker" width="800px"/>
+
+===2D Map===
+[[File:Icebreaker Map by re3mr.jpg|800px|link={{filepath:Icebreaker Map by re3mr.jpg}}]]
+
+==Gallery==
+<center>
+<li style="display: inline-block;"><gallery mode="slideshow">
+File:Icebreaker Showcase 1.png
+File:Icebreaker Showcase 2.png
+File:Icebreaker Showcase 3.png
+File:Icebreaker Showcase 4.png
+File:Icebreaker Showcase 5.png
+File:Icebreaker Showcase 6.png
+File:Icebreaker Showcase 7.png
+File:Icebreaker Showcase 8.png
+</gallery></li>
+</center>
+
+==Trivia==
+* This location is based on the Russian "Арктика" (Arktika) nuclear-powered icebreaker.
+* Initially, the icebreaker was called "Северный ветер" (North Wind) in concept art. In subsequent screenshots, the landing pad read "Сибирь" (Siberia). In the final trailer, the name was changed to "Борей" (Boreas). In ancient Greek mythology, Boreas is the personification of the stormy northern wind. Boreas was also considered the god of winter, descending from the cold mountains of Thrace, cooling the air with his icy breath.
+<li style="display: inline-block;"><gallery widths="300" heights="169" mode="packed">
+File:Icebreaker North Wind Name.png|"Северный ветер" (North Wind) early concept art
+File:Icebreaker Siberia Name.jpg|"Сибирь" (Siberia) late concept art
+File:Icebreaker Boreas Name.png|"Борей" (Boreas) in the teaser trailer
+</gallery></li>
+* During the "[[Events#Full_Speed_Ahead_(15_May_2026)|Full Speed Ahead]]" event, it becomes clear that the [[Rogues]] know about the icebreaker and where to find it, specifically somewhere off the coast of the Gulf of Finland, near [[Tarkov]]. This is revealed by [[Rogue intel maps]], which can be found on [[Knight]].
+
+{{Navbox locations}}
+[[Category:Locations]]
+
+[[fr:Brise-glace]]
+[[ru:Ледокол]]

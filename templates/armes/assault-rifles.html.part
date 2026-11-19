@@ -1,0 +1,53 @@
+<section class="field-section armes-section" id="reperes" tabindex="-1">
+  <h2>Repères de la famille</h2>
+  <p>Soixante-trois armes d’assaut : c’est la famille la plus large du catalogue, et de loin la plus travaillée par les joueurs. Elles se partagent en deux sous-familles de jeu, le fusil d’assaut et la carabine d’assaut, et couvrent onze calibres — du 5,45 x 39 mm au 12,7 x 55 mm, en passant par le .366 TKM et le 6,8 x 51 mm, deux calibres que l’on ne trouve que là.</p>
+  <p>Les mesures ci-dessous sont celles de l’arme nue, telles que l’export les publie. Elles servent à comparer les armes entre elles à configuration identique ; elles changent dès qu’une pièce est montée, et les presets publiés plus bas donnent ces valeurs modifiées.</p>
+  <div class="field-grid field-grid--three">
+    <div class="field-card"><p class="eyebrow">20 à 95</p><p><strong>Ergonomie.</strong> L’amplitude est large : la Steyr AUG A1 et sa version A3 occupent le haut du classement avec 95, tandis que le bas de la famille reste à 20. L’ergonomie conditionne la vitesse de manipulation et de visée.</p></div>
+    <div class="field-card"><p class="eyebrow">70 à 210</p><p><strong>Recul vertical.</strong> Le plus contenu de la famille est l’AS VAL, à 70, le SR-3M à 74 et le Desert Tech MDR à 79. Les valeurs hautes, autour de 210, demandent une maîtrise de la compensation.</p></div>
+    <div class="field-card"><p class="eyebrow">40 à 900</p><p><strong>Cadence.</strong> Entre la carabine monocoup la plus lente et les armes automatiques à 900 coups par minute, la famille couvre tout l’éventail du jeu.</p></div>
+  </div>
+  <div class="field-callout">
+    <p><strong>Le point commun de la famille.</strong> Le 5,56 x 45 mm NATO et le 5,45 x 39 mm couvrent à eux seuls trente-deux des soixante-trois armes. La question qui revient n’est donc pas « quel fusil d’assaut choisir » mais « quelle munition est disponible et à quel prix » : c’est ce que tranche la page sur la <a href="${root}pages/ammo/index.html">balistique</a>.</p>
+  </div>
+</section>
+
+<section class="field-section armes-section" id="catalogue" tabindex="-1">
+  <h2>Le catalogue de la famille</h2>
+  <p>Les soixante-trois armes d’assaut de l’export, avec leurs mesures à configuration de base et le nombre de munitions et de presets publiés pour chacune.</p>
+  %%TABLE_CATALOGUE%%
+  <p class="armes-note">La colonne <em>Munitions</em> indique le nombre de cartouches compatibles recensées pour cette arme dans le catalogue des munitions ; elle ne dit pas lesquelles sont achetables ni à quel prix. Le nombre de presets est la valeur relevée dans l’export, où chaque arme possède au moins son preset par défaut.</p>
+</section>
+
+<section class="field-section armes-section" id="presets" tabindex="-1">
+  <h2>Presets publiés</h2>
+  <p>Cent soixante-quatorze presets sont rattachés aux armes de cette famille, dont le preset par défaut de chacune. Le tableau ci-dessous reprend les presets publiés, avec leurs mesures propres : l’ergonomie, le recul et la précision de chaque configuration.</p>
+  %%TABLE_PRESETS%%
+  <p class="armes-note">La précision est exprimée en minutes d’angle : plus la valeur est basse, meilleure est la dispersion des tirs à une distance donnée. Ces valeurs sont celles du preset, pas celles de l’arme nue : un montage peut gagner vingt points d’ergonomie, mais aussi perdre du recul.</p>
+</section>
+
+<section class="field-section armes-section" id="acquisition" tabindex="-1">
+  <h2>Acquisition et disponibilité</h2>
+  <p>Douze armes de la famille sont proposées à la vente en magasin dans l’instantané, toutes chez le Mécanicien, une chez Skier. Ce sont les seules acquisitions guarantees : les autres sortent de raids, de tâches ou du marché, et rien dans l’export ne garantit leur disponibilité.</p>
+  %%TABLE_ACQUISITION%%
+  <p class="armes-note">Les prix indiqués sont ceux de l’offre marchande au 18 novembre 2026. Ils changent avec la date : un prix de magasin n’est pas un prix de marché, et la revente d’une arme achetée en magasin rapporte en général plus que le même article acheté aux enchères.</p>
+</section>
+
+<section class="field-section armes-section" id="conduite" tabindex="-1">
+  <h2>Comment s’équiper</h2>
+  <p>Trois repères pour arbitrer dans cette famille, à partir des chiffres du catalogue plutôt que des habitudes de forum.</p>
+  <ul class="armes-list">
+    <li><strong>Choisir d’abord le calibre, ensuite l’arme.</strong> La munition décide du résultat d’un duel : les dégâts au corps ne dépendent que de la cartouche. Une 5,56 x 45 mm avec du M855, une 5,45 x 39 mm avec du BSg, une 7,62 x 39 mm avec du PS : trois cartouches de la même famille peuvent produire trois résultats très différents. Le tableau des calibres de la page balistique donne la pénétration et les dégâts de chacune.</li>
+    <li><strong>Recul et cadence ne se corrigent pas l’un par l’autre.</strong> Le tableau croise les deux : l’AS VAL cumule 70 de recul et 650 de cadence, ce qui en fait une arme tenable en automatique ; le MDR descend à 79 de recul mais encaisse 590 de cadence. À l’inverse, les armes à 900 coups par minute de la famille sont celles qui demandent le plus de discipline de tir.</li>
+    <li><strong>Regarder le poids et la distance avant le prestige du modèle.</strong> Le SA-58 tient 900 mètres de distance efficace mais pèse 5,1 kg à configuration nue ; l’AS VAL descend à 2 kg. Sur un raid où l’on transporte son arme et son armure, la masse compte autant que la fiche.</li>
+  </ul>
+  <div class="field-callout">
+    <p><strong>Sur les presets.</strong> Un preset publié n’est pas un ensemble de pièces vendu dans le jeu : c’est une configuration décrite dans l’export, avec les mesures qu’elle produit. La compatibilité pièce par pièce ne se déduit pas du catalogue — elle se vérifie dans le client, sur l’arme concernée.</p>
+  </div>
+</section>
+
+<section class="field-section armes-section" id="sources" tabindex="-1">
+  <h2>Sources et limites</h2>
+  <p>Les mesures viennent de l’export communautaire du 18 novembre 2026, identique dans les trois profils de jeu. Les définitions de l’ergonomie, du recul et de la distance effective relèvent des notes de l’éditeur pour les correctifs 0.14.x ; les retours de joueurs sur le rééquilibrage de 2026 sont signalés comme opinions et ne servent jamais de source chiffrée.</p>
+  %%SOURCES_FAMILLE%%
+</section>

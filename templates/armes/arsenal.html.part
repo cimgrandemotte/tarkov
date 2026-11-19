@@ -1,0 +1,100 @@
+<section class="field-section armes-section" id="perimetre" tabindex="-1">
+  <h2>Ce que couvre cet arsenal</h2>
+  <p>Cette page recense l’intégralité des armes publiées par l’export communautaire du jeu, relevé le <strong>18 novembre 2026</strong>. Le catalogue n’est pas une sélection éditoriale : ce sont les cent quatre-vingt-dix-neuf armes que le jeu connaît, réparties en neuf familles de jeu et un catalogue de pièces. Les mesures citées sont celles de la configuration de base de chaque objet ; elles changent dès qu’une pièce est montée, et le guide le signale à chaque tableau de presets.</p>
+  <div class="field-grid field-grid--three">
+    <div class="field-card"><p class="eyebrow">199</p><p><strong>Armes.</strong> Du 9 x 18 au 12,7 x 99, du couteau de poche à la labrys de 19 kg. Les familles suivent les catégories d’objets du jeu, pas un classement de force.</p></div>
+    <div class="field-card"><p class="eyebrow">3</p><p><strong>Profils de jeu.</strong> PvP Zone, PvE Zone et PvP Season exposent le même catalogue à cette date : aucun écart de contenu n’a été relevé entre les trois.</p></div>
+    <div class="field-card"><p class="eyebrow">401</p><p><strong>Presets.</strong> Configurations publiées avec leurs propres mesures d’ergonomie, de recul et de précision, dont le preset par défaut de chaque arme.</p></div>
+  </div>
+  <div class="armes-note armes-note--warn">
+    <p><strong>Ce que cet arsenal ne dit pas.</strong> Les prix marchands et les niveaux de fidélité sont les valeurs de l’instantané, pas des prix garantis ni une preuve de disponibilité. Les compatibilités pièce par pièce ne figurent pas dans l’export : elles se vérifient dans le client, sur l’arme concernée. Les dégâts affichés dans les tableaux de munitions sont ceux de la cartouche seule, avant tout effet de distance, de canon ou d’armure.</p>
+  </div>
+</section>
+
+<section class="field-section armes-section" id="familles" tabindex="-1">
+  <h2>Les dix familles</h2>
+  <p>Chaque famille a sa fiche, avec le catalogue complet, les presets publiés et les conditions d’accès. Les effectifs viennent du même instantané que le catalogue : ils ne sont pas arrondis.</p>
+  <div class="armes-grid" data-armes-familles>
+%%GRILLE_FAMILLES%%
+  </div>
+</section>
+
+<section class="field-section armes-section" id="catalogue" tabindex="-1">
+  <h2>Le catalogue filtrable</h2>
+  <p>Les cent quatre-vingt-dix-neuf armes, avec leurs mesures à configuration de base. Les filtres ci-dessous agissent sur le tableau ; sans JavaScript, le tableau reste complet et lisible.</p>
+  <div class="armes-filters" role="search" aria-label="Filtrer le catalogue d’armes">
+    <div class="armes-filters__row">
+      <label class="field" for="armes-recherche"><span class="field__label">Rechercher une arme</span><input type="search" class="field__control" id="armes-recherche" data-armes-search placeholder="M4A1, AKM, Vector…" autocomplete="off"></label>
+      <label class="field" for="armes-famille"><span class="field__label">Famille</span><select class="field__control" id="armes-famille" data-armes-famille><option value="toutes">Toutes les familles</option></select></label>
+      <label class="field" for="armes-calibre"><span class="field__label">Calibre</span><select class="field__control" id="armes-calibre" data-armes-calibre><option value="tous">Tous les calibres</option></select></label>
+      <label class="field" for="armes-marchand"><span class="field__label">Disponibilité</span><select class="field__control" id="armes-marchand" data-armes-marchand><option value="toutes">Toutes</option><option value="oui">Vendues en magasin</option><option value="non">Sans offre en magasin</option></select></label>
+    </div>
+    <div class="armes-filters__row">
+      <label class="field" for="armes-ergonomie"><span class="field__label">Ergonomie minimale</span><input type="number" class="field__control" id="armes-ergonomie" data-armes-ergonomie min="0" max="100" step="1" placeholder="0" inputmode="numeric"></label>
+      <label class="field" for="armes-recul"><span class="field__label">Recul vertical maximal</span><input type="number" class="field__control" id="armes-recul" data-armes-recul min="0" step="1" placeholder="Sans limite" inputmode="numeric"></label>
+      <label class="field" for="armes-cadence"><span class="field__label">Cadence minimale</span><input type="number" class="field__control" id="armes-cadence" data-armes-cadence min="0" step="1" placeholder="0" inputmode="numeric"></label>
+      <p class="eyebrow" role="status" data-armes-compte>199 armes affichées sur 199</p>
+    </div>
+    <p class="armes-note">Les mesures affichées sont celles de l’arme nue. Un preset modifie l’ergonomie, le recul et la précision : le tableau des presets de chaque fiche de famille donne ces valeurs mesurées.</p>
+  </div>
+  %%TABLE_CATALOGUE%%
+  <noscript><p class="armes-note">Le tableau ci-dessus est complet et se lit sans JavaScript : les filtres ne font que masquer des lignes.</p></noscript>
+</section>
+
+<section class="field-section armes-section" id="comparateur" tabindex="-1">
+  <h2>Comparer trois armes</h2>
+  <p>Le comparateur oppose trois entrées ligne à ligne, sur les mêmes mesures et au même instantané. Il sert à trancher une question précise — « entre ce fusil à 900 de cadence et celui à 700, lequel est le plus docile ? » — et non à déclarer un vainqueur universel.</p>
+  <div class="armes-compare">
+    <div class="armes-compare__pickers">
+      <label class="field" for="armes-a"><span class="field__label">Première arme</span><select class="field__control" id="armes-a" data-armes-compare-a></select></label>
+      <label class="field" for="armes-b"><span class="field__label">Seconde arme</span><select class="field__control" id="armes-b" data-armes-compare-b></select></label>
+      <label class="field" for="armes-c"><span class="field__label">Troisième arme</span><select class="field__control" id="armes-c" data-armes-compare-c></select></label>
+    </div>
+    <p class="eyebrow" role="status" data-armes-compare-status>Sélectionnez jusqu’à trois armes.</p>
+    <div class="table-wrap" tabindex="0" role="group" aria-label="Comparaison de trois armes">
+      <table class="armes-table" data-armes-compare-table>
+        <caption>Comparaison ligne à ligne de trois armes de l’export.</caption>
+        <thead><tr><th scope="col">Indicateur</th></tr></thead>
+        <tbody data-armes-compare-corps></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="field-section armes-section" id="selections" tabindex="-1">
+  <h2>Sélections guidées par les données</h2>
+  <p>Quatre classements calculés directement sur l’export, sans intervention éditoriale. Ils répondent à des questions de gestion — quelle arme est la plus maniable, laquelle encaisse le mieux, laquelle tient le plus longtemps — mais ils ne disent rien de la qualité de la munition, qui décide du résultat d’un duel.</p>
+  <div class="field-grid field-grid--two">
+    <div>
+      <h3>Ergonomie la plus haute</h3>
+      <p class="field-copy">L’ergonomie conditionne la vitesse de visée et la manipulation. À configuration de base, huit armes dépassent le seuil affiché ci-dessous.</p>
+      %%TABLE_SELECTION%%
+    </div>
+    <div>
+      <h3>Recul vertical le plus faible</h3>
+      <p class="field-copy">À l’inverse, le recul vertical détermine l’amplitude du premier et du second tir. Ces huit armes sont les plus dociles à configuration nue.</p>
+      %%TABLE_RECUL%%
+    </div>
+    <div>
+      <h3>Cadence la plus élevée</h3>
+      <p class="field-copy">La cadence est le nombre de coups par minute publishés par le jeu. Elle fait le volume de feu, pas la précision : une cadence de 900 avec un recul vertical de 210 reste une arme difficile.</p>
+      %%TABLE_CADENCE%%
+    </div>
+    <div>
+      <h3>Distance efficace la plus longue</h3>
+      <p class="field-copy">La distance efficace publiée indique la portée à laquelle l’arme reste pleinement précise selon le jeu. C’est une mesure de catalogue, pas une garantie de tir réussi.</p>
+      %%TABLE_DISTANCE%%
+    </div>
+  </div>
+  <div class="armes-note">
+    <p><strong>Ce que ces classements ne couvrent pas.</strong> Ils portent sur l’arme nue. Une fois montée, une arme peut changer de position dans ces classements : c’est précisément l’objet des presets publiés, dont les mesures figurent sur chaque fiche de famille. Et aucune de ces listes ne dit quelle munition est la bonne : pour cela, il faut la page sur la <a href="../ammo/index.html">balistique</a>.</p>
+  </div>
+</section>
+
+<section class="field-section armes-section" id="sources" tabindex="-1">
+  <h2>Sources et limites</h2>
+  <p>Les chiffres viennent de l’export communautaire du jeu, relevé le 18 novembre 2026, et de la règle de pénétration publiée par l’éditeur dans le correctif 0.14.6.0. Les retours de joueurs sont signalés comme tels et ne sont jamais utilisés comme source de chiffres.</p>
+  %%SOURCES_ARSENAL%%
+</section>
+
+<script type="application/json" id="armes-donnees">%%JSON_ARSENAL%%</script>

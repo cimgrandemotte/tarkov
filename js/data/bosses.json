@@ -1,0 +1,8798 @@
+{
+ "schemaVersion": 1,
+ "genereLe": "2026-11-18",
+ "langue": "fr-FR",
+ "source": {
+  "export": "recherche/tarkov-dev/<mode>/maps.json",
+  "items": "recherche/tarkov-dev/regular/items.json",
+  "nature": "Export communautaire Tarkov.dev, relevé du 18 novembre 2026.",
+  "correspondance": "La colonne normalizedName de l’export porte le nom de jeu ; elle fonde le rattachement des identifiants bossBully, bossKojaniy, bossBoar et bossKnight aux fiches Reshala, Shturman, Kaban et The Goons."
+ },
+ "fiches": [
+  {
+   "slug": "reshala",
+   "titre": "Reshala",
+   "titreFr": "Reshala, le Marchand",
+   "nomJeu": "Reshala",
+   "famille": "scav",
+   "mobExport": "bossBully",
+   "mobsApparences": [
+    "bossBully"
+   ],
+   "nomsExport": [
+    "reshala"
+   ],
+   "pvTotal": 752,
+   "pv": [
+    {
+     "membre": "Poitrine",
+     "pv": 145,
+     "id": "Chest"
+    },
+    {
+     "membre": "Tête",
+     "pv": 62,
+     "id": "Head"
+    },
+    {
+     "membre": "Bras gauche",
+     "pv": 100,
+     "id": "LeftArm"
+    },
+    {
+     "membre": "Jambe gauche",
+     "pv": 110,
+     "id": "LeftLeg"
+    },
+    {
+     "membre": "Bras droit",
+     "pv": 100,
+     "id": "RightArm"
+    },
+    {
+     "membre": "Jambe droite",
+     "pv": 110,
+     "id": "RightLeg"
+    },
+    {
+     "membre": "Ventre",
+     "pv": 125,
+     "id": "Stomach"
+    }
+   ],
+   "membreLePlusResistant": "Poitrine",
+   "membreLePlusFaible": "Tête",
+   "portrait": "https://assets.tarkov.dev/reshala-portrait.webp",
+   "affiche": "https://assets.tarkov.dev/reshala-poster.webp",
+   "escortes": [
+    {
+     "id": "followerBully",
+     "nom": "Garde de Reshala",
+     "pvTotal": 630,
+     "pv": [
+      {
+       "membre": "Poitrine",
+       "pv": 140,
+       "id": "Chest"
+      },
+      {
+       "membre": "Tête",
+       "pv": 50,
+       "id": "Head"
+      },
+      {
+       "membre": "Bras gauche",
+       "pv": 80,
+       "id": "LeftArm"
+      },
+      {
+       "membre": "Jambe gauche",
+       "pv": 85,
+       "id": "LeftLeg"
+      },
+      {
+       "membre": "Bras droit",
+       "pv": 80,
+       "id": "RightArm"
+      },
+      {
+       "membre": "Jambe droite",
+       "pv": 85,
+       "id": "RightLeg"
+      },
+      {
+       "membre": "Ventre",
+       "pv": 110,
+       "id": "Stomach"
+      }
+     ]
+    }
+   ],
+   "apparitions": [
+    {
+     "carte": "customs",
+     "carteId": "56f40101d2720b2a4d8b45d6",
+     "chance": 0.75,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "ZoneDormitory",
+       "chance": 0.33,
+       "positions": 0,
+       "escortes": [
+        {
+         "mob": "followerBully",
+         "quantites": [
+          {
+           "chance": 0.25,
+           "nombre": 2
+          },
+          {
+           "chance": 0.25,
+           "nombre": 3
+          },
+          {
+           "chance": 0.5,
+           "nombre": 4
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "zone": "ZoneGasStation",
+       "chance": 0.33,
+       "positions": 0,
+       "escortes": [
+        {
+         "mob": "followerBully",
+         "quantites": [
+          {
+           "chance": 0.25,
+           "nombre": 2
+          },
+          {
+           "chance": 0.25,
+           "nombre": 3
+          },
+          {
+           "chance": 0.5,
+           "nombre": 4
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "zone": "ZoneScavBase",
+       "chance": 0.33,
+       "positions": 5,
+       "escortes": [
+        {
+         "mob": "followerBully",
+         "quantites": [
+          {
+           "chance": 0.25,
+           "nombre": 2
+          },
+          {
+           "chance": 0.25,
+           "nombre": 3
+          },
+          {
+           "chance": 0.5,
+           "nombre": 4
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "mob": "bossBully"
+    },
+    {
+     "carte": "customs",
+     "carteId": "56f40101d2720b2a4d8b45d6",
+     "chance": 0.6,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "ZoneDormitory",
+       "chance": 0.33,
+       "positions": 0,
+       "escortes": [
+        {
+         "mob": "followerBully",
+         "quantites": [
+          {
+           "chance": 0.25,
+           "nombre": 2
+          },
+          {
+           "chance": 0.25,
+           "nombre": 3
+          },
+          {
+           "chance": 0.5,
+           "nombre": 4
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "zone": "ZoneGasStation",
+       "chance": 0.33,
+       "positions": 0,
+       "escortes": [
+        {
+         "mob": "followerBully",
+         "quantites": [
+          {
+           "chance": 0.25,
+           "nombre": 2
+          },
+          {
+           "chance": 0.25,
+           "nombre": 3
+          },
+          {
+           "chance": 0.5,
+           "nombre": 4
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "zone": "ZoneScavBase",
+       "chance": 0.33,
+       "positions": 5,
+       "escortes": [
+        {
+         "mob": "followerBully",
+         "quantites": [
+          {
+           "chance": 0.25,
+           "nombre": 2
+          },
+          {
+           "chance": 0.25,
+           "nombre": 3
+          },
+          {
+           "chance": 0.5,
+           "nombre": 4
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "mob": "bossBully"
+    },
+    {
+     "carte": "customs",
+     "carteId": "56f40101d2720b2a4d8b45d6",
+     "chance": 0.6,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "ZoneDormitory",
+       "chance": 0.33,
+       "positions": 0,
+       "escortes": [
+        {
+         "mob": "followerBully",
+         "quantites": [
+          {
+           "chance": 0.25,
+           "nombre": 2
+          },
+          {
+           "chance": 0.25,
+           "nombre": 3
+          },
+          {
+           "chance": 0.5,
+           "nombre": 4
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "zone": "ZoneGasStation",
+       "chance": 0.33,
+       "positions": 0,
+       "escortes": [
+        {
+         "mob": "followerBully",
+         "quantites": [
+          {
+           "chance": 0.25,
+           "nombre": 2
+          },
+          {
+           "chance": 0.25,
+           "nombre": 3
+          },
+          {
+           "chance": 0.5,
+           "nombre": 4
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "zone": "ZoneScavBase",
+       "chance": 0.33,
+       "positions": 5,
+       "escortes": [
+        {
+         "mob": "followerBully",
+         "quantites": [
+          {
+           "chance": 0.25,
+           "nombre": 2
+          },
+          {
+           "chance": 0.25,
+           "nombre": 3
+          },
+          {
+           "chance": 0.5,
+           "nombre": 4
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "mob": "bossBully"
+    },
+    {
+     "carte": "terminal",
+     "carteId": "65cc8f81a9aac3e77d0cfd3e",
+     "chance": 0.2,
+     "declencheur": null,
+     "tempsApparition": 5690,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "Zone2ScavPort29",
+       "chance": 1,
+       "positions": 0,
+       "escortes": [
+        {
+         "mob": "followerBully",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 4
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "mob": "bossBully"
+    },
+    {
+     "carte": "terminal",
+     "carteId": "65cc8f81a9aac3e77d0cfd3e",
+     "chance": 0.2,
+     "declencheur": null,
+     "tempsApparition": 5902,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "Zone2ScavPort29",
+       "chance": 1,
+       "positions": 0,
+       "escortes": [
+        {
+         "mob": "followerBully",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 4
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "mob": "bossBully"
+    },
+    {
+     "carte": "terminal",
+     "carteId": "65cc8f81a9aac3e77d0cfd3e",
+     "chance": 0.2,
+     "declencheur": null,
+     "tempsApparition": 5790,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "Zone2ScavPort29",
+       "chance": 1,
+       "positions": 0,
+       "escortes": [
+        {
+         "mob": "followerBully",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 4
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "mob": "bossBully"
+    }
+   ],
+   "equipement": {
+    "protections": [
+     {
+      "id": "61c18d83b00456371a66814b",
+      "nom": "Lunettes de soudure",
+      "slot": "Eyewear",
+      "slotFr": "Protection oculaire",
+      "categorie": "Protection oculaire"
+     },
+     {
+      "id": "5aa2b9ede5b5b000137b758b",
+      "nom": "Chapeau de cowboy",
+      "slot": "Headwear",
+      "slotFr": "Couvre-chef",
+      "categorie": "Casque"
+     }
+    ],
+    "armes": [
+     {
+      "id": "5c488a752e221602b412af63",
+      "nom": "Fusil d'assaut Desert Tech MDR 5,56 x 45 mm",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "5b3b713c5acfc4330140bd8d",
+      "nom": "Pistolet TT-33 7,62 x 25 mm (doré)",
+      "slot": "Holster",
+      "slotFr": "Pistolet",
+      "categorie": "Arme"
+     },
+     {
+      "id": "628b9c37a733087d0d7fe84b",
+      "nom": "Carabine SAG AK-545 Courte 5,45 x 39 mm",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "58948c8e86f77409493f7266",
+      "nom": "Pistolet-mitrailleur SIG MPX 9 x 19 mm",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "606dae0ab0e443224b421bb7",
+      "nom": "Fusil semi-automatique MP-155 calibre 12",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "6680304edadb7aa61d00cef0",
+      "nom": "Pistolet-mitrailleur IWI UZI PRO Pistol 9 x 19 mm",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "5ac66d015acfc400180ae6e4",
+      "nom": "Fusil d'assaut AK-102 5,56 x 45 mm",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "5ac66cb05acfc40198510a10",
+      "nom": "Fusil d'assaut AK-101 5,56 x 45 mm",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "68a639748e1fe612970728e9",
+      "nom": "Colt M16A1 5.56x45 assault rifle",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "5ac66d9b5acfc4001633997a",
+      "nom": "Fusil d'assaut AK-105 5,45 x 39 mm",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "60339954d62c9b14ed777c06",
+      "nom": "Carabine Soyuz-TM STM-9 Gen.2 9 x 19 mm",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     }
+    ],
+    "sacs": []
+   },
+   "loot": [
+    {
+     "id": "590c678286f77426c9660122",
+     "nom": "Kit de premiers secours individuel IFAK",
+     "prevalence": 99.7,
+     "difficulte": "normal",
+     "types": [
+      "meds",
+      "provisions"
+     ]
+    },
+    {
+     "id": "5783c43d2459774bbe137486",
+     "nom": "Portefeuille simple",
+     "prevalence": 78.89,
+     "difficulte": "normal",
+     "types": [
+      "barter",
+      "container"
+     ]
+    },
+    {
+     "id": "68e95f4fa4a577e907015787",
+     "nom": "Clé du baraquement de Reshala",
+     "prevalence": 12.64,
+     "difficulte": "normal",
+     "types": [
+      "keys"
+     ]
+    },
+    {
+     "id": "5449016a4bdc2d6f028b456f",
+     "nom": "Roubles",
+     "prevalence": 11.31,
+     "difficulte": "normal",
+     "types": [
+      "noFlea"
+     ]
+    },
+    {
+     "id": "569668774bdc2da2298b4568",
+     "nom": "Euros",
+     "prevalence": 11.29,
+     "difficulte": "normal",
+     "types": [
+      "noFlea"
+     ]
+    },
+    {
+     "id": "5c94bbff86f7747ee735c08f",
+     "nom": "Carte d'accès TerraGroup Labs",
+     "prevalence": 2.06,
+     "difficulte": "normal",
+     "types": [
+      "keys"
+     ]
+    },
+    {
+     "id": "57347baf24597738002c6178",
+     "nom": "Barrette de mémoire",
+     "prevalence": 0.92,
+     "difficulte": "normal",
+     "types": [
+      "barter"
+     ]
+    },
+    {
+     "id": "59faff1d86f7746c51718c9c",
+     "nom": "Bitcoin physique",
+     "prevalence": 0.91,
+     "difficulte": "normal",
+     "types": [
+      "barter",
+      "noFlea"
+     ]
+    },
+    {
+     "id": "5938603e86f77435642354f4",
+     "nom": "Clé de la chambre 206 du dortoir",
+     "prevalence": 0.17,
+     "difficulte": "normal",
+     "types": [
+      "keys"
+     ]
+    },
+    {
+     "id": "5780cf942459777df90dcb72",
+     "nom": "Clé de la chambre 214 du dortoir",
+     "prevalence": 0.13,
+     "difficulte": "normal",
+     "types": [
+      "keys"
+     ]
+    },
+    {
+     "id": "593aa4be86f77457f56379f8",
+     "nom": "Clé de la chambre 303 du dortoir",
+     "prevalence": 0.11,
+     "difficulte": "normal",
+     "types": [
+      "keys"
+     ]
+    },
+    {
+     "id": "658199972dc4e60f6d556a2f",
+     "nom": "Clé de la réserve du parking souterrain",
+     "prevalence": 0.11,
+     "difficulte": "normal",
+     "types": [
+      "keys"
+     ]
+    }
+   ],
+   "nbObjetsLoot": 210
+  },
+  {
+   "slug": "killa",
+   "titre": "Killa",
+   "titreFr": "Killa",
+   "nomJeu": "Killa",
+   "famille": "scav",
+   "mobExport": "bossKilla",
+   "mobsApparences": [
+    "bossKilla"
+   ],
+   "nomsExport": [
+    "killa"
+   ],
+   "pvTotal": 890,
+   "pv": [
+    {
+     "membre": "Poitrine",
+     "pv": 210,
+     "id": "Chest"
+    },
+    {
+     "membre": "Tête",
+     "pv": 70,
+     "id": "Head"
+    },
+    {
+     "membre": "Bras gauche",
+     "pv": 100,
+     "id": "LeftArm"
+    },
+    {
+     "membre": "Jambe gauche",
+     "pv": 120,
+     "id": "LeftLeg"
+    },
+    {
+     "membre": "Bras droit",
+     "pv": 100,
+     "id": "RightArm"
+    },
+    {
+     "membre": "Jambe droite",
+     "pv": 120,
+     "id": "RightLeg"
+    },
+    {
+     "membre": "Ventre",
+     "pv": 170,
+     "id": "Stomach"
+    }
+   ],
+   "membreLePlusResistant": "Poitrine",
+   "membreLePlusFaible": "Tête",
+   "portrait": "https://assets.tarkov.dev/killa-portrait.png",
+   "affiche": "https://assets.tarkov.dev/killa-poster.jpg",
+   "escortes": [],
+   "apparitions": [
+    {
+     "carte": "interchange",
+     "carteId": "5714dbc024597771384a510d",
+     "chance": 0.75,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "ZoneCenterBot",
+       "chance": 0.4,
+       "positions": 2,
+       "escortes": []
+      },
+      {
+       "zone": "ZoneOLI",
+       "chance": 0.2,
+       "positions": 1,
+       "escortes": []
+      },
+      {
+       "zone": "ZoneIDEA",
+       "chance": 0.2,
+       "positions": 10,
+       "escortes": []
+      },
+      {
+       "zone": "ZoneGoshan",
+       "chance": 0.2,
+       "positions": 1,
+       "escortes": []
+      }
+     ],
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "mob": "bossKilla"
+    },
+    {
+     "carte": "interchange",
+     "carteId": "5714dbc024597771384a510d",
+     "chance": 0.6,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "ZoneCenterBot",
+       "chance": 0.4,
+       "positions": 2,
+       "escortes": []
+      },
+      {
+       "zone": "ZoneOLI",
+       "chance": 0.2,
+       "positions": 1,
+       "escortes": []
+      },
+      {
+       "zone": "ZoneIDEA",
+       "chance": 0.2,
+       "positions": 10,
+       "escortes": []
+      },
+      {
+       "zone": "ZoneGoshan",
+       "chance": 0.2,
+       "positions": 1,
+       "escortes": []
+      }
+     ],
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "mob": "bossKilla"
+    },
+    {
+     "carte": "interchange",
+     "carteId": "5714dbc024597771384a510d",
+     "chance": 0.6,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "ZoneCenterBot",
+       "chance": 0.4,
+       "positions": 2,
+       "escortes": []
+      },
+      {
+       "zone": "ZoneOLI",
+       "chance": 0.2,
+       "positions": 1,
+       "escortes": []
+      },
+      {
+       "zone": "ZoneIDEA",
+       "chance": 0.2,
+       "positions": 10,
+       "escortes": []
+      },
+      {
+       "zone": "ZoneGoshan",
+       "chance": 0.2,
+       "positions": 1,
+       "escortes": []
+      }
+     ],
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "mob": "bossKilla"
+    },
+    {
+     "carte": "terminal",
+     "carteId": "65cc8f81a9aac3e77d0cfd3e",
+     "chance": 0.2,
+     "declencheur": null,
+     "tempsApparition": 5690,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "Zone2ScavPort29",
+       "chance": 1,
+       "positions": 0,
+       "escortes": []
+      }
+     ],
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "mob": "bossKilla"
+    },
+    {
+     "carte": "terminal",
+     "carteId": "65cc8f81a9aac3e77d0cfd3e",
+     "chance": 0.2,
+     "declencheur": null,
+     "tempsApparition": 5902,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "Zone2ScavPort29",
+       "chance": 1,
+       "positions": 0,
+       "escortes": []
+      }
+     ],
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "mob": "bossKilla"
+    },
+    {
+     "carte": "terminal",
+     "carteId": "65cc8f81a9aac3e77d0cfd3e",
+     "chance": 0.2,
+     "declencheur": null,
+     "tempsApparition": 5790,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "Zone2ScavPort29",
+       "chance": 1,
+       "positions": 0,
+       "escortes": []
+      }
+     ],
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "mob": "bossKilla"
+    }
+   ],
+   "equipement": {
+    "protections": [
+     {
+      "id": "5ca20abf86f77418567a43f2",
+      "nom": "Harnais tactique Dynaforce Triton M43-A (noir)",
+      "slot": "TacticalVest",
+      "slotFr": "Gilet tactique",
+      "categorie": "Gilet tactique"
+     },
+     {
+      "id": "5c0e874186f7745dc7616606",
+      "nom": "Casque pare-balles Maska-1Sch (édition Killa)",
+      "slot": "Headwear",
+      "slotFr": "Couvre-chef",
+      "categorie": "Casque"
+     },
+     {
+      "id": "5c0e541586f7747fa54205c9",
+      "nom": "Gilet d'assaut pare-balles 6B13 M (édition Killa)",
+      "slot": "ArmorVest",
+      "slotFr": "Gilet pare-balles",
+      "categorie": "Gilet pare-balles"
+     },
+     {
+      "id": "656f611f94b480b8a500c0db",
+      "nom": "Plaque balistique Granit 4 (avant)",
+      "slot": "Front_plate",
+      "slotFr": "Plaque avant",
+      "categorie": "Plaque de blindage"
+     },
+     {
+      "id": "656efaf54772930db4031ff5",
+      "nom": "Plaques balistiques Granit 4 (arrière)",
+      "slot": "Back_plate",
+      "slotFr": "Plaque arrière",
+      "categorie": "Plaque de blindage"
+     }
+    ],
+    "armes": [
+     {
+      "id": "5beed0f50db834001c062b12",
+      "nom": "Fusil-mitrailleur RPK-16 5,45 x 39 mm",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "571a12c42459771f627b58a0",
+      "nom": "Pistolet TT-33 7,62 x 25 mm",
+      "slot": "Holster",
+      "slotFr": "Pistolet",
+      "categorie": "Arme"
+     },
+     {
+      "id": "59ff346386f77477562ff5e2",
+      "nom": "Fusil d'assaut Kalashnikov AKMS 7,62 x 39 mm",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "59984ab886f7743e98271174",
+      "nom": "Pistolet-mitrailleur PP-19-01 \"Vityaz\" 9 x 19 mm",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     }
+    ],
+    "sacs": []
+   },
+   "loot": [
+    {
+     "id": "544fb45d4bdc2dee738b4568",
+     "nom": "Kit de premiers secours Salewa",
+     "prevalence": 100,
+     "difficulte": "normal",
+     "types": [
+      "meds",
+      "provisions"
+     ]
+    },
+    {
+     "id": "544fb3f34bdc2d03748b456a",
+     "nom": "Injecteur de morphine",
+     "prevalence": 80.24,
+     "difficulte": "normal",
+     "types": [
+      "injectors",
+      "meds",
+      "provisions"
+     ]
+    },
+    {
+     "id": "6900a54ae85e475e590c96be",
+     "nom": "Interchange underground utility plan",
+     "prevalence": 72.04,
+     "difficulte": "normal",
+     "types": [
+      "noFlea"
+     ]
+    },
+    {
+     "id": "57514643245977207f2c2d09",
+     "nom": "Canette de soda TarCola",
+     "prevalence": 47.03,
+     "difficulte": "normal",
+     "types": [
+      "provisions"
+     ]
+    },
+    {
+     "id": "5755383e24597772cb798966",
+     "nom": "Vaseline",
+     "prevalence": 35.6,
+     "difficulte": "normal",
+     "types": [
+      "meds",
+      "provisions"
+     ]
+    },
+    {
+     "id": "5c94bbff86f7747ee735c08f",
+     "nom": "Carte d'accès TerraGroup Labs",
+     "prevalence": 4.7,
+     "difficulte": "normal",
+     "types": [
+      "keys"
+     ]
+    },
+    {
+     "id": "57347baf24597738002c6178",
+     "nom": "Barrette de mémoire",
+     "prevalence": 4.48,
+     "difficulte": "normal",
+     "types": [
+      "barter"
+     ]
+    },
+    {
+     "id": "544fb37f4bdc2dee738b4567",
+     "nom": "Antidouleurs Analgin",
+     "prevalence": 0.77,
+     "difficulte": "normal",
+     "types": [
+      "meds",
+      "provisions"
+     ]
+    },
+    {
+     "id": "5938603e86f77435642354f4",
+     "nom": "Clé de la chambre 206 du dortoir",
+     "prevalence": 0.7,
+     "difficulte": "normal",
+     "types": [
+      "keys"
+     ]
+    },
+    {
+     "id": "5780cf942459777df90dcb72",
+     "nom": "Clé de la chambre 214 du dortoir",
+     "prevalence": 0.57,
+     "difficulte": "normal",
+     "types": [
+      "keys"
+     ]
+    },
+    {
+     "id": "593aa4be86f77457f56379f8",
+     "nom": "Clé de la chambre 303 du dortoir",
+     "prevalence": 0.47,
+     "difficulte": "normal",
+     "types": [
+      "keys"
+     ]
+    },
+    {
+     "id": "658199972dc4e60f6d556a2f",
+     "nom": "Clé de la réserve du parking souterrain",
+     "prevalence": 0.47,
+     "difficulte": "normal",
+     "types": [
+      "keys"
+     ]
+    }
+   ],
+   "nbObjetsLoot": 228
+  },
+  {
+   "slug": "shturman",
+   "titre": "Shturman",
+   "titreFr": "Shturman",
+   "nomJeu": "Shturman",
+   "famille": "scav",
+   "mobExport": "bossKojaniy",
+   "mobsApparences": [
+    "bossKojaniy"
+   ],
+   "nomsExport": [
+    "shturman"
+   ],
+   "pvTotal": 812,
+   "pv": [
+    {
+     "membre": "Poitrine",
+     "pv": 180,
+     "id": "Chest"
+    },
+    {
+     "membre": "Tête",
+     "pv": 62,
+     "id": "Head"
+    },
+    {
+     "membre": "Bras gauche",
+     "pv": 100,
+     "id": "LeftArm"
+    },
+    {
+     "membre": "Jambe gauche",
+     "pv": 110,
+     "id": "LeftLeg"
+    },
+    {
+     "membre": "Bras droit",
+     "pv": 100,
+     "id": "RightArm"
+    },
+    {
+     "membre": "Jambe droite",
+     "pv": 110,
+     "id": "RightLeg"
+    },
+    {
+     "membre": "Ventre",
+     "pv": 150,
+     "id": "Stomach"
+    }
+   ],
+   "membreLePlusResistant": "Poitrine",
+   "membreLePlusFaible": "Tête",
+   "portrait": "https://assets.tarkov.dev/shturman-portrait.png",
+   "affiche": "https://assets.tarkov.dev/shturman-poster.jpg",
+   "escortes": [
+    {
+     "id": "followerKojaniy",
+     "nom": "Garde de Shturman",
+     "pvTotal": 740,
+     "pv": [
+      {
+       "membre": "Poitrine",
+       "pv": 138,
+       "id": "Chest"
+      },
+      {
+       "membre": "Tête",
+       "pv": 62,
+       "id": "Head"
+      },
+      {
+       "membre": "Bras gauche",
+       "pv": 100,
+       "id": "LeftArm"
+      },
+      {
+       "membre": "Jambe gauche",
+       "pv": 110,
+       "id": "LeftLeg"
+      },
+      {
+       "membre": "Bras droit",
+       "pv": 100,
+       "id": "RightArm"
+      },
+      {
+       "membre": "Jambe droite",
+       "pv": 110,
+       "id": "RightLeg"
+      },
+      {
+       "membre": "Ventre",
+       "pv": 120,
+       "id": "Stomach"
+      }
+     ]
+    }
+   ],
+   "apparitions": [
+    {
+     "carte": "woods",
+     "carteId": "5704e3c2d2720bac5b8b4567",
+     "chance": 0.75,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "ZoneWoodCutter",
+       "chance": 1,
+       "positions": 12,
+       "escortes": [
+        {
+         "mob": "followerKojaniy",
+         "quantites": [
+          {
+           "chance": 0.25,
+           "nombre": 2
+          },
+          {
+           "chance": 0.5,
+           "nombre": 3
+          },
+          {
+           "chance": 0.25,
+           "nombre": 4
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "mob": "bossKojaniy"
+    },
+    {
+     "carte": "woods",
+     "carteId": "5704e3c2d2720bac5b8b4567",
+     "chance": 0.6,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "ZoneWoodCutter",
+       "chance": 1,
+       "positions": 12,
+       "escortes": [
+        {
+         "mob": "followerKojaniy",
+         "quantites": [
+          {
+           "chance": 0.25,
+           "nombre": 2
+          },
+          {
+           "chance": 0.5,
+           "nombre": 3
+          },
+          {
+           "chance": 0.25,
+           "nombre": 4
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "mob": "bossKojaniy"
+    },
+    {
+     "carte": "woods",
+     "carteId": "5704e3c2d2720bac5b8b4567",
+     "chance": 0.6,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "ZoneWoodCutter",
+       "chance": 1,
+       "positions": 12,
+       "escortes": [
+        {
+         "mob": "followerKojaniy",
+         "quantites": [
+          {
+           "chance": 0.25,
+           "nombre": 2
+          },
+          {
+           "chance": 0.5,
+           "nombre": 3
+          },
+          {
+           "chance": 0.25,
+           "nombre": 4
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "mob": "bossKojaniy"
+    }
+   ],
+   "equipement": {
+    "protections": [],
+    "armes": [
+     {
+      "id": "6176aca650224f204c1da3fb",
+      "nom": "Fusil de précision semi-automatique HK G28 7,62 x 51 mm",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "5ac66d9b5acfc4001633997a",
+      "nom": "Fusil d'assaut AK-105 5,45 x 39 mm",
+      "slot": "SecondPrimaryWeapon",
+      "slotFr": "Arme secondaire",
+      "categorie": "Arme"
+     },
+     {
+      "id": "5c46fbd72e2216398b5a8c9c",
+      "nom": "Fusil de précision semi-automatique SVDS 7,62 x 54 mm R",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     }
+    ],
+    "sacs": [
+     {
+      "id": "56e335e4d2720b6c058b456d",
+      "nom": "Sac à dos Scav",
+      "slot": "Backpack",
+      "slotFr": "Sac à dos",
+      "categorie": "Sac à dos"
+     },
+     {
+      "id": "618cfae774bb2d036a049e7c",
+      "nom": "Sac à dos LBT-1476A 3Day (Woodland)",
+      "slot": "Backpack",
+      "slotFr": "Sac à dos",
+      "categorie": "Sac à dos"
+     },
+     {
+      "id": "5ca20d5986f774331e7c9602",
+      "nom": "Sac à dos WARTECH Berkut BB-102 (A-TACS FG)",
+      "slot": "Backpack",
+      "slotFr": "Sac à dos",
+      "categorie": "Sac à dos"
+     },
+     {
+      "id": "5c0e805e86f774683f3dd637",
+      "nom": "Sac à dos tactique 3V Gear Paratus 3 jours (Foliage Grey)",
+      "slot": "Backpack",
+      "slotFr": "Sac à dos",
+      "categorie": "Sac à dos"
+     }
+    ]
+   },
+   "loot": [
+    {
+     "id": "5d08d21286f774736e7c94c3",
+     "nom": "Clé de la cache de Shturman",
+     "prevalence": 100,
+     "difficulte": "normal",
+     "types": [
+      "keys"
+     ]
+    },
+    {
+     "id": "590c678286f77426c9660122",
+     "nom": "Kit de premiers secours individuel IFAK",
+     "prevalence": 100,
+     "difficulte": "normal",
+     "types": [
+      "meds",
+      "provisions"
+     ]
+    },
+    {
+     "id": "675aaa9a3107dac100063331",
+     "nom": "Carte du champ de mines (bois)",
+     "prevalence": 80.2,
+     "difficulte": "normal",
+     "types": [
+      "noFlea"
+     ]
+    },
+    {
+     "id": "57347baf24597738002c6178",
+     "nom": "Barrette de mémoire",
+     "prevalence": 5.99,
+     "difficulte": "normal",
+     "types": [
+      "barter"
+     ]
+    },
+    {
+     "id": "5c94bbff86f7747ee735c08f",
+     "nom": "Carte d'accès TerraGroup Labs",
+     "prevalence": 5.7,
+     "difficulte": "normal",
+     "types": [
+      "keys"
+     ]
+    },
+    {
+     "id": "5bc9bdb8d4351e003562b8a1",
+     "nom": "Badge en argent",
+     "prevalence": 1.94,
+     "difficulte": "normal",
+     "types": [
+      "barter"
+     ]
+    },
+    {
+     "id": "57347c77245977448d35f6e2",
+     "nom": "Écrous",
+     "prevalence": 1.12,
+     "difficulte": "normal",
+     "types": [
+      "barter"
+     ]
+    },
+    {
+     "id": "57347c5b245977448d35f6e1",
+     "nom": "Vis",
+     "prevalence": 1.11,
+     "difficulte": "normal",
+     "types": [
+      "barter"
+     ]
+    },
+    {
+     "id": "573475fb24597737fb1379e1",
+     "nom": "Cigarettes Apollo Soyuz",
+     "prevalence": 1.03,
+     "difficulte": "normal",
+     "types": [
+      "barter"
+     ]
+    },
+    {
+     "id": "573476d324597737da2adc13",
+     "nom": "Cigarettes Malboro",
+     "prevalence": 0.94,
+     "difficulte": "normal",
+     "types": [
+      "barter"
+     ]
+    },
+    {
+     "id": "61bf7b6302b3924be92fa8c3",
+     "nom": "Pièces détachées métalliques",
+     "prevalence": 0.94,
+     "difficulte": "normal",
+     "types": [
+      "barter"
+     ]
+    },
+    {
+     "id": "5c13cef886f774072e618e82",
+     "nom": "Papier toilette",
+     "prevalence": 0.85,
+     "difficulte": "normal",
+     "types": [
+      "barter"
+     ]
+    }
+   ],
+   "nbObjetsLoot": 657
+  },
+  {
+   "slug": "glukhar",
+   "titre": "Glukhar",
+   "titreFr": "Glukhar",
+   "nomJeu": "Glukhar",
+   "famille": "scav",
+   "mobExport": "bossGluhar",
+   "mobsApparences": [
+    "bossGluhar"
+   ],
+   "nomsExport": [
+    "glukhar"
+   ],
+   "pvTotal": 1010,
+   "pv": [
+    {
+     "membre": "Poitrine",
+     "pv": 220,
+     "id": "Chest"
+    },
+    {
+     "membre": "Tête",
+     "pv": 70,
+     "id": "Head"
+    },
+    {
+     "membre": "Bras gauche",
+     "pv": 145,
+     "id": "LeftArm"
+    },
+    {
+     "membre": "Jambe gauche",
+     "pv": 145,
+     "id": "LeftLeg"
+    },
+    {
+     "membre": "Bras droit",
+     "pv": 145,
+     "id": "RightArm"
+    },
+    {
+     "membre": "Jambe droite",
+     "pv": 145,
+     "id": "RightLeg"
+    },
+    {
+     "membre": "Ventre",
+     "pv": 140,
+     "id": "Stomach"
+    }
+   ],
+   "membreLePlusResistant": "Poitrine",
+   "membreLePlusFaible": "Tête",
+   "portrait": "https://assets.tarkov.dev/glukhar-portrait.png",
+   "affiche": "https://assets.tarkov.dev/glukhar-poster.jpg",
+   "escortes": [
+    {
+     "id": "followerGluharAssault",
+     "nom": "Garde d’assaut de Glukhar",
+     "pvTotal": 760,
+     "pv": [
+      {
+       "membre": "Poitrine",
+       "pv": 150,
+       "id": "Chest"
+      },
+      {
+       "membre": "Tête",
+       "pv": 45,
+       "id": "Head"
+      },
+      {
+       "membre": "Bras gauche",
+       "pv": 100,
+       "id": "LeftArm"
+      },
+      {
+       "membre": "Jambe gauche",
+       "pv": 120,
+       "id": "LeftLeg"
+      },
+      {
+       "membre": "Bras droit",
+       "pv": 100,
+       "id": "RightArm"
+      },
+      {
+       "membre": "Jambe droite",
+       "pv": 120,
+       "id": "RightLeg"
+      },
+      {
+       "membre": "Ventre",
+       "pv": 125,
+       "id": "Stomach"
+      }
+     ]
+    },
+    {
+     "id": "followerGluharSecurity",
+     "nom": "Garde de sécurité de Glukhar",
+     "pvTotal": 806,
+     "pv": [
+      {
+       "membre": "Poitrine",
+       "pv": 180,
+       "id": "Chest"
+      },
+      {
+       "membre": "Tête",
+       "pv": 41,
+       "id": "Head"
+      },
+      {
+       "membre": "Bras gauche",
+       "pv": 115,
+       "id": "LeftArm"
+      },
+      {
+       "membre": "Jambe gauche",
+       "pv": 115,
+       "id": "LeftLeg"
+      },
+      {
+       "membre": "Bras droit",
+       "pv": 115,
+       "id": "RightArm"
+      },
+      {
+       "membre": "Jambe droite",
+       "pv": 115,
+       "id": "RightLeg"
+      },
+      {
+       "membre": "Ventre",
+       "pv": 125,
+       "id": "Stomach"
+      }
+     ]
+    },
+    {
+     "id": "followerGluharScout",
+     "nom": "Éclaireur de Glukhar",
+     "pvTotal": 580,
+     "pv": [
+      {
+       "membre": "Poitrine",
+       "pv": 140,
+       "id": "Chest"
+      },
+      {
+       "membre": "Tête",
+       "pv": 40,
+       "id": "Head"
+      },
+      {
+       "membre": "Bras gauche",
+       "pv": 70,
+       "id": "LeftArm"
+      },
+      {
+       "membre": "Jambe gauche",
+       "pv": 80,
+       "id": "LeftLeg"
+      },
+      {
+       "membre": "Bras droit",
+       "pv": 70,
+       "id": "RightArm"
+      },
+      {
+       "membre": "Jambe droite",
+       "pv": 80,
+       "id": "RightLeg"
+      },
+      {
+       "membre": "Ventre",
+       "pv": 100,
+       "id": "Stomach"
+      }
+     ]
+    }
+   ],
+   "apparitions": [
+    {
+     "carte": "reserve",
+     "carteId": "5704e5fad2720bc05b8b4567",
+     "chance": 0.6,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "ZoneRailStrorage",
+       "chance": 0.25,
+       "positions": 13,
+       "escortes": [
+        {
+         "mob": "followerGluharAssault",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        },
+        {
+         "mob": "followerGluharSecurity",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        },
+        {
+         "mob": "followerGluharScout",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "zone": "ZonePTOR2",
+       "chance": 0.25,
+       "positions": 1,
+       "escortes": [
+        {
+         "mob": "followerGluharAssault",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        },
+        {
+         "mob": "followerGluharSecurity",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        },
+        {
+         "mob": "followerGluharScout",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "zone": "ZoneBarrack",
+       "chance": 0.25,
+       "positions": 2,
+       "escortes": [
+        {
+         "mob": "followerGluharAssault",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        },
+        {
+         "mob": "followerGluharSecurity",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        },
+        {
+         "mob": "followerGluharScout",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "zone": "ZoneSubStorage",
+       "chance": 0.25,
+       "positions": 1,
+       "escortes": [
+        {
+         "mob": "followerGluharAssault",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        },
+        {
+         "mob": "followerGluharSecurity",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        },
+        {
+         "mob": "followerGluharScout",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "mob": "bossGluhar"
+    },
+    {
+     "carte": "reserve",
+     "carteId": "5704e5fad2720bc05b8b4567",
+     "chance": 0.6,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "ZoneRailStrorage",
+       "chance": 0.25,
+       "positions": 13,
+       "escortes": [
+        {
+         "mob": "followerGluharAssault",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        },
+        {
+         "mob": "followerGluharSecurity",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        },
+        {
+         "mob": "followerGluharScout",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "zone": "ZonePTOR2",
+       "chance": 0.25,
+       "positions": 1,
+       "escortes": [
+        {
+         "mob": "followerGluharAssault",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        },
+        {
+         "mob": "followerGluharSecurity",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        },
+        {
+         "mob": "followerGluharScout",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "zone": "ZoneBarrack",
+       "chance": 0.25,
+       "positions": 2,
+       "escortes": [
+        {
+         "mob": "followerGluharAssault",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        },
+        {
+         "mob": "followerGluharSecurity",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        },
+        {
+         "mob": "followerGluharScout",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "zone": "ZoneSubStorage",
+       "chance": 0.25,
+       "positions": 1,
+       "escortes": [
+        {
+         "mob": "followerGluharAssault",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        },
+        {
+         "mob": "followerGluharSecurity",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        },
+        {
+         "mob": "followerGluharScout",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "mob": "bossGluhar"
+    },
+    {
+     "carte": "reserve",
+     "carteId": "5704e5fad2720bc05b8b4567",
+     "chance": 0.6,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "ZoneRailStrorage",
+       "chance": 0.25,
+       "positions": 13,
+       "escortes": [
+        {
+         "mob": "followerGluharAssault",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        },
+        {
+         "mob": "followerGluharSecurity",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        },
+        {
+         "mob": "followerGluharScout",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "zone": "ZonePTOR2",
+       "chance": 0.25,
+       "positions": 1,
+       "escortes": [
+        {
+         "mob": "followerGluharAssault",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        },
+        {
+         "mob": "followerGluharSecurity",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        },
+        {
+         "mob": "followerGluharScout",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "zone": "ZoneBarrack",
+       "chance": 0.25,
+       "positions": 2,
+       "escortes": [
+        {
+         "mob": "followerGluharAssault",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        },
+        {
+         "mob": "followerGluharSecurity",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        },
+        {
+         "mob": "followerGluharScout",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "zone": "ZoneSubStorage",
+       "chance": 0.25,
+       "positions": 1,
+       "escortes": [
+        {
+         "mob": "followerGluharAssault",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        },
+        {
+         "mob": "followerGluharSecurity",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        },
+        {
+         "mob": "followerGluharScout",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "mob": "bossGluhar"
+    },
+    {
+     "carte": "terminal",
+     "carteId": "65cc8f81a9aac3e77d0cfd3e",
+     "chance": 0.2,
+     "declencheur": null,
+     "tempsApparition": 5690,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "Zone2ScavPort29",
+       "chance": 1,
+       "positions": 0,
+       "escortes": [
+        {
+         "mob": "followerGluharSecurity",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 3
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "mob": "bossGluhar"
+    },
+    {
+     "carte": "terminal",
+     "carteId": "65cc8f81a9aac3e77d0cfd3e",
+     "chance": 0.2,
+     "declencheur": null,
+     "tempsApparition": 5902,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "Zone2ScavPort29",
+       "chance": 1,
+       "positions": 0,
+       "escortes": [
+        {
+         "mob": "followerGluharAssault",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        },
+        {
+         "mob": "followerGluharSecurity",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        },
+        {
+         "mob": "followerGluharScout",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "mob": "bossGluhar"
+    },
+    {
+     "carte": "terminal",
+     "carteId": "65cc8f81a9aac3e77d0cfd3e",
+     "chance": 0.2,
+     "declencheur": null,
+     "tempsApparition": 5790,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "Zone2ScavPort29",
+       "chance": 1,
+       "positions": 0,
+       "escortes": [
+        {
+         "mob": "followerGluharSecurity",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 3
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "mob": "bossGluhar"
+    }
+   ],
+   "equipement": {
+    "protections": [
+     {
+      "id": "5c0e746986f7741453628fe5",
+      "nom": "Gilet tactique porte-plaques WARTECH TV-110 (Coyote)",
+      "slot": "TacticalVest",
+      "slotFr": "Gilet tactique",
+      "categorie": "Gilet tactique"
+     },
+     {
+      "id": "656fa0fb498d1b7e3e071d9c",
+      "nom": "Plaque balistique Global Armor's acier",
+      "slot": "Front_plate",
+      "slotFr": "Plaque avant",
+      "categorie": "Plaque de blindage"
+     },
+     {
+      "id": "5a16bb52fcdbcb001a3b00dc",
+      "nom": "Fixation frontale Wilcox Skull Lock",
+      "slot": "Headwear",
+      "slotFr": "Couvre-chef",
+      "categorie": "Casque"
+     },
+     {
+      "id": "5d6d2ef3a4b93618084f58bd",
+      "nom": "Lunettes RayBench Aviator",
+      "slot": "Eyewear",
+      "slotFr": "Protection oculaire",
+      "categorie": "Protection oculaire"
+     }
+    ],
+    "armes": [
+     {
+      "id": "5cadfbf7ae92152ac412eeef",
+      "nom": "Fusil d'assaut ASh-12 12,7 x 55 mm",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "59984ab886f7743e98271174",
+      "nom": "Pistolet-mitrailleur PP-19-01 \"Vityaz\" 9 x 19 mm",
+      "slot": "SecondPrimaryWeapon",
+      "slotFr": "Arme secondaire",
+      "categorie": "Arme"
+     },
+     {
+      "id": "633ec7c2a6918cb895019c6c",
+      "nom": "Revolver RSh-12 12,7 x 55 mm",
+      "slot": "Holster",
+      "slotFr": "Pistolet",
+      "categorie": "Arme"
+     },
+     {
+      "id": "651450ce0e00edc794068371",
+      "nom": "Fusil d'assaut compact SR-3M 9 x 39 mm",
+      "slot": "SecondPrimaryWeapon",
+      "slotFr": "Arme secondaire",
+      "categorie": "Arme"
+     },
+     {
+      "id": "5abccb7dd8ce87001773e277",
+      "nom": "Pistolet automatique silencé APB 9 x 18 mm PM",
+      "slot": "Holster",
+      "slotFr": "Pistolet",
+      "categorie": "Arme"
+     },
+     {
+      "id": "59f98b4986f7746f546d2cef",
+      "nom": "Pistolet Serdyukov SR-1MP Gyurza 9 x 21 mm",
+      "slot": "Holster",
+      "slotFr": "Pistolet",
+      "categorie": "Arme"
+     },
+     {
+      "id": "5a17f98cfcdbcb0980087290",
+      "nom": "Pistolet automatique Stechkin APS 9 x 18 mm PM",
+      "slot": "Holster",
+      "slotFr": "Pistolet",
+      "categorie": "Arme"
+     },
+     {
+      "id": "602a9740da11d6478d5a06dc",
+      "nom": "Pistolet Lebedev PL-15 9 x 19 mm",
+      "slot": "Holster",
+      "slotFr": "Pistolet",
+      "categorie": "Arme"
+     },
+     {
+      "id": "6871284e9a353bb50606f3ed",
+      "nom": "AS VAL MOD.4 9x39 special assault rifle",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     }
+    ],
+    "sacs": []
+   },
+   "loot": [
+    {
+     "id": "590c678286f77426c9660122",
+     "nom": "Kit de premiers secours individuel IFAK",
+     "prevalence": 100,
+     "difficulte": "normal",
+     "types": [
+      "meds",
+      "provisions"
+     ]
+    },
+    {
+     "id": "675aaa003107dac10006332f",
+     "nom": "Carte du champ de mines (base militaire)",
+     "prevalence": 68.61,
+     "difficulte": "normal",
+     "types": [
+      "noFlea"
+     ]
+    },
+    {
+     "id": "675aaa8f7f3c962069072b27",
+     "nom": "Carte des champs de mines (phare)",
+     "prevalence": 11.6,
+     "difficulte": "normal",
+     "types": [
+      "noFlea"
+     ]
+    },
+    {
+     "id": "5c94bbff86f7747ee735c08f",
+     "nom": "Carte d'accès TerraGroup Labs",
+     "prevalence": 6.03,
+     "difficulte": "normal",
+     "types": [
+      "keys"
+     ]
+    },
+    {
+     "id": "57347baf24597738002c6178",
+     "nom": "Barrette de mémoire",
+     "prevalence": 5.54,
+     "difficulte": "normal",
+     "types": [
+      "barter"
+     ]
+    },
+    {
+     "id": "5bc9bdb8d4351e003562b8a1",
+     "nom": "Badge en argent",
+     "prevalence": 1.74,
+     "difficulte": "normal",
+     "types": [
+      "barter"
+     ]
+    },
+    {
+     "id": "5938603e86f77435642354f4",
+     "nom": "Clé de la chambre 206 du dortoir",
+     "prevalence": 0.82,
+     "difficulte": "normal",
+     "types": [
+      "keys"
+     ]
+    },
+    {
+     "id": "5780cf942459777df90dcb72",
+     "nom": "Clé de la chambre 214 du dortoir",
+     "prevalence": 0.65,
+     "difficulte": "normal",
+     "types": [
+      "keys"
+     ]
+    },
+    {
+     "id": "593aa4be86f77457f56379f8",
+     "nom": "Clé de la chambre 303 du dortoir",
+     "prevalence": 0.55,
+     "difficulte": "normal",
+     "types": [
+      "keys"
+     ]
+    },
+    {
+     "id": "658199972dc4e60f6d556a2f",
+     "nom": "Clé de la réserve du parking souterrain",
+     "prevalence": 0.54,
+     "difficulte": "normal",
+     "types": [
+      "keys"
+     ]
+    },
+    {
+     "id": "5938504186f7740991483f30",
+     "nom": "Clé de la chambre 203 du dortoir",
+     "prevalence": 0.49,
+     "difficulte": "normal",
+     "types": [
+      "keys"
+     ]
+    },
+    {
+     "id": "5c0e531d86f7747fa23f4d42",
+     "nom": "Injecteur de stimulant de combat TGLabs SJ6",
+     "prevalence": 0.48,
+     "difficulte": "normal",
+     "types": [
+      "injectors",
+      "meds",
+      "provisions"
+     ]
+    }
+   ],
+   "nbObjetsLoot": 244
+  },
+  {
+   "slug": "sanitar",
+   "titre": "Sanitar",
+   "titreFr": "Sanitar",
+   "nomJeu": "Sanitar",
+   "famille": "scav",
+   "mobExport": "bossSanitar",
+   "mobsApparences": [
+    "bossSanitar"
+   ],
+   "nomsExport": [
+    "sanitar"
+   ],
+   "pvTotal": 1270,
+   "pv": [
+    {
+     "membre": "Poitrine",
+     "pv": 360,
+     "id": "Chest"
+    },
+    {
+     "membre": "Tête",
+     "pv": 70,
+     "id": "Head"
+    },
+    {
+     "membre": "Bras gauche",
+     "pv": 120,
+     "id": "LeftArm"
+    },
+    {
+     "membre": "Jambe gauche",
+     "pv": 230,
+     "id": "LeftLeg"
+    },
+    {
+     "membre": "Bras droit",
+     "pv": 120,
+     "id": "RightArm"
+    },
+    {
+     "membre": "Jambe droite",
+     "pv": 230,
+     "id": "RightLeg"
+    },
+    {
+     "membre": "Ventre",
+     "pv": 140,
+     "id": "Stomach"
+    }
+   ],
+   "membreLePlusResistant": "Poitrine",
+   "membreLePlusFaible": "Tête",
+   "portrait": "https://assets.tarkov.dev/sanitar-portrait.png",
+   "affiche": "https://assets.tarkov.dev/sanitar-poster.jpg",
+   "escortes": [
+    {
+     "id": "followerSanitar",
+     "nom": "Garde de Sanitar",
+     "pvTotal": 1055,
+     "pv": [
+      {
+       "membre": "Poitrine",
+       "pv": 200,
+       "id": "Chest"
+      },
+      {
+       "membre": "Tête",
+       "pv": 55,
+       "id": "Head"
+      },
+      {
+       "membre": "Bras gauche",
+       "pv": 140,
+       "id": "LeftArm"
+      },
+      {
+       "membre": "Jambe gauche",
+       "pv": 170,
+       "id": "LeftLeg"
+      },
+      {
+       "membre": "Bras droit",
+       "pv": 140,
+       "id": "RightArm"
+      },
+      {
+       "membre": "Jambe droite",
+       "pv": 170,
+       "id": "RightLeg"
+      },
+      {
+       "membre": "Ventre",
+       "pv": 180,
+       "id": "Stomach"
+      }
+     ]
+    }
+   ],
+   "apparitions": [
+    {
+     "carte": "shoreline",
+     "carteId": "5704e554d2720bac5b8b456e",
+     "chance": 0.75,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "ZonePort",
+       "chance": 0.5,
+       "positions": 0,
+       "escortes": [
+        {
+         "mob": "followerSanitar",
+         "quantites": [
+          {
+           "chance": 0.2,
+           "nombre": 2
+          },
+          {
+           "chance": 0.6,
+           "nombre": 3
+          },
+          {
+           "chance": 0.2,
+           "nombre": 4
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "zone": "ZoneGreenHouses",
+       "chance": 0.5,
+       "positions": 6,
+       "escortes": [
+        {
+         "mob": "followerSanitar",
+         "quantites": [
+          {
+           "chance": 0.2,
+           "nombre": 2
+          },
+          {
+           "chance": 0.6,
+           "nombre": 3
+          },
+          {
+           "chance": 0.2,
+           "nombre": 4
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "mob": "bossSanitar"
+    },
+    {
+     "carte": "shoreline",
+     "carteId": "5704e554d2720bac5b8b456e",
+     "chance": 0.6,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "ZonePort",
+       "chance": 0.5,
+       "positions": 0,
+       "escortes": [
+        {
+         "mob": "followerSanitar",
+         "quantites": [
+          {
+           "chance": 0.2,
+           "nombre": 2
+          },
+          {
+           "chance": 0.6,
+           "nombre": 3
+          },
+          {
+           "chance": 0.2,
+           "nombre": 4
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "zone": "ZoneGreenHouses",
+       "chance": 0.5,
+       "positions": 6,
+       "escortes": [
+        {
+         "mob": "followerSanitar",
+         "quantites": [
+          {
+           "chance": 0.2,
+           "nombre": 2
+          },
+          {
+           "chance": 0.6,
+           "nombre": 3
+          },
+          {
+           "chance": 0.2,
+           "nombre": 4
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "mob": "bossSanitar"
+    },
+    {
+     "carte": "shoreline",
+     "carteId": "5704e554d2720bac5b8b456e",
+     "chance": 0.6,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "ZonePort",
+       "chance": 0.5,
+       "positions": 0,
+       "escortes": [
+        {
+         "mob": "followerSanitar",
+         "quantites": [
+          {
+           "chance": 0.2,
+           "nombre": 2
+          },
+          {
+           "chance": 0.6,
+           "nombre": 3
+          },
+          {
+           "chance": 0.2,
+           "nombre": 4
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "zone": "ZoneGreenHouses",
+       "chance": 0.5,
+       "positions": 6,
+       "escortes": [
+        {
+         "mob": "followerSanitar",
+         "quantites": [
+          {
+           "chance": 0.2,
+           "nombre": 2
+          },
+          {
+           "chance": 0.6,
+           "nombre": 3
+          },
+          {
+           "chance": 0.2,
+           "nombre": 4
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "mob": "bossSanitar"
+    },
+    {
+     "carte": "terminal",
+     "carteId": "65cc8f81a9aac3e77d0cfd3e",
+     "chance": 0.2,
+     "declencheur": null,
+     "tempsApparition": 5690,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "Zone2ScavPort29",
+       "chance": 1,
+       "positions": 0,
+       "escortes": [
+        {
+         "mob": "followerSanitar",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 3
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "mob": "bossSanitar"
+    },
+    {
+     "carte": "terminal",
+     "carteId": "65cc8f81a9aac3e77d0cfd3e",
+     "chance": 0.2,
+     "declencheur": null,
+     "tempsApparition": 5902,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "Zone2ScavPort29",
+       "chance": 1,
+       "positions": 0,
+       "escortes": [
+        {
+         "mob": "followerSanitar",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 3
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "mob": "bossSanitar"
+    },
+    {
+     "carte": "terminal",
+     "carteId": "65cc8f81a9aac3e77d0cfd3e",
+     "chance": 0.2,
+     "declencheur": null,
+     "tempsApparition": 5790,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "Zone2ScavPort29",
+       "chance": 1,
+       "positions": 0,
+       "escortes": [
+        {
+         "mob": "followerSanitar",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 3
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "mob": "bossSanitar"
+    }
+   ],
+   "equipement": {
+    "protections": [
+     {
+      "id": "59e7715586f7742ee5789605",
+      "nom": "Masque de protection respiratoire",
+      "slot": "FaceCover",
+      "slotFr": "Masque",
+      "categorie": "Masque"
+     }
+    ],
+    "armes": [
+     {
+      "id": "587e02ff24597743df3deaeb",
+      "nom": "Carabine Molot Arms Simonov OP-SKS 7,62 x 39 mm",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "5a17f98cfcdbcb0980087290",
+      "nom": "Pistolet automatique Stechkin APS 9 x 18 mm PM",
+      "slot": "Holster",
+      "slotFr": "Pistolet",
+      "categorie": "Arme"
+     },
+     {
+      "id": "57838ad32459774a17445cd2",
+      "nom": "Fusil de précision spécial VSS Vintorez 9 x 39 mm",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "57f3c6bd24597738e730fa2f",
+      "nom": "Pistolet-mitrailleur PP-91-01 \"Kedr-B\" 9 x 18 mm PM",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "668fe5a998b5ad715703ddd6",
+      "nom": "Pistolet Magnum Research Desert Eagle Mk XIX .50 AE",
+      "slot": "Holster",
+      "slotFr": "Pistolet",
+      "categorie": "Arme"
+     },
+     {
+      "id": "651450ce0e00edc794068371",
+      "nom": "Fusil d'assaut compact SR-3M 9 x 39 mm",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "5a7828548dc32e5a9c28b516",
+      "nom": "Fusil à pompe Remington Model 870 calibre 12",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     }
+    ],
+    "sacs": [
+     {
+      "id": "5e997f0b86f7741ac73993e2",
+      "nom": "Sac d'ambulancier de Sanitar",
+      "slot": "Backpack",
+      "slotFr": "Sac à dos",
+      "categorie": "Sac à dos"
+     }
+    ]
+   },
+   "loot": [
+    {
+     "id": "5d02778e86f774203e7dedbe",
+     "nom": "Kit chirurgical CMS",
+     "prevalence": 100,
+     "difficulte": "normal",
+     "types": [
+      "meds",
+      "provisions",
+      "specialSlot"
+     ]
+    },
+    {
+     "id": "590c657e86f77412b013051d",
+     "nom": "Kit de premiers secours Grizzly",
+     "prevalence": 100,
+     "difficulte": "normal",
+     "types": [
+      "meds",
+      "provisions"
+     ]
+    },
+    {
+     "id": "675aab0d6b6addc02a08f097",
+     "nom": "Note avec le nom de code Pulsation",
+     "prevalence": 58.72,
+     "difficulte": "normal",
+     "types": [
+      "noFlea"
+     ]
+    },
+    {
+     "id": "5efde6b4f5448336730dbd61",
+     "nom": "Carte d'accès marquée de peinture bleue",
+     "prevalence": 50.47,
+     "difficulte": "normal",
+     "types": [
+      "keys"
+     ]
+    },
+    {
+     "id": "5ed515e03a40a50460332579",
+     "nom": "Injecteur de stimulant L1 (norépinéphrine)",
+     "prevalence": 45.4,
+     "difficulte": "normal",
+     "types": [
+      "injectors",
+      "meds",
+      "provisions"
+     ]
+    },
+    {
+     "id": "5ed515c8d380ab312177c0fa",
+     "nom": "Injecteur de stimulant 3-(b-TG)",
+     "prevalence": 41.8,
+     "difficulte": "normal",
+     "types": [
+      "injectors",
+      "meds",
+      "provisions"
+     ]
+    },
+    {
+     "id": "5ed515f6915ec335206e4152",
+     "nom": "Injecteur de stimulant AHF1-M",
+     "prevalence": 41.18,
+     "difficulte": "normal",
+     "types": [
+      "injectors",
+      "meds",
+      "provisions"
+     ]
+    },
+    {
+     "id": "5ed5160a87bb8443d10680b5",
+     "nom": "Injecteur de stimulant Meldonium",
+     "prevalence": 41.18,
+     "difficulte": "normal",
+     "types": [
+      "injectors",
+      "meds",
+      "provisions"
+     ]
+    },
+    {
+     "id": "5ed515ece452db0eb56fc028",
+     "nom": "Injecteur de stimulant P22",
+     "prevalence": 41.17,
+     "difficulte": "normal",
+     "types": [
+      "injectors",
+      "meds",
+      "provisions"
+     ]
+    },
+    {
+     "id": "5ed51652f6c34d2cc26336a1",
+     "nom": "Injecteur de stimulant M.U.L.E",
+     "prevalence": 21.55,
+     "difficulte": "normal",
+     "types": [
+      "injectors",
+      "meds",
+      "provisions"
+     ]
+    },
+    {
+     "id": "5eff09cd30a7dc22fd1ddfed",
+     "nom": "Clé du bureau de la station thermale marquée d'un ruban adhésif bleu",
+     "prevalence": 20.75,
+     "difficulte": "normal",
+     "types": [
+      "keys"
+     ]
+    },
+    {
+     "id": "5fca138c2a7b221b2852a5c6",
+     "nom": "Injecteur d'antidote xTG-12",
+     "prevalence": 16.19,
+     "difficulte": "normal",
+     "types": [
+      "injectors",
+      "meds",
+      "provisions"
+     ]
+    }
+   ],
+   "nbObjetsLoot": 243
+  },
+  {
+   "slug": "tagilla",
+   "titre": "Tagilla",
+   "titreFr": "Tagilla",
+   "nomJeu": "Tagilla",
+   "famille": "scav",
+   "mobExport": "bossTagilla",
+   "mobsApparences": [
+    "bossTagilla"
+   ],
+   "nomsExport": [
+    "tagilla"
+   ],
+   "pvTotal": 1220,
+   "pv": [
+    {
+     "membre": "Poitrine",
+     "pv": 320,
+     "id": "Chest"
+    },
+    {
+     "membre": "Tête",
+     "pv": 100,
+     "id": "Head"
+    },
+    {
+     "membre": "Bras gauche",
+     "pv": 130,
+     "id": "LeftArm"
+    },
+    {
+     "membre": "Jambe gauche",
+     "pv": 140,
+     "id": "LeftLeg"
+    },
+    {
+     "membre": "Bras droit",
+     "pv": 130,
+     "id": "RightArm"
+    },
+    {
+     "membre": "Jambe droite",
+     "pv": 140,
+     "id": "RightLeg"
+    },
+    {
+     "membre": "Ventre",
+     "pv": 260,
+     "id": "Stomach"
+    }
+   ],
+   "membreLePlusResistant": "Poitrine",
+   "membreLePlusFaible": "Tête",
+   "portrait": "https://assets.tarkov.dev/tagilla-portrait.png",
+   "affiche": "https://assets.tarkov.dev/tagilla-poster.jpg",
+   "escortes": [],
+   "apparitions": [
+    {
+     "carte": "terminal",
+     "carteId": "65cc8f81a9aac3e77d0cfd3e",
+     "chance": 0.2,
+     "declencheur": null,
+     "tempsApparition": 5690,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "Zone2ScavPort29",
+       "chance": 1,
+       "positions": 0,
+       "escortes": []
+      }
+     ],
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "mob": "bossTagilla"
+    },
+    {
+     "carte": "terminal",
+     "carteId": "65cc8f81a9aac3e77d0cfd3e",
+     "chance": 0.2,
+     "declencheur": null,
+     "tempsApparition": 5902,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "Zone2ScavPort29",
+       "chance": 1,
+       "positions": 0,
+       "escortes": []
+      }
+     ],
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "mob": "bossTagilla"
+    },
+    {
+     "carte": "terminal",
+     "carteId": "65cc8f81a9aac3e77d0cfd3e",
+     "chance": 0.2,
+     "declencheur": null,
+     "tempsApparition": 5790,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "Zone2ScavPort29",
+       "chance": 1,
+       "positions": 0,
+       "escortes": []
+      }
+     ],
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "mob": "bossTagilla"
+    }
+   ],
+   "equipement": {
+    "protections": [
+     {
+      "id": "609e860ebd219504d8507525",
+      "nom": "Gilet tactique porte-plaques Crye Precision AVS (édition Tagilla)",
+      "slot": "TacticalVest",
+      "slotFr": "Gilet tactique",
+      "categorie": "Gilet tactique"
+     },
+     {
+      "id": "656fa99800d62bcd2e024088",
+      "nom": "Plaque balistique Cult Termite",
+      "slot": "Front_plate",
+      "slotFr": "Plaque avant",
+      "categorie": "Plaque de blindage"
+     },
+     {
+      "id": "656fa0fb498d1b7e3e071d9c",
+      "nom": "Plaque balistique Global Armor's acier",
+      "slot": "Back_plate",
+      "slotFr": "Plaque arrière",
+      "categorie": "Plaque de blindage"
+     },
+     {
+      "id": "60a7ad3a0c5cb24b0134664a",
+      "nom": "Masque de soudure de Tagilla \"Gorilla\"",
+      "slot": "FaceCover",
+      "slotFr": "Masque",
+      "categorie": "Masque"
+     },
+     {
+      "id": "60a7acf20c5cb24b01346648",
+      "nom": "Casquette BOSS",
+      "slot": "Headwear",
+      "slotFr": "Couvre-chef",
+      "categorie": "Casque"
+     }
+    ],
+    "armes": [
+     {
+      "id": "674fe9a75e51f1c47c04ec23",
+      "nom": "Fusil automatique Saiga-12K calibre 12/76",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "5beed0f50db834001c062b12",
+      "nom": "Fusil-mitrailleur RPK-16 5,45 x 39 mm",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "66ffa9b66e19cc902401c5e8",
+      "nom": "Fusil automatique MPS Auto Assault-12 Gen 1 calibre 12",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "583990e32459771419544dd2",
+      "nom": "Fusil d'assaut Kalashnikov AKS-74UN 5,45 x 39 mm",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "606dae0ab0e443224b421bb7",
+      "nom": "Fusil semi-automatique MP-155 calibre 12",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "576165642459773c7a400233",
+      "nom": "Fusil semi-automatique Saiga-12K ver.10 calibre 12/76",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     }
+    ],
+    "sacs": []
+   },
+   "loot": [
+    {
+     "id": "544fb45d4bdc2dee738b4568",
+     "nom": "Kit de premiers secours Salewa",
+     "prevalence": 79.87,
+     "difficulte": "normal",
+     "types": [
+      "meds",
+      "provisions"
+     ]
+    },
+    {
+     "id": "5ed515e03a40a50460332579",
+     "nom": "Injecteur de stimulant L1 (norépinéphrine)",
+     "prevalence": 67.25,
+     "difficulte": "normal",
+     "types": [
+      "injectors",
+      "meds",
+      "provisions"
+     ]
+    },
+    {
+     "id": "5755383e24597772cb798966",
+     "nom": "Vaseline",
+     "prevalence": 11.54,
+     "difficulte": "normal",
+     "types": [
+      "meds",
+      "provisions"
+     ]
+    },
+    {
+     "id": "57347baf24597738002c6178",
+     "nom": "Barrette de mémoire",
+     "prevalence": 5.78,
+     "difficulte": "normal",
+     "types": [
+      "barter"
+     ]
+    },
+    {
+     "id": "5c94bbff86f7747ee735c08f",
+     "nom": "Carte d'accès TerraGroup Labs",
+     "prevalence": 4.25,
+     "difficulte": "normal",
+     "types": [
+      "keys"
+     ]
+    },
+    {
+     "id": "675aaaf674a7619a5304c233",
+     "nom": "Note avec le nom de code Arche",
+     "prevalence": 3.42,
+     "difficulte": "normal",
+     "types": [
+      "noFlea"
+     ]
+    },
+    {
+     "id": "573474f924597738002c6174",
+     "nom": "Chaînette",
+     "prevalence": 2.32,
+     "difficulte": "normal",
+     "types": [
+      "barter"
+     ]
+    },
+    {
+     "id": "679b9819a2f2dd4da9023512",
+     "nom": "Carte d'accès Labrys",
+     "prevalence": 1.94,
+     "difficulte": "normal",
+     "types": [
+      "keys",
+      "noFlea"
+     ]
+    },
+    {
+     "id": "573478bc24597738002c6175",
+     "nom": "Figurine de cheval",
+     "prevalence": 1.62,
+     "difficulte": "normal",
+     "types": [
+      "barter"
+     ]
+    },
+    {
+     "id": "544fb37f4bdc2dee738b4567",
+     "nom": "Antidouleurs Analgin",
+     "prevalence": 0.98,
+     "difficulte": "normal",
+     "types": [
+      "meds",
+      "provisions"
+     ]
+    },
+    {
+     "id": "59e3658a86f7741776641ac4",
+     "nom": "Figurine de chat",
+     "prevalence": 0.95,
+     "difficulte": "normal",
+     "types": [
+      "barter"
+     ]
+    },
+    {
+     "id": "5938603e86f77435642354f4",
+     "nom": "Clé de la chambre 206 du dortoir",
+     "prevalence": 0.87,
+     "difficulte": "normal",
+     "types": [
+      "keys"
+     ]
+    }
+   ],
+   "nbObjetsLoot": 284
+  },
+  {
+   "slug": "kaban",
+   "titre": "Kaban",
+   "titreFr": "Kaban",
+   "nomJeu": "Kaban",
+   "famille": "scav",
+   "mobExport": "bossBoar",
+   "mobsApparences": [
+    "bossBoar"
+   ],
+   "nomsExport": [
+    "kaban"
+   ],
+   "pvTotal": 1300,
+   "pv": [
+    {
+     "membre": "Poitrine",
+     "pv": 355,
+     "id": "Chest"
+    },
+    {
+     "membre": "Tête",
+     "pv": 85,
+     "id": "Head"
+    },
+    {
+     "membre": "Bras gauche",
+     "pv": 150,
+     "id": "LeftArm"
+    },
+    {
+     "membre": "Jambe gauche",
+     "pv": 150,
+     "id": "LeftLeg"
+    },
+    {
+     "membre": "Bras droit",
+     "pv": 150,
+     "id": "RightArm"
+    },
+    {
+     "membre": "Jambe droite",
+     "pv": 150,
+     "id": "RightLeg"
+    },
+    {
+     "membre": "Ventre",
+     "pv": 260,
+     "id": "Stomach"
+    }
+   ],
+   "membreLePlusResistant": "Poitrine",
+   "membreLePlusFaible": "Tête",
+   "portrait": "https://assets.tarkov.dev/kaban-portrait.png",
+   "affiche": "https://assets.tarkov.dev/kaban-poster.jpg",
+   "escortes": [
+    {
+     "id": "followerBoar",
+     "nom": "Garde de Kaban",
+     "pvTotal": 725,
+     "pv": [
+      {
+       "membre": "Poitrine",
+       "pv": 150,
+       "id": "Chest"
+      },
+      {
+       "membre": "Tête",
+       "pv": 55,
+       "id": "Head"
+      },
+      {
+       "membre": "Bras gauche",
+       "pv": 100,
+       "id": "LeftArm"
+      },
+      {
+       "membre": "Jambe gauche",
+       "pv": 100,
+       "id": "LeftLeg"
+      },
+      {
+       "membre": "Bras droit",
+       "pv": 100,
+       "id": "RightArm"
+      },
+      {
+       "membre": "Jambe droite",
+       "pv": 100,
+       "id": "RightLeg"
+      },
+      {
+       "membre": "Ventre",
+       "pv": 120,
+       "id": "Stomach"
+      }
+     ]
+    },
+    {
+     "id": "followerBoarClose1",
+     "nom": "Gus",
+     "pvTotal": 1030,
+     "pv": [
+      {
+       "membre": "Poitrine",
+       "pv": 255,
+       "id": "Chest"
+      },
+      {
+       "membre": "Tête",
+       "pv": 70,
+       "id": "Head"
+      },
+      {
+       "membre": "Bras gauche",
+       "pv": 120,
+       "id": "LeftArm"
+      },
+      {
+       "membre": "Jambe gauche",
+       "pv": 120,
+       "id": "LeftLeg"
+      },
+      {
+       "membre": "Bras droit",
+       "pv": 120,
+       "id": "RightArm"
+      },
+      {
+       "membre": "Jambe droite",
+       "pv": 120,
+       "id": "RightLeg"
+      },
+      {
+       "membre": "Ventre",
+       "pv": 225,
+       "id": "Stomach"
+      }
+     ]
+    },
+    {
+     "id": "followerBoarClose2",
+     "nom": "Basmach",
+     "pvTotal": 1030,
+     "pv": [
+      {
+       "membre": "Poitrine",
+       "pv": 255,
+       "id": "Chest"
+      },
+      {
+       "membre": "Tête",
+       "pv": 70,
+       "id": "Head"
+      },
+      {
+       "membre": "Bras gauche",
+       "pv": 120,
+       "id": "LeftArm"
+      },
+      {
+       "membre": "Jambe gauche",
+       "pv": 120,
+       "id": "LeftLeg"
+      },
+      {
+       "membre": "Bras droit",
+       "pv": 120,
+       "id": "RightArm"
+      },
+      {
+       "membre": "Jambe droite",
+       "pv": 120,
+       "id": "RightLeg"
+      },
+      {
+       "membre": "Ventre",
+       "pv": 225,
+       "id": "Stomach"
+      }
+     ]
+    },
+    {
+     "id": "bossBoarSniper",
+     "nom": "Snipers de Kaban",
+     "pvTotal": 710,
+     "pv": [
+      {
+       "membre": "Poitrine",
+       "pv": 140,
+       "id": "Chest"
+      },
+      {
+       "membre": "Tête",
+       "pv": 50,
+       "id": "Head"
+      },
+      {
+       "membre": "Bras gauche",
+       "pv": 100,
+       "id": "LeftArm"
+      },
+      {
+       "membre": "Jambe gauche",
+       "pv": 100,
+       "id": "LeftLeg"
+      },
+      {
+       "membre": "Bras droit",
+       "pv": 100,
+       "id": "RightArm"
+      },
+      {
+       "membre": "Jambe droite",
+       "pv": 100,
+       "id": "RightLeg"
+      },
+      {
+       "membre": "Ventre",
+       "pv": 120,
+       "id": "Stomach"
+      }
+     ]
+    }
+   ],
+   "apparitions": [
+    {
+     "carte": "streets-of-tarkov",
+     "carteId": "5714dc692459777137212e12",
+     "chance": 0.75,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "ZoneCarShowroom",
+       "chance": 1,
+       "positions": 11,
+       "escortes": [
+        {
+         "mob": "followerBoar",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 4
+          }
+         ]
+        },
+        {
+         "mob": "followerBoarClose1",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 1
+          }
+         ]
+        },
+        {
+         "mob": "followerBoarClose2",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 1
+          }
+         ]
+        },
+        {
+         "mob": "bossBoarSniper",
+         "quantites": [
+          {
+           "chance": 0.5,
+           "nombre": 1
+          },
+          {
+           "chance": 0.5,
+           "nombre": 2
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "mob": "bossBoar"
+    },
+    {
+     "carte": "streets-of-tarkov",
+     "carteId": "5714dc692459777137212e12",
+     "chance": 0.6,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "ZoneCarShowroom",
+       "chance": 1,
+       "positions": 11,
+       "escortes": [
+        {
+         "mob": "followerBoar",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 4
+          }
+         ]
+        },
+        {
+         "mob": "followerBoarClose1",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 1
+          }
+         ]
+        },
+        {
+         "mob": "followerBoarClose2",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 1
+          }
+         ]
+        },
+        {
+         "mob": "bossBoarSniper",
+         "quantites": [
+          {
+           "chance": 0.5,
+           "nombre": 1
+          },
+          {
+           "chance": 0.5,
+           "nombre": 2
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "mob": "bossBoar"
+    },
+    {
+     "carte": "streets-of-tarkov",
+     "carteId": "5714dc692459777137212e12",
+     "chance": 0.6,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "ZoneCarShowroom",
+       "chance": 1,
+       "positions": 11,
+       "escortes": [
+        {
+         "mob": "followerBoar",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 4
+          }
+         ]
+        },
+        {
+         "mob": "followerBoarClose1",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 1
+          }
+         ]
+        },
+        {
+         "mob": "followerBoarClose2",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 1
+          }
+         ]
+        },
+        {
+         "mob": "bossBoarSniper",
+         "quantites": [
+          {
+           "chance": 0.5,
+           "nombre": 1
+          },
+          {
+           "chance": 0.5,
+           "nombre": 2
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "mob": "bossBoar"
+    }
+   ],
+   "equipement": {
+    "protections": [
+     {
+      "id": "5d6d2ef3a4b93618084f58bd",
+      "nom": "Lunettes RayBench Aviator",
+      "slot": "Eyewear",
+      "slotFr": "Protection oculaire",
+      "categorie": "Protection oculaire"
+     }
+    ],
+    "armes": [
+     {
+      "id": "64ca3d3954fc657e230529cc",
+      "nom": "Fusil-mitrailleur Kalashnikov PKP 7,62 x 54 mm R",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "602a9740da11d6478d5a06dc",
+      "nom": "Pistolet Lebedev PL-15 9 x 19 mm",
+      "slot": "Holster",
+      "slotFr": "Pistolet",
+      "categorie": "Arme"
+     },
+     {
+      "id": "59f98b4986f7746f546d2cef",
+      "nom": "Pistolet Serdyukov SR-1MP Gyurza 9 x 21 mm",
+      "slot": "Holster",
+      "slotFr": "Pistolet",
+      "categorie": "Arme"
+     },
+     {
+      "id": "669fa3f88abd2662d80eee77",
+      "nom": "Pistolet Magnum Research Desert Eagle L5 .50 AE",
+      "slot": "Holster",
+      "slotFr": "Pistolet",
+      "categorie": "Arme"
+     },
+     {
+      "id": "5a17f98cfcdbcb0980087290",
+      "nom": "Pistolet automatique Stechkin APS 9 x 18 mm PM",
+      "slot": "Holster",
+      "slotFr": "Pistolet",
+      "categorie": "Arme"
+     },
+     {
+      "id": "64637076203536ad5600c990",
+      "nom": "Fusil-mitrailleur Kalashnikov PKM 7,62 x 54 mm R",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     }
+    ],
+    "sacs": []
+   },
+   "loot": [
+    {
+     "id": "60098ad7c2240c0fe85c570a",
+     "nom": "Kit de premiers secours tactique AFAK",
+     "prevalence": 100,
+     "difficulte": "normal",
+     "types": [
+      "meds",
+      "provisions"
+     ]
+    },
+    {
+     "id": "675aaae1dcf102478202c537",
+     "nom": "Note avec le nom de code Onyx",
+     "prevalence": 70.31,
+     "difficulte": "normal",
+     "types": [
+      "noFlea"
+     ]
+    },
+    {
+     "id": "63a397d3af870e651d58e65b",
+     "nom": "Clé des locaux fermés de la concession",
+     "prevalence": 50.54,
+     "difficulte": "normal",
+     "types": [
+      "keys"
+     ]
+    },
+    {
+     "id": "64ce572331dd890873175115",
+     "nom": "Clé des bureaux de l'entreprise Aspect",
+     "prevalence": 50.49,
+     "difficulte": "normal",
+     "types": [
+      "keys"
+     ]
+    },
+    {
+     "id": "5755383e24597772cb798966",
+     "nom": "Vaseline",
+     "prevalence": 40.73,
+     "difficulte": "normal",
+     "types": [
+      "meds",
+      "provisions"
+     ]
+    },
+    {
+     "id": "5734758f24597738025ee253",
+     "nom": "Collier doré",
+     "prevalence": 12.08,
+     "difficulte": "normal",
+     "types": [
+      "barter"
+     ]
+    },
+    {
+     "id": "544fb3f34bdc2d03748b456a",
+     "nom": "Injecteur de morphine",
+     "prevalence": 11.06,
+     "difficulte": "normal",
+     "types": [
+      "injectors",
+      "meds",
+      "provisions"
+     ]
+    },
+    {
+     "id": "5c94bbff86f7747ee735c08f",
+     "nom": "Carte d'accès TerraGroup Labs",
+     "prevalence": 6.09,
+     "difficulte": "normal",
+     "types": [
+      "keys"
+     ]
+    },
+    {
+     "id": "57347baf24597738002c6178",
+     "nom": "Barrette de mémoire",
+     "prevalence": 5.8,
+     "difficulte": "normal",
+     "types": [
+      "barter"
+     ]
+    },
+    {
+     "id": "573474f924597738002c6174",
+     "nom": "Chaînette",
+     "prevalence": 5,
+     "difficulte": "normal",
+     "types": [
+      "barter"
+     ]
+    },
+    {
+     "id": "573478bc24597738002c6175",
+     "nom": "Figurine de cheval",
+     "prevalence": 3.54,
+     "difficulte": "normal",
+     "types": [
+      "barter"
+     ]
+    },
+    {
+     "id": "59e3658a86f7741776641ac4",
+     "nom": "Figurine de chat",
+     "prevalence": 2.14,
+     "difficulte": "normal",
+     "types": [
+      "barter"
+     ]
+    }
+   ],
+   "nbObjetsLoot": 280
+  },
+  {
+   "slug": "kollontay",
+   "titre": "Kollontay",
+   "titreFr": "Kollontay",
+   "nomJeu": "Kollontay",
+   "famille": "scav",
+   "mobExport": "bossKolontay",
+   "mobsApparences": [
+    "bossKolontay"
+   ],
+   "nomsExport": [
+    "kollontay"
+   ],
+   "pvTotal": 1055,
+   "pv": [
+    {
+     "membre": "Poitrine",
+     "pv": 300,
+     "id": "Chest"
+    },
+    {
+     "membre": "Tête",
+     "pv": 65,
+     "id": "Head"
+    },
+    {
+     "membre": "Bras gauche",
+     "pv": 150,
+     "id": "LeftArm"
+    },
+    {
+     "membre": "Jambe gauche",
+     "pv": 120,
+     "id": "LeftLeg"
+    },
+    {
+     "membre": "Bras droit",
+     "pv": 150,
+     "id": "RightArm"
+    },
+    {
+     "membre": "Jambe droite",
+     "pv": 120,
+     "id": "RightLeg"
+    },
+    {
+     "membre": "Ventre",
+     "pv": 150,
+     "id": "Stomach"
+    }
+   ],
+   "membreLePlusResistant": "Poitrine",
+   "membreLePlusFaible": "Tête",
+   "portrait": "https://assets.tarkov.dev/kollontay-portrait.png",
+   "affiche": "https://assets.tarkov.dev/kollontay-poster.jpg",
+   "escortes": [
+    {
+     "id": "followerKolontayAssault",
+     "nom": "Garde d’assaut de Kollontay",
+     "pvTotal": 790,
+     "pv": [
+      {
+       "membre": "Poitrine",
+       "pv": 170,
+       "id": "Chest"
+      },
+      {
+       "membre": "Tête",
+       "pv": 50,
+       "id": "Head"
+      },
+      {
+       "membre": "Bras gauche",
+       "pv": 110,
+       "id": "LeftArm"
+      },
+      {
+       "membre": "Jambe gauche",
+       "pv": 110,
+       "id": "LeftLeg"
+      },
+      {
+       "membre": "Bras droit",
+       "pv": 110,
+       "id": "RightArm"
+      },
+      {
+       "membre": "Jambe droite",
+       "pv": 110,
+       "id": "RightLeg"
+      },
+      {
+       "membre": "Ventre",
+       "pv": 130,
+       "id": "Stomach"
+      }
+     ]
+    },
+    {
+     "id": "followerKolontaySecurity",
+     "nom": "Garde de sécurité de Kollontay",
+     "pvTotal": 825,
+     "pv": [
+      {
+       "membre": "Poitrine",
+       "pv": 180,
+       "id": "Chest"
+      },
+      {
+       "membre": "Tête",
+       "pv": 55,
+       "id": "Head"
+      },
+      {
+       "membre": "Bras gauche",
+       "pv": 120,
+       "id": "LeftArm"
+      },
+      {
+       "membre": "Jambe gauche",
+       "pv": 110,
+       "id": "LeftLeg"
+      },
+      {
+       "membre": "Bras droit",
+       "pv": 120,
+       "id": "RightArm"
+      },
+      {
+       "membre": "Jambe droite",
+       "pv": 110,
+       "id": "RightLeg"
+      },
+      {
+       "membre": "Ventre",
+       "pv": 130,
+       "id": "Stomach"
+      }
+     ]
+    }
+   ],
+   "apparitions": [
+    {
+     "carte": "streets-of-tarkov",
+     "carteId": "5714dc692459777137212e12",
+     "chance": 0.75,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "ZoneClimova",
+       "chance": 0.5,
+       "positions": 5,
+       "escortes": [
+        {
+         "mob": "followerKolontayAssault",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        },
+        {
+         "mob": "followerKolontaySecurity",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "zone": "ZoneMvd",
+       "chance": 0.5,
+       "positions": 3,
+       "escortes": [
+        {
+         "mob": "followerKolontayAssault",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        },
+        {
+         "mob": "followerKolontaySecurity",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "mob": "bossKolontay"
+    },
+    {
+     "carte": "streets-of-tarkov",
+     "carteId": "5714dc692459777137212e12",
+     "chance": 0.6,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "ZoneClimova",
+       "chance": 0.5,
+       "positions": 5,
+       "escortes": [
+        {
+         "mob": "followerKolontayAssault",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        },
+        {
+         "mob": "followerKolontaySecurity",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "zone": "ZoneMvd",
+       "chance": 0.5,
+       "positions": 3,
+       "escortes": [
+        {
+         "mob": "followerKolontayAssault",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        },
+        {
+         "mob": "followerKolontaySecurity",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "mob": "bossKolontay"
+    },
+    {
+     "carte": "streets-of-tarkov",
+     "carteId": "5714dc692459777137212e12",
+     "chance": 0.6,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "ZoneClimova",
+       "chance": 0.5,
+       "positions": 5,
+       "escortes": [
+        {
+         "mob": "followerKolontayAssault",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        },
+        {
+         "mob": "followerKolontaySecurity",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "zone": "ZoneMvd",
+       "chance": 0.5,
+       "positions": 3,
+       "escortes": [
+        {
+         "mob": "followerKolontayAssault",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        },
+        {
+         "mob": "followerKolontaySecurity",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "mob": "bossKolontay"
+    }
+   ],
+   "equipement": {
+    "protections": [
+     {
+      "id": "5c0d2727d174af02a012cf58",
+      "nom": "Casque anti-émeute PSh-97 \"DJETA\"",
+      "slot": "Headwear",
+      "slotFr": "Couvre-chef",
+      "categorie": "Casque"
+     }
+    ],
+    "armes": [
+     {
+      "id": "65268d8ecb944ff1e90ea385",
+      "nom": "Fusil-mitrailleur Degtyarev RPDN 7,62 x 39 mm",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "5448bd6b4bdc2dfc2f8b4569",
+      "nom": "Pistolet Makarov PM 9 x 18 mm PM",
+      "slot": "Holster",
+      "slotFr": "Pistolet",
+      "categorie": "Arme"
+     },
+     {
+      "id": "6513ef33e06849f06c0957ca",
+      "nom": "Fusil-mitrailleur Degtyarev RPD 7,62 x 39 mm",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "5a17f98cfcdbcb0980087290",
+      "nom": "Pistolet automatique Stechkin APS 9 x 18 mm PM",
+      "slot": "Holster",
+      "slotFr": "Pistolet",
+      "categorie": "Arme"
+     },
+     {
+      "id": "5a0ec13bfcdbcb00165aa685",
+      "nom": "Fusil d'assaut Kalashnikov AKMN 7,62 x 39 mm",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "5e848cc2988a8701445df1e8",
+      "nom": "Fusil à pompe TOZ KS-23M 23 x 75 mm",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "602a9740da11d6478d5a06dc",
+      "nom": "Pistolet Lebedev PL-15 9 x 19 mm",
+      "slot": "Holster",
+      "slotFr": "Pistolet",
+      "categorie": "Arme"
+     },
+     {
+      "id": "57d14d2524597714373db789",
+      "nom": "Pistolet-mitrailleur PP-91 \"Kedr\" 9 x 18 mm PM",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "65fb023261d5829b2d090755",
+      "nom": "Fusil-mitrailleur U.S. Ordnance M60E4 7,62 x 51 mm",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "661ceb1b9311543c7104149b",
+      "nom": "Fusil-mitrailleur U.S. Ordnance M60E6 7,62 x 51 mm",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     }
+    ],
+    "sacs": []
+   },
+   "loot": [
+    {
+     "id": "60098ad7c2240c0fe85c570a",
+     "nom": "Kit de premiers secours tactique AFAK",
+     "prevalence": 100,
+     "difficulte": "normal",
+     "types": [
+      "meds",
+      "provisions"
+     ]
+    },
+    {
+     "id": "57347baf24597738002c6178",
+     "nom": "Barrette de mémoire",
+     "prevalence": 5.87,
+     "difficulte": "normal",
+     "types": [
+      "barter"
+     ]
+    }
+   ],
+   "nbObjetsLoot": 2
+  },
+  {
+   "slug": "zryachiy",
+   "titre": "Zryachiy",
+   "titreFr": "Zryachiy",
+   "nomJeu": "Zryachiy",
+   "famille": "cultiste",
+   "mobExport": "bossZryachiy",
+   "mobsApparences": [
+    "bossZryachiy"
+   ],
+   "nomsExport": [
+    "zryachiy"
+   ],
+   "pvTotal": 1655,
+   "pv": [
+    {
+     "membre": "Poitrine",
+     "pv": 450,
+     "id": "Chest"
+    },
+    {
+     "membre": "Tête",
+     "pv": 175,
+     "id": "Head"
+    },
+    {
+     "membre": "Bras gauche",
+     "pv": 190,
+     "id": "LeftArm"
+    },
+    {
+     "membre": "Jambe gauche",
+     "pv": 190,
+     "id": "LeftLeg"
+    },
+    {
+     "membre": "Bras droit",
+     "pv": 190,
+     "id": "RightArm"
+    },
+    {
+     "membre": "Jambe droite",
+     "pv": 190,
+     "id": "RightLeg"
+    },
+    {
+     "membre": "Ventre",
+     "pv": 270,
+     "id": "Stomach"
+    }
+   ],
+   "membreLePlusResistant": "Poitrine",
+   "membreLePlusFaible": "Tête",
+   "portrait": "https://assets.tarkov.dev/zryachiy-portrait.png",
+   "affiche": "https://assets.tarkov.dev/zryachiy-poster.jpg",
+   "escortes": [],
+   "apparitions": [
+    {
+     "carte": "lighthouse",
+     "carteId": "5704e4dad2720bb55b8b4567",
+     "chance": 1,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "Zone_Island",
+       "chance": 1,
+       "positions": 6,
+       "escortes": []
+      }
+     ],
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "mob": "bossZryachiy"
+    },
+    {
+     "carte": "lighthouse",
+     "carteId": "5704e4dad2720bb55b8b4567",
+     "chance": 1,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "Zone_Island",
+       "chance": 1,
+       "positions": 6,
+       "escortes": []
+      }
+     ],
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "mob": "bossZryachiy"
+    },
+    {
+     "carte": "lighthouse",
+     "carteId": "5704e4dad2720bb55b8b4567",
+     "chance": 1,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "Zone_Island",
+       "chance": 1,
+       "positions": 6,
+       "escortes": []
+      }
+     ],
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "mob": "bossZryachiy"
+    }
+   ],
+   "equipement": {
+    "protections": [
+     {
+      "id": "63611865ba5b90db0c0399d1",
+      "nom": "Harnais tactique Azimut SS \"Khamelion\" (Olive)",
+      "slot": "TacticalVest",
+      "slotFr": "Gilet tactique",
+      "categorie": "Gilet tactique"
+     },
+     {
+      "id": "63626d904aa74b8fe30ab426",
+      "nom": "Cagoule de Zryachiy",
+      "slot": "FaceCover",
+      "slotFr": "Masque",
+      "categorie": "Masque"
+     },
+     {
+      "id": "636270263f2495c26f00b007",
+      "nom": "Cagoule de Zryachiy (pliée)",
+      "slot": "Headwear",
+      "slotFr": "Couvre-chef",
+      "categorie": "Casque"
+     }
+    ],
+    "armes": [
+     {
+      "id": "5c46fbd72e2216398b5a8c9c",
+      "nom": "Fusil de précision semi-automatique SVDS 7,62 x 54 mm R",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "57dc2fa62459775949412633",
+      "nom": "Fusil d'assaut Kalashnikov AKS-74U 5,45 x 39 mm",
+      "slot": "SecondPrimaryWeapon",
+      "slotFr": "Arme secondaire",
+      "categorie": "Arme"
+     },
+     {
+      "id": "59f98b4986f7746f546d2cef",
+      "nom": "Pistolet Serdyukov SR-1MP Gyurza 9 x 21 mm",
+      "slot": "Holster",
+      "slotFr": "Pistolet",
+      "categorie": "Arme"
+     },
+     {
+      "id": "67d0576f29f580ebc10efd08",
+      "nom": "Fusil de précision anti-matériel TheAKGuy AK-50 .50 BMG",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     }
+    ],
+    "sacs": []
+   },
+   "loot": [
+    {
+     "id": "590c678286f77426c9660122",
+     "nom": "Kit de premiers secours individuel IFAK",
+     "prevalence": 100,
+     "difficulte": "normal",
+     "types": [
+      "meds",
+      "provisions"
+     ]
+    },
+    {
+     "id": "60098ad7c2240c0fe85c570a",
+     "nom": "Kit de premiers secours tactique AFAK",
+     "prevalence": 100,
+     "difficulte": "normal",
+     "types": [
+      "meds",
+      "provisions"
+     ]
+    }
+   ],
+   "nbObjetsLoot": 2
+  },
+  {
+   "slug": "partisan",
+   "titre": "Partisan",
+   "titreFr": "Partisan",
+   "nomJeu": "Partisan",
+   "famille": "pmc",
+   "mobExport": "bossPartisan",
+   "mobsApparences": [
+    "bossPartisan"
+   ],
+   "nomsExport": [
+    "partisan"
+   ],
+   "pvTotal": 950,
+   "pv": [
+    {
+     "membre": "Poitrine",
+     "pv": 220,
+     "id": "Chest"
+    },
+    {
+     "membre": "Tête",
+     "pv": 80,
+     "id": "Head"
+    },
+    {
+     "membre": "Bras gauche",
+     "pv": 110,
+     "id": "LeftArm"
+    },
+    {
+     "membre": "Jambe gauche",
+     "pv": 120,
+     "id": "LeftLeg"
+    },
+    {
+     "membre": "Bras droit",
+     "pv": 110,
+     "id": "RightArm"
+    },
+    {
+     "membre": "Jambe droite",
+     "pv": 120,
+     "id": "RightLeg"
+    },
+    {
+     "membre": "Ventre",
+     "pv": 190,
+     "id": "Stomach"
+    }
+   ],
+   "membreLePlusResistant": "Poitrine",
+   "membreLePlusFaible": "Tête",
+   "portrait": "https://assets.tarkov.dev/partisan-portrait.png",
+   "affiche": "https://assets.tarkov.dev/partisan-poster.jpg",
+   "escortes": [],
+   "apparitions": [
+    {
+     "carte": "customs",
+     "carteId": "56f40101d2720b2a4d8b45d6",
+     "chance": 0.25,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": false,
+     "zones": [],
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "mob": "bossPartisan"
+    },
+    {
+     "carte": "customs",
+     "carteId": "56f40101d2720b2a4d8b45d6",
+     "chance": 0.25,
+     "declencheur": null,
+     "tempsApparition": 900,
+     "tempsAleatoire": false,
+     "zones": [],
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "mob": "bossPartisan"
+    },
+    {
+     "carte": "customs",
+     "carteId": "56f40101d2720b2a4d8b45d6",
+     "chance": 0.25,
+     "declencheur": null,
+     "tempsApparition": 900,
+     "tempsAleatoire": false,
+     "zones": [],
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "mob": "bossPartisan"
+    },
+    {
+     "carte": "lighthouse",
+     "carteId": "5704e4dad2720bb55b8b4567",
+     "chance": 0.25,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": false,
+     "zones": [],
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "mob": "bossPartisan"
+    },
+    {
+     "carte": "lighthouse",
+     "carteId": "5704e4dad2720bb55b8b4567",
+     "chance": 0.25,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": false,
+     "zones": [],
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "mob": "bossPartisan"
+    },
+    {
+     "carte": "lighthouse",
+     "carteId": "5704e4dad2720bb55b8b4567",
+     "chance": 0.25,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": false,
+     "zones": [],
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "mob": "bossPartisan"
+    },
+    {
+     "carte": "shoreline",
+     "carteId": "5704e554d2720bac5b8b456e",
+     "chance": 0.25,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": false,
+     "zones": [],
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "mob": "bossPartisan"
+    },
+    {
+     "carte": "shoreline",
+     "carteId": "5704e554d2720bac5b8b456e",
+     "chance": 0.25,
+     "declencheur": null,
+     "tempsApparition": 900,
+     "tempsAleatoire": false,
+     "zones": [],
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "mob": "bossPartisan"
+    },
+    {
+     "carte": "shoreline",
+     "carteId": "5704e554d2720bac5b8b456e",
+     "chance": 0.25,
+     "declencheur": null,
+     "tempsApparition": 900,
+     "tempsAleatoire": false,
+     "zones": [],
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "mob": "bossPartisan"
+    },
+    {
+     "carte": "woods",
+     "carteId": "5704e3c2d2720bac5b8b4567",
+     "chance": 0.25,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": false,
+     "zones": [],
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "mob": "bossPartisan"
+    },
+    {
+     "carte": "woods",
+     "carteId": "5704e3c2d2720bac5b8b4567",
+     "chance": 0.25,
+     "declencheur": null,
+     "tempsApparition": 900,
+     "tempsAleatoire": false,
+     "zones": [],
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "mob": "bossPartisan"
+    },
+    {
+     "carte": "woods",
+     "carteId": "5704e3c2d2720bac5b8b4567",
+     "chance": 0.25,
+     "declencheur": null,
+     "tempsApparition": 900,
+     "tempsAleatoire": false,
+     "zones": [],
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "mob": "bossPartisan"
+    }
+   ],
+   "equipement": {
+    "protections": [
+     {
+      "id": "5d6d2ef3a4b93618084f58bd",
+      "nom": "Lunettes RayBench Aviator",
+      "slot": "Eyewear",
+      "slotFr": "Protection oculaire",
+      "categorie": "Protection oculaire"
+     }
+    ],
+    "armes": [
+     {
+      "id": "5bf3e0490db83400196199af",
+      "nom": "Fusils d'assaut Kalashnikov AKS-74 5,45 x 39 mm",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "54491c4f4bdc2db1078b4568",
+      "nom": "Fusil à pompe MP-133 calibre 12",
+      "slot": "SecondPrimaryWeapon",
+      "slotFr": "Arme secondaire",
+      "categorie": "Arme"
+     },
+     {
+      "id": "5a17f98cfcdbcb0980087290",
+      "nom": "Pistolet automatique Stechkin APS 9 x 18 mm PM",
+      "slot": "Holster",
+      "slotFr": "Pistolet",
+      "categorie": "Arme"
+     },
+     {
+      "id": "5ab8e9fcd8ce870019439434",
+      "nom": "Fusil d'assaut Kalashnikov AKS-74N 5,45 x 39 mm",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "56dee2bdd2720bc8328b4567",
+      "nom": "Fusil semi-automatique MP-153 calibre 12",
+      "slot": "SecondPrimaryWeapon",
+      "slotFr": "Arme secondaire",
+      "categorie": "Arme"
+     },
+     {
+      "id": "59ff346386f77477562ff5e2",
+      "nom": "Fusil d'assaut Kalashnikov AKMS 7,62 x 39 mm",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "606dae0ab0e443224b421bb7",
+      "nom": "Fusil semi-automatique MP-155 calibre 12",
+      "slot": "SecondPrimaryWeapon",
+      "slotFr": "Arme secondaire",
+      "categorie": "Arme"
+     },
+     {
+      "id": "5abcbc27d8ce8700182eceeb",
+      "nom": "Fusil d'assaut Kalashnikov AKMSN 7,62 x 39 mm",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "6410733d5dd49d77bd07847e",
+      "nom": "Fusil automatique Tokarev AVT-40 7,62 x 54 mm R",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "60db29ce99594040e04c4a27",
+      "nom": "Fusil MTs-255-12 calibre 12",
+      "slot": "SecondPrimaryWeapon",
+      "slotFr": "Arme secondaire",
+      "categorie": "Arme"
+     },
+     {
+      "id": "5ac66d2e5acfc43b321d4b53",
+      "nom": "Fusil d'assaut AK-103 7,62 x 39 mm",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     }
+    ],
+    "sacs": [
+     {
+      "id": "66a9f98f3bd5a41b162030f4",
+      "nom": "Sac de Partisan",
+      "slot": "Backpack",
+      "slotFr": "Sac à dos",
+      "categorie": "Sac à dos"
+     }
+    ]
+   },
+   "loot": [
+    {
+     "id": "67b49e7335dec48e3e05e057",
+     "nom": "Grenade à main F-1 à délai réduit",
+     "prevalence": 100,
+     "difficulte": "normal",
+     "types": [
+      "grenade"
+     ]
+    },
+    {
+     "id": "60098ad7c2240c0fe85c570a",
+     "nom": "Kit de premiers secours tactique AFAK",
+     "prevalence": 100,
+     "difficulte": "normal",
+     "types": [
+      "meds",
+      "provisions"
+     ]
+    },
+    {
+     "id": "5751a89d24597722aa0e8db0",
+     "nom": "Baume Golden Star",
+     "prevalence": 49.43,
+     "difficulte": "normal",
+     "types": [
+      "meds",
+      "provisions"
+     ]
+    },
+    {
+     "id": "617fd91e5539a84ec44ce155",
+     "nom": "Grenade à main RGN",
+     "prevalence": 34.57,
+     "difficulte": "normal",
+     "types": [
+      "grenade",
+      "noFlea"
+     ]
+    },
+    {
+     "id": "618a431df1eb8e24b8741deb",
+     "nom": "Grenade à main RGO",
+     "prevalence": 32.17,
+     "difficulte": "normal",
+     "types": [
+      "grenade",
+      "noFlea"
+     ]
+    },
+    {
+     "id": "656df4fec921ad01000481a2",
+     "nom": "Paquet de nouilles instantanées",
+     "prevalence": 3.05,
+     "difficulte": "normal",
+     "types": [
+      "provisions"
+     ]
+    },
+    {
+     "id": "57513f07245977207e26a311",
+     "nom": "Brique de jus de pomme",
+     "prevalence": 2.46,
+     "difficulte": "normal",
+     "types": [
+      "provisions"
+     ]
+    },
+    {
+     "id": "5751487e245977207e26a315",
+     "nom": "Croûtons de seigle Emelya",
+     "prevalence": 2.09,
+     "difficulte": "normal",
+     "types": [
+      "provisions"
+     ]
+    },
+    {
+     "id": "544fb62a4bdc2dfb738b4568",
+     "nom": "Jus d'ananas de l'Armée Russe",
+     "prevalence": 2.08,
+     "difficulte": "normal",
+     "types": [
+      "provisions"
+     ]
+    },
+    {
+     "id": "544fb37f4bdc2dee738b4567",
+     "nom": "Antidouleurs Analgin",
+     "prevalence": 2,
+     "difficulte": "normal",
+     "types": [
+      "meds",
+      "provisions"
+     ]
+    },
+    {
+     "id": "590c5d4b86f774784e1b9c45",
+     "nom": "Ration de combat Iskra",
+     "prevalence": 1.89,
+     "difficulte": "normal",
+     "types": [
+      "provisions"
+     ]
+    },
+    {
+     "id": "575146b724597720a27126d5",
+     "nom": "Brique de lait",
+     "prevalence": 1.88,
+     "difficulte": "normal",
+     "types": [
+      "provisions"
+     ]
+    }
+   ],
+   "nbObjetsLoot": 328
+  },
+  {
+   "slug": "cultist-priest",
+   "titre": "Cultist Priest",
+   "titreFr": "Prêtre cultiste",
+   "nomJeu": "Cultist Priest",
+   "famille": "cultiste",
+   "mobExport": "sectantPriest",
+   "mobsApparences": [
+    "sectantPriest"
+   ],
+   "nomsExport": [
+    "cultist-priest"
+   ],
+   "pvTotal": 850,
+   "pv": [
+    {
+     "membre": "Poitrine",
+     "pv": 200,
+     "id": "Chest"
+    },
+    {
+     "membre": "Tête",
+     "pv": 50,
+     "id": "Head"
+    },
+    {
+     "membre": "Bras gauche",
+     "pv": 100,
+     "id": "LeftArm"
+    },
+    {
+     "membre": "Jambe gauche",
+     "pv": 100,
+     "id": "LeftLeg"
+    },
+    {
+     "membre": "Bras droit",
+     "pv": 100,
+     "id": "RightArm"
+    },
+    {
+     "membre": "Jambe droite",
+     "pv": 100,
+     "id": "RightLeg"
+    },
+    {
+     "membre": "Ventre",
+     "pv": 200,
+     "id": "Stomach"
+    }
+   ],
+   "membreLePlusResistant": "Poitrine",
+   "membreLePlusFaible": "Tête",
+   "portrait": "https://assets.tarkov.dev/cultist-priest-portrait.webp",
+   "affiche": "https://assets.tarkov.dev/cultist-priest-poster.webp",
+   "escortes": [
+    {
+     "id": "sectantWarrior",
+     "nom": "Guerrier cultiste",
+     "pvTotal": 850,
+     "pv": [
+      {
+       "membre": "Poitrine",
+       "pv": 220,
+       "id": "Chest"
+      },
+      {
+       "membre": "Tête",
+       "pv": 50,
+       "id": "Head"
+      },
+      {
+       "membre": "Bras gauche",
+       "pv": 100,
+       "id": "LeftArm"
+      },
+      {
+       "membre": "Jambe gauche",
+       "pv": 100,
+       "id": "LeftLeg"
+      },
+      {
+       "membre": "Bras droit",
+       "pv": 100,
+       "id": "RightArm"
+      },
+      {
+       "membre": "Jambe droite",
+       "pv": 100,
+       "id": "RightLeg"
+      },
+      {
+       "membre": "Ventre",
+       "pv": 180,
+       "id": "Stomach"
+      }
+     ]
+    }
+   ],
+   "apparitions": [
+    {
+     "carte": "customs",
+     "carteId": "56f40101d2720b2a4d8b45d6",
+     "chance": 0.3,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "ZoneScavBase",
+       "chance": 1,
+       "positions": 5,
+       "escortes": [
+        {
+         "mob": "sectantWarrior",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 4
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "mob": "sectantPriest"
+    },
+    {
+     "carte": "customs",
+     "carteId": "56f40101d2720b2a4d8b45d6",
+     "chance": 0.3,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "ZoneScavBase",
+       "chance": 1,
+       "positions": 5,
+       "escortes": [
+        {
+         "mob": "sectantWarrior",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 4
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "mob": "sectantPriest"
+    },
+    {
+     "carte": "customs",
+     "carteId": "56f40101d2720b2a4d8b45d6",
+     "chance": 0.3,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "ZoneScavBase",
+       "chance": 1,
+       "positions": 5,
+       "escortes": [
+        {
+         "mob": "sectantWarrior",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 4
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "mob": "sectantPriest"
+    },
+    {
+     "carte": "ground-zero-21",
+     "carteId": "65b8d6f5cdde2479cb2a3125",
+     "chance": 0.15,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "ZoneSandbox",
+       "chance": 1,
+       "positions": 64,
+       "escortes": [
+        {
+         "mob": "sectantWarrior",
+         "quantites": [
+          {
+           "chance": 0.5,
+           "nombre": 3
+          },
+          {
+           "chance": 0.5,
+           "nombre": 4
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "mob": "sectantPriest"
+    },
+    {
+     "carte": "ground-zero-21",
+     "carteId": "65b8d6f5cdde2479cb2a3125",
+     "chance": 0.15,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "ZoneSandbox",
+       "chance": 1,
+       "positions": 64,
+       "escortes": [
+        {
+         "mob": "sectantWarrior",
+         "quantites": [
+          {
+           "chance": 0.5,
+           "nombre": 3
+          },
+          {
+           "chance": 0.5,
+           "nombre": 4
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "mob": "sectantPriest"
+    },
+    {
+     "carte": "ground-zero-21",
+     "carteId": "65b8d6f5cdde2479cb2a3125",
+     "chance": 0.15,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "ZoneSandbox",
+       "chance": 1,
+       "positions": 64,
+       "escortes": [
+        {
+         "mob": "sectantWarrior",
+         "quantites": [
+          {
+           "chance": 0.5,
+           "nombre": 3
+          },
+          {
+           "chance": 0.5,
+           "nombre": 4
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "mob": "sectantPriest"
+    },
+    {
+     "carte": "night-factory",
+     "carteId": "59fc81d786f774390775787e",
+     "chance": 0.2,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": null,
+     "zones": [
+      {
+       "zone": "BotZone",
+       "chance": 1,
+       "positions": 5,
+       "escortes": [
+        {
+         "mob": "sectantWarrior",
+         "quantites": [
+          {
+           "chance": 0.5,
+           "nombre": 2
+          },
+          {
+           "chance": 0.5,
+           "nombre": 3
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "mob": "sectantPriest"
+    },
+    {
+     "carte": "night-factory",
+     "carteId": "59fc81d786f774390775787e",
+     "chance": 0.15,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": null,
+     "zones": [
+      {
+       "zone": "BotZone",
+       "chance": 1,
+       "positions": 5,
+       "escortes": [
+        {
+         "mob": "sectantWarrior",
+         "quantites": [
+          {
+           "chance": 0.5,
+           "nombre": 2
+          },
+          {
+           "chance": 0.5,
+           "nombre": 3
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "mob": "sectantPriest"
+    },
+    {
+     "carte": "night-factory",
+     "carteId": "59fc81d786f774390775787e",
+     "chance": 0.15,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": null,
+     "zones": [
+      {
+       "zone": "BotZone",
+       "chance": 1,
+       "positions": 5,
+       "escortes": [
+        {
+         "mob": "sectantWarrior",
+         "quantites": [
+          {
+           "chance": 0.5,
+           "nombre": 2
+          },
+          {
+           "chance": 0.5,
+           "nombre": 3
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "mob": "sectantPriest"
+    },
+    {
+     "carte": "shoreline",
+     "carteId": "5704e554d2720bac5b8b456e",
+     "chance": 0.25,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "ZoneSanatorium1",
+       "chance": 0.2,
+       "positions": 2,
+       "escortes": [
+        {
+         "mob": "sectantWarrior",
+         "quantites": [
+          {
+           "chance": 0.5,
+           "nombre": 3
+          },
+          {
+           "chance": 0.5,
+           "nombre": 4
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "zone": "ZoneSanatorium2",
+       "chance": 0.2,
+       "positions": 10,
+       "escortes": [
+        {
+         "mob": "sectantWarrior",
+         "quantites": [
+          {
+           "chance": 0.5,
+           "nombre": 3
+          },
+          {
+           "chance": 0.5,
+           "nombre": 4
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "zone": "ZoneForestSpawn",
+       "chance": 0.6,
+       "positions": 0,
+       "escortes": [
+        {
+         "mob": "sectantWarrior",
+         "quantites": [
+          {
+           "chance": 0.5,
+           "nombre": 3
+          },
+          {
+           "chance": 0.5,
+           "nombre": 4
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "mob": "sectantPriest"
+    },
+    {
+     "carte": "shoreline",
+     "carteId": "5704e554d2720bac5b8b456e",
+     "chance": 0.25,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "ZoneSanatorium1",
+       "chance": 0.2,
+       "positions": 2,
+       "escortes": [
+        {
+         "mob": "sectantWarrior",
+         "quantites": [
+          {
+           "chance": 0.5,
+           "nombre": 3
+          },
+          {
+           "chance": 0.5,
+           "nombre": 4
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "zone": "ZoneSanatorium2",
+       "chance": 0.2,
+       "positions": 10,
+       "escortes": [
+        {
+         "mob": "sectantWarrior",
+         "quantites": [
+          {
+           "chance": 0.5,
+           "nombre": 3
+          },
+          {
+           "chance": 0.5,
+           "nombre": 4
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "zone": "ZoneForestSpawn",
+       "chance": 0.6,
+       "positions": 0,
+       "escortes": [
+        {
+         "mob": "sectantWarrior",
+         "quantites": [
+          {
+           "chance": 0.5,
+           "nombre": 3
+          },
+          {
+           "chance": 0.5,
+           "nombre": 4
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "mob": "sectantPriest"
+    },
+    {
+     "carte": "shoreline",
+     "carteId": "5704e554d2720bac5b8b456e",
+     "chance": 0.25,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "ZoneSanatorium1",
+       "chance": 0.2,
+       "positions": 2,
+       "escortes": [
+        {
+         "mob": "sectantWarrior",
+         "quantites": [
+          {
+           "chance": 0.5,
+           "nombre": 3
+          },
+          {
+           "chance": 0.5,
+           "nombre": 4
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "zone": "ZoneSanatorium2",
+       "chance": 0.2,
+       "positions": 10,
+       "escortes": [
+        {
+         "mob": "sectantWarrior",
+         "quantites": [
+          {
+           "chance": 0.5,
+           "nombre": 3
+          },
+          {
+           "chance": 0.5,
+           "nombre": 4
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "zone": "ZoneForestSpawn",
+       "chance": 0.6,
+       "positions": 0,
+       "escortes": [
+        {
+         "mob": "sectantWarrior",
+         "quantites": [
+          {
+           "chance": 0.5,
+           "nombre": 3
+          },
+          {
+           "chance": 0.5,
+           "nombre": 4
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "mob": "sectantPriest"
+    },
+    {
+     "carte": "woods",
+     "carteId": "5704e3c2d2720bac5b8b4567",
+     "chance": 0.3,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "ZoneMiniHouse",
+       "chance": 0.5,
+       "positions": 1,
+       "escortes": [
+        {
+         "mob": "sectantWarrior",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 4
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "zone": "ZoneBrokenVill",
+       "chance": 0.5,
+       "positions": 26,
+       "escortes": [
+        {
+         "mob": "sectantWarrior",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 4
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "mob": "sectantPriest"
+    },
+    {
+     "carte": "woods",
+     "carteId": "5704e3c2d2720bac5b8b4567",
+     "chance": 0.3,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "ZoneMiniHouse",
+       "chance": 0.5,
+       "positions": 1,
+       "escortes": [
+        {
+         "mob": "sectantWarrior",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 4
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "zone": "ZoneBrokenVill",
+       "chance": 0.5,
+       "positions": 26,
+       "escortes": [
+        {
+         "mob": "sectantWarrior",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 4
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "mob": "sectantPriest"
+    },
+    {
+     "carte": "woods",
+     "carteId": "5704e3c2d2720bac5b8b4567",
+     "chance": 0.3,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "ZoneMiniHouse",
+       "chance": 0.5,
+       "positions": 1,
+       "escortes": [
+        {
+         "mob": "sectantWarrior",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 4
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "zone": "ZoneBrokenVill",
+       "chance": 0.5,
+       "positions": 26,
+       "escortes": [
+        {
+         "mob": "sectantWarrior",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 4
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "mob": "sectantPriest"
+    }
+   ],
+   "equipement": {
+    "protections": [],
+    "armes": [
+     {
+      "id": "57f3c6bd24597738e730fa2f",
+      "nom": "Pistolet-mitrailleur PP-91-01 \"Kedr-B\" 9 x 18 mm PM",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "59f98b4986f7746f546d2cef",
+      "nom": "Pistolet Serdyukov SR-1MP Gyurza 9 x 21 mm",
+      "slot": "Holster",
+      "slotFr": "Pistolet",
+      "categorie": "Arme"
+     },
+     {
+      "id": "602a9740da11d6478d5a06dc",
+      "nom": "Pistolet Lebedev PL-15 9 x 19 mm",
+      "slot": "Holster",
+      "slotFr": "Pistolet",
+      "categorie": "Arme"
+     },
+     {
+      "id": "5839a40f24597726f856b511",
+      "nom": "Fusil d'assaut Kalashnikov AKS-74UB 5,45 x 39 mm",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "58948c8e86f77409493f7266",
+      "nom": "Pistolet-mitrailleur SIG MPX 9 x 19 mm",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "669fa3f88abd2662d80eee77",
+      "nom": "Pistolet Magnum Research Desert Eagle L5 .50 AE",
+      "slot": "Holster",
+      "slotFr": "Pistolet",
+      "categorie": "Arme"
+     },
+     {
+      "id": "674d6121c09f69dfb201a888",
+      "nom": "Fusil d'assaut Aklys Defense Velociraptor .300 AAC Blackout",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "5926bb2186f7744b1c6c6e60",
+      "nom": "Pistolet-mitrailleur HK MP5 9 x 19 mm (navy, rafale 3 coups)",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     }
+    ],
+    "sacs": []
+   },
+   "loot": [
+    {
+     "id": "5780cf7f2459777de4559322",
+     "nom": "Clé marquée de la chambre 314 du dortoir",
+     "prevalence": 25.83,
+     "difficulte": "normal",
+     "types": [
+      "keys"
+     ]
+    },
+    {
+     "id": "66acd6702b17692df20144c0",
+     "nom": "Carte d'accès du local de stockage TerraGroup",
+     "prevalence": 15.61,
+     "difficulte": "normal",
+     "types": [
+      "keys"
+     ]
+    },
+    {
+     "id": "5d80c62a86f7744036212b3f",
+     "nom": "Clé marquée RB-VO",
+     "prevalence": 15.37,
+     "difficulte": "normal",
+     "types": [
+      "keys"
+     ]
+    },
+    {
+     "id": "5d80c60f86f77440373c4ece",
+     "nom": "Clé marquée RB-BK",
+     "prevalence": 15.33,
+     "difficulte": "normal",
+     "types": [
+      "keys"
+     ]
+    },
+    {
+     "id": "5ede7a8229445733cb4c18e2",
+     "nom": "Clé marquée RB-PKPM",
+     "prevalence": 10.38,
+     "difficulte": "normal",
+     "types": [
+      "keys"
+     ]
+    },
+    {
+     "id": "5fca138c2a7b221b2852a5c6",
+     "nom": "Injecteur d'antidote xTG-12",
+     "prevalence": 8.61,
+     "difficulte": "normal",
+     "types": [
+      "injectors",
+      "meds",
+      "provisions"
+     ]
+    },
+    {
+     "id": "675aaa9a3107dac100063331",
+     "nom": "Carte du champ de mines (bois)",
+     "prevalence": 7.91,
+     "difficulte": "normal",
+     "types": [
+      "noFlea"
+     ]
+    },
+    {
+     "id": "675aaae75a3ab8372d0b02a7",
+     "nom": "Note avec le nom de code Adaptation",
+     "prevalence": 6.27,
+     "difficulte": "normal",
+     "types": [
+      "noFlea"
+     ]
+    },
+    {
+     "id": "675aaab74bca0b001d02f356",
+     "nom": "Note avec le nom de code Voron",
+     "prevalence": 6.27,
+     "difficulte": "normal",
+     "types": [
+      "noFlea"
+     ]
+    },
+    {
+     "id": "675aaaf674a7619a5304c233",
+     "nom": "Note avec le nom de code Arche",
+     "prevalence": 6.26,
+     "difficulte": "normal",
+     "types": [
+      "noFlea"
+     ]
+    },
+    {
+     "id": "675aab0d6b6addc02a08f097",
+     "nom": "Note avec le nom de code Pulsation",
+     "prevalence": 6.26,
+     "difficulte": "normal",
+     "types": [
+      "noFlea"
+     ]
+    },
+    {
+     "id": "675aaa8f7f3c962069072b27",
+     "nom": "Carte des champs de mines (phare)",
+     "prevalence": 6.25,
+     "difficulte": "normal",
+     "types": [
+      "noFlea"
+     ]
+    }
+   ],
+   "nbObjetsLoot": 269
+  },
+  {
+   "slug": "the-goons",
+   "titre": "The Goons",
+   "titreFr": "The Goons",
+   "nomJeu": "Knight",
+   "famille": "rogue",
+   "mobExport": "bossKnight",
+   "mobsApparences": [
+    "bossKnight"
+   ],
+   "nomsExport": [
+    "knight"
+   ],
+   "pvTotal": 1120,
+   "pv": [
+    {
+     "membre": "Poitrine",
+     "pv": 220,
+     "id": "Chest"
+    },
+    {
+     "membre": "Tête",
+     "pv": 80,
+     "id": "Head"
+    },
+    {
+     "membre": "Bras gauche",
+     "pv": 150,
+     "id": "LeftArm"
+    },
+    {
+     "membre": "Jambe gauche",
+     "pv": 150,
+     "id": "LeftLeg"
+    },
+    {
+     "membre": "Bras droit",
+     "pv": 150,
+     "id": "RightArm"
+    },
+    {
+     "membre": "Jambe droite",
+     "pv": 150,
+     "id": "RightLeg"
+    },
+    {
+     "membre": "Ventre",
+     "pv": 220,
+     "id": "Stomach"
+    }
+   ],
+   "membreLePlusResistant": "Poitrine",
+   "membreLePlusFaible": "Tête",
+   "portrait": "https://assets.tarkov.dev/knight-portrait.png",
+   "affiche": "https://assets.tarkov.dev/knight-poster.jpg",
+   "escortes": [
+    {
+     "id": "followerBigPipe",
+     "nom": "Big Pipe",
+     "pvTotal": 910,
+     "pv": [
+      {
+       "membre": "Poitrine",
+       "pv": 220,
+       "id": "Chest"
+      },
+      {
+       "membre": "Tête",
+       "pv": 70,
+       "id": "Head"
+      },
+      {
+       "membre": "Bras gauche",
+       "pv": 110,
+       "id": "LeftArm"
+      },
+      {
+       "membre": "Jambe gauche",
+       "pv": 100,
+       "id": "LeftLeg"
+      },
+      {
+       "membre": "Bras droit",
+       "pv": 110,
+       "id": "RightArm"
+      },
+      {
+       "membre": "Jambe droite",
+       "pv": 100,
+       "id": "RightLeg"
+      },
+      {
+       "membre": "Ventre",
+       "pv": 200,
+       "id": "Stomach"
+      }
+     ]
+    },
+    {
+     "id": "followerBirdEye",
+     "nom": "Birdeye",
+     "pvTotal": 795,
+     "pv": [
+      {
+       "membre": "Poitrine",
+       "pv": 175,
+       "id": "Chest"
+      },
+      {
+       "membre": "Tête",
+       "pv": 70,
+       "id": "Head"
+      },
+      {
+       "membre": "Bras gauche",
+       "pv": 100,
+       "id": "LeftArm"
+      },
+      {
+       "membre": "Jambe gauche",
+       "pv": 100,
+       "id": "LeftLeg"
+      },
+      {
+       "membre": "Bras droit",
+       "pv": 100,
+       "id": "RightArm"
+      },
+      {
+       "membre": "Jambe droite",
+       "pv": 100,
+       "id": "RightLeg"
+      },
+      {
+       "membre": "Ventre",
+       "pv": 150,
+       "id": "Stomach"
+      }
+     ]
+    },
+    {
+     "id": "ExUsec",
+     "nom": "Rogue (USEC)",
+     "pvTotal": 775,
+     "pv": [
+      {
+       "membre": "Poitrine",
+       "pv": 180,
+       "id": "Chest"
+      },
+      {
+       "membre": "Tête",
+       "pv": 35,
+       "id": "Head"
+      },
+      {
+       "membre": "Bras gauche",
+       "pv": 105,
+       "id": "LeftArm"
+      },
+      {
+       "membre": "Jambe gauche",
+       "pv": 110,
+       "id": "LeftLeg"
+      },
+      {
+       "membre": "Bras droit",
+       "pv": 105,
+       "id": "RightArm"
+      },
+      {
+       "membre": "Jambe droite",
+       "pv": 110,
+       "id": "RightLeg"
+      },
+      {
+       "membre": "Ventre",
+       "pv": 130,
+       "id": "Stomach"
+      }
+     ]
+    }
+   ],
+   "apparitions": [
+    {
+     "carte": "customs",
+     "carteId": "56f40101d2720b2a4d8b45d6",
+     "chance": 0.25,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": true,
+     "zones": [
+      {
+       "zone": "ZoneScavBase",
+       "chance": 1,
+       "positions": 5,
+       "escortes": [
+        {
+         "mob": "followerBigPipe",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 1
+          }
+         ]
+        },
+        {
+         "mob": "followerBirdEye",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 1
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "mob": "bossKnight"
+    },
+    {
+     "carte": "customs",
+     "carteId": "56f40101d2720b2a4d8b45d6",
+     "chance": 0.2,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": true,
+     "zones": [
+      {
+       "zone": "ZoneScavBase",
+       "chance": 1,
+       "positions": 5,
+       "escortes": [
+        {
+         "mob": "followerBigPipe",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 1
+          }
+         ]
+        },
+        {
+         "mob": "followerBirdEye",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 1
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "mob": "bossKnight"
+    },
+    {
+     "carte": "customs",
+     "carteId": "56f40101d2720b2a4d8b45d6",
+     "chance": 0.2,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": true,
+     "zones": [
+      {
+       "zone": "ZoneScavBase",
+       "chance": 1,
+       "positions": 5,
+       "escortes": [
+        {
+         "mob": "followerBigPipe",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 1
+          }
+         ]
+        },
+        {
+         "mob": "followerBirdEye",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 1
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "mob": "bossKnight"
+    },
+    {
+     "carte": "icebreaker",
+     "carteId": "69af492a4819ea4ba10a69c5",
+     "chance": 1,
+     "declencheur": null,
+     "tempsApparition": 9999,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "BotZoneMash_t1",
+       "chance": 1,
+       "positions": 0,
+       "escortes": [
+        {
+         "mob": "ExUsec",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "mob": "bossKnight"
+    },
+    {
+     "carte": "icebreaker",
+     "carteId": "69af492a4819ea4ba10a69c5",
+     "chance": 1,
+     "declencheur": null,
+     "tempsApparition": 9999,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "BotZoneMash_t1",
+       "chance": 1,
+       "positions": 0,
+       "escortes": [
+        {
+         "mob": "ExUsec",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "mob": "bossKnight"
+    },
+    {
+     "carte": "icebreaker",
+     "carteId": "69af492a4819ea4ba10a69c5",
+     "chance": 1,
+     "declencheur": null,
+     "tempsApparition": 9999,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "BotZoneMash_t1",
+       "chance": 1,
+       "positions": 0,
+       "escortes": [
+        {
+         "mob": "ExUsec",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "mob": "bossKnight"
+    },
+    {
+     "carte": "lighthouse",
+     "carteId": "5704e4dad2720bb55b8b4567",
+     "chance": 0.3,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": true,
+     "zones": [
+      {
+       "zone": "Zone_Chalet",
+       "chance": 1,
+       "positions": 4,
+       "escortes": [
+        {
+         "mob": "followerBigPipe",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 1
+          }
+         ]
+        },
+        {
+         "mob": "followerBirdEye",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 1
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "mob": "bossKnight"
+    },
+    {
+     "carte": "lighthouse",
+     "carteId": "5704e4dad2720bb55b8b4567",
+     "chance": 0.2,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": true,
+     "zones": [
+      {
+       "zone": "Zone_Chalet",
+       "chance": 1,
+       "positions": 4,
+       "escortes": [
+        {
+         "mob": "followerBigPipe",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 1
+          }
+         ]
+        },
+        {
+         "mob": "followerBirdEye",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 1
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "mob": "bossKnight"
+    },
+    {
+     "carte": "lighthouse",
+     "carteId": "5704e4dad2720bb55b8b4567",
+     "chance": 0.2,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": true,
+     "zones": [
+      {
+       "zone": "Zone_Chalet",
+       "chance": 1,
+       "positions": 4,
+       "escortes": [
+        {
+         "mob": "followerBigPipe",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 1
+          }
+         ]
+        },
+        {
+         "mob": "followerBirdEye",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 1
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "mob": "bossKnight"
+    },
+    {
+     "carte": "shoreline",
+     "carteId": "5704e554d2720bac5b8b456e",
+     "chance": 0.3,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": true,
+     "zones": [
+      {
+       "zone": "ZoneMeteoStation",
+       "chance": 1,
+       "positions": 10,
+       "escortes": [
+        {
+         "mob": "followerBigPipe",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 1
+          }
+         ]
+        },
+        {
+         "mob": "followerBirdEye",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 1
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "mob": "bossKnight"
+    },
+    {
+     "carte": "shoreline",
+     "carteId": "5704e554d2720bac5b8b456e",
+     "chance": 0.2,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": true,
+     "zones": [
+      {
+       "zone": "ZoneMeteoStation",
+       "chance": 1,
+       "positions": 10,
+       "escortes": [
+        {
+         "mob": "followerBigPipe",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 1
+          }
+         ]
+        },
+        {
+         "mob": "followerBirdEye",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 1
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "mob": "bossKnight"
+    },
+    {
+     "carte": "shoreline",
+     "carteId": "5704e554d2720bac5b8b456e",
+     "chance": 0.2,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": true,
+     "zones": [
+      {
+       "zone": "ZoneMeteoStation",
+       "chance": 1,
+       "positions": 10,
+       "escortes": [
+        {
+         "mob": "followerBigPipe",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 1
+          }
+         ]
+        },
+        {
+         "mob": "followerBirdEye",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 1
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "mob": "bossKnight"
+    },
+    {
+     "carte": "woods",
+     "carteId": "5704e3c2d2720bac5b8b4567",
+     "chance": 0.25,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": true,
+     "zones": [
+      {
+       "zone": "ZoneScavBase2",
+       "chance": 1,
+       "positions": 4,
+       "escortes": [
+        {
+         "mob": "followerBigPipe",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 1
+          }
+         ]
+        },
+        {
+         "mob": "followerBirdEye",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 1
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "mob": "bossKnight"
+    },
+    {
+     "carte": "woods",
+     "carteId": "5704e3c2d2720bac5b8b4567",
+     "chance": 0.2,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": true,
+     "zones": [
+      {
+       "zone": "ZoneScavBase2",
+       "chance": 1,
+       "positions": 4,
+       "escortes": [
+        {
+         "mob": "followerBigPipe",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 1
+          }
+         ]
+        },
+        {
+         "mob": "followerBirdEye",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 1
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "mob": "bossKnight"
+    },
+    {
+     "carte": "woods",
+     "carteId": "5704e3c2d2720bac5b8b4567",
+     "chance": 0.2,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": true,
+     "zones": [
+      {
+       "zone": "ZoneScavBase2",
+       "chance": 1,
+       "positions": 4,
+       "escortes": [
+        {
+         "mob": "followerBigPipe",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 1
+          }
+         ]
+        },
+        {
+         "mob": "followerBirdEye",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 1
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "mob": "bossKnight"
+    }
+   ],
+   "equipement": {
+    "protections": [
+     {
+      "id": "628b9c7d45122232a872358f",
+      "nom": "Gilet tactique porte-plaques Crye Precision CPC (édition sbire)",
+      "slot": "TacticalVest",
+      "slotFr": "Gilet tactique",
+      "categorie": "Gilet tactique"
+     },
+     {
+      "id": "656fa53d94b480b8a500c0e4",
+      "nom": "Plaque balistique TallCom Guardian",
+      "slot": "Front_plate",
+      "slotFr": "Plaque avant",
+      "categorie": "Plaque de blindage"
+     },
+     {
+      "id": "6557458f83942d705f0c4962",
+      "nom": "Plaque balistique SSAPI niveau III+ (flanc)",
+      "slot": "Left_side_plate",
+      "slotFr": "Plaque latérale gauche",
+      "categorie": "Plaque de blindage"
+     },
+     {
+      "id": "62963c18dbc8ab5f0d382d0b",
+      "nom": "Masque de Death Knight",
+      "slot": "FaceCover",
+      "slotFr": "Masque",
+      "categorie": "Masque"
+     }
+    ],
+    "armes": [
+     {
+      "id": "6165ac306ef05c2ce828ef74",
+      "nom": "Fusil d'assaut FN SCAR-H 7,62 x 51 mm (FDE)",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "669fa3d876116c89840b1217",
+      "nom": "Pistolet Magnum Research Desert Eagle L6 .50 AE (WTS)",
+      "slot": "Holster",
+      "slotFr": "Pistolet",
+      "categorie": "Arme"
+     },
+     {
+      "id": "5b1fa9b25acfc40018633c01",
+      "nom": "Pistolet Glock 18C 9 x 19 mm",
+      "slot": "Holster",
+      "slotFr": "Pistolet",
+      "categorie": "Arme"
+     },
+     {
+      "id": "65290f395ae2ae97b80fdf2d",
+      "nom": "Fusil d'assaut SIG MCX SPEAR 6,8 x 51 mm",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "5a7ae0c351dfba0017554310",
+      "nom": "Pistolet Glock 17 9 x 19 mm",
+      "slot": "Holster",
+      "slotFr": "Pistolet",
+      "categorie": "Arme"
+     },
+     {
+      "id": "5dcbd56fdbd3d91b3e5468d5",
+      "nom": "Fusil d'assaut Desert Tech MDR 7,62 x 51 mm",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "606587252535c57a13424cfd",
+      "nom": "Fusil d'assaut CMMG Mk47 Mutant 7,62 x 39 mm",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "676176d362e0497044079f4c",
+      "nom": "Fusil d'assaut FN SCAR-H X-17 7,62 x 51 mm",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     }
+    ],
+    "sacs": []
+   },
+   "loot": [
+    {
+     "id": "617aa4dd8166f034d57de9c5",
+     "nom": "Grenade fumigène M18 (verte)",
+     "prevalence": 100,
+     "difficulte": "normal",
+     "types": [
+      "grenade"
+     ]
+    },
+    {
+     "id": "590c678286f77426c9660122",
+     "nom": "Kit de premiers secours individuel IFAK",
+     "prevalence": 100,
+     "difficulte": "normal",
+     "types": [
+      "meds",
+      "provisions"
+     ]
+    },
+    {
+     "id": "66dae7cbeb28f0f96809f325",
+     "nom": "Mini-Grenade V40",
+     "prevalence": 29.8,
+     "difficulte": "normal",
+     "types": [
+      "grenade"
+     ]
+    },
+    {
+     "id": "5c94bbff86f7747ee735c08f",
+     "nom": "Carte d'accès TerraGroup Labs",
+     "prevalence": 6.04,
+     "difficulte": "normal",
+     "types": [
+      "keys"
+     ]
+    },
+    {
+     "id": "6a04fab776cb0efb8f05969f",
+     "nom": "Rogue intel maps",
+     "prevalence": 2.95,
+     "difficulte": "normal",
+     "types": [
+      "noFlea"
+     ]
+    },
+    {
+     "id": "5938603e86f77435642354f4",
+     "nom": "Clé de la chambre 206 du dortoir",
+     "prevalence": 0.93,
+     "difficulte": "normal",
+     "types": [
+      "keys"
+     ]
+    },
+    {
+     "id": "5780cf942459777df90dcb72",
+     "nom": "Clé de la chambre 214 du dortoir",
+     "prevalence": 0.75,
+     "difficulte": "normal",
+     "types": [
+      "keys"
+     ]
+    },
+    {
+     "id": "593aa4be86f77457f56379f8",
+     "nom": "Clé de la chambre 303 du dortoir",
+     "prevalence": 0.63,
+     "difficulte": "normal",
+     "types": [
+      "keys"
+     ]
+    },
+    {
+     "id": "658199972dc4e60f6d556a2f",
+     "nom": "Clé de la réserve du parking souterrain",
+     "prevalence": 0.62,
+     "difficulte": "normal",
+     "types": [
+      "keys"
+     ]
+    },
+    {
+     "id": "5938504186f7740991483f30",
+     "nom": "Clé de la chambre 203 du dortoir",
+     "prevalence": 0.55,
+     "difficulte": "normal",
+     "types": [
+      "keys"
+     ]
+    },
+    {
+     "id": "591afe0186f77431bd616a11",
+     "nom": "Clé ZB-014",
+     "prevalence": 0.5,
+     "difficulte": "normal",
+     "types": [
+      "keys"
+     ]
+    },
+    {
+     "id": "6581998038c79576a2569e11",
+     "nom": "Clé de caisse enregistreuse de la banque Unity Credit",
+     "prevalence": 0.5,
+     "difficulte": "normal",
+     "types": [
+      "keys"
+     ]
+    }
+   ],
+   "nbObjetsLoot": 243
+  },
+  {
+   "slug": "shadow-of-tagilla",
+   "titre": "Shadow of Tagilla",
+   "titreFr": "Shadow of Tagilla",
+   "nomJeu": "Shadow of Tagilla",
+   "famille": "scav",
+   "mobExport": "bossTagillaAgro",
+   "mobsApparences": [
+    "bossTagillaAgro"
+   ],
+   "nomsExport": [
+    "shadow-of-tagilla"
+   ],
+   "pvTotal": 1305,
+   "pv": [
+    {
+     "membre": "Poitrine",
+     "pv": 360,
+     "id": "Chest"
+    },
+    {
+     "membre": "Tête",
+     "pv": 105,
+     "id": "Head"
+    },
+    {
+     "membre": "Bras gauche",
+     "pv": 140,
+     "id": "LeftArm"
+    },
+    {
+     "membre": "Jambe gauche",
+     "pv": 140,
+     "id": "LeftLeg"
+    },
+    {
+     "membre": "Bras droit",
+     "pv": 140,
+     "id": "RightArm"
+    },
+    {
+     "membre": "Jambe droite",
+     "pv": 140,
+     "id": "RightLeg"
+    },
+    {
+     "membre": "Ventre",
+     "pv": 280,
+     "id": "Stomach"
+    }
+   ],
+   "membreLePlusResistant": "Poitrine",
+   "membreLePlusFaible": "Tête",
+   "portrait": "https://assets.tarkov.dev/shadow-of-tagilla-portrait.webp",
+   "affiche": "https://assets.tarkov.dev/shadow-of-tagilla-poster.webp",
+   "escortes": [],
+   "apparitions": [
+    {
+     "carte": "the-labyrinth",
+     "carteId": "6733700029c367a3d40b02af",
+     "chance": 1,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": false,
+     "zones": [],
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "mob": "bossTagillaAgro"
+    },
+    {
+     "carte": "the-labyrinth",
+     "carteId": "6733700029c367a3d40b02af",
+     "chance": 1,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": false,
+     "zones": [],
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "mob": "bossTagillaAgro"
+    },
+    {
+     "carte": "the-labyrinth",
+     "carteId": "6733700029c367a3d40b02af",
+     "chance": 1,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": false,
+     "zones": [],
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "mob": "bossTagillaAgro"
+    }
+   ],
+   "equipement": {
+    "protections": [
+     {
+      "id": "609e860ebd219504d8507525",
+      "nom": "Gilet tactique porte-plaques Crye Precision AVS (édition Tagilla)",
+      "slot": "TacticalVest",
+      "slotFr": "Gilet tactique",
+      "categorie": "Gilet tactique"
+     },
+     {
+      "id": "656fa99800d62bcd2e024088",
+      "nom": "Plaque balistique Cult Termite",
+      "slot": "Front_plate",
+      "slotFr": "Plaque avant",
+      "categorie": "Plaque de blindage"
+     },
+     {
+      "id": "656fa0fb498d1b7e3e071d9c",
+      "nom": "Plaque balistique Global Armor's acier",
+      "slot": "Back_plate",
+      "slotFr": "Plaque arrière",
+      "categorie": "Plaque de blindage"
+     },
+     {
+      "id": "678f84bb9e85556ca60f0362",
+      "nom": "Masque de soudure de Tagilla \"ZABEY\"",
+      "slot": "FaceCover",
+      "slotFr": "Masque",
+      "categorie": "Masque"
+     }
+    ],
+    "armes": [
+     {
+      "id": "674fe9a75e51f1c47c04ec23",
+      "nom": "Fusil automatique Saiga-12K calibre 12/76",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "6499849fc93611967b034949",
+      "nom": "Fusil d'assaut Kalashnikov AK-12 5,45 x 39 mm",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     }
+    ],
+    "sacs": []
+   },
+   "loot": [
+    {
+     "id": "67e183377c6c2011970f3149",
+     "nom": "Clé avec un symbole d'Ariane",
+     "prevalence": 100,
+     "difficulte": "normal",
+     "types": [
+      "keys",
+      "noFlea"
+     ]
+    },
+    {
+     "id": "5fca138c2a7b221b2852a5c6",
+     "nom": "Injecteur d'antidote xTG-12",
+     "prevalence": 100,
+     "difficulte": "normal",
+     "types": [
+      "injectors",
+      "meds",
+      "provisions"
+     ]
+    },
+    {
+     "id": "5ed515e03a40a50460332579",
+     "nom": "Injecteur de stimulant L1 (norépinéphrine)",
+     "prevalence": 70.29,
+     "difficulte": "normal",
+     "types": [
+      "injectors",
+      "meds",
+      "provisions"
+     ]
+    },
+    {
+     "id": "679b992329acd1f2f60985a5",
+     "nom": "Notes de recherche Labrys",
+     "prevalence": 25.73,
+     "difficulte": "normal",
+     "types": []
+    },
+    {
+     "id": "5755383e24597772cb798966",
+     "nom": "Vaseline",
+     "prevalence": 16.01,
+     "difficulte": "normal",
+     "types": [
+      "meds",
+      "provisions"
+     ]
+    },
+    {
+     "id": "679b9819a2f2dd4da9023512",
+     "nom": "Carte d'accès Labrys",
+     "prevalence": 10.89,
+     "difficulte": "normal",
+     "types": [
+      "keys",
+      "noFlea"
+     ]
+    },
+    {
+     "id": "679bab714e9ca6b3d80586b4",
+     "nom": "Clé de la salle des cadavres",
+     "prevalence": 5.91,
+     "difficulte": "normal",
+     "types": [
+      "keys",
+      "noFlea"
+     ]
+    },
+    {
+     "id": "57347baf24597738002c6178",
+     "nom": "Barrette de mémoire",
+     "prevalence": 5.88,
+     "difficulte": "normal",
+     "types": [
+      "barter"
+     ]
+    },
+    {
+     "id": "573474f924597738002c6174",
+     "nom": "Chaînette",
+     "prevalence": 2.31,
+     "difficulte": "normal",
+     "types": [
+      "barter"
+     ]
+    },
+    {
+     "id": "573478bc24597738002c6175",
+     "nom": "Figurine de cheval",
+     "prevalence": 1.63,
+     "difficulte": "normal",
+     "types": [
+      "barter"
+     ]
+    },
+    {
+     "id": "544fb37f4bdc2dee738b4567",
+     "nom": "Antidouleurs Analgin",
+     "prevalence": 1,
+     "difficulte": "normal",
+     "types": [
+      "meds",
+      "provisions"
+     ]
+    },
+    {
+     "id": "59e3658a86f7741776641ac4",
+     "nom": "Figurine de chat",
+     "prevalence": 0.96,
+     "difficulte": "normal",
+     "types": [
+      "barter"
+     ]
+    }
+   ],
+   "nbObjetsLoot": 285
+  },
+  {
+   "slug": "the-wedge",
+   "titre": "The Wedge",
+   "titreFr": "The Wedge",
+   "nomJeu": "The Wedge",
+   "famille": "black-division",
+   "mobExport": "bossWedge",
+   "mobsApparences": [
+    "bossWedge",
+    "bossWedgeLab"
+   ],
+   "nomsExport": [
+    "the-wedge",
+    "the-wedge-labs"
+   ],
+   "pvTotal": 750,
+   "pv": [
+    {
+     "membre": "Poitrine",
+     "pv": 150,
+     "id": "Chest"
+    },
+    {
+     "membre": "Tête",
+     "pv": 60,
+     "id": "Head"
+    },
+    {
+     "membre": "Bras gauche",
+     "pv": 100,
+     "id": "LeftArm"
+    },
+    {
+     "membre": "Jambe gauche",
+     "pv": 110,
+     "id": "LeftLeg"
+    },
+    {
+     "membre": "Bras droit",
+     "pv": 100,
+     "id": "RightArm"
+    },
+    {
+     "membre": "Jambe droite",
+     "pv": 110,
+     "id": "RightLeg"
+    },
+    {
+     "membre": "Ventre",
+     "pv": 120,
+     "id": "Stomach"
+    }
+   ],
+   "membreLePlusResistant": "Poitrine",
+   "membreLePlusFaible": "Tête",
+   "portrait": "https://assets.tarkov.dev/the-wedge-portrait.webp",
+   "affiche": "https://assets.tarkov.dev/the-wedge-poster.webp",
+   "escortes": [
+    {
+     "id": "bossWedge",
+     "nom": "The Wedge (renfort d’image)",
+     "pvTotal": 750,
+     "pv": [
+      {
+       "membre": "Poitrine",
+       "pv": 150,
+       "id": "Chest"
+      },
+      {
+       "membre": "Tête",
+       "pv": 60,
+       "id": "Head"
+      },
+      {
+       "membre": "Bras gauche",
+       "pv": 100,
+       "id": "LeftArm"
+      },
+      {
+       "membre": "Jambe gauche",
+       "pv": 110,
+       "id": "LeftLeg"
+      },
+      {
+       "membre": "Bras droit",
+       "pv": 100,
+       "id": "RightArm"
+      },
+      {
+       "membre": "Jambe droite",
+       "pv": 110,
+       "id": "RightLeg"
+      },
+      {
+       "membre": "Ventre",
+       "pv": 120,
+       "id": "Stomach"
+      }
+     ]
+    },
+    {
+     "id": "followerWedgeLab",
+     "nom": "Garde de The Wedge (Laboratoire)",
+     "pvTotal": 880,
+     "pv": [
+      {
+       "membre": "Poitrine",
+       "pv": 170,
+       "id": "Chest"
+      },
+      {
+       "membre": "Tête",
+       "pv": 70,
+       "id": "Head"
+      },
+      {
+       "membre": "Bras gauche",
+       "pv": 120,
+       "id": "LeftArm"
+      },
+      {
+       "membre": "Jambe gauche",
+       "pv": 130,
+       "id": "LeftLeg"
+      },
+      {
+       "membre": "Bras droit",
+       "pv": 120,
+       "id": "RightArm"
+      },
+      {
+       "membre": "Jambe droite",
+       "pv": 130,
+       "id": "RightLeg"
+      },
+      {
+       "membre": "Ventre",
+       "pv": 140,
+       "id": "Stomach"
+      }
+     ]
+    }
+   ],
+   "apparitions": [
+    {
+     "carte": "icebreaker",
+     "carteId": "69af492a4819ea4ba10a69c5",
+     "chance": 1,
+     "declencheur": null,
+     "tempsApparition": 9999,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "BotZoneRoomsFour",
+       "chance": 1,
+       "positions": 16,
+       "escortes": [
+        {
+         "mob": "bossWedge",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 1
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "zone": "BotZoneRoomsThird",
+       "chance": 1,
+       "positions": 0,
+       "escortes": [
+        {
+         "mob": "bossWedge",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 1
+          }
+         ]
+        },
+        {
+         "mob": "bossWedge",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "zone": "BotZoneRoomsThirdKitchen",
+       "chance": 1,
+       "positions": 0,
+       "escortes": [
+        {
+         "mob": "bossWedge",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 1
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "mob": "bossWedge"
+    },
+    {
+     "carte": "icebreaker",
+     "carteId": "69af492a4819ea4ba10a69c5",
+     "chance": 1,
+     "declencheur": null,
+     "tempsApparition": 9999,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "BotZoneRoomsFour",
+       "chance": 1,
+       "positions": 16,
+       "escortes": [
+        {
+         "mob": "bossWedge",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 1
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "zone": "BotZoneRoomsThird",
+       "chance": 1,
+       "positions": 0,
+       "escortes": [
+        {
+         "mob": "bossWedge",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 1
+          }
+         ]
+        },
+        {
+         "mob": "bossWedge",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "zone": "BotZoneRoomsThirdKitchen",
+       "chance": 1,
+       "positions": 0,
+       "escortes": [
+        {
+         "mob": "bossWedge",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 1
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "mob": "bossWedge"
+    },
+    {
+     "carte": "icebreaker",
+     "carteId": "69af492a4819ea4ba10a69c5",
+     "chance": 1,
+     "declencheur": null,
+     "tempsApparition": 9999,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "BotZoneRoomsFour",
+       "chance": 1,
+       "positions": 16,
+       "escortes": [
+        {
+         "mob": "bossWedge",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 1
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "zone": "BotZoneRoomsThird",
+       "chance": 1,
+       "positions": 0,
+       "escortes": [
+        {
+         "mob": "bossWedge",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 1
+          }
+         ]
+        },
+        {
+         "mob": "bossWedge",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 2
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "zone": "BotZoneRoomsThirdKitchen",
+       "chance": 1,
+       "positions": 0,
+       "escortes": [
+        {
+         "mob": "bossWedge",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 1
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "mob": "bossWedge"
+    },
+    {
+     "carte": "the-lab-dark",
+     "carteId": "6a294a5b5eb5f9a1700417b7",
+     "chance": 1,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "BotZoneArmory",
+       "chance": 0.25,
+       "positions": 4,
+       "escortes": [
+        {
+         "mob": "followerWedgeLab",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 3
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "zone": "BotZoneGreenOffice",
+       "chance": 0.25,
+       "positions": 6,
+       "escortes": [
+        {
+         "mob": "followerWedgeLab",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 3
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "zone": "BotZoneGate1",
+       "chance": 0.25,
+       "positions": 4,
+       "escortes": [
+        {
+         "mob": "followerWedgeLab",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 3
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "zone": "BotZoneGate2",
+       "chance": 0.25,
+       "positions": 5,
+       "escortes": [
+        {
+         "mob": "followerWedgeLab",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 3
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "mob": "bossWedgeLab"
+    },
+    {
+     "carte": "the-lab-dark",
+     "carteId": "6a294a5b5eb5f9a1700417b7",
+     "chance": 0.33,
+     "declencheur": null,
+     "tempsApparition": -1,
+     "tempsAleatoire": false,
+     "zones": [
+      {
+       "zone": "BotZoneArmory",
+       "chance": 0.25,
+       "positions": 4,
+       "escortes": [
+        {
+         "mob": "followerWedgeLab",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 3
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "zone": "BotZoneGreenOffice",
+       "chance": 0.25,
+       "positions": 6,
+       "escortes": [
+        {
+         "mob": "followerWedgeLab",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 3
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "zone": "BotZoneGate1",
+       "chance": 0.25,
+       "positions": 4,
+       "escortes": [
+        {
+         "mob": "followerWedgeLab",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 3
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "zone": "BotZoneGate2",
+       "chance": 0.25,
+       "positions": 5,
+       "escortes": [
+        {
+         "mob": "followerWedgeLab",
+         "quantites": [
+          {
+           "chance": 1,
+           "nombre": 3
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "mob": "bossWedgeLab"
+    }
+   ],
+   "equipement": {
+    "protections": [
+     {
+      "id": "689479cb47e5acd1e10be986",
+      "nom": "Ferro Concepts FCPC V5 Plate Carrier (Black Division)",
+      "slot": "TacticalVest",
+      "slotFr": "Gilet tactique",
+      "categorie": "Gilet tactique"
+     },
+     {
+      "id": "656fae5f7c2d57afe200c0d7",
+      "nom": "Plaque balistique GAC 3s15m",
+      "slot": "Front_plate",
+      "slotFr": "Plaque avant",
+      "categorie": "Plaque de blindage"
+     },
+     {
+      "id": "689b880fff8b4adc420f5b56",
+      "nom": "Avon M53A1 gas mask",
+      "slot": "FaceCover",
+      "slotFr": "Masque",
+      "categorie": "Masque"
+     },
+     {
+      "id": "5a154d5cfcdbcb001a3b00da",
+      "nom": "Casque Ops-Core FAST MT Super High Cut (noir)",
+      "slot": "Headwear",
+      "slotFr": "Couvre-chef",
+      "categorie": "Casque"
+     }
+    ],
+    "armes": [
+     {
+      "id": "5447a9cd4bdc2dbd208b4567",
+      "nom": "Fusil d'assaut Colt M4A1 5,56 x 45 mm",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "6193a720f8ee7e52e42109ed",
+      "nom": "Pistolet HK USP .45 ACP",
+      "slot": "Holster",
+      "slotFr": "Pistolet",
+      "categorie": "Arme"
+     },
+     {
+      "id": "5fbcc1d9016cce60e8341ab3",
+      "nom": "Fusil d'assaut SIG MCX .300 AAC Blackout",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "5f36a0e5fbf956000b716b65",
+      "nom": "Pistolet Colt M45A1 .45 ACP",
+      "slot": "Holster",
+      "slotFr": "Pistolet",
+      "categorie": "Arme"
+     },
+     {
+      "id": "5bb2475ed4351e00853264e3",
+      "nom": "Fusil d'assaut HK 416A5 5,56 x 45 mm",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "5a7ae0c351dfba0017554310",
+      "nom": "Pistolet Glock 17 9 x 19 mm",
+      "slot": "Holster",
+      "slotFr": "Pistolet",
+      "categorie": "Arme"
+     },
+     {
+      "id": "618428466ef05c2ce828f218",
+      "nom": "Fusil d'assaut FN SCAR-L 5,56 x 45 mm (FDE)",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "56d59856d2720bd8418b456a",
+      "nom": "Pistolet SIG P226R 9 x 19 mm",
+      "slot": "Holster",
+      "slotFr": "Pistolet",
+      "categorie": "Arme"
+     },
+     {
+      "id": "5b0bbe4e5acfc40dc528a72d",
+      "nom": "Fusil d'assaut DS Arms SA-58 7,62 x 51 mm",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "5ba26383d4351e00334c93d9",
+      "nom": "Pistolet-mitrailleur HK MP7A1 4,6 x 30 mm",
+      "slot": "SecondPrimaryWeapon",
+      "slotFr": "Arme secondaire",
+      "categorie": "Arme"
+     },
+     {
+      "id": "5dcbd56fdbd3d91b3e5468d5",
+      "nom": "Fusil d'assaut Desert Tech MDR 7,62 x 51 mm",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "5d3eb3b0a4b93615055e84d2",
+      "nom": "Pistolet FN Five-seveN MK2 5,7 x 28 mm",
+      "slot": "Holster",
+      "slotFr": "Pistolet",
+      "categorie": "Arme"
+     },
+     {
+      "id": "676176d362e0497044079f4c",
+      "nom": "Fusil d'assaut FN SCAR-H X-17 7,62 x 51 mm",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     },
+     {
+      "id": "6183afd850224f204c1da514",
+      "nom": "Fusil d'assaut FN SCAR-H 7,62 x 51 mm",
+      "slot": "FirstPrimaryWeapon",
+      "slotFr": "Arme principale",
+      "categorie": "Arme"
+     }
+    ],
+    "sacs": []
+   },
+   "loot": [
+    {
+     "id": "5e8488fa988a8701445df1e4",
+     "nom": "Applicateur de granulés hémostatiques CALOK-B",
+     "prevalence": 100,
+     "difficulte": "easy",
+     "types": [
+      "meds",
+      "provisions"
+     ]
+    },
+    {
+     "id": "5e8488fa988a8701445df1e4",
+     "nom": "Applicateur de granulés hémostatiques CALOK-B",
+     "prevalence": 100,
+     "difficulte": "normal",
+     "types": [
+      "meds",
+      "provisions"
+     ]
+    },
+    {
+     "id": "569668774bdc2da2298b4568",
+     "nom": "Euros",
+     "prevalence": 100,
+     "difficulte": "normal",
+     "types": [
+      "noFlea"
+     ]
+    },
+    {
+     "id": "5ed515f6915ec335206e4152",
+     "nom": "Injecteur de stimulant AHF1-M",
+     "prevalence": 100,
+     "difficulte": "normal",
+     "types": [
+      "injectors",
+      "meds",
+      "provisions"
+     ]
+    },
+    {
+     "id": "637b612fb7afa97bfc3d7005",
+     "nom": "Injecteur de stimulant de combat TGLabs SJ12",
+     "prevalence": 100,
+     "difficulte": "normal",
+     "types": [
+      "injectors",
+      "meds",
+      "provisions"
+     ]
+    },
+    {
+     "id": "5c0e534186f7747fa1419867",
+     "nom": "Injecteur de stimulant régénérant eTG-change",
+     "prevalence": 100,
+     "difficulte": "normal",
+     "types": [
+      "injectors",
+      "meds",
+      "provisions"
+     ]
+    },
+    {
+     "id": "5c0e534186f7747fa1419867",
+     "nom": "Injecteur de stimulant régénérant eTG-change",
+     "prevalence": 75.28,
+     "difficulte": "easy",
+     "types": [
+      "injectors",
+      "meds",
+      "provisions"
+     ]
+    },
+    {
+     "id": "569668774bdc2da2298b4568",
+     "nom": "Euros",
+     "prevalence": 75.23,
+     "difficulte": "easy",
+     "types": [
+      "noFlea"
+     ]
+    },
+    {
+     "id": "69f07893e761ac1c200ae15b",
+     "nom": "Model 8230 CS gas grenade",
+     "prevalence": 71.35,
+     "difficulte": "normal",
+     "types": [
+      "grenade",
+      "noFlea"
+     ]
+    },
+    {
+     "id": "6a461c41ec88c6b9a509fb17",
+     "nom": "BD dogtag •||| Red",
+     "prevalence": 59.77,
+     "difficulte": "normal",
+     "types": [
+      "barter",
+      "noFlea"
+     ]
+    },
+    {
+     "id": "6a461bf82b2264dbe10d0ee6",
+     "nom": "BD dogtag •|| Green",
+     "prevalence": 59.76,
+     "difficulte": "easy",
+     "types": [
+      "barter",
+      "noFlea"
+     ]
+    },
+    {
+     "id": "5696686a4bdc2da3298b456a",
+     "nom": "Dollars",
+     "prevalence": 50.49,
+     "difficulte": "normal",
+     "types": [
+      "noFlea"
+     ]
+    }
+   ],
+   "nbObjetsLoot": 110
+  }
+ ],
+ "horsFiche": [
+  {
+   "id": "infectedTagilla",
+   "nom": "Tagilla infecté",
+   "pvTotal": 1530,
+   "famille": "autre"
+  },
+  {
+   "id": "bossKillaAgro",
+   "nom": "Vengeful Killa",
+   "pvTotal": 960,
+   "famille": "autre"
+  },
+  {
+   "id": "followerWedgeLab",
+   "nom": "Garde de The Wedge (Laboratoire)",
+   "pvTotal": 880,
+   "famille": "autre"
+  },
+  {
+   "id": "infectedAssault",
+   "nom": "Infecté armé",
+   "pvTotal": 825,
+   "famille": "autre"
+  },
+  {
+   "id": "infectedCivil",
+   "nom": "Infecté civil",
+   "pvTotal": 825,
+   "famille": "autre"
+  },
+  {
+   "id": "infectedLaborant",
+   "nom": "Infecté de laboratoire",
+   "pvTotal": 825,
+   "famille": "autre"
+  },
+  {
+   "id": "infectedPmc",
+   "nom": "PMC infecté",
+   "pvTotal": 825,
+   "famille": "autre"
+  },
+  {
+   "id": "blackDivision",
+   "nom": "Black Division",
+   "pvTotal": 790,
+   "famille": "autre"
+  },
+  {
+   "id": "bossBullyBlackDiv",
+   "nom": "Black Division (Icebreaker)",
+   "pvTotal": 790,
+   "famille": "autre"
+  },
+  {
+   "id": "followerBullyBlackDiv",
+   "nom": "Garde Black Division",
+   "pvTotal": 790,
+   "famille": "autre"
+  },
+  {
+   "id": "pmcBotBlackDiv",
+   "nom": "PMC Black Division",
+   "pvTotal": 790,
+   "famille": "autre"
+  },
+  {
+   "id": "ExUsec",
+   "nom": "Rogue (USEC)",
+   "pvTotal": 775,
+   "famille": "autre"
+  },
+  {
+   "id": "PmcBot",
+   "nom": "Raider",
+   "pvTotal": 745,
+   "famille": "autre"
+  },
+  {
+   "id": "vsRF",
+   "nom": "AF (Terminal)",
+   "pvTotal": 710,
+   "famille": "autre"
+  },
+  {
+   "id": "infectedScreamer",
+   "nom": "Hurleur infecté",
+   "pvTotal": 690,
+   "famille": "autre"
+  },
+  {
+   "id": "vsRFSniper",
+   "nom": "AF sniper (Terminal)",
+   "pvTotal": 675,
+   "famille": "autre"
+  },
+  {
+   "id": "Sentry",
+   "nom": "Tour de garde (Shoreline)",
+   "pvTotal": 675,
+   "famille": "autre"
+  },
+  {
+   "id": "exUsecFree",
+   "nom": "Rogue libre",
+   "pvTotal": 0,
+   "famille": "autre"
+  }
+ ],
+ "mobs": {
+  "infectedTagilla": {
+   "id": "infectedTagilla",
+   "nom": "infected-tagilla",
+   "pvTotal": 1530,
+   "famille": "Tagilla infecté"
+  },
+  "infectedAssault": {
+   "id": "infectedAssault",
+   "nom": "infected",
+   "pvTotal": 825,
+   "famille": "Infecté armé"
+  },
+  "infectedCivil": {
+   "id": "infectedCivil",
+   "nom": "infected",
+   "pvTotal": 825,
+   "famille": "Infecté civil"
+  },
+  "infectedPmc": {
+   "id": "infectedPmc",
+   "nom": "infected",
+   "pvTotal": 825,
+   "famille": "PMC infecté"
+  },
+  "bossKolontay": {
+   "id": "bossKolontay",
+   "nom": "kollontay",
+   "pvTotal": 1055,
+   "famille": "kollontay"
+  },
+  "sectantPriest": {
+   "id": "sectantPriest",
+   "nom": "cultist-priest",
+   "pvTotal": 850,
+   "famille": "cultist-priest"
+  },
+  "sectantWarrior": {
+   "id": "sectantWarrior",
+   "nom": "cultist-warrior",
+   "pvTotal": 850,
+   "famille": "Guerrier cultiste"
+  },
+  "infectedScreamer": {
+   "id": "infectedScreamer",
+   "nom": "infectedscreamer",
+   "pvTotal": 690,
+   "famille": "Hurleur infecté"
+  },
+  "blackDivision": {
+   "id": "blackDivision",
+   "nom": "black-div",
+   "pvTotal": 790,
+   "famille": "Black Division"
+  },
+  "vsRFSniper": {
+   "id": "vsRFSniper",
+   "nom": "af",
+   "pvTotal": 675,
+   "famille": "AF sniper (Terminal)"
+  },
+  "vsRF": {
+   "id": "vsRF",
+   "nom": "af",
+   "pvTotal": 710,
+   "famille": "AF (Terminal)"
+  },
+  "bossGluhar": {
+   "id": "bossGluhar",
+   "nom": "glukhar",
+   "pvTotal": 1010,
+   "famille": "glukhar"
+  },
+  "followerGluharSecurity": {
+   "id": "followerGluharSecurity",
+   "nom": "glukhar-guard-security",
+   "pvTotal": 806,
+   "famille": "Garde de sécurité de Glukhar"
+  },
+  "bossKilla": {
+   "id": "bossKilla",
+   "nom": "killa",
+   "pvTotal": 890,
+   "famille": "killa"
+  },
+  "bossBully": {
+   "id": "bossBully",
+   "nom": "reshala",
+   "pvTotal": 752,
+   "famille": "reshala"
+  },
+  "followerBully": {
+   "id": "followerBully",
+   "nom": "reshala-guard",
+   "pvTotal": 630,
+   "famille": "Garde de Reshala"
+  },
+  "bossSanitar": {
+   "id": "bossSanitar",
+   "nom": "sanitar",
+   "pvTotal": 1270,
+   "famille": "sanitar"
+  },
+  "followerSanitar": {
+   "id": "followerSanitar",
+   "nom": "sanitar-guard",
+   "pvTotal": 1055,
+   "famille": "Garde de Sanitar"
+  },
+  "bossTagilla": {
+   "id": "bossTagilla",
+   "nom": "tagilla",
+   "pvTotal": 1220,
+   "famille": "tagilla"
+  },
+  "bossTagillaAgro": {
+   "id": "bossTagillaAgro",
+   "nom": "shadow-of-tagilla",
+   "pvTotal": 1305,
+   "famille": "shadow-of-tagilla"
+  },
+  "bossKillaAgro": {
+   "id": "bossKillaAgro",
+   "nom": "vengeful-killa",
+   "pvTotal": 960,
+   "famille": "Vengeful Killa"
+  },
+  "PmcBot": {
+   "id": "PmcBot",
+   "nom": "raider",
+   "pvTotal": 745,
+   "famille": "Raider"
+  },
+  "followerGluharAssault": {
+   "id": "followerGluharAssault",
+   "nom": "glukhar-guard-assault",
+   "pvTotal": 760,
+   "famille": "Garde d’assaut de Glukhar"
+  },
+  "followerGluharScout": {
+   "id": "followerGluharScout",
+   "nom": "glukhar-guard-scout",
+   "pvTotal": 580,
+   "famille": "Éclaireur de Glukhar"
+  },
+  "bossKnight": {
+   "id": "bossKnight",
+   "nom": "knight",
+   "pvTotal": 1120,
+   "famille": "knight"
+  },
+  "followerBigPipe": {
+   "id": "followerBigPipe",
+   "nom": "big-pipe",
+   "pvTotal": 910,
+   "famille": "Big Pipe"
+  },
+  "followerBirdEye": {
+   "id": "followerBirdEye",
+   "nom": "birdeye",
+   "pvTotal": 795,
+   "famille": "Birdeye"
+  },
+  "bossPartisan": {
+   "id": "bossPartisan",
+   "nom": "partisan",
+   "pvTotal": 950,
+   "famille": "partisan"
+  },
+  "pmcBotBlackDiv": {
+   "id": "pmcBotBlackDiv",
+   "nom": "black-div",
+   "pvTotal": 790,
+   "famille": "PMC Black Division"
+  },
+  "bossWedgeLab": {
+   "id": "bossWedgeLab",
+   "nom": "the-wedge-labs",
+   "pvTotal": 880,
+   "famille": "the-wedge-labs"
+  },
+  "followerWedgeLab": {
+   "id": "followerWedgeLab",
+   "nom": "the-wedge-labs-guard",
+   "pvTotal": 880,
+   "famille": "Garde de The Wedge (Laboratoire)"
+  },
+  "ExUsec": {
+   "id": "ExUsec",
+   "nom": "rogue",
+   "pvTotal": 775,
+   "famille": "Rogue (USEC)"
+  },
+  "bossBullyBlackDiv": {
+   "id": "bossBullyBlackDiv",
+   "nom": "black-div",
+   "pvTotal": 790,
+   "famille": "Black Division (Icebreaker)"
+  },
+  "followerBullyBlackDiv": {
+   "id": "followerBullyBlackDiv",
+   "nom": "black-div-guard",
+   "pvTotal": 790,
+   "famille": "Garde Black Division"
+  },
+  "bossWedge": {
+   "id": "bossWedge",
+   "nom": "the-wedge",
+   "pvTotal": 750,
+   "famille": "The Wedge (renfort d’image)"
+  },
+  "infectedLaborant": {
+   "id": "infectedLaborant",
+   "nom": "infected",
+   "pvTotal": 825,
+   "famille": "Infecté de laboratoire"
+  },
+  "Sentry": {
+   "id": "Sentry",
+   "nom": "af",
+   "pvTotal": 675,
+   "famille": "Tour de garde (Shoreline)"
+  },
+  "bossZryachiy": {
+   "id": "bossZryachiy",
+   "nom": "zryachiy",
+   "pvTotal": 1655,
+   "famille": "zryachiy"
+  },
+  "exUsecFree": {
+   "id": "exUsecFree",
+   "nom": "rogue",
+   "pvTotal": 0,
+   "famille": "Rogue libre"
+  },
+  "bossKojaniy": {
+   "id": "bossKojaniy",
+   "nom": "shturman",
+   "pvTotal": 812,
+   "famille": "shturman"
+  },
+  "followerKojaniy": {
+   "id": "followerKojaniy",
+   "nom": "shturman-guard",
+   "pvTotal": 740,
+   "famille": "Garde de Shturman"
+  },
+  "bossBoar": {
+   "id": "bossBoar",
+   "nom": "kaban",
+   "pvTotal": 1300,
+   "famille": "kaban"
+  },
+  "followerBoar": {
+   "id": "followerBoar",
+   "nom": "kaban-guard",
+   "pvTotal": 725,
+   "famille": "Garde de Kaban"
+  },
+  "followerBoarClose1": {
+   "id": "followerBoarClose1",
+   "nom": "basmach",
+   "pvTotal": 1030,
+   "famille": "Gus"
+  },
+  "followerBoarClose2": {
+   "id": "followerBoarClose2",
+   "nom": "gus",
+   "pvTotal": 1030,
+   "famille": "Basmach"
+  },
+  "bossBoarSniper": {
+   "id": "bossBoarSniper",
+   "nom": "kaban-guard-sniper",
+   "pvTotal": 710,
+   "famille": "Snipers de Kaban"
+  },
+  "followerKolontayAssault": {
+   "id": "followerKolontayAssault",
+   "nom": "kollontay-guard-assault",
+   "pvTotal": 790,
+   "famille": "Garde d’assaut de Kollontay"
+  },
+  "followerKolontaySecurity": {
+   "id": "followerKolontaySecurity",
+   "nom": "kollontay-guard-security",
+   "pvTotal": 825,
+   "famille": "Garde de sécurité de Kollontay"
+  }
+ },
+ "cartes": {
+  "factory": {
+   "id": "55f2d3fd4bdc2d5f408b4567",
+   "nom": "factory",
+   "dureeRaid": 20,
+   "joueurs": "7-8",
+   "wiki": "https://escapefromtarkov.fandom.com/wiki/Factory",
+   "apparitions": [
+    {
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "boss": []
+    },
+    {
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "boss": []
+    },
+    {
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "boss": []
+    }
+   ]
+  },
+  "customs": {
+   "id": "56f40101d2720b2a4d8b45d6",
+   "nom": "customs",
+   "dureeRaid": 35,
+   "joueurs": "10-12",
+   "wiki": "https://escapefromtarkov.fandom.com/wiki/Customs",
+   "apparitions": [
+    {
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "boss": [
+      "bossBully",
+      "bossKnight",
+      "bossPartisan",
+      "sectantPriest"
+     ]
+    },
+    {
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "boss": [
+      "bossBully",
+      "bossKnight",
+      "bossPartisan",
+      "sectantPriest"
+     ]
+    },
+    {
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "boss": [
+      "bossBully",
+      "bossKnight",
+      "bossPartisan",
+      "sectantPriest"
+     ]
+    }
+   ]
+  },
+  "woods": {
+   "id": "5704e3c2d2720bac5b8b4567",
+   "nom": "woods",
+   "dureeRaid": 35,
+   "joueurs": "10-14",
+   "wiki": "https://escapefromtarkov.fandom.com/wiki/Woods",
+   "apparitions": [
+    {
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "boss": [
+      "bossKnight",
+      "bossKojaniy",
+      "bossPartisan",
+      "sectantPriest"
+     ]
+    },
+    {
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "boss": [
+      "bossKnight",
+      "bossKojaniy",
+      "bossPartisan",
+      "sectantPriest"
+     ]
+    },
+    {
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "boss": [
+      "bossKnight",
+      "bossKojaniy",
+      "bossPartisan",
+      "sectantPriest"
+     ]
+    }
+   ]
+  },
+  "lighthouse": {
+   "id": "5704e4dad2720bb55b8b4567",
+   "nom": "lighthouse",
+   "dureeRaid": 40,
+   "joueurs": "10-12",
+   "wiki": "https://escapefromtarkov.fandom.com/wiki/Lighthouse",
+   "apparitions": [
+    {
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "boss": [
+      "bossKnight",
+      "bossPartisan",
+      "bossZryachiy"
+     ]
+    },
+    {
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "boss": [
+      "bossKnight",
+      "bossPartisan",
+      "bossZryachiy"
+     ]
+    },
+    {
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "boss": [
+      "bossKnight",
+      "bossPartisan",
+      "bossZryachiy"
+     ]
+    }
+   ]
+  },
+  "shoreline": {
+   "id": "5704e554d2720bac5b8b456e",
+   "nom": "shoreline",
+   "dureeRaid": 45,
+   "joueurs": "10-14",
+   "wiki": "https://escapefromtarkov.fandom.com/wiki/Shoreline",
+   "apparitions": [
+    {
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "boss": [
+      "bossKnight",
+      "bossPartisan",
+      "bossSanitar",
+      "sectantPriest"
+     ]
+    },
+    {
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "boss": [
+      "bossKnight",
+      "bossPartisan",
+      "bossSanitar",
+      "sectantPriest"
+     ]
+    },
+    {
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "boss": [
+      "bossKnight",
+      "bossPartisan",
+      "bossSanitar",
+      "sectantPriest"
+     ]
+    }
+   ]
+  },
+  "reserve": {
+   "id": "5704e5fad2720bc05b8b4567",
+   "nom": "reserve",
+   "dureeRaid": 40,
+   "joueurs": "9-11",
+   "wiki": "https://escapefromtarkov.fandom.com/wiki/Reserve",
+   "apparitions": [
+    {
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "boss": [
+      "bossGluhar"
+     ]
+    },
+    {
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "boss": [
+      "bossGluhar"
+     ]
+    },
+    {
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "boss": [
+      "bossGluhar"
+     ]
+    }
+   ]
+  },
+  "interchange": {
+   "id": "5714dbc024597771384a510d",
+   "nom": "interchange",
+   "dureeRaid": 40,
+   "joueurs": "11-15",
+   "wiki": "https://escapefromtarkov.fandom.com/wiki/Interchange",
+   "apparitions": [
+    {
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "boss": [
+      "bossKilla"
+     ]
+    },
+    {
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "boss": [
+      "bossKilla"
+     ]
+    },
+    {
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "boss": [
+      "bossKilla"
+     ]
+    }
+   ]
+  },
+  "streets-of-tarkov": {
+   "id": "5714dc692459777137212e12",
+   "nom": "streets-of-tarkov",
+   "dureeRaid": 40,
+   "joueurs": "12-16",
+   "wiki": "https://escapefromtarkov.fandom.com/wiki/Streets_of_Tarkov",
+   "apparitions": [
+    {
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "boss": [
+      "bossBoar",
+      "bossKolontay"
+     ]
+    },
+    {
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "boss": [
+      "bossBoar",
+      "bossKolontay"
+     ]
+    },
+    {
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "boss": [
+      "bossBoar",
+      "bossKolontay"
+     ]
+    }
+   ]
+  },
+  "night-factory": {
+   "id": "59fc81d786f774390775787e",
+   "nom": "night-factory",
+   "dureeRaid": 25,
+   "joueurs": "5-6",
+   "wiki": "https://escapefromtarkov.fandom.com/wiki/Factory",
+   "apparitions": [
+    {
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "boss": [
+      "sectantPriest"
+     ]
+    },
+    {
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "boss": [
+      "sectantPriest"
+     ]
+    },
+    {
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "boss": [
+      "sectantPriest"
+     ]
+    }
+   ]
+  },
+  "the-lab": {
+   "id": "5b0fc42d86f7744a585f9105",
+   "nom": "the-lab",
+   "dureeRaid": 30,
+   "joueurs": "8-10",
+   "wiki": "https://escapefromtarkov.fandom.com/wiki/The_Lab",
+   "apparitions": [
+    {
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "boss": []
+    },
+    {
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "boss": []
+    },
+    {
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "boss": []
+    }
+   ]
+  },
+  "ground-zero": {
+   "id": "653e6760052c01c1c805532f",
+   "nom": "ground-zero",
+   "dureeRaid": 30,
+   "joueurs": "9-10",
+   "wiki": "https://escapefromtarkov.fandom.com/wiki/Ground_Zero",
+   "apparitions": [
+    {
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "boss": []
+    },
+    {
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "boss": []
+    },
+    {
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "boss": []
+    }
+   ]
+  },
+  "ground-zero-21": {
+   "id": "65b8d6f5cdde2479cb2a3125",
+   "nom": "ground-zero-21",
+   "dureeRaid": 30,
+   "joueurs": "9-12",
+   "wiki": "https://escapefromtarkov.fandom.com/wiki/Ground_Zero",
+   "apparitions": [
+    {
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "boss": [
+      "sectantPriest"
+     ]
+    },
+    {
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "boss": [
+      "sectantPriest"
+     ]
+    },
+    {
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "boss": [
+      "sectantPriest"
+     ]
+    }
+   ]
+  },
+  "terminal": {
+   "id": "65cc8f81a9aac3e77d0cfd3e",
+   "nom": "terminal",
+   "dureeRaid": 50,
+   "joueurs": "1-5",
+   "wiki": "https://escapefromtarkov.fandom.com/wiki/Terminal",
+   "apparitions": [
+    {
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "boss": [
+      "bossBully",
+      "bossGluhar",
+      "bossKilla",
+      "bossSanitar",
+      "bossTagilla"
+     ]
+    },
+    {
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "boss": [
+      "bossBully",
+      "bossGluhar",
+      "bossKilla",
+      "bossSanitar",
+      "bossTagilla"
+     ]
+    },
+    {
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "boss": [
+      "bossBully",
+      "bossGluhar",
+      "bossKilla",
+      "bossSanitar",
+      "bossTagilla"
+     ]
+    }
+   ]
+  },
+  "the-labyrinth": {
+   "id": "6733700029c367a3d40b02af",
+   "nom": "the-labyrinth",
+   "dureeRaid": 30,
+   "joueurs": "5-5",
+   "wiki": "https://escapefromtarkov.fandom.com/wiki/The_Labyrinth",
+   "apparitions": [
+    {
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "boss": [
+      "bossTagillaAgro"
+     ]
+    },
+    {
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "boss": [
+      "bossTagillaAgro"
+     ]
+    },
+    {
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "boss": [
+      "bossTagillaAgro"
+     ]
+    }
+   ]
+  },
+  "ground-zero-tutorial": {
+   "id": "68236e8153654e8c1200798a",
+   "nom": "ground-zero-tutorial",
+   "dureeRaid": 30,
+   "joueurs": "9-12",
+   "wiki": "https://escapefromtarkov.fandom.com/wiki/Ground_Zero",
+   "apparitions": [
+    {
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "boss": []
+    },
+    {
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "boss": []
+    },
+    {
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "boss": []
+    }
+   ]
+  },
+  "icebreaker": {
+   "id": "69af492a4819ea4ba10a69c5",
+   "nom": "icebreaker",
+   "dureeRaid": 50,
+   "joueurs": "1-3",
+   "wiki": "https://escapefromtarkov.fandom.com/wiki/Icebreaker",
+   "apparitions": [
+    {
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "boss": [
+      "bossKnight",
+      "bossWedge"
+     ]
+    },
+    {
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "boss": [
+      "bossKnight",
+      "bossWedge"
+     ]
+    },
+    {
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "boss": [
+      "bossKnight",
+      "bossWedge"
+     ]
+    }
+   ]
+  },
+  "the-lab-dark": {
+   "id": "6a294a5b5eb5f9a1700417b7",
+   "nom": "the-lab-dark",
+   "dureeRaid": 30,
+   "joueurs": "8-10",
+   "wiki": "https://escapefromtarkov.fandom.com/wiki/The_Lab",
+   "apparitions": [
+    {
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "boss": []
+    },
+    {
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "boss": []
+    },
+    {
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "boss": []
+    }
+   ]
+  },
+  "infected-lab": {
+   "id": "6a8dd0941fc6ba7a9505908f",
+   "nom": "infected-lab",
+   "dureeRaid": 30,
+   "joueurs": "8-10",
+   "wiki": "https://escapefromtarkov.fandom.com/wiki/Infected_Lab",
+   "apparitions": [
+    {
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "boss": []
+    },
+    {
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "boss": []
+    },
+    {
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "boss": []
+    }
+   ]
+  },
+  "infected-factory": {
+   "id": "6a8dd1325e15a5ea2e010820",
+   "nom": "infected-factory",
+   "dureeRaid": 20,
+   "joueurs": "4-6",
+   "wiki": "https://escapefromtarkov.fandom.com/wiki/Infected_Factory",
+   "apparitions": [
+    {
+     "mode": "regular",
+     "modeFr": "PvP Zone",
+     "boss": []
+    },
+    {
+     "mode": "pve",
+     "modeFr": "PvE Zone",
+     "boss": []
+    },
+    {
+     "mode": "pvp-season",
+     "modeFr": "Seasonal",
+     "boss": []
+    }
+   ]
+  }
+ },
+ "statistiques": {
+  "fiches": 14,
+  "mobsExport": 48,
+  "horsFiche": 18,
+  "apparitions": 89,
+  "pvMax": 1655,
+  "pvMin": 750
+ }
+}

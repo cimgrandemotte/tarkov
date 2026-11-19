@@ -1,0 +1,90 @@
+<section class="field-section map-section" id="reperes" tabindex="-1">
+  <h2>Repères et accès</h2>
+  <p>La Base militaire est le secret le mieux gardé de la fiction officielle : une base secrète de l’Agence fédérale des réserves qui, selon les rumeurs urbaines, contiendrait de quoi tenir des années — nourriture, médicaments, ressources. <a href="@source:Reserve@">Fiche publique</a>.</p>
+  <div class="field-grid field-grid--three">
+    <div class="field-card"><p class="eyebrow">Volume</p><p><strong>40 minutes</strong>, 9 à 11 PMC, tous niveaux admis. 167 points de spawn relevés.</p></div>
+    <div class="field-card"><p class="eyebrow">Structure</p><p>Deux mondes superposés : la surface, avec ses voies ferrées et ses baraquements, et le réseau de bunkers souterrains avec ses leviers.</p></div>
+    <div class="field-card"><p class="eyebrow">Équipement fixe</p><p>Des armes fixes de type AGS-30 et NSV Utyos, et des <strong>snipers de bordure</strong> signalés par panneaux.</p></div>
+  </div>
+  <div class="map-note">
+    <p><strong>Le BTR comme repère.</strong> Une rame blindée circule sur le réseau ferré et constitue le repère le plus stable de la carte. Elle est neutre tant qu’on ne l’attaque pas ; le service « Transport de passager » peut en faire un moyen de déplacement, à condition de ne pas tirer dessus.</p>
+  </div>
+</section>
+
+<section class="field-section map-section" id="sorties" tabindex="-1">
+  <h2>Sorties et transits</h2>
+  <p>Onze sorties sont documentées : deux pour les PMC, quatre pour les Scavs, cinq partagées. Deux d’entre elles n’existent qu’à un moment précis du raid, et c’est ce qui fait la difficulté du lieu : le timing fait partie de l’exfiltration.</p>
+  <div class="map-layers">
+    <div class="map-layers__bar" role="group" aria-label="Couches de données de la Base militaire">
+      <span class="eyebrow">Couches</span>
+      <button type="button" class="badge" data-layer-toggle="sorties" aria-pressed="true">Sorties documentées</button>
+      <button type="button" class="badge" data-layer-toggle="transits" aria-pressed="true">Transits</button>
+      <button type="button" class="badge" data-layer-toggle="intitules" aria-pressed="false">Intitulés de jeu</button>
+    </div>
+    <div class="map-panel map-layer" data-layer="sorties">
+      <div class="map-layer__head"><h3>Sorties documentées</h3><p>Fiche publique du 18 novembre 2026.</p></div>
+      <label class="field" for="camp-base"><span class="field__label">Filtrer par camp</span>
+        <select class="field__control" id="camp-base" data-camp-filter>
+          <option value="tous">Toutes les sorties</option>
+          <option value="pmc">PMC</option>
+          <option value="scav">Scav</option>
+          <option value="shared">Partagées</option>
+        </select>
+      </label>
+      %%TABLE_SORTIES%%
+    </div>
+    <div class="map-panel map-layer" data-layer="transits">
+      <div class="map-layer__head"><h3>Transits sortants</h3><p>Trois destinations : Douanes, Bois et Phare.</p></div>
+      %%TABLE_TRANSITS%%
+    </div>
+    <div class="map-panel map-layer" data-layer="intitules" hidden>
+      <div class="map-layer__head"><h3>Intitulés de jeu</h3><p>Onze intitulés recensés par l’instantané des données.</p></div>
+      %%TABLE_SORTIES_JEU%%
+    </div>
+  </div>
+  <p>La <em>D-2</em> PMC exige deux actions : actionner un levier dans le réseau de bunkers souterrains pour rétablir le courant, puis utiliser la sortie. La <em>Descente de falaise</em> exige un piolet Red Rebel, une corde et l’absence de gilet pare-balles. La <em>Trappe d’égout</em> exige de ne pas porter de sac à dos. La <em>Rame blindée</em> arrive entre seize et douze minutes restantes et klaxonne deux fois : c’est un rendez-vous, pas une porte à chercher.</p>
+</section>
+
+<section class="field-section map-section" id="rencontres" tabindex="-1">
+  <h2>Rencontres et menaces</h2>
+  <p>Glukhar est la rencontre principale, présente dans 60 % des instantanés relevés, avec trois gardes aux rôles distincts — assaut, sécurité et éclaireur. La fiche publique le situe dans les bâtiments de stockage marqués d’un « K », dans l’atelier de réparation marqué du cavalier blanc, dans les baraquements marqués du bishop et du pion noirs, et dans l’entrepôt souterrain marqué d’un « Д ». Les Raiders apparaissent séparément, avec 40 % de présence, et leurs points d’apparition portent des horaires : l’un d’eux est calé sur la fin de raid. <a href="@source:full-speed@">Annonce BSG</a>.</p>
+  %%TABLE_RENCONTRES%%
+</section>
+
+<section class="field-section map-section" id="terrain" tabindex="-1">
+  <h2>Dangers de terrain</h2>
+  <p>La Base militaire compte peu de zones de danger de bordure relevées : trois snipers et un champ de mines. Le risque du lieu n’est pas la bordure, c’est la verticalité : on passe d’un niveau à l’autre, et le niveau d’en dessous est toujours plus lent à quitter.</p>
+  %%TABLE_DANGERS%%
+</section>
+
+<section class="field-section map-section" id="cles" tabindex="-1">
+  <h2>Clés et butin</h2>
+  <p>Trente et une clés documentées, dont une série de clés repérées par code de baraquement — RB-AK, RB-AM, RB-AO, RB-GN, RB-KORL, RB-KPRL, RB-KSM — qui ouvrent des postes du complexe. Ce sont des clés de bâtiment, pas des clés de sortie : leur intérêt est le butin stocké à l’intérieur.</p>
+  %%TABLE_CLES%%
+</section>
+
+<section class="field-section map-section" id="conduite" tabindex="-1">
+  <h2>Conduite selon le profil</h2>
+  <p>La Base militaire se conduit par les leviers. Chaque levier ouvre une portion de carte, et le réseau souterrain est une succession de portes à commander. La sortie D-2 est le seul itinéraire PMC qui ne dépende pas d’un rendez-vous horaire, mais elle exige d’avoir rétabli le courant — donc d’avoir déjà descended.</p>
+  <ol class="map-steps">
+    <li><strong>Débutant.</strong> Rester en surface et viser la sortie <em>Sortie vers les Bois</em> ou la <em>Trappe d’égout</em>, toutes deux partagées et sans condition documentée. Ne pas descendre : le bunker est le lieu le plus meurtrier de la carte pour un joueur qui découvre Tarkov.</li>
+    <li><strong>Confirmé.</strong> Utiliser les transits : celui vers les Douanes se trouve au nord des baraquements du bishop noir, celui vers les Bois et celui vers le Phare aux deux coins du dépôt ferroviaire.</li>
+    <li><strong>Expérimenté.</strong> Synchroniser le raid sur la rame blindée. Entre seize et douze minutes restantes, elle est là : la rater, et le timing est perdu pour tout le monde.</li>
+  </ol>
+  %%TABLE_MODES%%
+  %%TABLE_VARIANTES%%
+  <div class="map-path"><strong>Écarts entre profils</strong><span>Ce que les trois profils consultés changent sur ce lieu.</span></div>
+  %%TABLE_ECARTS%%
+</section>
+
+<section class="field-section map-section" id="sources" tabindex="-1">
+  <h2>Sources et limites</h2>
+  <p>Instantané communautaire du 18 novembre 2026 et fiche publique du même jour. Les horaires d’apparition des Raiders sont ceux de l’instantané : ils sont exprimés en secondes depuis le début du raid dans les données brutes, et nous ne les avons pas convertis en durée de raid sans vérification dans le client.</p>
+  <ul class="map-steps">
+    <li><a href="@source:Reserve@">Base militaire — fiche de lieu</a> : lore, sorties, clés et rencontres.</li>
+    <li><a href="@source:data-maps@">Tarkov.dev — cartes et rencontres</a> : instantané du profil PvP Zone, horaires de spawn inclus.</li>
+    <li><a href="@source:data-maps-fr@">Tarkov.dev — libellés français</a> et <a href="@source:data-maps-pve@">profil PvE</a> : intitulés et écarts.</li>
+    <li><a href="@source:full-speed@">Annonce officielle</a> : contexte du lieu et de ses modifications.</li>
+    <li><a href="@source:mapgenie@">MapGenie</a> et <a href="@source:kappa@">Kappa Guide</a> : aides de lecture communautaires.</li>
+  </ul>
+</section>

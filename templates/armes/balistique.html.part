@@ -1,0 +1,89 @@
+<section class="field-section armes-section" id="reperes" tabindex="-1">
+  <h2>Ce que contient cette page</h2>
+  <p>La règle de pénétration est lue par le jeu à chaque tir qui touche une armure, et elle est la seule chose qui décide si votre cartouche passe ou s’arrête dans la plaque. Cette page part de la règle publiée par l’éditeur, explique ce que chaque statistique de cartouche signifie, classe les deux cents munitions de l’export par classe d’armure atteinte, et donne les prix d’achat observés.</p>
+  <div class="field-grid field-grid--three">
+    <div class="field-card"><p class="eyebrow">200</p><p><strong>Cartouches.</strong> Trente et un calibres, de la 9 x 18 PM au 12,7 x 99, plus sept grenades à main traitées à part.</p></div>
+    <div class="field-card"><p class="eyebrow">154</p><p><strong>Vendues en magasin.</strong> Chacune avec un niveau de fidélité et un prix. Les quarante-six autres ne s’achètent qu’en raid ou au marché.</p></div>
+    <div class="field-card"><p class="eyebrow">15</p><p><strong>Coups multiples.</strong> Ces cartouches frappent en un seul tir le nombre de projectiles indiqué, pas un projectile unique.</p></div>
+  </div>
+</section>
+
+<section class="field-section armes-section" id="regle" tabindex="-1">
+  <h2>La règle de pénétration</h2>
+  <p>Le correctif 0.14.6.0 du 25 avril 2024 a redéfini la manière dont une cartouche traverse une armure. L’éditeur y énonce trois règles, reprises ici telles qu’elles ont été publiées :</p>
+  <ul class="armes-list">
+    <li><strong>La traversée est garantie</strong> lorsque la pénétration de la cartouche dépasse de <strong>quinze points ou plus</strong> la durabilité effective de l’armure.</li>
+    <li><strong>La durabilité effective d’une armure intacte</strong> vaut approximativement sa <strong>classe multipliée par dix</strong> ; elle diminue à mesure que l’armure perd ses points de durabilité.</li>
+    <li><strong>La pénétration se dégrade</strong> quand la balle perd de la vitesse : beaucoup de cartouches partent avec une petite variation initiale, et la pénétration baisse au contact de l’armure, d’une zone du corps ou d’un couvert.</li>
+  </ul>
+  <p>Le même correctif a introduit une règle pour le corps : la balle traverse toujours une zone du corps si sa pénétration dépasse le seuil de cette zone, fixé à 20 pour la tête, les avant-bras, les épaules, les mollets et les cuisses, en perdant au passage une partie de ses dégâts et de sa pénétration.</p>
+  <div class="field-callout">
+    <p><strong>Comment lire la classe atteinte.</strong> Une classe d’armure est atteinte quand la pénétration de la cartouche atteint dix fois son numéro : une classe 4 correspond à une pénétration de 40. C’est une <em>lecture dérivée</em>, pas une valeur publiée par l’éditeur : elle sert à comparer les cartouches entre elles, elle ne garantit rien sur une armure usée. La traversée garantie, elle, exige quinze points de plus.</p>
+  </div>
+  <p>Autrement dit : contre une classe 4 intacte, il faut environ 55 de pénétration pour être sûr de passer ; entre 40 et 55, la chance existe mais n’est pas acquise ; sous 40, la cartouche s’arrête dans la plaque. C’est la règle qui rend le choix de la munition prioritaire sur celui de l’arme : les dégâts au corps ne dépendent que de la cartouche, jamais du canon qui l’a tirée.</p>
+</section>
+
+<section class="field-section armes-section" id="statistiques" tabindex="-1">
+  <h2>Chaque statistique expliquée</h2>
+  <p>L’inspecteur du jeu affiche la plupart de ces valeurs directement sur la cartouche depuis le correctif 0.14.5.0. Voici ce qu’elles mesurent réellement, et ce que l’éditeur a dit de chacune.</p>
+  <div class="table-wrap" tabindex="0" role="group" aria-label="Statistiques d’une cartouche">
+    <table class="armes-table">
+      <caption>Statistiques d’une cartouche dans l’export, et ce qu’elles signifient.</caption>
+      <thead><tr><th scope="col">Statistique</th><th scope="col">Ce qu’elle mesure</th><th scope="col">Ce que l’éditeur en dit</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Pénétration</strong></td><td>La capacité de la cartouche à franchir l’armure. C’est la valeur que le jeu oppose à la durabilité effective de la plaque.</td><td><small>« La pénétration va de 15 points au-dessus de la durabilité effective à une traversée garantie ; pour une armure intacte, la durabilité effective vaut environ la classe multipliée par dix. »</small></td></tr>
+        <tr><td><strong>Dégâts</strong></td><td>Les dégâts infligés à la partie du corps touchée, par projectile. Un tir multiple en applique le nombre indiqué.</td><td><small>Les dégâts diminuent avec la distance, et un canon plus long augmente la vitesse de la balle, donc ses dégâts et sa pénétration.</small></td></tr>
+        <tr><td><strong>Dégâts d’armure</strong></td><td>La part des dégâts de la cartouche qui érode l’armure touchée : c’est elle qui détermine la vitesse d’usure de la plaque.</td><td><small>Le matériau de l’armure change la quantité de durabilité perdue.</small></td></tr>
+        <tr><td><strong>Fragmentation</strong></td><td>La chance que la cartouche se fragmente dans le corps, ce qui change les dégâts appliqués. Cent soixante-douze des deux cents cartouches ont une valeur au-dessus de zéro.</td><td><small>Les notes récentes de l’éditeur ne décrivent pas cette valeur.</small></td></tr>
+        <tr><td><strong>Vitesse initiale</strong></td><td>La vitesse de sortie, en mètres par seconde, de 20 à 1 220 dans l’export.</td><td><small>La pénétration baisse à mesure que la balle ralentit.</small></td></tr>
+        <tr><td><strong>Traçante</strong></td><td>La cartouche laisse une trace visible. Vingt-six cartouches de l’export en portent une, dont les sept fusées éclairantes.</td><td><small>La couleur est la seule différence entre deux traçantes.</small></td></tr>
+        <tr><td><strong>Ricochet</strong></td><td>La chance que la cartouche ricoche sur une surface ou une armure.</td><td><small>Chaque pièce d’armure a ses propres valeurs de ricochet.</small></td></tr>
+        <tr><td><strong>Hémorragie</strong></td><td>La chance ajoutée de provoquer un saignement, léger ou lourd, selon la cartouche.</td><td><small>Certaines cartouches causent des saignements plus souvent que d’autres.</small></td></tr>
+        <tr><td><strong>Précision et recul</strong></td><td>Les modificateurs que la cartouche applique à la précision et au recul de l’arme qui la tire.</td><td><small>Ces modificateurs ne sont pas décrits dans les notes récentes.</small></td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="field-section armes-section" id="classes" tabindex="-1">
+  <h2>Les six classes d’armure</h2>
+  <p>Les armures vont de la classe 1 à la classe 6, en chiffres romains depuis le correctif 0.14.0.0 du 27 décembre 2023 qui a introduit les plaques balistiques et les zones d’armure. Le tableau croise ces classes avec les deux cents cartouches de l’export : combien atteignent chaque classe, et combien franchissent le seuil de traversée garantie.</p>
+  %%TABLE_CLASSES%%
+  <div class="field-grid field-grid--two">
+    <div class="field-card">
+      <p class="eyebrow">Marché et courtiers</p>
+      <p>Depuis le correctif 0.15.0.0 du 20 août 2024, les marchands ne vendent plus rien de classe 6 : ces pièces ne sortent que des raids. Les plaques de classe 5 et 6 sont par ailleurs interdites de mise en vente sur le marché depuis le correctif 0.14.0.0.</p>
+    </div>
+    <div class="field-card">
+      <p class="eyebrow">Durée d’armure</p>
+      <p>La durabilité effective baisse quand l’armure perd ses points. Une classe 4 déjà abîmée s’arrête plus facilement qu’une classe 4 neuve : c’est pourquoi la même cartouche passe sur une cible fraîche et rate sur une cible usée.</p>
+    </div>
+  </div>
+</section>
+
+<section class="field-section armes-section" id="calibres" tabindex="-1">
+  <h2>Par calibre</h2>
+  <p>Une arme ne tire qu’un seul calibre : comparer deux cartouches de calibres différents n’a pas de sens. Le tableau donne, pour chacun des trente et un calibres, la plage de pénétration et de dégâts observée, la cartouche la plus pénétrante et le nombre de références achetables en magasin.</p>
+  %%TABLE_CALIBRES%%
+  <h3>Les cartouches traçantes</h3>
+  <p>Une traçante se voit à l’œil nu : sa couleur est la seule différence avec une cartouche ordinaire, et son comportement reste celui de sa classe. Le tableau ci-dessous reprend les vingt-six traçantes de l’export, dont les sept fusées éclairantes, qui apparaissent en jaune.</p>
+  %%TABLE_TRACEURS%%
+  <h3>Les grenades à main</h3>
+  <p>Les sept grenades de l’export ne suivent pas la règle de pénétration : elles agissent par explosion, avec un rayon et un nombre de fragments. Elles sont listées à part.</p>
+  %%TABLE_GRENADES%%
+</section>
+
+<section class="field-section armes-section" id="achats" tabindex="-1">
+  <h2>Où acheter, à quel prix</h2>
+  <p>Les prix ci-dessous sont ceux relevés dans l’export au 18 novembre 2026. Ils ne sont pas garantis : les marchands réapprovisionnent, les stocks changent, et certaines offres sont libellées en dollars plutôt qu’en roubles.</p>
+  %%TABLE_ACHATS%%
+  <div class="field-callout">
+    <p><strong>Le repère qui compte le plus.</strong> Une cartouche achetée en magasin coûte une fraction de son prix au marché, et une cartouche vendue en magasin rapporte plus que le même article acheté au marché. Les quarante-six cartouches sans offre en magasin ne sont donc pas des cartouches inutiles : ce sont celles qu’il faut chercher en raid, et qui se revendent bien.</p>
+  </div>
+</section>
+
+<section class="field-section armes-section" id="sources" tabindex="-1">
+  <h2>Sources et limites</h2>
+  <p>La règle de pénétration vient des notes de l’éditeur pour les correctifs 0.14.0.0, 0.14.5.0 et 0.14.6.0. Les chiffres de cartouche viennent de l’export communautaire du 18 novembre 2026. Les seuils de classe affichés dans cette page sont une lecture dérivée de la règle de l’éditeur, et les classements communautaires sont signalés comme retours de joueurs, jamais comme source de chiffres.</p>
+  %%SOURCES_AMMO%%
+</section>

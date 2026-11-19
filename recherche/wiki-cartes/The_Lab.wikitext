@@ -1,0 +1,235 @@
+{{Infobox location
+|image              =TheLabBanner.png
+|image size         =
+|icon               =
+|type               =
+|prev               =[[Streets of Tarkov]]<br/>[[Factory]]
+|next               =[[Streets of Tarkov]]
+|chapter            =
+|enemies            =[[Scav Raiders]]
+|players            =8-10
+|difficulty         =
+|duration           =30 minutes
+|notable loot       =
+}}
+
+'''{{PAGENAME}}''' is a [[Map of Tarkov|location]] in ''[[Escape from Tarkov]]''. It is the sixth map that was added to the game. 
+
+==Description==
+Secret underground TerraGroup Labs facility hidden right under the center of Tarkov. Officially, this research center does not exist and, based on data scraps, is engaged in research and development as well as testing and simulation of projects in chemistry, physics, biology, and other high technology.
+
+==Notes==
+* {{PAGENAME}} is initially only accessible by [[Transits|transiting]]. Direct access from the location selection screen is unlocked upon progressing through the story chapter [[Tour]].
+* This location can only be entered with a [[TerraGroup Labs access keycard]].
+
+==Features==
+===Insurance===
+All insured items left in a raid by players will not be returned. Upon death, insurance [[Traders]] will send the usual in-game mail about dispatching people to recover the items, but when the insurance timer runs out they will explain that their people don't go to the location, didn't find it or died in the process.
+
+[[File:TheLab-Insurance-Messages-01.PNG]]
+
+===Illumination===
+The illumination can be disabled by turning off the power in the basement.
+<li style="display: inline-block;"><gallery widths="300" heights="169" mode="packed">
+File:LabsIlluminationPowerButtonMap.png|Power button location marked on basement map
+File:LabsIlluminationPowerButton.png|The power button
+</gallery></li>
+
+===Announcer===
+Whenever an event of high importance happens, an announcement will be triggered. There is an announcement for every extraction activation besides "Ventilation Shaft" and "Sewage Conduit".
+
+The announcement for the "Parking Gate" extraction can be disabled inside the alarm system control panel room. A [[TerraGroup Labs keycard (Yellow)|Yellow keycard]] is needed to enter it.
+<li style="display: inline-block;"><gallery widths="300" heights="169" mode="packed">
+File:Lab Alarm Keyboard.png|Keyboard to deactivate the announcement
+</gallery></li>
+
+==Usable Keys==
+<div class="mw-collapsible mw-collapsed leftcollapse" data-expandtext="Show keys" data-collapsetext="Hide keys"><br/>
+{| class="wikitable sortable"
+!Icon
+!Key Name
+!Used in Quest
+|-
+![[File:DuctTapeKeycard Icon.png|64px|link=Keycard with a blue marking]]
+|[[Keycard with a blue marking]]
+! style="color: green" |✔
+|-
+![[File:Lab key Arsenal storage room icon.png|64px|link=TerraGroup Labs arsenal storage room key]]
+|[[TerraGroup Labs arsenal storage room key]]
+!
+|-
+![[File:LkEA Icon.png|64px|link=TerraGroup Labs keycard (Black)]]
+|[[TerraGroup Labs keycard (Black)]]
+! style="color: green" |✔
+|-
+![[File:Lab. key. The quarantine zone icon.png|64px|link=TerraGroup Labs keycard (Blue)]]
+|[[TerraGroup Labs keycard (Blue)]]
+!
+|-
+![[File:Lab Key Block2.png|64px|link=TerraGroup Labs keycard (Green)]]
+|[[TerraGroup Labs keycard (Green)]]
+!
+|-
+![[File:Lab. key. Security arsenal.png|64px|link=TerraGroup Labs keycard (Red)]]
+|[[TerraGroup Labs keycard (Red)]]
+!
+|-
+![[File:Lab. key. Security post icon.png|64px|link=TerraGroup Labs keycard (Violet)]]
+|[[TerraGroup Labs keycard (Violet)]]
+!
+|-
+![[File:Lab. key. Alarm system control panel icon.png|64px|link=TerraGroup Labs keycard (Yellow)]]
+|[[TerraGroup Labs keycard (Yellow) ]]
+!
+|-
+![[File:Lab. key. Manager office icon.png|64px|link=TerraGroup Labs manager's office room key]]
+|[[TerraGroup Labs manager's office room key]]
+! style="color: green" |✔
+|-
+![[File:TerraGroup Labs residential unit keycard icon.png|64px|link=TerraGroup Labs residential unit keycard]]
+|[[TerraGroup Labs residential unit keycard]]
+!
+|-
+![[File:Lab. key. Testing area (weap.) Icon.png|64px|link=TerraGroup Labs weapon testing area key]]
+|[[TerraGroup Labs weapon testing area key]]
+! style="color: green" |✔
+|-
+|}
+</div>
+{{clear}}
+
+==Bosses==
+{{Seasonal change|[[Scav Raiders]] are replaced by [[Black Division]].}}
+
+==Extractions==
+'''Note:''' Upon activating any of the extraction switches, there is a chance for [[Scav Raiders]] to spawn and roam towards the activation location.
+To locate the extractions use the [[The Lab#Maps|maps]] below the table.
+{| class="wikitable sortable stickyheader" style="text-align: center;"
+!Extraction
+!Name
+!Always available
+!Single-Use
+!Requirements
+!Notes
+! style="width: 282px" | Announcement
+|-
+![[File:LabsCargoElevatorExtract.png|240px]]
+! style="text-align: left;" |Cargo Elevator
+|<font color="green">✔</font>
+|<font color="green">✔</font>
+| [[File:LabsCargoElevatorExtractTrigger.png|240px]]<br />Restore power in the basement, room G1.
+|Second floor, opposite of room G21.
+|Sector G<br/>[[File:GCargoElevatorAnnouncement.wav|282px]]
+|-
+![[File:LabsHangarGateExtract.png|240px]]
+! style="text-align: left;" |Hangar Gate
+|<font color="red">✘</font>
+|<font color="red">✘</font>
+|[[File:LabsHangarGateExtractTrigger.png|240px]]<br/>Open the gate in cabin B24, on the second floor of the hangar.
+|Sector B11.
+|Sector B11<br/>[[File:B11HangarAnnouncement.wav|282px]]
+|-
+![[File:LabsMainElevatorExtract.png|240px]]
+! style="text-align: left;" |Main Elevator
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|[[File:LabsMainElevatorExtractTrigger.png|240px]]<br/>Restore power in the basement, opposite of room R4.
+|In the basement, in the corridor between the rooms R6 and R8.
+|Sector R<br/>[[File:RMainElevatorAnnouncement.wav|282px]]
+|-
+![[File:LabsElevatorOfTheMedicaBlockExtract.png|240px]]
+! style="text-align: left;" |Medical Block Elevator
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|[[File:LabsElevatorOfTheMedicaBlockExtractTrigger.png|240px]]<br/>Restore power in the basement, room G6.
+|In the basement between the rooms G3 and G4.
+|Sector O<br/>[[File:OMedicalElevatorAnnouncement.wav|282px]]
+|-
+![[File:LabsParkingGateExtract.png|240px]]
+! style="text-align: left;" |Parking Gate
+|<font color="red">✘</font>
+|<font color="red">✘</font>
+|[[File:LabsParkingGateExtractTrigger.png|240px]]<br />Open the gate in room Y21 on the second floor, next to R22.
+|Sector Y11.
+|Sector Y11<br/>[[File:Y11ParkingAnnouncement.wav|282px]]
+|-
+![[File:LabsSewageConduitExtract.png|240px]]
+! style="text-align: left;" |Sewage Conduit
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|[[File:LabsSewageConduitExtractTrigger.png|240px]]<br />Sink the water level.
+|Room B1 in the basement.<br />The switch to sink the water is on the left, the extraction on the right side of the room.<br/>The water takes ~80 seconds to sink.
+| -
+|-
+![[File:LabsVentilationShaftExtract.png|240px]]
+! style="text-align: left;" |Ventilation Shaft
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|No [[Backpacks|backpack]] equipped.
+|In the basement, corridor between the rooms G1 and G8, next to G7.
+| -
+|}
+
+==Transits==
+{| class="wikitable sortable stickyheader" style="text-align: center;"
+!Transit
+!Name
+!Always available
+!Single-Use
+!Requirements
+!Notes
+|-
+![[File:TheLabTranistToStreetsOfTarkov.png|240px]]
+! style="text-align: left;" |Transit to Streets of Tarkov
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|Only available 1 min after raid start
+|Near the orange dome, next to the office with the billiard table
+|}
+
+==Maps==
+===Interactive Map===
+Click [[File:FS.png|link=]] for fullscreen. Separate map page [[Map:The Lab|here]].
+<interactive-map name="The Lab" width="800px"/>
+
+===Ingame Map===
+[[File:TheLabMapFull.png|800px|link={{filepath:TheLabMapFull.png}}]]
+
+==Gallery==
+<center>
+<li style="display: inline-block;"><gallery mode="slideshow">
+File:The Lab Showcase 1.png
+File:The Lab Showcase 2.png
+File:The Lab Showcase 3.png
+File:The Lab Showcase 4.png
+File:The Lab Showcase 5.png
+File:The Lab Showcase 6.png
+File:The Lab Showcase 7.png
+File:The Lab Showcase 8.png
+File:The Lab Showcase 9.png
+File:The Lab Showcase 10.png
+File:The Lab Showcase 11.png
+File:The Lab Showcase 12.png
+File:The Lab Showcase 13.png
+File:The Lab Showcase 14.png
+File:The Lab Showcase 15.png
+File:The Lab Showcase 16.png
+File:The Lab Showcase 17.png
+File:The Lab Showcase 18.png
+File:The Lab Showcase 19.png
+File:The Lab Showcase 20.png
+File:The Lab Showcase 21.png
+File:The Lab Showcase 22.png
+File:The Lab Showcase 23.png
+File:The Lab Showcase 24.png
+File:The Lab Showcase 25.png
+</gallery></li>
+</center>
+
+{{Navbox locations}}
+[[Category:Locations]]
+
+[[cs:The Lab]]
+[[de:The Lab]]
+[[fr:Labo]]
+[[ru:Лаборатория]]

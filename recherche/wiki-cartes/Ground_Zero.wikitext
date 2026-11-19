@@ -1,0 +1,195 @@
+{{Infobox location
+|image              =Ground Zero Banner.png
+|image size         =
+|icon               =
+|type               =
+|prev               =[[Streets of Tarkov]]
+|next               =[[Streets of Tarkov]]
+|chapter            =
+|enemies            =Level <21: [[Scavs]]<br/>Level 21+: [[Scavs]], [[Cultists]]
+|players            =Level <21: 9-10<br/>Level 21+: 9-12
+|difficulty         =
+|duration           =30 minutes
+|notable loot       =
+}}
+
+'''{{PAGENAME}}''' is a [[Map of Tarkov|location]] in ''[[Escape from Tarkov]]''. It is the tenth map that was added to the game. 
+
+==Description==
+The business center of Tarkov. This is where TerraGroup was headquartered. This is where it all began. The area has yet again become a hot zone since the early days of the conflict.
+
+==Notes==
+Matchmaking on this location is divided into beginners (Level <21) and experienced players (Level 21+). For groups, matchmaking is based on the highest level player in the group.
+
+In experienced matchmaking there are the following differences:
+* Chance to find rare loot
+* Increased [[Scavs]] difficulty
+* [[Cultists]] can appear
+
+==Features==
+*Stationary weapons in the form of [[AGS-30 30x29mm automatic grenade launcher]]s and [[NSV Utyos 12.7x108 heavy machine gun]]s.
+*Be aware of [[Map of Tarkov#Minefields|Minefields]], [[Map of Tarkov#Claymores|Claymores]] and [[Map of Tarkov#Border Snipers|Border Snipers]]!
+
+==Usable Keys==
+{| class="wikitable sortable"
+!Icon
+!Key Name
+!Used in Quest
+|-
+![[File:TerraGroup science office key icon.png|link=TerraGroup science office key]]
+|[[TerraGroup science office key]]
+! style="color: green" |✔
+|-
+![[File:Underground Parking Utility Room Key Icon.png|link=Underground parking utility room key]]
+|[[Underground parking utility room key]]
+!
+|-
+![[File:United Credit Bank Cash Register Key Icon.png|link=Unity Credit Bank cash register key]]
+|[[Unity Credit Bank cash register key]]
+!
+|}
+
+==Bosses==
+{{Seasonal change|[[Black Division]] operatives roam through the level 21+ version of the location. They do not have a fixed spawn location and have to be expected everywhere.}}
+
+==Extractions==
+To locate the extractions use the [[Ground Zero#Maps|maps]] below the table.
+{| class="wikitable sortable stickyheader" style="text-align: center;"
+!Extraction
+!Name
+!Faction
+!Always available
+!Single-Use
+!Requirements
+!Notes
+|-
+![[File:Emercom Checkpoint.png|240px]]
+! style="text-align: left;" |Emercom Checkpoint
+|All
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+| -
+|
+|-
+![[File:Mira Prospect.png|240px]]
+! style="text-align: left;" |Mira Ave (Flare)
+|PMC
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|Shoot a green flare '''into the sky''' while inside the signal flare area. If the flare doesn't reach a certain height, the extraction '''won't''' open.<br/>Flares:<br/>[[RSP-30 reactive signal cartridge (Green)|Handheld RSP-30 green flare]]<br/>[[26x75mm flare cartridge (Green)|Signal pistol fired 26x75mm green flare]]<br/><br/>The [[Scav body]] leaned against the yellow bus at the extraction spawns one flare every raid.
+<br/>
+Only one person amongst a lobby-made group needs to shoot a flare to open the extraction for all members of the group.
+|Upon entering the signal flare area, a notification will pop up in the bottom right corner of the screen: [[File:KlimovStreetSignalAreaNote.png]]<br/>If the flare was fired correctly, a new notification pops up:<br/>[[File:FlareSuccessNote.png]]<br/><br/>Signal flare area and extract zone map<br/>[[File:MiraGroundZeroSignalArea.png|190px]]
+|-
+![[File:Nakatani Basement Stairs.png|240px]]
+! style="text-align: left;" |Nakatani Basement Stairs
+|All
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+| -
+|[[File:Nakatani Basement Stairs Way.png|240px]]<br/>In the basement of the Nakatani building.
+|-
+![[File:Police Checkpoint.png|240px]]
+! style="text-align: left;" |Police Cordon V-Ex
+|PMC
+|<font color="green">✔</font>
+|<font color="green">✔</font>
+|[[File:5000 Roubles.png|link=Roubles]] per player
+'''Maximum of 4 players'''
+|The fee amount is influenced by your [[Scavs#Scav karma|Scav karma]].
+There are [[border snipers]] beyond the vehicle.
+|-
+![[File:Scav Checkpoint.png|240px]]
+! style="text-align: left;" |Scav Checkpoint (Co-op)
+|All
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|[[Scav]] + PMC
+|-
+![[File:Tartowers Sales Office.png|240px]]
+! style="text-align: left;" |Tartowers Sales Office
+|All
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|[[File:Note with code word Adaptation icon.png|link=Note with code word Adaptation]]
+[[Note with code word Adaptation]]
+|
+|}
+
+==Transits==
+{| class="wikitable sortable stickyheader" style="text-align: center;"
+!Transit
+!Name
+!Faction
+!Always available
+!Single-Use
+!Requirements
+!Notes
+|-
+![[File:Ground Zero to Street of Tarkov.png|240px]]
+! style="text-align: left;" |Transit to Streets of Tarkov
+|All
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|Only available 1 min after raid start
+|Next to the Mira Ave extraction
+|}
+
+==Maps==
+===Interactive Map===
+Click [[File:FS.png|link=]] for fullscreen. Separate map page [[Map:Ground Zero|here]].
+<interactive-map name="Ground Zero" width="800px"/>
+
+===3D Map===
+[[File:GroundZero3DMapByRe3mr.png|800px|link={{filepath:GroundZero3DMapByRe3mr.png}}]]
+
+===2D Map===
+[[File:GroundZeroByxTycho.png|800px|link={{filepath:GroundZeroByxTycho.png}}]]
+
+===Ingame Map===
+[[File:Ground Zero Map.png|800px|link={{filepath:Ground Zero Map.png}}]]
+
+===Ingame Underground Map - North left===
+[[File:Ground_Zero_Underground_Map.png|800px|link={{filepath:Ground_Zero_Underground_Map.png}}]]
+
+==Gallery==
+<center>
+<li style="display: inline-block;"><gallery mode="slideshow">
+File:Ground Zero Showcase 1.png
+File:Ground Zero Showcase 2.png
+File:Ground Zero Showcase 3.png
+File:Ground Zero Showcase 4.png
+File:Ground Zero Showcase 5.png
+File:Ground Zero Showcase 6.png
+File:Ground Zero Showcase 7.png
+File:Ground Zero Showcase 8.png
+File:Ground Zero Showcase 9.png
+File:Ground Zero Showcase 10.png
+File:Ground Zero Showcase 11.png
+File:Ground Zero Showcase 12.png
+File:Ground Zero Showcase 13.png
+File:Ground Zero Showcase 14.png
+File:Ground Zero Showcase 15.png
+File:Ground Zero Showcase 16.png
+File:Ground Zero Showcase 17.png
+File:Ground Zero Showcase 18.png
+File:Ground Zero Showcase 19.png
+File:Ground Zero Showcase 20.png
+File:Ground Zero Showcase 21.png
+File:Ground Zero Showcase 22.png
+File:Ground Zero Showcase 23.png
+File:Ground Zero Showcase 24.png
+File:Ground Zero Showcase 25.png
+</gallery></li>
+</center>
+
+==Trivia==
+* In cheater report reward messages, Ground Zero is called "Sandbox". This is a leftover from development.
+
+{{Navbox locations}}
+[[Category:Locations]]
+
+[[de:Ground Zero]]
+[[fr:Point Zéro]]
+[[ru:Эпицентр]]
+[[cs:Ground Zero]]

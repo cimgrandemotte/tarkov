@@ -1,0 +1,48 @@
+<section class="field-section armes-section" id="reperes" tabindex="-1">
+  <h2>Repères de la famille</h2>
+  <p>Dix armes classées par le jeu dans la catégorie des lance-grenades, dont il faut dire d’emblée ce que la famille contient réellement : sept fusées de détresse à main, un pistolet de détresse, un lance-grenades autonome de 40 mm et un lance-roquettes. Le jeu regroupe les fusées signalétiques avec les lanceurs, ce qui explique que huit de ces dix armes n’aient aucun caractère offensif.</p>
+  <p>Les mesures de la famille sont homogènes et peu tranchées : l’ergonomie va de 39 à 51, le recul vertical de 170 à 230, la cadence est fixée à 30 coups par minute pour toutes, et la distance efficace à 50 mètres. Ce sont des armes à un seul usage, dont la cadence n’a pas d’importance : ce qui compte, c’est la munition.</p>
+  <div class="field-grid field-grid--three">
+    <div class="field-card"><p class="eyebrow">8 sur 10</p><p><strong>Fusées de détresse.</strong> Les ROP-30 et RSP-30, plus le ZiD SP-81, pèsent 190 à 600 grammes et lancent des fusées éclairantes au calibre 26 x 75 mm. Ce sont des signaux, pas des armes.</p></div>
+    <div class="field-card"><p class="eyebrow">2 sur 10</p><p><strong>Lanceurs proprement dits.</strong> Le FN40GL Mk2, à 2,92 kilos, tire des grenades de 40 x 46 mm ; le lance-roquettes RShG-2, à 3,77 kilos, est le seul lance-roquettes du jeu.</p></div>
+    <div class="field-card"><p class="eyebrow">2</p><p><strong>Offres en magasin.</strong> Seules deux armes de la famille sont proposées à la vente : la fusée RSP-30 jaune chez Prapor et la RSP-30 verte chez Jaeger, au niveau 1 de fidélité.</p></div>
+  </div>
+  <div class="field-callout">
+    <p><strong>Trois familles à ne pas confondre.</strong> Le lance-grenades autonome tire des grenades qui explosent ; le lanceur sous-canon se monte sur un fusil et suit la règle de pénétration des cartouches ; le lance-roquettes est une arme à lui seul, avec sa roquette. Les confondre, c’est se tromper de munition en magasin.</p>
+  </div>
+</section>
+
+<section class="field-section armes-section" id="catalogue" tabindex="-1">
+  <h2>Le catalogue de la famille</h2>
+  <p>Les dix armes classées en lance-grenades et lance-roquettes par le jeu, avec leurs mesures à configuration de base.</p>
+  %%TABLE_CATALOGUE%%
+  <p class="armes-note">La colonne <em>Munitions</em> compte les références compatibles recensées dans le catalogue des munitions. Pour le lance-roquettes RShG-2, elle indique une seule référence, dont la munition correspondante n’apparaît pas dans les deux cents cartouches du catalogue : le projectile de roquette n’est pas exporté dans les données de munitions.</p>
+</section>
+
+<section class="field-section armes-section" id="presets" tabindex="-1">
+  <h2>Presets publiés</h2>
+  <p>Deux presets seulement sont rattachés aux dix armes de la famille : le FN40GL Mk2 et le lance-roquettes RShG-2. Les fusées de détresse n’ont pas de configuration, ce qui est logique — ce sont des objets à usage unique.</p>
+  %%TABLE_PRESETS%%
+</section>
+
+<section class="field-section armes-section" id="acquisition" tabindex="-1">
+  <h2>Acquisition et disponibilité</h2>
+  <p>Deux armes de la famille sont proposées en magasin dans l’instantané : la fusée RSP-30 jaune à 2 927 roubles chez Prapor, et la RSP-30 verte à 7 509 roubles chez Jaeger. Les huit autres s’obtiennent en raid ou par tâche.</p>
+  %%TABLE_ACQUISITION%%
+  <p class="armes-note">Côté munition, l’offre marchande est encore plus étroite : sur les sept fusées éclairantes de 26 x 75 mm, seule la jaune est en magasin, à 4 212 roubles. Sur les six projectiles de 40 x 46 mm, seul le M386 est proposé. Les autres projectiles ne s’achètent qu’en raid ou au marché.</p>
+</section>
+
+<section class="field-section armes-section" id="conduite" tabindex="-1">
+  <h2>Comment s’équiper</h2>
+  <ul class="armes-list">
+    <li><strong>Le 40 x 46 mm se choisit par type.</strong> Quatre références explosives affichent 199 points de dégâts et une pénétration de 1 : elles frappent par explosion, pas par pénétration. Le M576 MP-APERS est le cas particulier : il compte quinze projectiles, 160 points de dégâts et une pénétration de 5. C’est le projectile qui décide du résultat.</li>
+    <li><strong>Les fusées éclairantes ne sont pas des cartouches de combat.</strong> Les sept références de 26 x 75 mm ont 37 ou 40 points de dégâts et une pénétration de 0 : elles éclairent, elles marquent une position, elles ne percent rien. Les confondre avec une arme offensive serait une erreur de lecture.</li>
+    <li><strong>Le lanceur sous-canon n’est pas dans cette page.</strong> Il figure dans le catalogue comme pièce d’arme : le M203, par exemple, se monte sur un fusil et permet de tirer une grenade de 40 mm à partir d’une arme existante. C’est une autre économie : pas d’arme supplémentaire, mais une pièce de plus sur l’arme principale.</li>
+  </ul>
+</section>
+
+<section class="field-section armes-section" id="sources" tabindex="-1">
+  <h2>Sources et limites</h2>
+  <p>Les mesures viennent de l’export communautaire du 18 novembre 2026. Les caractéristiques des projectiles de 40 x 46 mm et de 26 x 75 mm proviennent du même export ; la munition du lance-roquettes RShG-2 n’y figure pas, et son comportement ne peut donc pas être décrit à partir de ces données.</p>
+  %%SOURCES_FAMILLE%%
+</section>

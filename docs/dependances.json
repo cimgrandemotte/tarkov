@@ -1,0 +1,93 @@
+{
+  "js/vendor/fuse.min.mjs": {
+    "nom": "Fuse.js 7.5.0",
+    "licence": "Apache-2.0",
+    "source": "https://cdn.jsdelivr.net/npm/fuse.js@7.5.0/dist/fuse.min.mjs",
+    "octets": 26095,
+    "sha256": "5ab524d12492bb233568e9600046e1aaa9623d36ebe689589144f7dc9b1da6f7"
+  },
+  "js/vendor/fuse.LICENSE.txt": {
+    "nom": "Fuse.js 7.5.0",
+    "licence": "Apache-2.0",
+    "source": "https://cdn.jsdelivr.net/npm/fuse.js@7.5.0/LICENSE",
+    "octets": 11343,
+    "sha256": "cc807e3caa26cdee316bab2ff6fdb508a2f619b74959fe59e513ef6e61635ebe"
+  },
+  "js/vendor/howler.core.min.js": {
+    "nom": "Howler.js Core 2.2.4",
+    "licence": "MIT",
+    "source": "https://cdn.jsdelivr.net/npm/howler@2.2.4/dist/howler.core.min.js",
+    "octets": 26924,
+    "sha256": "e7b836445d8c44bddc99b7678fa336a9d5c5ede27cc709c5fae8b1748ba7431b"
+  },
+  "js/vendor/howler.LICENSE.txt": {
+    "nom": "Howler.js Core 2.2.4",
+    "licence": "MIT",
+    "source": "https://raw.githubusercontent.com/goldfire/howler.js/v2.2.4/LICENSE.md",
+    "octets": 1088,
+    "sha256": "0ad5aef7beeb552832fe01db1c46933f948dfe5da35017bd0efa0006ffd2ced9"
+  },
+  "fonts/inter-latin.woff2": {
+    "nom": "Inter",
+    "licence": "OFL-1.1",
+    "source": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+    "octets": 48256,
+    "sha256": "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62"
+  },
+  "fonts/orbitron-latin.woff2": {
+    "nom": "Orbitron",
+    "licence": "OFL-1.1",
+    "source": "https://fonts.gstatic.com/s/orbitron/v35/yMJRMIlzdpvBhQQL_Qq7dy0.woff2",
+    "octets": 11800,
+    "sha256": "c25a9f9da5d9f3db1bf2a01474722dc9b377675b7bbab6d0dfda6902794fd1ed"
+  },
+  "fonts/rajdhani-600-latin.woff2": {
+    "nom": "Rajdhani 600",
+    "licence": "OFL-1.1",
+    "source": "https://fonts.gstatic.com/s/rajdhani/v17/LDI2apCSOBg7S-QT7pbYF_Oreec.woff2",
+    "octets": 15732,
+    "sha256": "433a7007e4747a02a790167a6efa2625855f013970ba49b9b739a5d3db8b2601"
+  },
+  "fonts/rajdhani-700-latin.woff2": {
+    "nom": "Rajdhani 700",
+    "licence": "OFL-1.1",
+    "source": "https://fonts.gstatic.com/s/rajdhani/v17/LDI2apCSOBg7S-QT7pa8FvOreec.woff2",
+    "octets": 15688,
+    "sha256": "5b7e4a6f97163c2636724d4de90304fc895653dcfe64c67a7a22f26331ca5c5f"
+  },
+  "fonts/share-tech-mono-latin.woff2": {
+    "nom": "Share Tech Mono",
+    "licence": "OFL-1.1",
+    "source": "https://fonts.gstatic.com/s/sharetechmono/v16/J7aHnp1uDWRBEqV98dVQztYldFcLowEF.woff2",
+    "octets": 13500,
+    "sha256": "41e6b9f297f7d9a2df2aaa274092f76d2f72711a15ca455f7f4f4f92caf16b72"
+  },
+  "fonts/inter.OFL.txt": {
+    "nom": "inter",
+    "licence": "OFL-1.1",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/OFL.txt",
+    "octets": 4377,
+    "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+  },
+  "fonts/orbitron.OFL.txt": {
+    "nom": "orbitron",
+    "licence": "OFL-1.1",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/orbitron/OFL.txt",
+    "octets": 4426,
+    "sha256": "ab609b0e110d622435ff337cdf233288556e011bbf9bd0550be98846c0630819"
+  },
+  "fonts/rajdhani.OFL.txt": {
+    "nom": "rajdhani",
+    "licence": "OFL-1.1",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/rajdhani/OFL.txt",
+    "octets": 4373,
+    "sha256": "f62ef357d3a1c3d27edd35a6e1ba350e8a8d13499797964eeadefbf0b3b15d1f"
+  },
+  "fonts/sharetechmono.OFL.txt": {
+    "nom": "sharetechmono",
+    "licence": "OFL-1.1",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/sharetechmono/OFL.txt",
+    "octets": 4429,
+    "sha256": "9d96f445b6e9c701428811d0177f894874f8d6f07ecc30d568c506542368f3ff"
+  }
+}

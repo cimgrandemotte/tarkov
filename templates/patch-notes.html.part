@@ -1,0 +1,78 @@
+        <section class="field-section" id="synthese" tabindex="-1" aria-labelledby="titre-synthese">
+          <header class="field-heading"><p class="eyebrow">01 / Situation au 18 novembre 2026</p><h2 id="titre-synthese">Une accélération technique et de contenu</h2><p>Depuis la sortie de la version 1.0 (15 novembre 2025), Tarkov a enchaîné les mises à jour : saisons, profils persistants, contenu PvE et une refonte technique en cours. Le serveur vive tourne sur la <strong>1.3.0.2</strong> (13 novembre 2026), avec une saison <strong>Kord Breach</strong> qui se termine le 7 décembre et un passage vers le moteur <strong>Unity 6</strong> annoncé pour la fin novembre.</p></header>
+          <div class="field-callout"><p><b>À retenir :</b> les changements récents touchent surtout la fin de jeu — <strong>Black Division</strong> et <strong>The Wedge</strong> sont affaiblis, les échanges d'équipement passent des plaques de identification à l'argent ou au troc, et le chargement des raids va être accéléré. Les astuces de progression (son, extractions, solo) restent les piliers de la survie.</p></div>
+          <p class="field-copy">Cette page retrace la chronologie officielle et synthétise l'impact éditorial de chaque mise à jour, avec un accès aux annonces originales. Elle est actualisée au fil des communications ; un guide ancien peut afficher des prix ou des mécaniques dépassés. <a class="link" href="@source:veille-patch-1302@">Consulter le hub des notes de patch <span aria-hidden="true">↗</span></a></p>
+        </section>
+
+        <section class="field-section" id="chronologie" tabindex="-1" aria-labelledby="titre-chronologie">
+          <header class="field-heading"><p class="eyebrow">02 / Chronologie des versions</p><h2 id="titre-chronologie">De 1.0 à la 1.3.0.x en un an</h2><p>La feuille de route technique s'est densifiée : sortie 1.0, saisons, refonte métabolisme, et passage à Unity 6. Le tableau ci-dessous résume les étapes marquantes.</p></header>
+          <div class="field-table-wrap">
+            <table class="field-table">
+              <caption>Mises à jour majeures — automne / hiver 2026</caption>
+              <thead><tr><th scope="col">Date</th><th scope="col">Version / événement</th><th scope="col">Changement principal</th></tr></thead>
+              <tbody>
+                <tr><td>15 nov 2025</td><td>1.0</td><td>Sortie officielle, prologue Ground Zero, nouveau tutoriel <i>Tour</i>.</td></tr>
+                <tr><td>3 août 2026</td><td>1.1.0.0</td><td>Lancement des <strong>saisons</strong>, profils principaux persistants, munitions 5.8×42 mm, planques saisonnières.</td></tr>
+                <tr><td>août–sept 2026</td><td>1.2.0.0</td><td>Six niveaux <strong>PvE Prestige</strong> optionnels.</td></tr>
+                <tr><td>29 oct 2026</td><td>1.3.0.0</td><td>Météo automne, événement Halloween, XP saisonnier accéléré, refonte du métabolisme, PMC PvE plus durs, deux ensembles de planque.</td></tr>
+                <tr><td>3 nov 2026</td><td>1.3.0.1</td><td>Stabilité client, corrections d'échanges et de scène.</td></tr>
+                <tr><td>12 nov 2026</td><td>Kord Breach & Wedge</td><td>Quêtes saisonnières simplifiées, Black Division à 100 %, <strong>The Wedge</strong> et ses gardes affaiblis, documents Battle Pass sur <strong>Icebreaker</strong>.</td></tr>
+                <tr><td>13 nov 2026</td><td>1.3.0.2</td><td>Sacoches à documents dans les livraisons saisonnières ; les offres d'équipement Black Division passent des plaques à l'argent ou au troc.</td></tr>
+                <tr><td>15–16 nov 2026</td><td>Anniversaire 1.0</td><td>Code <span class="mono">1YEAROFESCAPING</span>, solde Unheard, drops Twitch, infection réduite à 5 % sur sept cartes.</td></tr>
+                <tr><td>fin nov 2026</td><td>1.3.5.0 (annoncé)</td><td>Passage au moteur <strong>Unity 6</strong>, chargement de raid accéléré et reconnexion sans retour au menu.</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="field-copy">Sources : <a class="link" href="@source:veille-changelog-wiki@">changelog officiel</a> et <a class="link" href="@source:veille-patch-1302@">hub des notes</a>.</p>
+        </section>
+
+        <section class="field-section" id="equilibrage" tabindex="-1" aria-labelledby="titre-equilibrage">
+          <header class="field-heading"><p class="eyebrow">03 / Équilibrage de fin de jeu</p><h2 id="titre-equilibrage">Black Division et The Wedge : plus présents, moins redoutables</h2><p>La mise à jour de novembre modifie en profondeur la fin de jeu saisonnière. Les opérants Black Division apparaissent désormais <strong>à 100 %</strong> sur tous les points applicables, mais avec une réactivité, une précision et une santé réduites. <strong>The Wedge</strong> et ses gardes bénéficient du même traitement, dans tous les modes.</p></header>
+          <div class="field-grid field-grid--two">
+            <article class="field-card"><span class="badge badge--amber">Black Division</span><h3>100 % de spawn, moins de pression</h3><p>Un spawn garanti et plus faible en visée et en santé : l'affrontement devient une source régulière de butin plutôt qu'une loterie. L'équipement Black Division s'acquiert désormais par argent ou troc, plus par plaques d'identification.</p><a class="link" href="@source:veille-black-division@">Lire l'analyse <span aria-hidden="true">↗</span></a></article>
+            <article class="field-card"><span class="badge badge--amber">The Wedge</span><h3>PV et gardes revus</h3><p>La santé de <strong>The Wedge</strong> passe de 880 à 750 PV, celle de ses gardes est abaissée et leur munition modifiée. L'affrontement est plus accessible, mais reste à préparer.</p><a class="link" href="@source:veille-patch-1302@">Voir les notes <span aria-hidden="true">↗</span></a></article>
+          </div>
+          <div class="field-callout"><p><b>Conséquence éditoriale :</b> les builds d'affrontement contre ces cibles peuvent être assouplis, mais les itinéraires et la maîtrise du son restent déterminants. La difficulté se déplace vers la gestion du raid et des extractions.</p></div>
+        </section>
+
+        <section class="field-section" id="technique" tabindex="-1" aria-labelledby="titre-technique">
+          <header class="field-heading"><p class="eyebrow">04 / Refonte technique</p><h2 id="titre-technique">Unity 6 et des raids plus rapides</h2><p>La version <strong>1.3.5.0</strong>, attendue pour la seconde moitié de novembre, marque la transition vers le moteur <strong>Unity 6</strong> — première étape d'une refonte technique majeure. Le chargement en raid est repensé : le serveur se connecte en parallèle du chargement de la carte, et la libération de RAM après un raid est améliorée.</p></header>
+          <div class="field-slab flow" id="reconnection">
+            <h3>Reconnexion et performance</h3>
+            <p>En cas de coupure de connexion, le client propose de <strong>revenir immédiatement en raid</strong>, sans passer par le menu principal ni recharger la carte. Les écrans de stash et de commerce sont aussi plus réactifs en cas d'erreur réseau. Ces gains réduisent le temps mort entre deux raids et améliorent le confort en longue session.</p>
+            <a class="text-action" href="@source:veille-unity6@">Lire le diary de développement <span aria-hidden="true">↗</span></a>
+          </div>
+          <p class="field-copy">Ces changements sont techniques : ils ne modifient pas les équilibrages, mais ils modifient le ressenti du jeu (attente, fluidité, recommencement).</p>
+        </section>
+
+        <section class="field-section" id="saison" tabindex="-1" aria-labelledby="titre-saison">
+          <header class="field-heading"><p class="eyebrow">05 / Saisons et événements</p><h2 id="titre-saison">Fin de Kord Breach, saison 2 en vue</h2><p>La saison <strong>Kord Breach</strong> s'achève le <a class="link" href="@source:veille-patch-1302@"><time datetime="2026-12-07">7 décembre 2026</time></a> avec un report des récompenses en mode permanent. La <strong>saison 2</strong>, baptisée <strong>UNTAR Control</strong>, est déjà annoncée pour décembre.</p></header>
+          <div class="field-grid field-grid--three">
+            <article class="field-card"><p class="eyebrow">Profil saisonnier</p><h3>Progression séparée</h3><p>Personnage et serveurs distincts, règles et réinitialisation au cycle suivant. Le Battle Pass est partagé entre modes, le stash ne l'est pas.</p></article>
+            <article class="field-card"><p class="eyebrow">Documents Battle Pass</p><h3>Icebreaker et quotas</h3><p>Les documents médicaux de Battle Pass sont désormais trouvés sur <strong>Icebreaker</strong> ; le quota quotidien est relevé en PvP et PvP Season.</p></article>
+            <article class="field-card"><p class="eyebrow">Anniversaire 1.0</p><h3>Récompenses limitées</h3><p>Code <span class="mono">1YEAROFESCAPING</span>, solde Unheard et drops Twitch du 15 au 23 novembre ; infection réduite sur sept cartes.</p></article>
+          </div>
+        </section>
+
+        <section class="field-section" id="astuces" tabindex="-1" aria-labelledby="titre-astuces">
+          <header class="field-heading"><p class="eyebrow">06 / Astuces et stratégies 2026</p><h2 id="titre-astuces">Les piliers inchangés de la survie</h2><p>Quel que soit le patch, la méta de progression repose sur des principes stables : le son, les extractions, la patience. Les guides 2026 les confirment.</p></header>
+          <div class="field-grid field-grid--two">
+            <article class="field-card"><span class="badge badge--blue">Son</span><h3>L'arme la plus puissante</h3><p>Le son prévaut : marche et accroupissement réduisent le bruit, un casque amplifie les bruits de pas et d'ouverture. Identifier un joueur qui soigne ou change d'arme est une information décisive.</p></article>
+            <article class="field-card"><span class="badge badge--green">Extractions</span><h3>Deux sorties, toujours</h3><p>Connais au moins deux extractions par carte. La première est ta ligne, la seconde ton assurance contre les campeurs. En semaine de wipe, le camping aux sorties explose.</p></article>
+            <article class="field-card"><span class="badge badge--blue">Solo</span><h3>Réduire le hasard</h3><p>Vérifie tes sorties dès le spawn, bouge plus silencieux qu'une équipe, évite les combats inutiles et sors dès que le raid a de la valeur. La patience paie plus que l'agression.</p></article>
+            <article class="field-card"><span class="badge badge--green">Progression</span><h3>Scav, offline, planque</h3><p>Les runs Scav et le mode hors ligne permettent d'apprendre sans risque. La planque (générateur, sécurité, ferme à bitcoins) est un rendement à long terme plus important qu'un kit coûteux.</p></article>
+          </div>
+          <p class="field-copy">Sources : <a class="link" href="@source:veille-guide-2026@">guide débutant 2026</a> et <a class="link" href="@source:veille-solo-2026@">guide solo 2026</a>.</p>
+        </section>
+
+        <section class="field-section" id="impact" tabindex="-1" aria-labelledby="titre-impact">
+          <header class="field-heading"><p class="eyebrow">07 / Impact sur le guide</p><h2 id="titre-impact">Ce qui change concrètement</h2><p>Le contenu de ce guide est actualisé au fil des communications. Les changements à retenir pour le joueur :</p></header>
+          <ul class="field-steps" role="list">
+            <li><b>Black Division</b> : spawn garanti mais plus faible — adapter le niveau de kit et l'agression.</li>
+            <li><b>The Wedge</b> : PV réduits, gardes revus — l'affrontement est plus accessible, mais la préparation reste nécessaire.</li>
+            <li><b>Économie d'équipement</b> : l'argent et le troc remplacent les plaques d'identification pour l'équipement Black Division.</li>
+            <li><b>Saison Kord Breach</b> : à terminer avant le <time datetime="2026-12-07">7 décembre 2026</time> pour les récompenses permanentes.</li>
+            <li><b>Unity 6 (1.3.5.0)</b> : raids plus rapides et reconnexion fluide — le confort, pas l'équilibrage.</li>
+          </ul>
+          <div class="field-callout"><p><b>Mise en garde :</b> cette synthèse est une lecture éditoriale des annonces officielles, pas une transcription intégrale. Consulte les <a class="link" href="@source:veille-changelog-wiki@">notes officielles</a> pour les détails techniques complets.</p></div>
+        </section>

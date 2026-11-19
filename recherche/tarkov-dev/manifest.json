@@ -1,0 +1,393 @@
+{
+  "schemaVersion": 1,
+  "fournisseur": "Tarkov.dev / The Hideout (données communautaires)",
+  "buildEftAtteste": null,
+  "note": "Instantané daté, non assimilable à un build EFT. Les champs de prix sont des observations historiques, pas le prix garanti ni la preuve de disponibilité. Pas de médias ou textes descriptifs redistribués.",
+  "sources": {
+    "endpoints": {
+      "url": "https://json.tarkov.dev/endpoints",
+      "dateServeurHttp": "Wed, 18 Nov 2026 12:19:41 GMT",
+      "derniereModificationHttp": "Mon, 09 Nov 2026 15:30:35 GMT",
+      "etag": "\"03ecafecf55c94ec66b7b0edd1aaed15\"",
+      "octetsSource": 1369,
+      "sha256Source": "7cb41422f4c3663d44697389010168a494e416c91390bcbd439bafe02171c1bb"
+    },
+    "regular/items": {
+      "url": "https://json.tarkov.dev/regular/items",
+      "dateServeurHttp": "Wed, 18 Nov 2026 12:18:05 GMT",
+      "derniereModificationHttp": "Wed, 18 Nov 2026 12:10:24 GMT",
+      "etag": "\"36cc115ac734e83797a60cc2565bed0b\"",
+      "octetsSource": 17347329,
+      "sha256Source": "cba7fab9efa68c4f8821bde814c23a886f66d32eb484d3c87ee94393da62cbb2"
+    },
+    "regular/items_en": {
+      "url": "https://json.tarkov.dev/regular/items_en",
+      "dateServeurHttp": "Wed, 18 Nov 2026 12:18:07 GMT",
+      "derniereModificationHttp": "Mon, 16 Nov 2026 19:00:32 GMT",
+      "etag": "\"28101917006282d6836b0edae2356f57\"",
+      "octetsSource": 1703260,
+      "sha256Source": "9ecbf3b43f891e09c571166b4e416ccdc4194b3f91a4ad4300f3b123452fe352"
+    },
+    "regular/items_fr": {
+      "url": "https://json.tarkov.dev/regular/items_fr",
+      "dateServeurHttp": "Wed, 18 Nov 2026 12:18:05 GMT",
+      "derniereModificationHttp": "Mon, 16 Nov 2026 19:00:32 GMT",
+      "etag": "\"ac9c2800f937458bf223ff5da2c9c128\"",
+      "octetsSource": 1816459,
+      "sha256Source": "6b09fb2f3d93f0ce85d246ade9bb61707b20f0a5b5d71cb386a05eb762b53376"
+    },
+    "regular/maps": {
+      "url": "https://json.tarkov.dev/regular/maps",
+      "dateServeurHttp": "Wed, 18 Nov 2026 12:18:08 GMT",
+      "derniereModificationHttp": "Wed, 18 Nov 2026 11:54:20 GMT",
+      "etag": "\"c66288d9ff00961f3748ec77f2f01a73\"",
+      "octetsSource": 9062819,
+      "sha256Source": "3de51473df6dbf0730704065c5f071297199d88c405b26aa854bc74c8c945719"
+    },
+    "regular/maps_en": {
+      "url": "https://json.tarkov.dev/regular/maps_en",
+      "dateServeurHttp": "Wed, 18 Nov 2026 12:19:41 GMT",
+      "derniereModificationHttp": "Mon, 16 Nov 2026 19:04:21 GMT",
+      "etag": "\"7eab94015571c1602f7456a4499afa48\"",
+      "octetsSource": 23786,
+      "sha256Source": "b15a58e09599a6a3036f660e124a52e06d0d7af951ed539e0f72046cc01966b7"
+    },
+    "regular/maps_fr": {
+      "url": "https://json.tarkov.dev/regular/maps_fr",
+      "dateServeurHttp": "Wed, 18 Nov 2026 12:19:41 GMT",
+      "derniereModificationHttp": "Mon, 16 Nov 2026 19:04:21 GMT",
+      "etag": "\"76bdd77375b1c70cf6905f748871543f\"",
+      "octetsSource": 25972,
+      "sha256Source": "950bb027b200bdb07db9cbb815a63d1bd4920fd9954ec9dadbc542d44c3cba09"
+    },
+    "pve/items": {
+      "url": "https://json.tarkov.dev/pve/items",
+      "dateServeurHttp": "Wed, 18 Nov 2026 12:18:05 GMT",
+      "derniereModificationHttp": "Wed, 18 Nov 2026 12:10:44 GMT",
+      "etag": "\"cc5b8ea48bc8f9f326e3a889e7f8df9c\"",
+      "octetsSource": 17278546,
+      "sha256Source": "69f1ac57d14b6a176e4cc74924d78b2a9c0da276c462070e28e042eb01655ad8"
+    },
+    "pve/items_en": {
+      "url": "https://json.tarkov.dev/pve/items_en",
+      "dateServeurHttp": "Wed, 18 Nov 2026 12:19:41 GMT",
+      "derniereModificationHttp": "Mon, 16 Nov 2026 19:00:57 GMT",
+      "etag": "\"28101917006282d6836b0edae2356f57\"",
+      "octetsSource": 1703260,
+      "sha256Source": "9ecbf3b43f891e09c571166b4e416ccdc4194b3f91a4ad4300f3b123452fe352"
+    },
+    "pve/items_fr": {
+      "url": "https://json.tarkov.dev/pve/items_fr",
+      "dateServeurHttp": "Wed, 18 Nov 2026 12:19:41 GMT",
+      "derniereModificationHttp": "Mon, 16 Nov 2026 19:01:00 GMT",
+      "etag": "\"a0ba168c079a223758e8e6e32a61f386\"",
+      "octetsSource": 1820188,
+      "sha256Source": "07bcdb0c96185393be4a036e67dba8b22dead1d15a3d1e1104853c72237ac812"
+    },
+    "pve/maps": {
+      "url": "https://json.tarkov.dev/pve/maps",
+      "dateServeurHttp": "Wed, 18 Nov 2026 12:18:08 GMT",
+      "derniereModificationHttp": "Wed, 18 Nov 2026 11:54:24 GMT",
+      "etag": "\"836a842c68165e8972af7ad3fecec708\"",
+      "octetsSource": 9050769,
+      "sha256Source": "2a01ee42e7b1cb84737e7d9e93e9e5cf9939aa4c55b5dd813b2268d4d17f2ac6"
+    },
+    "pve/maps_en": {
+      "url": "https://json.tarkov.dev/pve/maps_en",
+      "dateServeurHttp": "Wed, 18 Nov 2026 12:19:41 GMT",
+      "derniereModificationHttp": "Mon, 16 Nov 2026 19:04:24 GMT",
+      "etag": "\"f5f87b622c9755274985790a118470fb\"",
+      "octetsSource": 24321,
+      "sha256Source": "b1e9d2e260a6666c954ef81c4cba10a59e7c2cbae7c5a01bd2eb3b03dc7eabc4"
+    },
+    "pve/maps_fr": {
+      "url": "https://json.tarkov.dev/pve/maps_fr",
+      "dateServeurHttp": "Wed, 18 Nov 2026 12:19:41 GMT",
+      "derniereModificationHttp": "Mon, 16 Nov 2026 19:04:24 GMT",
+      "etag": "\"82466f96e6bf1df9310774c107938563\"",
+      "octetsSource": 26522,
+      "sha256Source": "abe1bfb04d5e55dd67fd571e70e1707979790d696429a190cda137f7f4387211"
+    },
+    "pvp-season/items": {
+      "url": "https://json.tarkov.dev/pvp-season/items",
+      "dateServeurHttp": "Wed, 18 Nov 2026 12:18:05 GMT",
+      "derniereModificationHttp": "Wed, 18 Nov 2026 12:11:12 GMT",
+      "etag": "\"829572895226c96ba632c4049a8f5382\"",
+      "octetsSource": 17126134,
+      "sha256Source": "04964603a5376c447880b6d101ccb4d033983df527d2f7fa6d52eab814948e00"
+    },
+    "pvp-season/items_en": {
+      "url": "https://json.tarkov.dev/pvp-season/items_en",
+      "dateServeurHttp": "Wed, 18 Nov 2026 12:19:41 GMT",
+      "derniereModificationHttp": "Mon, 16 Nov 2026 19:01:54 GMT",
+      "etag": "\"28101917006282d6836b0edae2356f57\"",
+      "octetsSource": 1703260,
+      "sha256Source": "9ecbf3b43f891e09c571166b4e416ccdc4194b3f91a4ad4300f3b123452fe352"
+    },
+    "pvp-season/items_fr": {
+      "url": "https://json.tarkov.dev/pvp-season/items_fr",
+      "dateServeurHttp": "Wed, 18 Nov 2026 12:19:41 GMT",
+      "derniereModificationHttp": "Mon, 16 Nov 2026 19:01:58 GMT",
+      "etag": "\"a0ba168c079a223758e8e6e32a61f386\"",
+      "octetsSource": 1820188,
+      "sha256Source": "07bcdb0c96185393be4a036e67dba8b22dead1d15a3d1e1104853c72237ac812"
+    },
+    "pvp-season/maps": {
+      "url": "https://json.tarkov.dev/pvp-season/maps",
+      "dateServeurHttp": "Wed, 18 Nov 2026 12:19:41 GMT",
+      "derniereModificationHttp": "Wed, 18 Nov 2026 11:54:29 GMT",
+      "etag": "\"704cf412d3534ba51806d1ced18c894f\"",
+      "octetsSource": 9205624,
+      "sha256Source": "50c769f9376bcf5db0ea283b7d5693b78a7929f2421009ec6c83c5149bff9582"
+    },
+    "pvp-season/maps_en": {
+      "url": "https://json.tarkov.dev/pvp-season/maps_en",
+      "dateServeurHttp": "Wed, 18 Nov 2026 12:19:41 GMT",
+      "derniereModificationHttp": "Mon, 16 Nov 2026 19:04:27 GMT",
+      "etag": "\"dc29a550eb527d52fa48f158d1b2a69a\"",
+      "octetsSource": 23796,
+      "sha256Source": "bec0176de54c5295ea47277edba9ea77d12f32a53a3f6fe31bfb715bbb5ab040"
+    },
+    "pvp-season/maps_fr": {
+      "url": "https://json.tarkov.dev/pvp-season/maps_fr",
+      "dateServeurHttp": "Wed, 18 Nov 2026 12:19:41 GMT",
+      "derniereModificationHttp": "Mon, 16 Nov 2026 19:04:27 GMT",
+      "etag": "\"048ae6af07119c8478fc808e6061df94\"",
+      "octetsSource": 25982,
+      "sha256Source": "883481d7c2af562f8af52ff1699b1b6225477fabeab6685e4487636ce426b01c"
+    }
+  },
+  "modes": {
+    "regular": {
+      "items": 5498,
+      "tagsSource": {
+        "ammo": 212,
+        "ammoBox": 229,
+        "armor": 72,
+        "armorPlate": 38,
+        "backpack": 47,
+        "barter": 363,
+        "container": 35,
+        "glasses": 54,
+        "grenade": 16,
+        "gun": 172,
+        "headphones": 28,
+        "helmet": 40,
+        "injectors": 22,
+        "keys": 259,
+        "markedOnly": 18,
+        "meds": 43,
+        "mods": 2314,
+        "noFlea": 1529,
+        "pistolGrip": 139,
+        "poster": 77,
+        "preset": 500,
+        "provisions": 89,
+        "rig": 105,
+        "specialSlot": 45,
+        "suppressor": 85,
+        "wearable": 832
+      },
+      "lignesArmesEtVariantes": 715,
+      "groupesArmes": {
+        "arme-a-feu-source": 172,
+        "grenade-lancee": 16,
+        "melee": 27,
+        "preset": 500
+      },
+      "lignesAmmo": 212,
+      "profilsAmmo": {
+        "ItemPropertiesAmmo": 200,
+        "ItemPropertiesGrenade": 7,
+        "sans-profil": 5
+      },
+      "lignesProtectionEtRigs": 390,
+      "groupesProtection": {
+        "ItemPropertiesArmor": 49,
+        "ItemPropertiesArmorAttachment": 117,
+        "ItemPropertiesChestRig": 105,
+        "ItemPropertiesGlasses": 6,
+        "ItemPropertiesHelmet": 112,
+        "sans-profil": 1
+      },
+      "nomsFrManquants": 0,
+      "entreesCartographiquesSource": 19
+    },
+    "pve": {
+      "items": 5498,
+      "tagsSource": {
+        "ammo": 212,
+        "ammoBox": 229,
+        "armor": 72,
+        "armorPlate": 38,
+        "backpack": 47,
+        "barter": 363,
+        "container": 35,
+        "glasses": 54,
+        "grenade": 16,
+        "gun": 172,
+        "headphones": 28,
+        "helmet": 40,
+        "injectors": 22,
+        "keys": 259,
+        "markedOnly": 18,
+        "meds": 43,
+        "mods": 2314,
+        "noFlea": 1529,
+        "pistolGrip": 139,
+        "poster": 77,
+        "preset": 500,
+        "provisions": 89,
+        "rig": 105,
+        "specialSlot": 45,
+        "suppressor": 85,
+        "wearable": 832
+      },
+      "lignesArmesEtVariantes": 715,
+      "groupesArmes": {
+        "arme-a-feu-source": 172,
+        "grenade-lancee": 16,
+        "melee": 27,
+        "preset": 500
+      },
+      "lignesAmmo": 212,
+      "profilsAmmo": {
+        "ItemPropertiesAmmo": 200,
+        "ItemPropertiesGrenade": 7,
+        "sans-profil": 5
+      },
+      "lignesProtectionEtRigs": 390,
+      "groupesProtection": {
+        "ItemPropertiesArmor": 49,
+        "ItemPropertiesArmorAttachment": 117,
+        "ItemPropertiesChestRig": 105,
+        "ItemPropertiesGlasses": 6,
+        "ItemPropertiesHelmet": 112,
+        "sans-profil": 1
+      },
+      "nomsFrManquants": 0,
+      "entreesCartographiquesSource": 19
+    },
+    "pvp-season": {
+      "items": 5498,
+      "tagsSource": {
+        "ammo": 212,
+        "ammoBox": 229,
+        "armor": 72,
+        "armorPlate": 38,
+        "backpack": 47,
+        "barter": 363,
+        "container": 35,
+        "glasses": 54,
+        "grenade": 16,
+        "gun": 172,
+        "headphones": 28,
+        "helmet": 40,
+        "injectors": 22,
+        "keys": 259,
+        "markedOnly": 18,
+        "meds": 43,
+        "mods": 2314,
+        "noFlea": 1529,
+        "pistolGrip": 139,
+        "poster": 77,
+        "preset": 500,
+        "provisions": 89,
+        "rig": 105,
+        "specialSlot": 45,
+        "suppressor": 85,
+        "wearable": 832
+      },
+      "lignesArmesEtVariantes": 715,
+      "groupesArmes": {
+        "arme-a-feu-source": 172,
+        "grenade-lancee": 16,
+        "melee": 27,
+        "preset": 500
+      },
+      "lignesAmmo": 212,
+      "profilsAmmo": {
+        "ItemPropertiesAmmo": 200,
+        "ItemPropertiesGrenade": 7,
+        "sans-profil": 5
+      },
+      "lignesProtectionEtRigs": 390,
+      "groupesProtection": {
+        "ItemPropertiesArmor": 49,
+        "ItemPropertiesArmorAttachment": 117,
+        "ItemPropertiesChestRig": 105,
+        "ItemPropertiesGlasses": 6,
+        "ItemPropertiesHelmet": 112,
+        "sans-profil": 1
+      },
+      "nomsFrManquants": 0,
+      "entreesCartographiquesSource": 19
+    }
+  },
+  "fichiers": {
+    "endpoints.json": {
+      "octets": 1361,
+      "sha256": "e777e2944cd308935b5eaf24426096e68cccb13772e0801cfe29d77f043b2e86"
+    },
+    "regular/items.json": {
+      "octets": 3512660,
+      "sha256": "99461d01b1e1f57e2d3dcff5e48e7fff85c411f3295014ae4e5f2dbaeb057a1c"
+    },
+    "regular/weapons.json": {
+      "octets": 1025799,
+      "sha256": "5c65dcd903a63047930b559baacff53f4700ce5089dd59b1a5f31803b550308a"
+    },
+    "regular/ammo.json": {
+      "octets": 358305,
+      "sha256": "53fe661221dd007d9efa4bf1541870e80464387553b374286f54615d11390766"
+    },
+    "regular/armor.json": {
+      "octets": 924774,
+      "sha256": "5c6d129afc9854d8a0ea0a8f9c25ab65c174afa8b78858b19d84acaaf200a2c2"
+    },
+    "regular/maps-overview.json": {
+      "octets": 7143,
+      "sha256": "2ec658b0b95596d5fb9ab942b66678a31c6ea4442845ccf600e1d25a9ac2f36d"
+    },
+    "pve/items.json": {
+      "octets": 3512863,
+      "sha256": "e05de5e7584997085baaf13f9907715e92c47241fbba92f46259151327f0a2a3"
+    },
+    "pve/weapons.json": {
+      "octets": 1014381,
+      "sha256": "e62a4350045573fef75b2fbf8e6d2c2f66f92ca6ffc372c8c53e649446f0f9a0"
+    },
+    "pve/ammo.json": {
+      "octets": 346260,
+      "sha256": "d51f32f31249bc96da2653e517070dae57dc210b1565b39e96dfc10ca54b066d"
+    },
+    "pve/armor.json": {
+      "octets": 913607,
+      "sha256": "a19bb0e20024dafa7891ce8cca966ee25f35ded7a6935e49a9ef5fb3910cfb63"
+    },
+    "pve/maps-overview.json": {
+      "octets": 7001,
+      "sha256": "67540451108338e49f6bb8be2c8979f0343829996687de2b298f6c04e712503c"
+    },
+    "pvp-season/items.json": {
+      "octets": 3512885,
+      "sha256": "d43646087657990554d82407dfc4a359efcb6f119094712d20d172bb7f5aba4e"
+    },
+    "pvp-season/weapons.json": {
+      "octets": 1006850,
+      "sha256": "628872a9ac186a9c69db34a43e8fba613fdb8c0a458ac7fc1941b1fa6eca7529"
+    },
+    "pvp-season/ammo.json": {
+      "octets": 342468,
+      "sha256": "52148cc4d68f2a65dc90f11c06fc99febe7b24d403fd41e59ada556cfc35ea1d"
+    },
+    "pvp-season/armor.json": {
+      "octets": 907013,
+      "sha256": "6e5ffbc901451f4a88328a1b06fd5ea0220ef39a98545047d195b50139a052bf"
+    },
+    "pvp-season/maps-overview.json": {
+      "octets": 7156,
+      "sha256": "a410504207e3fa58d5bf599efae381e17ae889715a11428b079a8ceffe3fb8c7"
+    }
+  }
+}

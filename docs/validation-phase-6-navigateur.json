@@ -1,0 +1,91 @@
+{
+  "statut": "OK",
+  "rubriques": [
+    "Hub armures : 390 lignes de catalogue et compteur initial cohérent.",
+    "Hub armures : recherche textuelle active (7 lignes pour « Granit »).",
+    "Hub armures : filtre par classe cohérent (32 pièces de classe 6).",
+    "Hub armures : filtre par catégorie cohérent (38 plaques).",
+    "Guide body-armor : 150 lignes de catalogue, 9 sections.",
+    "Guide helmets : 176 lignes de catalogue, 9 sections.",
+    "Guide rigs : 170 lignes de catalogue, 9 sections.",
+    "Comparateur : 17 lignes alignées pour deux pièces sélectionnées.",
+    "Comparateur : trois pièces alignées sur les mêmes colonnes.",
+    "Hub boss : 14 fiches et 6 boutons de famille.",
+    "Hub boss : filtre de famille cohérent (2 fiches cultiste sur 14).",
+    "Fiches boss : points de vie, butin, avis et sources présents sur les trois fiches contrôlées.",
+    "Clavier : saisie au clavier et passage au champ suivant dans le catalogue.",
+    "Phase « bureau » terminée.",
+    "Responsive : 320, 375, 768, 1024, 1440 px sans débordement horizontal ni cible hors écran.",
+    "Phase « responsive » terminée.",
+    "Repli sans JavaScript : catalogue, comparateur et fiches boss entièrement lisibles.",
+    "Phase « repli sans script » terminée.",
+    "Stockage bloqué : le comparateur reste complet sans stockage local.",
+    "Phase « stockage bloqué » terminée.",
+    "Aucune erreur console ni réponse HTTP en erreur sur les parcours joués."
+  ],
+  "largeursPx": [
+    320,
+    375,
+    768,
+    1024,
+    1440
+  ],
+  "wcag": [
+    {
+      "scope": "Hub armures",
+      "violations": [],
+      "controleHumain": [
+        {
+          "id": "color-contrast",
+          "noeuds": 53
+        }
+      ],
+      "reglesReussies": 34
+    },
+    {
+      "scope": "Comparateur d’armures",
+      "violations": [],
+      "controleHumain": [
+        {
+          "id": "color-contrast",
+          "noeuds": 58
+        }
+      ],
+      "reglesReussies": 34
+    },
+    {
+      "scope": "Hub boss",
+      "violations": [],
+      "controleHumain": [
+        {
+          "id": "color-contrast",
+          "noeuds": 85
+        }
+      ],
+      "reglesReussies": 29
+    },
+    {
+      "scope": "Fiche boss Reshala",
+      "violations": [],
+      "controleHumain": [
+        {
+          "id": "color-contrast",
+          "noeuds": 37
+        }
+      ],
+      "reglesReussies": 29
+    }
+  ],
+  "console": [],
+  "erreursHttp": [],
+  "perf": {
+    "hubArmor": {
+      "initial": 19,
+      "lcpLocal": {
+        "ms": 420,
+        "element": "IMG",
+        "ressource": "/images/armor/armor-index.jpg"
+      }
+    }
+  }
+}

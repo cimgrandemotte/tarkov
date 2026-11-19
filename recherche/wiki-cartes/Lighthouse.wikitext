@@ -1,0 +1,361 @@
+{{Infobox location
+|image              =Banner lighthouse.png
+|image size         =
+|icon               =
+|type               =
+|prev               =[[Reserve]]<br/>[[Shoreline]]<br/>[[Woods]]
+|next               =[[Icebreaker]]<br/>[[Reserve]]<br/>[[Shoreline]]<br/>[[Woods]]
+|chapter            =
+|traders            =[[Lightkeeper]], [[BTR Driver]]
+|enemies            =[[Scavs]], [[Rogues]], [[Partisan]], [[Knight]], [[Big Pipe]], [[Birdeye]], [[Zryachiy]]
+|players            =10-12
+|difficulty         =
+|duration           =40 minutes
+|notable loot       =
+}}
+
+'''{{PAGENAME}}''' is a [[Map of Tarkov|location]] in ''[[Escape from Tarkov]]''. It is the eighth map that was added to the game.
+
+==Description==
+The lighthouse at Cape Dalniy was an important strategic object on the way to Tarkov. During Contract Wars, it was the main entry point for USEC units and served as their base of operations. After the conflict, Scavs took a fancy to this place, until the old owners returned, who decided to stay in Tarkov and establish their own order.
+
+==Notes==
+{{PAGENAME}} is initially only accessible by [[Transits|transiting]]. Direct access from the location selection screen is unlocked upon progressing through the story chapter [[Tour]].
+
+==Features==
+Be aware of [[Map of Tarkov#Minefields|Minefields]], [[Map of Tarkov#Claymores|Claymores]] and [[Map of Tarkov#Border Snipers|Border Snipers]]!
+
+===Lighthouse===
+The lighthouse at the peninsula territory is the home of [[Lightkeeper]]. The bridge that leads to the lighthouse is guarded by [[Zryachiy]] and full of [[Map of Tarkov#Claymores|Claymores]]. To safely pass the bridge, an <font color="green">encoded</font> [[Digital secure DSP radio transmitter]] is required. It deactivates the claymores and has Zryachiy not shoot you. The questline to obtain one starts with [[To the Light - Trust but Verify]]. Harming Zryachiy, one of his followers, or a Lightkeeper acquainted PMC in the lighthouse premises will <font color="red">decode</font> your [[Digital secure DSP radio transmitter]] if you have one. PMCs that are acquainted with Lightkeeper can kill unacquainted intruders without penalty.
+
+==Usable Keys==
+<div class="mw-collapsible mw-collapsed leftcollapse" data-expandtext="Show keys" data-collapsetext="Hide keys"><br/>
+{| class="wikitable sortable"
+!Icon
+!Key Name
+!Used in Quest
+|-
+![[File:Conference room key icon.png|64px|link=Conference room key]]
+|[[Conference room key]]
+!
+|-
+![[File:Conv key.png |64px|link=Convenience store storage room key]]
+|[[Convenience store storage room key]]
+!
+|-
+![[File:Hillside.png|64px|link=Hillside house key]]
+|[[Hillside house key]]
+!
+|-
+|[[File:Leon Icon.png|link=Leon's hideout key]]
+|[[Leon's hideout key]]
+!
+|-
+![[File:Lighthouse island stash key icon.png|64px|link=Lighthouse island stash key]]
+|[[Lighthouse island stash key]]
+! style="color: green" |✔
+|-
+![[File:Merinsmall.png|64px|link=Merin car trunk key]]
+|[[Merin car trunk key]]
+!
+|-
+![[File:Operating_Room_Key_icon.png|64px|link=Operating room key]]
+|[[Operating room key]]
+! style="color: green" |✔
+|-
+![[File:Policetruck.png|64px|link=Police truck cabin key]]
+|[[Police truck cabin key]]
+!
+|-
+![[File:RadarComKeyIcon.png|64px|link=Radar station commandant room key]]
+|[[Radar station commandant room key]]
+! style="color: green" |✔
+|-
+![[File:Rogue_USEC_Barrack_key_icon.png|64px|link=Rogue USEC barrack key]]
+|[[Rogue USEC barrack key]]
+!
+|-
+![[File:Rogue USEC Stash Key Thumb.png|64px|link=Rogue USEC stash key]]
+|[[Rogue USEC stash key]]
+!
+|-
+![[File:Rogue USEC Workshop Key Thumb.png|64px|link=Rogue USEC workshop key]]
+|[[Rogue USEC workshop key]]
+!
+|-
+![[File:Substation marked key icon.png|64px|link=Substation marked key]]
+|[[Substation marked key]]
+!
+|-
+![[File:Usec1 key.png|64px|link=USEC cottage first safe key]]
+|[[USEC cottage first safe key]]
+!
+|-
+![[File:USEC Cottage key.png|64px|link=USEC cottage room key]]
+|[[USEC cottage room key]]
+!
+|-
+![[File:Usec2 key.png|64px|link=USEC cottage second safe key]]
+|[[USEC cottage second safe key]]
+!
+|-
+![[File:WTP Store Icon.png|64px|link=Water treatment plant storage room key]]
+|[[Water treatment plant storage room key]]
+!
+|-
+|}
+</div>
+{{clear}}
+
+==Bosses==
+{| class="wikitable sortable"
+!Name
+!Image
+!Location
+!Notable equipment
+!Followers
+|-
+|[[Partisan]]
+![[File:Partisan Portrait.png|frameless|140px|link=Partisan]]
+|Has to be expected everywhere
+|[[Partisan's bag]]<br />[[AK skeletonized stock (Customized)]]<br />[[Red Rebel ice pick]]
+|None
+|-
+|[[Knight]]
+![[File:KnightPortrait.png|frameless|140px|link=Knight]]
+|At the water treatment plant in the north, and at the blue chalet. 
+|[[Death Knight mask]]<br/>[[Crye Precision CPC plate carrier (Goons Edition)]]
+|[[Big Pipe]], [[Birdeye]]
+|-
+|[[Big Pipe]]
+![[File:BigPipePortrait.png|frameless|140px|link=Big Pipe]]
+|At the water treatment plant in the north, and at the blue chalet. 
+|[[Milkor M32A1 MSGL 40mm grenade launcher]]<br/>[[Big Pipe's smoking pipe]]<br/>[[Big Pipe's bandana]]<br/>[[S&S Precision PlateFrame plate carrier (Goons Edition)]]
+|[[Knight]], [[Birdeye]]
+|-
+|[[Birdeye]]
+![[File:BirdeyePortrait.png|frameless|140px|link=Birdeye]]
+|At the water treatment plant in the north, and at the blue chalet. 
+|[[Mystery Ranch NICE COMM 3 BVS frame system (Coyote)]]<br/>[[LBT-1961A Load Bearing Chest Rig (Goons Edition)]]
+|[[Knight]], [[Big Pipe]]
+|-
+|[[Zryachiy]]
+![[File:ZryachiyPortrait.png|frameless|140px|link=Zryachiy]]
+|At the peninsula territory.
+|[[TheAKGuy AK-50 .50 BMG anti-materiel rifle]]<br/>[[Zryachiy's balaclava]]<br/>[[Zryachiy's balaclava (folded)]]<br/>[[Azimut SS "Khamelion" chest harness (Olive)]]
+|2 Cultist guards
+|}
+
+==Extractions==
+To locate the extractions use the [[Lighthouse#Maps|maps]] below the table.
+{| class="wikitable sortable stickyheader" style="text-align: center;"
+!Extraction
+!Name
+!Faction
+!Always available
+!Single-Use
+!Requirements
+!Notes
+|-
+![[File:Lighthouse - Armored train.png|240px]]
+! style="text-align: left;" |Armored Train
+|All
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+| -
+||Arrives between 20 and 15 minutes left in the raid.<br/>Honks twice on arrival.<br/>Stays for 7 min.<br/>Honks once 1 min before departure.<br/>Honks twice on closing doors.<br/>[[File:ExtractionTrainHorn.wav|282px]]
+|-
+![[File:Hideout under the landing stage.png|240px]]
+! style="text-align: left;" |Hideout Under the Landing Stage
+|Scav
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+| -
+|
+|-
+![[File:Industrial zone gates.png|240px]]
+! style="text-align: left;" |Industrial Zone Gates
+|Scav
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+| -
+|
+|-
+![[File:Lighthouse - Mountain pass.png|240px]]
+! style="text-align: left;" |Mountain Pass
+|PMC
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|[[Red Rebel ice pick]]<br/>[[Paracord]]<br/>No [[armor vest]] equipped
+|
+|-
+![[File:Lighthouse - Northern checkpoint.png|240px]]
+! style="text-align: left;" |Northern Checkpoint
+|PMC
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+| -
+|
+|-
+![[File:Passage by the Lake.png|240px]]
+! style="text-align: left;" |Passage by the Lake
+|All
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|[[File:Minefield map (Lighthouse) icon.png|link=Minefield map (Lighthouse)]]
+[[Minefield map (Lighthouse)]]
+|[[File:Passage by the Lake 2.png|240px]]<br/>Item handover location
+|-
+![[File:Lighthouse - Path to Shoreline.png|240px]]
+! style="text-align: left;" |Path to Shoreline 
+|All
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+| -
+|
+|-
+![[File:Lighthousecar.png|240px]]
+! style="text-align: left;" |Road to Military Base V-Ex
+|PMC
+|<font color="red">✘</font>
+|<font color="green">✔</font>
+|[[File:5000 Roubles.png|frameless|64px|link=Roubles]] per player
+'''Maximum of 5 players'''
+|The fee amount is influenced by your [[Scavs#Scav karma|Scav karma]].
+There are [[border snipers]] beyond the vehicle.
+|-
+![[File:Scav_hideout_at_the_grotto.png|240px]]
+! style="text-align: left;" |Scav Hideout at the Grotto
+|Scav
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+| -
+|
+|-
+![[File:LighthouseSideTunnelExtract.png|240px]]
+! style="text-align: left;" |Side Tunnel (Co-Op)
+|All
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|[[Scav]] + PMC
+|[[File:LighthouseSideTunnelExtract2.png|240px]]<br />The extraction zone is inside a room to the left after entering the tunnel.
+|-
+![[File:Lighthouse - southern road.png|240px]]
+! style="text-align: left;" |Southern Road
+|PMC
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+| -
+|
+|-
+![[File:Scav_Coastal_South.png|240px]]
+! style="text-align: left;" |Southern Road Landslide
+|Scav
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+| -
+|
+|}
+
+==Transits==
+{| class="wikitable sortable stickyheader" style="text-align: center;"
+!Transit
+!Name
+!Faction
+!Always available
+!Single-Use
+!Requirements
+!Notes
+|-
+![[File:LighthouseTransitToIcebreaker.png|240px]]
+! style="text-align: left;" |Transit to Icebreaker
+|PMC
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|Only available 1 min after raid start<br/>[[File:Sudak-Tudak marine repair kit icon.png|link=Sudak-Tudak marine repair kit]] per player
+'''Maximum of 3 players'''
+|At the pier next to the seaside houses<br/>Has to be unlocked through the story chapter [[Boreas]]
+|-
+![[File:LighthouseTransitToReserve.png|240px]]
+! style="text-align: left;" |Transit to Reserve
+|All
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|Only available 1 min after raid start
+|On the road leading to the Road to Military Base V-Ex extraction
+|-
+![[File:LighthouseTransitToShoreline2.png|240px]]
+! style="text-align: left;" |Transit to Shoreline
+|All
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|Only available 1 min after raid start
+|Next to the Path to Shoreline extraction
+|-
+![[File:LighthouseTransitToWoods.png|240px]]
+! style="text-align: left;" |Transit to Woods
+|All
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|Only available 1 min after raid start
+|On the road leading to the Road to Northern Checkpoint extraction
+|}
+
+==Maps==
+===Interactive Map===
+Click [[File:FS.png|link=]] for fullscreen. Separate map page [[Map:Lighthouse|here]].
+<interactive-map name="Lighthouse" width="800px"/>
+
+===3D Map===
+[[File:Re3mrLighthouseVerticalDay-min.jpg|800px|link={{filepath:Re3mrLighthouseVerticalDay-min.jpg}}]]
+
+===2D Map===
+[[File:Jindouz_Lighthouse_Map_V1.png|800px|link={{filepath:Jindouz_Lighthouse_Map_V1.png}}]]
+
+==Gallery==
+<center>
+<li style="display: inline-block;"><gallery mode="slideshow">
+File:Lighthouse Showcase 1.png
+File:Lighthouse Showcase 2.png
+File:Lighthouse Showcase 3.png
+File:Lighthouse Showcase 4.png
+File:Lighthouse Showcase 5.png
+File:Lighthouse Showcase 6.png
+File:Lighthouse Showcase 7.png
+File:Lighthouse Showcase 8.png
+File:Lighthouse Showcase 9.png
+File:Lighthouse Showcase 10.png
+File:Lighthouse Showcase 11.png
+File:Lighthouse Showcase 12.png
+File:Lighthouse Showcase 13.png
+File:Lighthouse Showcase 14.png
+File:Lighthouse Showcase 15.png
+File:Lighthouse Showcase 16.png
+File:Lighthouse Showcase 17.png
+File:Lighthouse Showcase 18.png
+File:Lighthouse Showcase 19.png
+File:Lighthouse Showcase 20.png
+File:Lighthouse Showcase 21.png
+File:Lighthouse Showcase 22.png
+File:Lighthouse Showcase 23.png
+File:Lighthouse Showcase 24.png
+File:Lighthouse Showcase 25.png
+</gallery></li>
+</center>
+
+==Trivia==
+* Lighthouse is a returning map from both of Escape from Tarkov's predecessors, Contract Wars and Hired Ops, where it had an identical function in the story as the original entry point of USEC into Tarkov. However in Escape from Tarkov, the map was drastically remade and has very little similarities to its older Contract Wars and Hired Ops iterations.
+* Lighthouse is referred to as "Cape Dalniy" in multiple quest dialogues. "Dalny" is also the nickname of the Kvantunskaya Oblast, a Russian territory in modern day China's Liaodong Peninsula.
+* The lighthouse is based on the Aniva lighthouse which is located at the southern coast of Sakhalin, Russia.
+<li style="display: inline-block;"><gallery widths="300" heights="169" mode="packed">
+File:AnivaLighthouse.jpg|Aniva lighthouse
+</gallery></li>
+:[https://www.google.com/maps/place/Mayak+Aniva/@46.0199465,143.4138751,17z/data=!4m5!3m4!1s0x5f173b0bf94058a5:0x8fa39cb206970a27!8m2!3d46.018919!4d143.4141433 Link to the location on Google Maps]
+
+{{Navbox locations}}
+[[Category:Locations]]
+
+[[cs:Lighthouse]]
+[[fr:Phare]]
+[[ru:Маяк]]
+[[de:Leuchtturm]]

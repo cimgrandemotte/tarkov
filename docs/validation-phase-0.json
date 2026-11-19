@@ -1,0 +1,13 @@
+{
+  "statut": "OK",
+  "routesUniques": 86,
+  "sourcesRepertoriees": 68,
+  "empreintesDeFichiersVerifiees": 16,
+  "objetsVerifiesParMode": {
+    "regular": 5498,
+    "pve": 5498,
+    "pvp-season": 5498
+  },
+  "etat": "ATTENTE_CONTINUE",
+  "prochainePhase": "PHASE_1"
+}

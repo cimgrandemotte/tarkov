@@ -1,0 +1,100 @@
+<section class="field-section map-section" id="reperes" tabindex="-1">
+  <h2>Repères et accès</h2>
+  <p>Le Littoral forme une grande partie de la périphérie de Tarkov, juste à côté de la zone portuaire : village partiellement abandonné, logements modernes, champs, longue plage, port de plaisance, station-service, station météo et antenne relais. Son point focal est la station de cure Azure Coast, alimentée par une centrale hydroélectrique voisine. <a href="@source:Shoreline@">Fiche publique</a> et <a href="@source:data-maps-fr@">libellés de jeu</a>.</p>
+  <div class="field-grid field-grid--three">
+    <div class="field-card"><p class="eyebrow">Volume</p><p><strong>45 minutes</strong>, 10 à 14 PMC, tous niveaux admis. 282 points de spawn relevés : c’est la carte la plus peuplée des treize lieux de référence.</p></div>
+    <div class="field-card"><p class="eyebrow">Équipement fixe</p><p>Des armes fixes de type AGS-30 et NSV Utyos. La fiche publique signale <strong>snipers de bordure</strong> et <strong>champs de mines</strong>, dont un champ longeant le mur du terminal portuaire.</p></div>
+    <div class="field-card"><p class="eyebrow">Poste portuaire</p><p>Le terminal est gardé par des soldats de l’armée russe, neutres tant qu’on ne les tire pas, mais qui ouvrent le feu si l’on s’approche de l’interphone sans présenter d’objet d’accès.</p></div>
+  </div>
+  <figure class="map-planche">
+    <img src="${root}images/maps/atlas-port-vue-aerienne.jpg" alt="Port industriel désaffecté, vue aérienne sous la brume" width="1376" height="768" loading="lazy">
+    <figcaption>Le secteur portuaire, au sud du Littoral : c’est de là que partent les transits vers le Terminal, le Labyrinthe et le Brise-glace.</figcaption>
+  </figure>
+</section>
+
+<section class="field-section map-section" id="sorties" tabindex="-1">
+  <h2>Sorties et transits</h2>
+  <p>Treize sorties sont documentées : six pour les PMC, quatre pour les Scavs, trois partagées. Le lieu est aussi le point de départ le plus riche du jeu en matière de transits : <strong>quatre destinations</strong>, dont deux qui exigent un objet d’accès et une progression dans l’histoire.</p>
+  <div class="map-layers">
+    <div class="map-layers__bar" role="group" aria-label="Couches de données du Littoral">
+      <span class="eyebrow">Couches</span>
+      <button type="button" class="badge" data-layer-toggle="sorties" aria-pressed="true">Sorties documentées</button>
+      <button type="button" class="badge" data-layer-toggle="transits" aria-pressed="true">Transits</button>
+      <button type="button" class="badge" data-layer-toggle="intitules" aria-pressed="false">Intitulés de jeu</button>
+    </div>
+    <div class="map-panel map-layer" data-layer="sorties">
+      <div class="map-layer__head"><h3>Sorties documentées</h3><p>Fiche publique du 18 novembre 2026.</p></div>
+      <label class="field" for="camp-littoral"><span class="field__label">Filtrer par camp</span>
+        <select class="field__control" id="camp-littoral" data-camp-filter>
+          <option value="tous">Toutes les sorties</option>
+          <option value="pmc">PMC</option>
+          <option value="scav">Scav</option>
+          <option value="shared">Partagées</option>
+        </select>
+      </label>
+      %%TABLE_SORTIES%%
+    </div>
+    <div class="map-panel map-layer" data-layer="transits">
+      <div class="map-layer__head"><h3>Transits sortants</h3><p>Quatre destinations : Phare, Terminal, Labyrinthe et Brise-glace.</p></div>
+      %%TABLE_TRANSITS%%
+    </div>
+    <div class="map-panel map-layer" data-layer="intitules" hidden>
+      <div class="map-layer__head"><h3>Intitulés de jeu</h3><p>Dix-neuf intitulés recensés par l’instantané des données.</p></div>
+      %%TABLE_SORTIES_JEU%%
+    </div>
+  </div>
+  <p>Le transit vers le Terminal n’est possible que dans la fenêtre <strong>21 h – 6 h</strong> et exige de présenter à l’interphone du poste de garde un objet d’accès : carte RFID reprogrammée avec les codes de M. Kerman, carte RFID au nom inconnu, lettre de Prapor pour le contrôle du port, ou carte RFID reprogrammée avec les codes de Prapor. Le transit vers le Brise-glace demande un kit de réparation marine Sudak-Tudak et le chapitre <em>Boreas</em>. Le transit vers le Labyrinthe exige la carte d’accès Labrys et la clé de la facility Knossos LLC, et se trouve dans le sous-sol de l’aile ouest de la station de cure.</p>
+</section>
+
+<section class="field-section map-section" id="rencontres" tabindex="-1">
+  <h2>Rencontres et menaces</h2>
+  <p>Sanitar est la rencontre historique du lieu, présente dans 60 % des instantanés relevés, avec trois gardes ; il se déplace entre les deux ailes de la station, le secteur portuaire et les cottages. Knight tient la station météo, Partisan erre partout, et le prêtre cultiste garde les abords de la station. Les données relèvent aussi deux postes de sentinelle fixes, présents à chaque fois. <a href="@source:wiki-maps@">Inventaire des lieux</a>.</p>
+  %%TABLE_RENCONTRES%%
+  <div class="map-note">
+    <p><strong>Proximité de la station.</strong> La station de cure concentre les clés et les rencontres : quarante-sept clés y sont documentées, de la simple clé de porte de cottage aux clés de chambres numérotées de l’aile est. Sanitar porte la clé à marquage bleu : l’évacuation sur la même aile est un objectif possible mais très risqué.</p>
+  </div>
+</section>
+
+<section class="field-section map-section" id="terrain" tabindex="-1">
+  <h2>Dangers de terrain</h2>
+  <p>Le Littoral compte vingt champs de mines et dix zones de snipers relevés dans les données. Les mines servent à dessiner les limites artificielles de la carte ; le mur du terminal portuaire en porte un exemple notable.</p>
+  %%TABLE_DANGERS%%
+</section>
+
+  <div class="map-note">
+    <p><strong>Toutes les clés ne se valent pas.</strong> Un inventaire de joueurs fait remarkquer que certaines portes du Littoral communiquent entre elles et qu’une seule clé suffit à ouvrir une série de pièces, tandis que d’autres chambres sont toujours ouvertes. C’est un constat de terrain, daté et propre à une version du jeu : la liste des clés documentées ci-dessus reste la référence.</p>
+  </div>
+<section class="field-section map-section" id="cles" tabindex="-1">
+  <h2>Clés et butin</h2>
+  <p>Quarante-sept clés sont documentées, la très grande majorité pour les chambres et les safes de la station Azure Coast. Les clés marquées comme à accès permanent dans la fiche publique n’ont pas besoin d’être emportées : elles indiquent un passage que l’on peut emprunter sans clé.</p>
+  %%TABLE_CLES%%
+  <div class="map-note">
+    <p><strong>Le repère de Sanitar.</strong> La clé à marquage bleu figure dans l’équipement notable de Sanitar : la trouver suppose de stipuler la rencontre, et non de la contourner.</p>
+  </div>
+</section>
+
+<section class="field-section map-section" id="conduite" tabindex="-1">
+  <h2>Conduite selon le profil</h2>
+  <p>Le Littoral est long : quarante-cinq minutes pour traverser un quartier entier. La station de cure est un bloc compact, mais tout autour s’étire en maisons, champs et plage. La difficulté ne vient pas du nombre d’ennemis, mais de la distance.</p>
+  <ol class="map-steps">
+    <li><strong>Débutant.</strong> Viser une sortie proche du point d’apparition et accepter un raid court. La sortie <em>Route vers les douanes</em> et le chemin de <em>Sentier vers le phare</em> sont partagés ou sans condition : ce sont les replis les plus simples.</li>
+    <li><strong>Confirmé.</strong> Utiliser le transit comme raccourci : celui vers le Phare se place devant la sortie du même nom, et permet de sortir de la zone nord sans traverser toute la station.</li>
+    <li><strong>Expérimenté.</strong> Travailler le saut de lieu : le transit vers le Terminal et le transit vers le Labyrinthe sont l’un et l’autre accessibles depuis le littoral, et ouvrent des lieux où l’on ne peut pas entrer directement.</li>
+  </ol>
+  %%TABLE_MODES%%
+  %%TABLE_VARIANTES%%
+  <div class="map-path"><strong>Écarts entre profils</strong><span>Ce que les trois profils consultés changent sur ce lieu.</span></div>
+  %%TABLE_ECARTS%%
+</section>
+
+<section class="field-section map-section" id="sources" tabindex="-1">
+  <h2>Sources et limites</h2>
+  <p>Instantané communautaire des données de jeu et fiche publique, tous deux du 18 novembre 2026. Le libellé français du transit vers le Labyrinthe n’est pas traduit dans l’instantané : il y figure en anglais, ce qui est un défaut de traduction des données et non une indication de gameplay.</p>
+  <ul class="map-steps">
+    <li><a href="@source:Shoreline@">Littoral — fiche de lieu</a> : lore, sorties, transits, clés et rencontres.</li>
+    <li><a href="@source:data-maps@">Tarkov.dev — cartes et rencontres</a> : instantané du profil PvP Zone.</li>
+    <li><a href="@source:data-maps-fr@">Tarkov.dev — libellés français</a>, <a href="@source:data-maps-pve@">profil PvE</a> et <a href="@source:data-maps-season@">profil saisonnier</a> : intitulés et écarts.</li>
+    <li><a href="@source:bsg-1150@">Patch 1.1.5.0</a> et <a href="@source:bsg-1300@">patch 1.3.0.0</a> : correctifs de géométrie et d’audio du lieu.</li>
+    <li><a href="@source:mapgenie@">MapGenie</a> et <a href="@source:kappa@">Kappa Guide</a> : aides de lecture communautaires.</li>
+  </ul>
+</section>

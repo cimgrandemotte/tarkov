@@ -1,0 +1,102 @@
+<!doctype html>
+<!-- Produit par scripts/rendre_cartes.py. Éditer templates/cartes/atlas.html.part et templates/cartes-phase-4.json plutôt que ce HTML. -->
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>$title</title>
+  <meta name="description" content="$description">
+  <meta name="theme-color" content="#0b0d0b">
+  <link rel="canonical" href="$canonical">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Tarkov Ultimate Guide">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:title" content="$title">
+  <meta property="og:description" content="$description">
+  <meta property="og:url" content="$canonical">
+  <meta property="og:image" content="$shareimage">
+  <meta property="og:image:width" content="$shareimage_width">
+  <meta property="og:image:height" content="$shareimage_height">
+  <meta property="og:image:alt" content="$alt">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="$title">
+  <meta name="twitter:description" content="$description">
+  <meta name="twitter:image" content="$shareimage">
+  <meta name="twitter:image:alt" content="$alt">
+  <script type="application/ld+json">$structured</script>
+  <style>html{color-scheme:dark;background:#0b0d0b}body{margin:0;color:#f1efe7}img{display:block;max-width:100%}[hidden]{display:none!important}.atlas-hero{position:relative;min-block-size:25rem}</style>
+$preload
+  <link rel="stylesheet" href="${root}css/main.css">
+  <link rel="stylesheet" href="${root}css/components.css">
+  <link rel="stylesheet" href="${root}css/animations.css">
+  <link rel="stylesheet" href="${root}css/site-chrome.css">
+  <link rel="stylesheet" href="${root}css/pages/field-guide.css">
+  <link rel="stylesheet" href="${root}css/pages/maps.css">
+  <noscript><style>.commandbar{position:relative}</style></noscript>
+  <script type="module" src="${root}js/app.mjs"></script>
+  <script type="module" src="${root}js/maps.mjs"></script>
+</head>
+<body class="field-page map-page map-page--atlas">
+  <a class="skip-link" data-skip href="#contenu">Aller au contenu principal</a>
+  <header class="site-header commandbar">
+    <div class="site-header__inner commandbar__inner shell">
+      <a class="wordmark" href="$root" aria-label="Tarkov Ultimate Guide — accueil">
+        <span class="wordmark__sigil" aria-hidden="true"></span>
+        <span class="wordmark__text"><span class="wordmark__name">TARKOV</span> <span class="wordmark__tag">Ultimate Guide</span></span>
+      </a>
+      <nav class="commandbar__nav" aria-label="Navigation principale">
+        <a class="commandbar__nav-link" href="$root">Accueil</a>
+        <details class="mega-nav" data-site-panel>
+          <summary class="button button--quiet commandbar__menu"><span class="commandbar__desktop">Encyclopédie</span><span class="commandbar__mobile">Menu</span></summary>
+          <div class="mega-nav__panel">
+            <div class="mega-nav__grid">
+              <div class="mega-nav__col"><p class="mega-nav__heading">01 · Guides</p><ul class="mega-nav__links"><li><a href="$root">Accueil</a></li><li>$guide_entry</li><li>$lore_entry</li></ul></div>
+              <div class="mega-nav__col"><p class="mega-nav__heading">02 · Terrain</p><ul class="mega-nav__links"><li>$atlas_entry</li><li><a href="${root}#dossier-arsenal">Armes &amp; munitions</a></li><li><a href="${root}atelier/">Atelier de démonstration</a></li></ul></div>
+              <div class="mega-nav__col"><p class="mega-nav__heading">03 · Veille</p><ul class="mega-nav__links"><li><a href="${root}#modes">Profils de jeu</a></li><li><a href="${root}#actualites">Veille EFT</a></li><li><a href="${root}#programme">Programme du guide</a></li></ul></div>
+            </div>
+          </div>
+        </details>
+        <a class="commandbar__nav-link" href="$root" aria-current="page">Cartes</a>
+        <a class="commandbar__nav-link" href="${root}#actualites">Veille</a>
+      </nav>
+      <div class="commandbar__actions"><button type="button" class="button button--icon button--quiet commandbar__search" data-dialog-open="search-dialog" aria-haspopup="dialog" aria-label="Rechercher Ctrl K dans le guide" aria-keyshortcuts="Control+K Meta+K" hidden><span class="icon icon--search" aria-hidden="true"></span><span class="commandbar__search-word">Rechercher</span> <kbd class="kbd commandbar__keys" aria-hidden="true">Ctrl K</kbd></button></div>
+    </div>
+  </header>
+  <main id="contenu" tabindex="-1" data-atlas>
+    <section class="atlas-hero$hero_class" id="haut" tabindex="-1" aria-labelledby="titre-atlas">
+      $hero_image
+      <div class="shell atlas-hero__inner">
+        <nav class="field-crumb" aria-label="Fil d’Ariane"><a href="$root">Accueil</a><span aria-hidden="true">/</span><span aria-current="page">Cartes</span></nav>
+        <p class="eyebrow field-hero__kicker"><span class="status-dot" aria-hidden="true"></span>$kicker</p>
+        <h1 id="titre-atlas">$headline <span>$headline_tail</span></h1>
+        <p class="atlas-hero__lead">$lead</p>
+        <div class="field-hero__actions">$hero_links</div>
+      </div>
+    </section>
+    <div class="map-strip"><dl class="map-strip__grid shell" aria-label="Repères de l’atlas">$strip</dl></div>
+    <div class="shell field-layout">
+      <aside class="field-aside">
+        <div class="field-aside__inner">
+          <nav class="field-toc" aria-label="Sommaire de l’atlas"><p class="eyebrow">Dans cette page</p><ol>$toc</ol></nav>
+          <details class="field-toc-mobile"><summary class="button button--quiet">Dans cette page</summary><nav aria-label="Sommaire de l’atlas sur mobile"><ol>$toc</ol></nav></details>
+          <p class="field-aside__date">Revu le <time datetime="2026-11-18">18 novembre 2026</time><br><span>$aside_note</span></p>
+        </div>
+      </aside>
+      <article class="field-notes" aria-label="$article_label">
+$content
+      </article>
+    </div>
+  </main>
+  <footer class="field-footer"><div class="shell field-footer__inner"><div class="flow"><p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Tarkov Ultimate Guide</p><p class="muted small">Guide de fans indépendant, sans affiliation à Battlestate Games. Les images générées ne sont ni des captures d’écran ni des cartes officielles.</p></div><div class="field-footer__links"><button type="button" class="button button--quiet" data-theme-toggle aria-pressed="false" hidden>Contraste renforcé</button><a class="button button--quiet" href="#haut">Retour en haut <span aria-hidden="true">↑</span></a></div></div></footer>
+  <dialog class="dialog" id="search-dialog" data-dialog aria-labelledby="search-title">
+    <div class="dialog__inner">
+      <header class="dialog__head"><div><p class="eyebrow">Index du guide</p><h2 class="dialog__title" id="search-title">Rechercher</h2></div><form method="dialog"><button type="submit" class="button button--icon button--quiet" aria-label="Fermer la recherche" value="fermer">×</button></form></header>
+      <form class="search__form" role="search" aria-label="Recherche dans le guide">
+        <label class="field" for="search-query"><span class="field__label">Terme recherché</span><input type="search" class="field__control" id="search-query" name="requete" maxlength="120" placeholder="Ex. Douanes, extraction, transits…" autocomplete="off" data-dialog-focus autofocus></label>
+        <label class="field" for="search-scope"><span class="field__label">Portée</span><select class="field__control" name="portee" id="search-scope"><option value="all">Tout l’index</option><option value="publiee">Pages publiées</option><option value="dossier">Repères des guides</option><option value="accueil">Sur l’accueil</option><option value="atelier">Outils de l’atelier</option><option value="planifiee">Dossiers à venir</option></select></label>
+      </form>
+      <p class="search__status" role="status" data-search-status>Chargement de l’index…</p><button class="button button--quiet" type="button" data-search-retry hidden>Recharger l’index</button><ul class="search__list" data-search-results aria-label="Résultats de recherche"></ul>
+    </div>
+  </dialog>
+</body>
+</html>

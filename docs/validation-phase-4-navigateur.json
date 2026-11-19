@@ -1,0 +1,166 @@
+{
+  "statut": "OK",
+  "rubriques": [
+    "Atlas : recherche par facette, message « aucun lieu », compteur de cartes affichées et restauration à 13.",
+    "Atlas : filtres profil (11 fiches en PvE) et danger (9 fiches avec champ de mines) opérationnels.",
+    "Comparatif : deux colonnes et 18 lignes de données synchronisées.",
+    "Atlas : lien d’évitement, cible de focus et sommaire ancre fonctionnels au clavier.",
+    "Fiches : 13 pages chargées en 200, tableaux légendés, images décodées après défilement, aucune requête hors racine ni audio.",
+    "Fiches : couches de données commutables au clavier et à la souris.",
+    "Fiches : lien d’évitement, focus sur la section et sommaire ancre.",
+    "Phase « bureau » terminée.",
+    "Responsive : 320, 768, 1024, 1440 px sans débordement horizontal ni cible hors écran sur l’atlas et deux fiches.",
+    "Phase « responsive » terminée.",
+    "Repli sans JavaScript : 13 cartes, tableaux et contenu textuel complet sur l’atlas et une fiche.",
+    "Phase « repli sans script » terminée.",
+    "Stockage bloqué : l’atlas reste complète sans stockage local.",
+    "Phase « stockage bloqué » terminée.",
+    "Aucune erreur console ni réponse HTTP en erreur sur les parcours joués."
+  ],
+  "largeursPx": [
+    320,
+    768,
+    1024,
+    1440
+  ],
+  "wcag": [
+    {
+      "scope": "Atlas sur bureau",
+      "violations": [],
+      "controleHumain": [
+        {
+          "id": "color-contrast",
+          "noeuds": 32
+        }
+      ],
+      "reglesReussies": 34
+    },
+    {
+      "scope": "Fiche Usine sur bureau",
+      "violations": [],
+      "controleHumain": [
+        {
+          "id": "color-contrast",
+          "noeuds": 118
+        }
+      ],
+      "reglesReussies": 32
+    }
+  ],
+  "console": [],
+  "erreursHttp": [],
+  "perf": {
+    "atlas": {
+      "initial": 32,
+      "lcpLocal": {
+        "ms": 340,
+        "element": "IMG",
+        "ressource": "/images/maps/atlas-panorama.jpg"
+      }
+    },
+    "factory": {
+      "initial": 20,
+      "lcpLocal": {
+        "ms": 200,
+        "element": "IMG",
+        "ressource": "/images/maps/factory-halle.jpg"
+      }
+    },
+    "customs": {
+      "initial": 20,
+      "lcpLocal": {
+        "ms": 240,
+        "element": "IMG",
+        "ressource": "/images/maps/customs-pont.jpg"
+      }
+    },
+    "woods": {
+      "initial": 19,
+      "lcpLocal": {
+        "ms": 652,
+        "element": "IMG",
+        "ressource": "/images/maps/woods-lac.jpg"
+      }
+    },
+    "shoreline": {
+      "initial": 20,
+      "lcpLocal": {
+        "ms": 576,
+        "element": "IMG",
+        "ressource": "/images/maps/shoreline.jpg"
+      }
+    },
+    "interchange": {
+      "initial": 20,
+      "lcpLocal": {
+        "ms": 644,
+        "element": "IMG",
+        "ressource": "/images/maps/interchange.jpg"
+      }
+    },
+    "reserve": {
+      "initial": 19,
+      "lcpLocal": {
+        "ms": 636,
+        "element": "IMG",
+        "ressource": "/images/maps/reserve.jpg"
+      }
+    },
+    "the-lab": {
+      "initial": 19,
+      "lcpLocal": {
+        "ms": 632,
+        "element": "IMG",
+        "ressource": "/images/maps/the-lab.jpg"
+      }
+    },
+    "lighthouse": {
+      "initial": 19,
+      "lcpLocal": {
+        "ms": 568,
+        "element": "IMG",
+        "ressource": "/images/maps/lighthouse.jpg"
+      }
+    },
+    "streets-of-tarkov": {
+      "initial": 19,
+      "lcpLocal": {
+        "ms": 536,
+        "element": "IMG",
+        "ressource": "/images/maps/streets-of-tarkov.jpg"
+      }
+    },
+    "ground-zero": {
+      "initial": 19,
+      "lcpLocal": {
+        "ms": 548,
+        "element": "IMG",
+        "ressource": "/images/maps/ground-zero.jpg"
+      }
+    },
+    "the-labyrinth": {
+      "initial": 19,
+      "lcpLocal": {
+        "ms": 516,
+        "element": "IMG",
+        "ressource": "/images/maps/the-labyrinth.jpg"
+      }
+    },
+    "icebreaker": {
+      "initial": 19,
+      "lcpLocal": {
+        "ms": 636,
+        "element": "IMG",
+        "ressource": "/images/maps/icebreaker.jpg"
+      }
+    },
+    "terminal": {
+      "initial": 19,
+      "lcpLocal": {
+        "ms": 624,
+        "element": "IMG",
+        "ressource": "/images/maps/terminal.jpg"
+      }
+    }
+  }
+}

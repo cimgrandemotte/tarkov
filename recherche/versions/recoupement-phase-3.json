@@ -1,0 +1,28 @@
+{
+  "dateUtc": "2026-11-18",
+  "perimetre": ["pages/getting-started.html", "pages/lore/index.html"],
+  "dossier": "docs/veille-phase-3.md",
+  "registre": "docs/sources.json",
+  "clientTeste": false,
+  "eft": {
+    "dernieresNotesNumeroteesConsultees": {"version": "1.3.0.0", "date": "2026-10-29", "source": "bsg-1300"},
+    "correctifRapporte": {"build": "1.3.0.2.48779", "date": "2026-11-13", "source": "wiki-changelog", "preuve": "SECONDAIRE"},
+    "unity6": {"versionAnnoncee": "1.3.5.0", "deploiementEtabli": false},
+    "kordBreach": {"finAnnoncee": "2026-12-07", "heure": null, "source": "bsg-kord-fin"}
+  },
+  "repèresGuide": [
+    {"sujet": "Profils et Practice", "sources": ["bsg-1100-web", "wiki-game-modes", "bsg-1300"], "retenu": "Trois profils distincts, Practice sans résultats persistants, pas d’assurance en Kord Breach selon les notes de saison."},
+    {"sujet": "Tour", "sources": ["wiki-tour", "reddit-pve-start-26"], "retenu": "Sortie du prologue derrière Skyside, puis dialogue Therapist. Ne pas réutiliser la sortie ou les prix de ce tutoriel comme règles générales."},
+    {"sujet": "Commandes et soins", "sources": ["wiki-controls", "wiki-health", "youtube-field-basic"], "retenu": "Repères QWERTY et types de soin vérifiés de façon documentaire ; voir les réglages et infobulles du client."},
+    {"sujet": "Fidélité et tâches de groupe", "sources": ["bsg-1100-web"], "retenu": "Volume de ventes retiré des prérequis de fidélité selon le patch. Progression de groupe limitée aux objectifs marqués."},
+    {"sujet": "Run-Through et FiR", "sources": ["bsg-1200", "wiki-fir"], "retenu": "Distinguer statut final, butin gardé et étiquette pour les remises. Les couleurs et seuils historiques ne sont pas imposés au guide."},
+    {"sujet": "Programme EXFIL Brothers", "sources": ["bsg-exfil-brothers", "steam-exfil-forum"], "retenu": "Éligibilité à confirmer sur le site éditeur ; la divergence sur la condition de temps de jeu reste ouverte."}
+  ],
+  "repèresLore": [
+    {"sujet": "Norvinsk et les factions", "sources": ["bsg-raid-fr", "wiki-norvinsk", "wiki-conflict"], "retenu": "Norvinsk fictif, conflit, TerraGroup, USEC et BEAR, Scavs et blocus. La maquette ne fixe aucune frontière d’état, coordonnée de jeu ou route réelle."},
+    {"sujet": "Contract Wars", "sources": ["forum-contract-wars", "steam-hired-ops"], "retenu": "Appellation de la phase active d’après extrait historique et univers de titres distincts. Pas de dates d’opérations fixées."},
+    {"sujet": "Dates de publication", "jalons": [{"date": "2019-03-29", "sujet": "RAID : épisode 1", "source": "bsg-raid-fr"}, {"date": "2025-11-15", "sujet": "Sortie 1.0", "source": "bsg-anniv"}, {"date": "2026-05-25", "sujet": "Boreas et Icebreaker", "source": "bsg-boreas-x"}], "chronologieUniversDatee": false},
+    {"sujet": "Chapitres", "sources": ["wiki-chapters", "ign-story-chapters", "wiki-ticket", "wiki-dogtags"], "retenu": "Dix au relevé contre neuf avant l’ajout de Boreas. Les fins, embranchements et lectures tardives ne sont pas indexés dans le moteur du guide."}
+  ],
+  "limites": ["Aucun accès au client live, aux canaux privés ou aux sections du forum exigeant une permission.", "YouTube : descriptions, chapitres et transcriptions, pas un visionnage complet ni une vérification en jeu.", "Reddit et X : sources d’index ou publications attribuées, à distinguer du client et des notes complètes.", "Calendrier de publication et ordre des événements fictifs séparés."]
+}

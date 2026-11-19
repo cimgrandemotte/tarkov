@@ -1,0 +1,489 @@
+{{Infobox location
+|image              =Banner streets.png
+|image size         =
+|icon               =
+|type               =
+|prev               =[[Ground Zero]]
+|next               =[[Interchange]]<br/>[[The Lab]]
+|chapter            =
+|traders            =[[BTR Driver]]
+|enemies            =[[Scavs]], [[Kaban]], [[Kollontay]]
+|players            =12-16
+|difficulty         =
+|duration           =40 minutes
+|notable loot       =
+}}
+
+'''{{PAGENAME}}''' is a [[Map of Tarkov|location]] in ''[[Escape from Tarkov]]''. It is the ninth map that was added to the game.
+
+==Description==
+Downtown Tarkov houses banks, malls, and hotels, as well as all the other amenities a thriving metropolis could have needed.
+
+==Notes==
+{{PAGENAME}} is initially only accessible by [[Transits|transiting]]. Direct access from the location selection screen is unlocked upon progressing through the story chapter [[Tour]].
+
+==Features==
+* Stationary weapons in the form of [[AGS-30 30x29mm automatic grenade launcher]]s and [[NSV Utyos 12.7x108 heavy machine gun]]s.
+* Be aware of [[Map of Tarkov#Claymores|Claymores]] and [[Map of Tarkov#Border Snipers|Border Snipers]]!
+
+==Usable Keys==
+<div class="mw-collapsible mw-collapsed leftcollapse" data-expandtext="Show keys" data-collapsetext="Hide keys"><br/>
+{| class="wikitable sortable"
+!Icon
+!Key Name
+!Used in Quest
+|-
+![[File:Abandoned factory marked key icon.png|link=Abandoned factory marked key]]
+|[[Abandoned factory marked key]]
+! style="color: green" |✔
+|-
+![[File:Archive room key icon.png|link=Archive room key]]
+|[[Archive room key]]
+!
+|-
+![[File:Aspect company office key icon.png|link=Aspect company office key]]
+|[[Aspect company office key]]
+!
+|-
+![[File:Backup hideout key icon.png|link=Backup hideout key]]
+|[[Backup hideout key]]
+! style="color: green" |✔
+|-
+![[File:Beluga icon.png|link=Beluga restaurant director key]]
+|[[Beluga restaurant director key]]
+! style="color: green" |✔
+|-
+![[File:Car dealership closed section key icon.png|link=Car dealership closed section key]]
+|[[Car dealership closed section key]]
+! style="color: green" |✔
+|-
+![[File:Car dealership director's office room key icon.png|link=Car dealership director's office room key]]
+|[[Car dealership director's office room key]]
+! style="color: green" |✔
+|-
+![[File:Cardinal apartment key icon.png|link=Cardinal apartment key]]
+|[[Cardinal apartment key]]
+!
+|-
+![[File:Cargo container mesh door key icon.png|link=Cargo container mesh door key]]
+|[[Cargo container mesh door key]]
+!
+|-
+![[File:Chekannaya 15 apartment key icon.png|link=Chekannaya 15 apartment key]]
+|[[Chekannaya 15 apartment key]]
+! style="color: green" |✔
+|-
+![[File:Concordia 8 key icon.png|link=Concordia apartment 8 home cinema key]]
+|[[Concordia apartment 8 home cinema key]]
+!
+|-
+![[File:Concordia apartment 8 key icon.png|link=Concordia apartment 8 room key]]
+|[[Concordia apartment 8 room key]]
+!
+|-
+![[File:Concordia apartment 34 key icon.png|link=Concordia apartment 34 room key]]
+|[[Concordia apartment 34 room key]]
+!
+|-
+![[File:Concordia apartment 63 room key icon.png|link=Concordia apartment 63 room key]]
+|[[Concordia apartment 63 room key]]
+!
+|-
+![[File:Concordia apartment 64 key icon.png|link=Concordia apartment 64 key]]
+|[[Concordia apartment 64 key]]
+!
+|-
+![[File:Concordia apartment 64 office room key icon.png|link=Concordia apartment 64 office room key]]
+|[[Concordia apartment 64 office room key]]
+!
+|-
+![[File:Concordia security room key icon.png|link=Concordia security room key]]
+|[[Concordia security room key]]
+! style="color: green" |✔
+|-
+![[File:Construction site bunkhouse key icon.png|link=Construction site bunkhouse key]]
+|[[Construction site bunkhouse key]]
+!
+|-
+![[File:Cult victim's apartment key icon.png|link=Cult victim's apartment key]]
+|[[Cult victim's apartment key]]
+! style="color: green" |✔
+|-
+![[File:Elektronik's key icon.png|link=Elektronik's key]]
+|[[Elektronik's key]]
+! style="color: green" |✔
+|-
+![[File:Financial institution office key icon.png|link=Financial institution office key]]
+|[[Financial institution office key]]
+!
+|-
+![[File:Financial institution small office key icon.png|link=Financial institution small office key]]
+|[[Financial institution small office key]]
+!
+|-
+![[File:Iron gate key icon.png|link=Iron gate key]]
+|[[Iron gate key]]
+! style="color: green" |✔
+|-
+![[File:NegotiationIcon.png|link="Negotiation" room key]]
+|[["Negotiation" room key]]
+! style="color: green" |✔
+|-
+![[File:MVDAcademyEntranceHallKeyIcon.png|link=MVD academy entrance hall guard room key]]
+|[[MVD academy entrance hall guard room key]]
+!
+|-
+![[File:Mysterious marked key icon.png|link=Mysterious room marked key]]
+|[[Mysterious room marked key]]
+! style="color: green" |✔
+|-
+![[File:PE teacher's office key icon.png|link=PE teacher's office key]]
+|[[PE teacher's office key]]
+!
+|-
+![[File:Hotel room 206 key icon.png|link=Pinewood hotel room 206 key]]
+|[[Pinewood hotel room 206 key]]
+!
+|-
+![[File:Hotel room 215 key icon.png|link=Pinewood hotel room 215 key]]
+|[[Pinewood hotel room 215 key]]
+! style="color: green" |✔
+|-
+![[File:Primorsky 46 underpass key icon.png|link=Primorsky 46-48 skybridge key]]
+|[[Primorsky 46-48 skybridge key]]
+! style="color: green" |✔
+|-
+![[File:Primorsky 48 apartment key icon.png|link=Primorsky 48 apartment key]]
+|[[Primorsky 48 apartment key]]
+!
+|-
+![[File:RealEstateAgencyOfficeRoomIcon.png|link=Real estate agency office room key]]
+|[[Real estate agency office room key]]
+! style="color: green" |✔
+|-
+![[File:RelatationRoomKeyIcon.png|link=Relaxation room key]]
+|[[Relaxation room key]]
+! style="color: green" |✔
+|-
+![[File:Reprogrammed keycard for A.P.'s apartment lock (Green) icon.png|link=Reprogrammed keycard for A.P.'s apartment lock (Green)]]
+|[[Reprogrammed keycard for A.P.'s apartment lock (Green)]]
+! style="color: green" |✔
+|-
+!|[[File:Rus Post car key icon.png|link=Rus Post car key]]
+|[[Rus Post car key]]
+! style="color: green" |✔
+|-
+!|[[File:RustedIcon.png|link=Rusted bloody key]]
+|[[Rusted bloody key]]
+! style="color: green" |✔
+|-
+![[File:Stair landing key icon.png|link=Stair landing key]]
+|[[Stair landing key]]
+!
+|-
+![[File:Store manager's key icon.png|link=Store manager's key]]
+|[[Store manager's key]]
+!
+|-
+![[File:Supply department director's office key icon.png|link=Supply department director's office key]]
+|[[Supply department director's office key]]
+!
+|-
+![[File:Tarbank cash register key icon.png|link=Tarbank cash register department key]]
+|[[Tarbank cash register department key]]
+!
+|-
+![[File:TerraGroup corporate apartment key icon.png|link=TerraGroup corporate apartment key]]
+|[[TerraGroup corporate apartment key]]
+! style="color: green" |✔
+|-
+![[File:TerraGroup meeting room key icon.png|link=TerraGroup meeting room key]]
+|[[TerraGroup meeting room key]]
+! style="color: green" |✔
+|-
+![[File:TerraGroup security armory key icon.png|link=TerraGroup security armory key]]
+|[[TerraGroup security armory key]]
+!
+|-
+![[File:X-ray key icon.png|link=X-ray room key]]
+|[[X-ray room key]]
+! style="color: green" |✔
+|-
+![[File:Zmeisky 3 apartment key icon.png|link=Zmeisky 3 apartment key]]
+|[[Zmeisky 3 apartment key]]
+! style="color: green" |✔
+|-
+![[File:Zmeevsky 3 apartment 8 key icon.png|link=Zmeisky 3 apartment 8 key]]
+|[[Zmeisky 3 apartment 8 key]]
+!
+|-
+![[File:Zmeevsky 5 apartment 20 key icon.png|link=Zmeisky 5 apartment 20 key]]
+|[[Zmeisky 5 apartment 20 key]]
+!
+|-
+|}
+</div>
+{{clear}}
+
+==Bosses==
+{{Seasonal change|[[Black Division]] operatives roam through the map. They do not have a fixed spawn location and have to be expected everywhere.}}
+{| class="wikitable sortable"
+!Name
+!Image
+!Location
+!Notable equipment
+!Followers
+|-
+|[[Kaban]]
+![[File:Kaban Portrait.png|frameless|140px|link=Kaban]]
+|At the LexOs car dealership
+|[[Kalashnikov PKM 7.62x54R machine gun]]<br/>[[Kalashnikov PKP 7.62x54R infantry machine gun]]
+|2 personal bodyguards Gus and Basmach<br/>4 heavily armed and armored guards<br/>2-3 snipers
+|-
+|[[Kollontay]]
+![[File:Kollontay Portrait.png|frameless|140px|link=Kollontay]]
+|At the Klimov shopping mall<br/>At the ministry of the interior academy
+|[[PR-Taran police baton]]
+|4 heavily armed and armored guards
+|}
+
+==Extractions==
+To locate the extractions use the [[Streets of Tarkov#Maps|maps]] below the table.
+{| class="wikitable sortable stickyheader" style="text-align: center;"
+!Extraction
+!Name
+!Faction
+!Always available
+!Single-Use
+!Requirements
+!Notes
+|-
+![[File:Cardinal parking.png|240px]]
+! style="text-align: left;" |Cardinal Apartment Complex Parking
+|Scav
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+| -
+|
+|-
+![[File:CollapsedCraneExtraction.png|240px]]
+! style="text-align: left;" |Collapsed Crane
+|PMC
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+| -
+|
+|-
+![[File:CourtyardExtraction.png|240px]]
+! style="text-align: left;" |Courtyard
+|PMC
+|<font color="red">✘</font>
+|<font color="red">✘</font>
+| Green flare = Open 
+|
+|-
+![[File:StreetsCrashSiteExtract.png|240px]]
+! style="text-align: left;" |Crash Site
+|PMC
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+| -
+|
+|-
+![[File:DamagedHouseExtraction.png|240px]]
+! style="text-align: left;" |Damaged House
+|PMC
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+| -
+|
+|-
+![[File:EntranceToCatacombsExtraction.png|240px]]
+! style="text-align: left;" |Entrance to Catacombs
+|Scav
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+| -
+|
+|-
+![[File:Expo exfil.png|240px]]
+! style="text-align: left;" |Expo Checkpoint
+|PMC
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+| -
+|
+|-
+![[File:Klimov trading exfil.png|240px]]
+! style="text-align: left;" |Klimov Shopping Mall Exfil
+|Scav
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+| -
+|[[File:Klimov trading exfil2.png|240px]]<br/>On the 1st floor of the eastern staircase in the Klimov shopping mall.
+|-
+![[File:KlimovStreetExtraction.png|240px]]
+! style="text-align: left;" |Klimov Street (Flare)
+|PMC
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|Shoot a green flare '''into the sky''' while inside the signal flare area. If the flare doesn't reach a certain height, the extraction '''won't''' open.<br/>Flares:<br/>[[RSP-30 reactive signal cartridge (Green)|Handheld RSP-30 green flare]]<br/>[[26x75mm flare cartridge (Green)|Signal pistol fired 26x75mm green flare]]
+<br/>
+Only one person amongst a lobby-made group needs to shoot a flare to open the extraction for all members of the group.
+|Upon entering the signal flare area, a notification will pop up in the bottom right corner of the screen: [[File:KlimovStreetSignalAreaNote.png]]<br/>If the flare was fired correctly, a new notification pops up:<br/>[[File:FlareSuccessNote.png]]<br/><br/>Signal flare area and extract zone map<br/>[[File:KlimovStreetSignalArea.png|360px]]
+|-
+![[File:Near arch exfil.png|240px]]
+! style="text-align: left;" |Near Kamchatskaya Arch
+|Scav
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+| -
+|[[File:Near arch exfil2.png|240px]]<br/>In the courtyard of the museum building.
+|-
+![[File:StreetsPinewoodBasementExtract.png|240px]]
+! style="text-align: left;" |Pinewood Basement (Co-Op)
+|All
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|[[Scav]] + PMC
+|[[File:StreetsPinewoodBasementExtract2.png|240px]]<br/>It the northeastern staircase of the Pinewood hotel.
+|-
+![[File:PrimorskyAveTaxiV-ExExtraction.png|240px]]
+! style="text-align: left;" |Primorsky Ave Taxi V-Ex
+|PMC
+|<font color="red">✘</font>
+|<font color="green">✔</font>
+|[[File:5000 Roubles.png|link=Roubles]] per player
+'''Maximum of 4 players'''
+|The fee amount is influenced by your [[Scavs#Scav karma|Scav karma]].
+There are [[border snipers]] beyond the vehicle.
+|-
+![[File:SewerExtraction.png|240px]]
+! style="text-align: left;" |Sewer Manhole
+|Scav
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+| -
+|
+|-
+![[File:SewerRiverExtraction.png|240px]]
+! style="text-align: left;" |Sewer River
+|PMC
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+| -
+|
+|-
+![[File:BasementDescentExtraction.png|240px]]
+! style="text-align: left;" |Smugglers' Basement
+|All
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|[[File:Note with code word Onyx icon.png|link=Note with code word Onyx]]
+[[Note with code word Onyx]]
+|
+|-
+![[File:StreetsStylobateElevatorExtract.png|240px]]
+! style="text-align: left;" |Stylobate Building Elevator
+|PMC
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+| -
+|[[File:StreetsStylobateElevatorExtract2.png|240px]]<br/>Behind the bar on the 3rd floor of the Beluga restaurant.
+|-
+![[File:VentilationShaftExtraction.png|240px]]
+! style="text-align: left;" |Ventilation Shaft
+|Scav
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+| -
+|
+|}
+
+==Transits==
+{| class="wikitable sortable stickyheader" style="text-align: center;"
+!Transit
+!Name
+!Faction
+!Always available
+!Single-Use
+!Requirements
+!Notes
+|-
+![[File:StreetsOfTarkovTransitToGroundZero.png|240px]]
+! style="text-align: left;" |Transit to Ground Zero
+|All
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|Only available 1 min after raid start
+|Next to the ministry of the interior academy
+|-
+![[File:StreetsTransitToInterchange.png|240px]]
+! style="text-align: left;" |Transit to Interchange
+|All
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|Only available 1 min after raid start
+|Southwest of the Concordia apartment complex
+|-
+![[File:StreetsTransitToLabsDownstairs.png|240px]]
+! style="text-align: left;" |Transit to The Lab
+|PMC
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|Only available 1 min after raid start<br/>[[File:Terragroup Labs access keycard icon.png|link=TerraGroup Labs access keycard]] per player
+|[[File:StreetsTransitToLabsUpstairs.png|240px]]<br/>Underground entrance in front of the Klimova 16A building with the Cosmonaut painting
+|}
+
+==Maps==
+===Interactive Map===
+Click [[File:FS.png|link=]] for fullscreen. Separate map page [[Map:Streets of Tarkov|here]].
+<interactive-map name="Streets of Tarkov" width="800px"/>
+
+===3D Map===
+[[File:StreetsOfTarkov3DMapByRE3MR.jpg|800px|link={{filepath:StreetsOfTarkov3DMapByRE3MR.jpg}}]]
+
+===2D Map===
+[[File:StreetsOfTarkov2DMapByJindouz.png|800px|link={{filepath:StreetsOfTarkov2DMapByJindouz.png}}]]
+
+===2D Map===
+[[File:StreetsOfTarkovByxTycho.png|800px|link={{filepath:StreetsOfTarkovByxTycho.png}}]]
+
+==Gallery==
+<center>
+<li style="display: inline-block;"><gallery mode="slideshow">
+File:Streets of Tarkov Showcase 1.png
+File:Streets of Tarkov Showcase 2.png
+File:Streets of Tarkov Showcase 3.png
+File:Streets of Tarkov Showcase 4.png
+File:Streets of Tarkov Showcase 5.png
+File:Streets of Tarkov Showcase 6.png
+File:Streets of Tarkov Showcase 7.png
+File:Streets of Tarkov Showcase 8.png
+File:Streets of Tarkov Showcase 9.png
+File:Streets of Tarkov Showcase 10.png
+File:Streets of Tarkov Showcase 11.png
+File:Streets of Tarkov Showcase 12.png
+File:Streets of Tarkov Showcase 13.png
+File:Streets of Tarkov Showcase 14.png
+File:Streets of Tarkov Showcase 15.png
+File:Streets of Tarkov Showcase 16.png
+File:Streets of Tarkov Showcase 17.png
+File:Streets of Tarkov Showcase 18.png
+File:Streets of Tarkov Showcase 19.png
+File:Streets of Tarkov Showcase 20.png
+File:Streets of Tarkov Showcase 21.png
+File:Streets of Tarkov Showcase 22.png
+File:Streets of Tarkov Showcase 23.png
+File:Streets of Tarkov Showcase 24.png
+File:Streets of Tarkov Showcase 25.png
+</gallery></li>
+</center>
+
+{{Navbox locations}}
+[[Category:Locations]]
+
+[[cs:Streets of Tarkov]]
+[[fr:Rues de Tarkov]]
+[[ru:Улицы Таркова]]
+[[de:Straßen von Tarkov]]

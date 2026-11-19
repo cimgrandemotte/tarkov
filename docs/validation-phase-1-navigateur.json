@@ -1,0 +1,79 @@
+{
+  "statut": "OK",
+  "rubriques": [
+    "Redirection de prévisualisation, aucun média chargé d’office, mouvement réduit appliqué.",
+    "Lien d’évitement utilisable au clavier et focus placé sur le contenu principal.",
+    "Ctrl+K, faute « munitons », requête sans accent, zéro résultat, portée, lien réel, Échap et restitution du focus.",
+    "Modale secondaire : focus initial, confinement et restitution.",
+    "Onglets : flèches, Home, End, un panneau actif.",
+    "Infobulle : focus, survol de la bulle elle-même et fermeture Échap.",
+    "Filtres combinés : mode, type, liste vide, restauration après rechargement, remise à zéro.",
+    "Comparateur à 2 et 3 cartes, profil, doublons neutralisés, remise à zéro, filtre de tier list et accordéon clavier.",
+    "Piste à l’arrêt sans requête, lecture clavier, boucle observée, quatre pistes, volume extrêmes, pause, trois sons UI et rechargement silencieux.",
+    "Thème à contraste renforcé, animation effective et arrêt par préférence.",
+    "Mobile tactile : menu interactif, retour à la section choisie, 320–1440 px sans débordement de page.",
+    "Sans JavaScript : 5 modes, catalogue, tableau de base, navigation native et lien MP3 restent disponibles."
+  ],
+  "wcag": [
+    {
+      "scope": "dialogue de recherche",
+      "violations": [],
+      "controleHumain": [],
+      "reglesReussies": 23
+    },
+    {
+      "scope": "atelier, état de base",
+      "violations": [],
+      "controleHumain": [
+        {
+          "id": "color-contrast",
+          "noeuds": 23
+        }
+      ],
+      "reglesReussies": 34
+    },
+    {
+      "scope": "contraste renforcé",
+      "violations": [],
+      "controleHumain": [
+        {
+          "id": "color-contrast",
+          "noeuds": 19
+        }
+      ],
+      "reglesReussies": 34
+    },
+    {
+      "scope": "atelier tactile à 390 px",
+      "violations": [],
+      "controleHumain": [
+        {
+          "id": "color-contrast",
+          "noeuds": 20
+        }
+      ],
+      "reglesReussies": 34
+    }
+  ],
+  "largeursPx": [
+    320,
+    390,
+    768,
+    1024,
+    1440
+  ],
+  "console": [],
+  "medias": {
+    "requetesObservees": [
+      "ambient_forest.mp3",
+      "ambient_industrial.mp3",
+      "ambient_rain.mp3",
+      "ambient_urban.mp3",
+      "ui_click.mp3",
+      "ui_hover.mp3",
+      "ui_notification.mp3"
+    ],
+    "autoplay": false
+  },
+  "chromium": "141.0.7390.0"
+}

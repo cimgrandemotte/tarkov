@@ -1,0 +1,1499 @@
+{
+  "dateDeReperage": "2026-11-18",
+  "sources": {
+    "bsg-news": {
+      "titre": "Actualités Escape from Tarkov",
+      "url": "https://www.escapefromtarkov.com/news?lang=en",
+      "type": "Éditeur",
+      "etat": "CONSULTEE"
+    },
+    "steam-game": {
+      "titre": "Escape from Tarkov — fiche Steam",
+      "url": "https://store.steampowered.com/app/3932890/Escape_from_Tarkov/",
+      "type": "Fiche éditeur",
+      "etat": "REPEREE"
+    },
+    "steam-news": {
+      "titre": "Annonces de Battlestate Games sur Steam",
+      "url": "https://steamcommunity.com/app/3932890/announcements/",
+      "type": "Éditeur",
+      "etat": "CONSULTEE"
+    },
+    "bsg-1300": {
+      "titre": "Patch 1.3.0.0 — 29 octobre 2026",
+      "url": "https://www.escapefromtarkov.com/news/id/416",
+      "type": "Éditeur",
+      "etat": "CONSULTEE"
+    },
+    "steam-1300": {
+      "titre": "Patch 1.3.0.0 — note Steam",
+      "url": "https://steamcommunity.com/games/3932890/announcements/detail/719046160957833875",
+      "type": "Éditeur",
+      "etat": "CONSULTEE"
+    },
+    "bsg-1200": {
+      "titre": "Patch 1.2.0.0 — 6 octobre 2026",
+      "url": "https://www.escapefromtarkov.com/news/id/411",
+      "type": "Éditeur",
+      "etat": "CONSULTEE"
+    },
+    "bsg-1151": {
+      "titre": "Patch 1.1.5.1 — Leagues, 15 septembre",
+      "url": "https://www.escapefromtarkov.com/news/id/409",
+      "type": "Éditeur",
+      "etat": "CONSULTEE"
+    },
+    "bsg-1150": {
+      "titre": "Patch 1.1.5.0 — Lighthouse et Lightkeeper",
+      "url": "https://steamcommunity.com/games/3932890/announcements/detail/712285688032135503",
+      "type": "Éditeur",
+      "etat": "CONSULTEE"
+    },
+    "bsg-1100": {
+      "titre": "Patch 1.1.0.0 — Kord Breach, traders et marché",
+      "url": "https://steamcommunity.com/games/3932890/announcements/detail/686386819418294181",
+      "type": "Éditeur",
+      "etat": "CONSULTEE"
+    },
+    "bsg-1060": {
+      "titre": "Patch 1.0.6.0 — Task Search",
+      "url": "https://www.escapefromtarkov.com/news/id/402?lang=en",
+      "type": "Éditeur",
+      "etat": "CONSULTEE"
+    },
+    "ice-patch": {
+      "titre": "Patch 1.0.5.0 — Icebreaker et Boreas",
+      "url": "https://steamcommunity.com/app/3932890/discussions/1/842880822501639244/",
+      "type": "Notes reproduites sur Steam",
+      "etat": "CONSULTEE"
+    },
+    "ice-forum": {
+      "titre": "Patch 1.0.5.0 — publication sur le forum EFT",
+      "url": "https://forum.escapefromtarkov.com/topic/185040-%D0%BF%D0%B0%D1%82%D1%87-1050/",
+      "type": "Forum éditeur",
+      "etat": "CONSULTEE"
+    },
+    "ice-drops": {
+      "titre": "Icebreaker Twitch Drops, 26–30 mai",
+      "url": "https://www.escapefromtarkov.com/news/id/394?lang=en",
+      "type": "Éditeur",
+      "etat": "CONSULTEE"
+    },
+    "bsg-tarcoin": {
+      "titre": "Expansions Hub and TarCoin",
+      "url": "https://www.escapefromtarkov.com/news/id/403",
+      "type": "Éditeur",
+      "etat": "CONSULTEE"
+    },
+    "bsg-kord-nov": {
+      "titre": "Équilibrage Seasonal du 12 novembre",
+      "url": "https://x.com/tarkov/status/2120935917351289274",
+      "type": "Compte officiel BSG",
+      "etat": "CONSULTEE"
+    },
+    "bsg-city": {
+      "titre": "Tarkov City Drops Campaign",
+      "url": "https://www.escapefromtarkov.com/news/id/419",
+      "type": "Éditeur",
+      "etat": "CONSULTEE"
+    },
+    "bsg-halloween-drops": {
+      "titre": "Drops Halloween du 6 au 9 novembre",
+      "url": "https://x.com/tarkov/status/2118720129999511853",
+      "type": "Compte officiel BSG",
+      "etat": "CONSULTEE"
+    },
+    "halloween-pr": {
+      "titre": "Détails d’Halloween 2026 et de Bloodlust",
+      "url": "https://www.gamespress.com/Escape-from-Tarkov-Celebrates-Halloween-Infected-Enemies-in-Raids-and-",
+      "type": "Communiqué relayé",
+      "etat": "CONSULTEE"
+    },
+    "full-speed": {
+      "titre": "Full Speed Ahead : lancement le 15 mai",
+      "url": "https://x.com/tarkov/status/2055322809224536409?lang=en",
+      "type": "Compte officiel BSG",
+      "etat": "CONSULTEE"
+    },
+    "full-speed-end": {
+      "titre": "Full Speed Ahead : prolongation jusqu’au 25 mai",
+      "url": "https://x.com/tarkov/status/2057115736712122446",
+      "type": "Compte officiel BSG",
+      "etat": "CONSULTEE"
+    },
+    "wild-wild": {
+      "titre": "Wild Wild Woods — annonce du 25 juin",
+      "url": "https://x.com/tarkov/status/2070176456668283361?lang=en",
+      "type": "Compte officiel BSG",
+      "etat": "CONSULTEE"
+    },
+    "wild-wild-end": {
+      "titre": "Wild Wild Woods — fin et retour aux règles normales, le 1er juillet",
+      "url": "https://x.com/tarkov/status/2072279163466047649",
+      "type": "Compte officiel BSG",
+      "etat": "CONSULTEE"
+    },
+    "wiki": {
+      "titre": "Escape from Tarkov Wiki",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Escape_from_Tarkov_Wiki",
+      "type": "Wiki communautaire",
+      "etat": "REPEREE"
+    },
+    "wiki-start": {
+      "titre": "How to Play Guide",
+      "url": "https://escapefromtarkov.fandom.com/wiki/How_to_Play_Guide_for_Escape_from_Tarkov",
+      "type": "Wiki communautaire",
+      "etat": "CONSULTEE"
+    },
+    "wiki-maps": {
+      "titre": "Map of Tarkov — liste des lieux",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Map_of_Tarkov",
+      "type": "Wiki communautaire",
+      "etat": "CONSULTEE"
+    },
+    "wiki-bear": {
+      "titre": "BEAR — contexte et factions",
+      "url": "https://escapefromtarkov.fandom.com/wiki/BEAR",
+      "type": "Wiki communautaire",
+      "etat": "CONSULTEE"
+    },
+    "wiki-ice": {
+      "titre": "Icebreaker — accès, nom, configuration du raid",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Icebreaker",
+      "type": "Wiki communautaire",
+      "etat": "CONSULTEE"
+    },
+    "wiki-ballistics": {
+      "titre": "Ballistics — mécanique en jeu",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Ballistics",
+      "type": "Wiki communautaire",
+      "etat": "REPEREE"
+    },
+    "wiki-ammo-sample": {
+      "titre": ".45 ACP AP — fiche détaillée de référence",
+      "url": "https://escapefromtarkov.fandom.com/wiki/.45_ACP_AP",
+      "type": "Wiki communautaire",
+      "etat": "CONSULTEE"
+    },
+    "wiki-bosses": {
+      "titre": "Bosses — fiches communautaires",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Bosses",
+      "type": "Wiki communautaire",
+      "etat": "REPEREE"
+    },
+    "wiki-traders": {
+      "titre": "Trading — niveaux et échanges",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Trading",
+      "type": "Wiki communautaire",
+      "etat": "REPEREE"
+    },
+    "wiki-quests": {
+      "titre": "Quests — prérequis et objectifs",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Quests",
+      "type": "Wiki communautaire",
+      "etat": "REPEREE"
+    },
+    "wiki-hideout": {
+      "titre": "Hideout — modules et recettes",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Hideout",
+      "type": "Wiki communautaire",
+      "etat": "REPEREE"
+    },
+    "wiki-skills": {
+      "titre": "Character skills",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Character_skills",
+      "type": "Wiki communautaire",
+      "etat": "REPEREE"
+    },
+    "data-index": {
+      "titre": "Tarkov.dev — catalogue officiel des exports JSON",
+      "url": "https://json.tarkov.dev/endpoints",
+      "type": "Données communautaires",
+      "etat": "CONSULTEE"
+    },
+    "data-items": {
+      "titre": "Tarkov.dev — items, équipement, munitions et skills (PvP ; autres modes via le catalogue)",
+      "url": "https://json.tarkov.dev/regular/items",
+      "type": "Données communautaires",
+      "etat": "IMPORT_PHASE_0"
+    },
+    "data-maps": {
+      "titre": "Tarkov.dev — cartes et rencontres (PvP ; autres modes via le catalogue)",
+      "url": "https://json.tarkov.dev/regular/maps",
+      "type": "Données communautaires",
+      "etat": "IMPORT_PHASE_0"
+    },
+    "data-season": {
+      "titre": "Tarkov.dev — paramètres Seasonal",
+      "url": "https://json.tarkov.dev/pvp-season/season",
+      "type": "Données communautaires",
+      "etat": "CONSULTEE"
+    },
+    "tracker-docs": {
+      "titre": "TarkovTracker — documentation sur la migration de source",
+      "url": "https://github.com/tarkovtracker-org/TarkovTracker/blob/main/docs/API.md",
+      "type": "Documentation mainteneurs",
+      "etat": "CONSULTEE"
+    },
+    "tracker": {
+      "titre": "TarkovTracker — progression",
+      "url": "https://tarkovtracker.org/resources/tarkovdev",
+      "type": "Outil communautaire",
+      "etat": "CONSULTEE"
+    },
+    "tarkov-dev": {
+      "titre": "Tarkov.dev — portail",
+      "url": "https://tarkov.dev/",
+      "type": "Outil communautaire",
+      "etat": "REPEREE"
+    },
+    "mapgenie": {
+      "titre": "MapGenie — cartes externes",
+      "url": "https://mapgenie.io/tarkov",
+      "type": "Outil externe",
+      "etat": "REPEREE"
+    },
+    "kappa": {
+      "titre": "KappaGuide — outils, cartes et guides",
+      "url": "https://kappaguide.com/",
+      "type": "Outil communautaire",
+      "etat": "CONSULTEE"
+    },
+    "tarkov-market": {
+      "titre": "Tarkov Market — économie",
+      "url": "https://tarkov-market.com/",
+      "type": "Outil externe",
+      "etat": "REPEREE"
+    },
+    "tarkovhead": {
+      "titre": "TarkovHead — bases et cartes",
+      "url": "https://www.tarkovhead.com/",
+      "type": "Outil communautaire",
+      "etat": "REPEREE"
+    },
+    "patched": {
+      "titre": "Patched.gg — chronologie secondaire",
+      "url": "https://patched.gg/games/escape-from-tarkov",
+      "type": "Agrégateur",
+      "etat": "CONSULTEE"
+    },
+    "boss-analysis": {
+      "titre": "SenseOS — lecture des spawns par mode, octobre",
+      "url": "https://senseos.gg/guides/escape-from-tarkov/boss-spawn-chances/",
+      "type": "Analyse communautaire",
+      "etat": "CONSULTEE"
+    },
+    "reddit-eft": {
+      "titre": "Discussion du patch 1.3.0.0",
+      "url": "https://www.reddit.com/r/EscapefromTarkov/comments/1xicxsn/discussion_1300_patch_notes/",
+      "type": "Témoignages communautaires",
+      "etat": "INDEXEE",
+      "note": "Extraits publics. Accès direct 403 lors des phases 2 et 3."
+    },
+    "youtube-start": {
+      "titre": "Damontae Kxng · 18 conseils pour débuter, 24 juin 2026",
+      "url": "https://www.youtube.com/watch?v=P5hyxI-cbb4",
+      "type": "Vidéo communautaire",
+      "etat": "CONSULTEE",
+      "note": "Description/chapitres et début de transcription. Routine et budget, pas les règles d’assurance ou de PvP à reprendre telles quelles."
+    },
+    "bsg-lore": {
+      "titre": "Roleplay officiel : Norvinsk et Tarkov",
+      "url": "https://www.escapefromtarkov.com/news/id/98",
+      "type": "Éditeur",
+      "etat": "CONSULTEE"
+    },
+    "spt-releases": {
+      "titre": "SP-Tushonka/build — releases",
+      "url": "https://github.com/SP-Tushonka/build/releases",
+      "type": "Mainteneurs du projet",
+      "etat": "CONSULTEE"
+    },
+    "spt-stable": {
+      "titre": "SP-Tushonka 4.1.6 (40743) — prérequis",
+      "url": "https://github.com/SP-Tushonka/build/releases/tag/4.1.6",
+      "type": "Mainteneurs du projet",
+      "etat": "CONSULTEE"
+    },
+    "spt-nuget": {
+      "titre": "SPTushonka.Server.Core 5.0.0-pre.202611061606",
+      "url": "https://www.nuget.org/packages/SPTushonka.Server.Core/5.0.0-pre.202611061606",
+      "type": "Paquet publié par les mainteneurs",
+      "etat": "CONSULTEE"
+    },
+    "spt-forge": {
+      "titre": "The Forge — SP-Tushonka",
+      "url": "https://sp-mod.com/",
+      "type": "Catalogue des mainteneurs",
+      "etat": "CONSULTEE"
+    },
+    "spt-installer": {
+      "titre": "The Forge — installateur",
+      "url": "https://sp-mod.com/installer",
+      "type": "Mainteneurs du projet",
+      "etat": "REPEREE"
+    },
+    "spt-wiki": {
+      "titre": "Wiki SP-Tushonka",
+      "url": "https://wiki.sp-tushonka.com/",
+      "type": "Mainteneurs du projet",
+      "etat": "REPEREE"
+    },
+    "spt-history": {
+      "titre": "Fin de l’ancien projet et reprise Tushonka — Extraction Compass",
+      "url": "https://extraction-compass.com/en/blog/single-player-tarkov-is-back",
+      "type": "Source secondaire",
+      "etat": "CONSULTEE"
+    },
+    "spt-history-2": {
+      "titre": "Annonce de l’ancienne équipe relayée par MassivelyOP",
+      "url": "https://massivelyop.com/2026/08/04/escape-from-tarkovs-fan-built-single-player-offline-version-ends-dev-following-trademark-complaint/",
+      "type": "Source secondaire",
+      "etat": "CONSULTEE"
+    },
+    "reddit-spt": {
+      "titre": "r/SPTarkov — communauté historique",
+      "url": "https://www.reddit.com/r/SPTarkov/",
+      "type": "Communauté",
+      "etat": "REPEREE"
+    },
+    "reddit-tushonka": {
+      "titre": "r/sptushonka — publications communautaires",
+      "url": "https://www.reddit.com/r/sptushonka/",
+      "type": "Communauté",
+      "etat": "CONSULTEE"
+    },
+    "fika": {
+      "titre": "Project Fika — compatibilité et documentation de la fiche Forge",
+      "url": "https://sp-mod.com/mod/2326/project-fika",
+      "type": "Page du projet Fika",
+      "etat": "REPEREE"
+    },
+    "arena": {
+      "titre": "Site officiel Arena — modes et actualités",
+      "url": "https://arena.tarkov.com/",
+      "type": "Éditeur",
+      "etat": "CONSULTEE"
+    },
+    "wiki-events": {
+      "titre": "Wiki EFT — événements et horaires historiques",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Events",
+      "type": "Wiki communautaire",
+      "etat": "CONSULTEE"
+    },
+    "blackout-x-extension": {
+      "titre": "Blackout — prolongation annoncée le 27 juillet",
+      "url": "https://x.com/tarkov/status/2081715123064877461",
+      "type": "Compte officiel BSG",
+      "etat": "CONSULTEE"
+    },
+    "blackout-head": {
+      "titre": "TarkovHead — Blackout, journal et conditions",
+      "url": "https://www.tarkovhead.com/en/event/blackout-1",
+      "type": "Outil communautaire",
+      "etat": "CONSULTEE"
+    },
+    "duckov": {
+      "titre": "PCGamesN — lancement de la collaboration Duckov le 10 février",
+      "url": "https://www.pcgamesn.com/escape-from-tarkov/update-escape-from-duckov-crossover",
+      "type": "Presse",
+      "etat": "CONSULTEE"
+    },
+    "bsg-ets-april": {
+      "titre": "ETS testing is back! — 30 avril 2026",
+      "url": "https://store.steampowered.com/news/app/3932890/view/672867776636912358",
+      "type": "Éditeur",
+      "etat": "CONSULTEE"
+    },
+    "bsg-legal": {
+      "titre": "Mise à jour des règles et conditions d’utilisation — octobre 2026",
+      "url": "https://www.escapefromtarkov.com/news/id/415",
+      "type": "Éditeur",
+      "etat": "REPEREE"
+    },
+    "bsg-kord-fin": {
+      "titre": "Kord Breach se termine le 7 décembre — annonces des 28 octobre et 11 novembre",
+      "url": "https://x.com/tarkov/status/2120516987973513381",
+      "type": "Éditeur · X",
+      "etat": "INDEXEE",
+      "note": "Texte public indexé ; URL directe bloquée au fetch. Confirmation antérieure : https://x.com/tarkov/status/2115428860317565311."
+    },
+    "bsg-technical-nov": {
+      "titre": "BSG installe une mise à jour technique le 11 novembre",
+      "url": "https://x.com/tarkov/status/2120419765474963612",
+      "type": "Éditeur · X",
+      "etat": "INDEXEE",
+      "note": "Aucun numéro de build dans le message indexé."
+    },
+    "wiki-changelog": {
+      "titre": "Wiki EFT · archivage des correctifs et des builds",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Changelog",
+      "type": "Wiki communautaire",
+      "etat": "CONSULTEE",
+      "note": "Indique 1.3.0.2.48779 le 13 novembre 2026 ; ne pas le présenter comme une note BSG ou un build du jeu vérifié directement."
+    },
+    "arena-0625": {
+      "titre": "Arena · notes officielles du patch 0.6.2.5, 5 novembre",
+      "url": "https://arena.tarkov.com/news/patch-0625",
+      "type": "Éditeur",
+      "etat": "CONSULTEE"
+    },
+    "forum-discord": {
+      "titre": "Forum BSG · annonce du Discord officiel",
+      "url": "https://forum.escapefromtarkov.com/topic/94338-official-discord-server-escape-from-tarkov/",
+      "type": "Forum officiel",
+      "etat": "CONSULTEE",
+      "note": "Annuaire ; pas de lecture des canaux Discord privés ni de vérification de l’invitation."
+    },
+    "forum-veille-seasonal": {
+      "titre": "Forum BSG · index des messages officiels Seasonal",
+      "url": "https://forum.escapefromtarkov.com/discover/66/",
+      "type": "Forum officiel",
+      "etat": "REPEREE",
+      "note": "Règle d’assurance à recouper avant publication d’un guide."
+    },
+    "reddit-kord-nov": {
+      "titre": "Reddit EFT · Historical Prospects avant l’équilibrage du 12 novembre",
+      "url": "https://www.reddit.com/r/EscapefromTarkov/comments/1xqxht3/historical_prospects_kord_breach_discussion/",
+      "type": "Communauté",
+      "etat": "INDEXEE",
+      "note": "Extraits publics du 8 novembre ; page directe 403. Retours anecdotiques, aucune recommandation chiffrée retenue."
+    },
+    "youtube-kord-unanswered": {
+      "titre": "PeyDoc · Unanswered Calls, description et chapitrage",
+      "url": "https://www.youtube.com/watch?v=nHcejainlNE",
+      "type": "Vidéo communautaire",
+      "etat": "CONSULTEE",
+      "note": "Métadonnées/chapitres publics, vidéo non visionnée. Août, antérieur au rééquilibrage."
+    },
+    "wai-tabs": {
+      "titre": "W3C WAI-ARIA APG · Tabs Pattern",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/tabs/",
+      "type": "Technique",
+      "etat": "CONSULTEE"
+    },
+    "wai-tooltip": {
+      "titre": "W3C · WCAG 2.1 1.4.13 Content on Hover or Focus",
+      "url": "https://www.w3.org/WAI/WCAG21/Understanding/content-on-hover-or-focus.html",
+      "type": "Technique",
+      "etat": "CONSULTEE"
+    },
+    "fuse-stable": {
+      "titre": "Fuse.js · métadonnées npm, stable 7.5.0",
+      "url": "https://registry.npmjs.org/fuse.js/latest",
+      "type": "Technique",
+      "etat": "CONSULTEE"
+    },
+    "howler-stable": {
+      "titre": "Howler.js · releases officielles, 2.2.4",
+      "url": "https://github.com/goldfire/howler.js/releases",
+      "type": "Technique",
+      "etat": "CONSULTEE"
+    },
+    "lame-audio": {
+      "titre": "lameenc 1.8.5 · encodeur PCM vers MP3",
+      "url": "https://pypi.org/project/lameenc/1.8.5/",
+      "type": "Technique",
+      "etat": "CONSULTEE"
+    },
+    "bsg-pve-bundle": {
+      "titre": "Anniversaire · offre officielle Standard + PvE Zone, 13 novembre 2026",
+      "url": "https://www.escapefromtarkov.com/news/id/417",
+      "type": "Éditeur",
+      "etat": "CONSULTEE",
+      "note": "PvE Zone officiel contre IA, en solo ou en coop. Échéance de l’offre : 22 novembre, heure non publiée."
+    },
+    "bsg-exfil-brothers": {
+      "titre": "EXFIL Brothers · présentation officielle du 6 octobre",
+      "url": "https://www.escapefromtarkov.com/news/id/412",
+      "type": "Éditeur",
+      "etat": "CONSULTEE"
+    },
+    "steam-exfil-forum": {
+      "titre": "EXFIL Brothers · fil officiel « Looking for an Operator », édité le 22 octobre",
+      "url": "https://steamcommunity.com/app/3932890/discussions/1/588439600674137457/",
+      "type": "Forum Steam · Développeur",
+      "etat": "CONSULTEE",
+      "note": "Ajoute plus de 40 h de jeu pour Operator par rapport à l’annonce BSG. L’accueil ne fige pas de critères contradictoires."
+    },
+    "reddit-1-3-0-0": {
+      "titre": "Reddit · discussion sur 1.3.0.0 et Unity 6",
+      "url": "https://www.reddit.com/r/EscapefromTarkov/comments/1xicxsn/discussion_1300_patch_notes/",
+      "type": "Communauté",
+      "etat": "INDEXEE",
+      "note": "Extraits d’octobre indexés. Accès direct 403 ; les prévisions de performances et de date ne font pas preuve."
+    },
+    "youtube-kord-airwing": {
+      "titre": "Airwingmarine · découverte de Kord Breach et de ses modifiers",
+      "url": "https://www.youtube.com/watch?v=OHWmEzidGNc",
+      "type": "Vidéo communautaire",
+      "etat": "CONSULTEE",
+      "note": "Chapitres et début de transcription du 4 août. Cas pratique de lancement, pas un état de novembre."
+    },
+    "youtube-halloween-nov": {
+      "titre": "Erdem Özyurt · récapitulatif Halloween 2026",
+      "url": "https://www.youtube.com/watch?v=lnS_bl41-g4",
+      "type": "Vidéo communautaire",
+      "etat": "CONSULTEE",
+      "note": "Description et début de transcription du 2 novembre. Présentée par son auteur comme assistée par IA ; aucune valeur ou règle reprise."
+    },
+    "apg-nav": {
+      "titre": "W3C APG · navigation Disclosure plutôt que menubar",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/examples/disclosure-navigation/",
+      "type": "Technique",
+      "etat": "CONSULTEE"
+    },
+    "tracker-home": {
+      "titre": "TarkovTracker · interface de progression",
+      "url": "https://tarkovtracker.org/",
+      "type": "Outil communautaire",
+      "etat": "CONSULTEE",
+      "note": "Interface publique de suivi et rubrique par profil ; aucun compte ou API intégrés au guide."
+    },
+    "bsg-1100-web": {
+      "titre": "BSG 1.1.0.0 · saison, Traders, assurance et Hideout",
+      "url": "https://www.escapefromtarkov.com/news/id/404",
+      "type": "Éditeur",
+      "etat": "CONSULTEE",
+      "note": "Notes en trois parties, notamment suppression du seuil de ventes et assurance désactivée en Seasonal."
+    },
+    "bsg-anniv": {
+      "titre": "BSG · premier anniversaire, 15 novembre 2026",
+      "url": "https://www.escapefromtarkov.com/news/id/418",
+      "type": "Éditeur",
+      "etat": "CONSULTEE",
+      "note": "Confirme la date réelle du 15 novembre 2025. Les avantages cités sont ceux de l’édition annoncée."
+    },
+    "bsg-raid-fr": {
+      "titre": "RAID · annonce de l’épisode 1 en français, 29 mars 2019",
+      "url": "https://www.escapefromtarkov.com/news/id/141?lang=fr",
+      "type": "Éditeur",
+      "etat": "CONSULTEE",
+      "note": "Cadre du monde, Scavs, forces de maintien de la paix et Peacekeeper au port."
+    },
+    "bsg-1-release": {
+      "titre": "Principales nouveautés de la sortie 1.0 · annonce Steam",
+      "url": "https://steamcommunity.com/games/3932890/announcements/detail/632320262484787939",
+      "type": "Éditeur",
+      "etat": "CONSULTEE",
+      "note": "Annonce du 14 novembre 2025 ; le flux Steam a identifié le permalink communautaire."
+    },
+    "bsg-boreas-x": {
+      "titre": "BSG 1.0.5.0 sur X · Icebreaker et Boreas, 25 mai 2026",
+      "url": "https://x.com/tarkov/status/2058806492518646020",
+      "type": "Éditeur sur X",
+      "etat": "INDEXEE",
+      "note": "Texte indexé ; expédition, navire de Paradigm Shipping, chapitre distinct du patch."
+    },
+    "bsg-boreas-rec": {
+      "titre": "BSG sur X · première complétion de Boreas, 30 mai 2026",
+      "url": "https://x.com/tarkov/status/2060692704783372342",
+      "type": "Éditeur sur X",
+      "etat": "INDEXEE",
+      "note": "Texte indexé ; liens narratifs nommés, sans extrapoler sur l’intrigue."
+    },
+    "wiki-controls": {
+      "titre": "Controls · touches par défaut et types de pression",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Controls",
+      "type": "Wiki communautaire",
+      "etat": "CONSULTEE",
+      "note": "QWERTY par défaut. L’exemple ZQSD est une proposition à vérifier dans le jeu."
+    },
+    "wiki-game-modes": {
+      "titre": "Game modes · Practice, PvP et PvE",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Game_modes",
+      "type": "Wiki communautaire",
+      "etat": "CONSULTEE",
+      "note": "Pratique sans sauvegarde de progression ni de butin ; accès et options selon profil/édition."
+    },
+    "wiki-tour": {
+      "titre": "Tour · étapes du prologue et déblocages",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Tour",
+      "type": "Wiki communautaire",
+      "etat": "CONSULTEE",
+      "note": "Le texte du client prime sur les montants et déblocages d’anciennes listes."
+    },
+    "wiki-health": {
+      "titre": "Health system · zones de PV et effets en jeu",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Health_system",
+      "type": "Wiki communautaire",
+      "etat": "CONSULTEE",
+      "note": "Les soins sont présentés comme mécaniques de jeu, sans extrapolation médicale."
+    },
+    "wiki-fir": {
+      "titre": "Found in raid · étiquette, statuts et exceptions",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Found_in_raid",
+      "type": "Wiki communautaire",
+      "etat": "CONSULTEE",
+      "note": "Distinguer garder l’objet et conserver l’étiquette. Les couleurs de compteur ne suffisent pas."
+    },
+    "wiki-insurance": {
+      "titre": "Insurance · périmètre et exceptions",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Insurance",
+      "type": "Wiki communautaire",
+      "etat": "CONSULTEE",
+      "note": "Recouper l’assurance par mode avec BSG 1.1.0.0. Vérifier chaque carte et statut."
+    },
+    "wiki-scavs": {
+      "titre": "Scavs · rôle jouable et réputation Fence",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Scavs",
+      "type": "Wiki communautaire",
+      "etat": "INDEXEE",
+      "note": "Aucun délai ni taux de karma figé dans le guide."
+    },
+    "wiki-trading": {
+      "titre": "Trading · rôles des marchands",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Trading",
+      "type": "Wiki communautaire",
+      "etat": "INDEXEE",
+      "note": "Préférer notes BSG et client pour les prérequis de paliers."
+    },
+    "wiki-conflict": {
+      "titre": "Tarkov conflict · synopsis du conflit fictif",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Tarkov_conflict",
+      "type": "Wiki communautaire",
+      "etat": "CONSULTEE",
+      "note": "Recoupé contre le synopsis historique indexé et l’annonce RAID."
+    },
+    "wiki-norvinsk": {
+      "titre": "Norvinsk region · transcription de la description en jeu",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Norvinsk_region",
+      "type": "Wiki communautaire",
+      "etat": "CONSULTEE",
+      "note": "La région et la ville homonyme ne se confondent pas ; zone économique spéciale."
+    },
+    "wiki-usec": {
+      "titre": "USEC · United Security",
+      "url": "https://escapefromtarkov.fandom.com/wiki/USEC",
+      "type": "Wiki communautaire",
+      "etat": "CONSULTEE",
+      "note": "Contrat avec TerraGroup ; ne pas fixer les dates des origines en l’absence de recoupement."
+    },
+    "wiki-terra": {
+      "titre": "TerraGroup · rôle dans l’univers",
+      "url": "https://escapefromtarkov.fandom.com/wiki/TerraGroup",
+      "type": "Wiki communautaire",
+      "etat": "CONSULTEE",
+      "note": "L’affiliation supposée avec UNTAR est interprétative, pas traitée comme canon."
+    },
+    "wiki-chapters": {
+      "titre": "Story chapters · arcs répertoriés",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Story_chapters",
+      "type": "Wiki communautaire",
+      "etat": "CONSULTEE",
+      "note": "Le chiffre inclut Boreas ; pas de date diégétique déduite."
+    },
+    "wiki-ticket": {
+      "titre": "The Ticket · embranchements et Terminal",
+      "url": "https://escapefromtarkov.fandom.com/wiki/The_Ticket",
+      "type": "Wiki communautaire",
+      "etat": "INDEXEE",
+      "note": "Spoilers. Justifie les noms des fins et les décisions structurantes, pas un guide de déblocage live."
+    },
+    "wiki-dogtags": {
+      "titre": "Dogtag · libellés et descriptions des fins",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Dogtag",
+      "type": "Wiki communautaire",
+      "etat": "INDEXEE",
+      "note": "Spoilers. Transcriptions de récompenses, recoupement des noms et sens général."
+    },
+    "forum-historic-synopsis": {
+      "titre": "Forum · Synopsis of EFT story",
+      "url": "https://forum.escapefromtarkov.com/topic/9-synopsis-of-eft-story/",
+      "type": "Archive de forum",
+      "etat": "INDEXEE",
+      "note": "Extrait indexé, accès direct 2F173/H."
+    },
+    "forum-contract-wars": {
+      "titre": "Forum · entretien de Nikita Buyanov (2017)",
+      "url": "https://forum.escapefromtarkov.com/topic/31937-the-interview-with-nikita-buyanov/",
+      "type": "Archive de forum",
+      "etat": "INDEXEE",
+      "note": "Extrait indexé, accès direct 2F173/H. Contract Wars désigne une phase active du conflit."
+    },
+    "forum-first-raid": {
+      "titre": "Forum · conseils d’orientation pour débutant (2023)",
+      "url": "https://forum.escapefromtarkov.com/topic/173846-love-the-game-but-completely-impossible-for-beginners/",
+      "type": "Forum communautaire",
+      "etat": "CONSULTEE",
+      "note": "Témoignages ; méthode de repérage, pas les chiffres."
+    },
+    "steam-hired-ops": {
+      "titre": "Hired Ops · fiche Steam d’AbsolutSoft",
+      "url": "https://store.steampowered.com/app/374280/Hired_Ops/",
+      "type": "Éditeur du jeu apparenté",
+      "etat": "INDEXEE",
+      "note": "Confirme le titre distinct et le lien de studio avec Contract Wars, pas une date canon de Tarkov."
+    },
+    "youtube-field-basic": {
+      "titre": "Battlestate · Field Guide #1: Basics, avril 2024",
+      "url": "https://www.youtube.com/watch?v=4vkwJAwVrIs",
+      "type": "Tutoriel vidéo éditeur",
+      "etat": "CONSULTEE",
+      "note": "Transcription partielle et chapitres consultés ; année à signaler avant de suivre les mécaniques."
+    },
+    "youtube-first-raid-26": {
+      "titre": "MattActual · essai à l’aveugle à Interchange, 7 octobre 2026",
+      "url": "https://www.youtube.com/watch?v=l39IIf8z87g",
+      "type": "Vidéo communautaire",
+      "etat": "CONSULTEE",
+      "note": "Description et début de transcription. Exemple d’orientation, pas de preuve de règles."
+    },
+    "reddit-pve-start-26": {
+      "titre": "Reddit · démarrer en PvE, 30 octobre 2026",
+      "url": "https://www.reddit.com/r/EscapeFromTarkovPvE/comments/1xjjv08/new_to_tarkov_where_should_i_even_begin_discussion/",
+      "type": "Communauté",
+      "etat": "INDEXEE",
+      "note": "Extraits indexés ; relire Tour et l’objectif courant plutôt que prendre les seuils du fil pour acquis."
+    },
+    "reddit-tour-lab": {
+      "titre": "Reddit · accès au Lab durant Tour, 14 janvier 2026",
+      "url": "https://www.reddit.com/r/EscapefromTarkov/comments/1qcwreh/new_player_tips_for_unlocking_labs_for_tour_quest/",
+      "type": "Communauté",
+      "etat": "INDEXEE",
+      "note": "Extraits indexés ; ouvrage de repérage, rejeter l’idée d’un moment de raid sûr garanti."
+    },
+    "x-chapters-2025": {
+      "titre": "VeryBadSCAV · recherche des chapitres à la sortie",
+      "url": "https://x.com/VeryBadSCAVR/status/1990401173023809970",
+      "type": "Communauté sur X",
+      "etat": "INDEXEE",
+      "note": "Extraits indexés (novembre 2025). Neuf entrées avant Boreas ; variantes et rumeurs à écarter."
+    },
+    "github-tracker-main": {
+      "titre": "GitHub · TarkovTracker (main, 18 nov. 2026)",
+      "url": "https://github.com/tarkovtracker-org/TarkovTracker",
+      "type": "Outil communautaire",
+      "etat": "CONSULTEE",
+      "note": "README et en-tête consultés ; commit 0995d80 affiché ; profils PvP/PvE et suivi des tâches distincts."
+    },
+    "wiki-blue-fire": {
+      "titre": "Blue Fire · enquête sur une panne dans le prologue",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Blue_Fire",
+      "type": "Wiki communautaire",
+      "etat": "INDEXEE",
+      "note": "L’enquête du PMC ne livre pas d’attribution immédiate. Spoilers."
+    },
+    "wiki-falling-skies": {
+      "titre": "Falling Skies · enquête sur un avion tombé",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Falling_Skies",
+      "type": "Wiki communautaire",
+      "etat": "INDEXEE",
+      "note": "Début lié à Mechanic durant Tour. Spoilers."
+    },
+    "wiki-witness": {
+      "titre": "Accidental Witness · enquête autour de Kozlov",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Accidental_Witness",
+      "type": "Wiki communautaire",
+      "etat": "INDEXEE",
+      "note": "L’intrigue et les indices de quartier, pas les lieux précis des objets. Spoilers."
+    },
+    "wiki-unheard-chapter": {
+      "titre": "The Unheard · chapitre de l’histoire",
+      "url": "https://escapefromtarkov.fandom.com/wiki/The_Unheard",
+      "type": "Wiki communautaire",
+      "etat": "INDEXEE",
+      "note": "Différent de l’édition commerciale ; source du lien entre une note et TerraGroup. Spoilers."
+    },
+    "imdb-raid": {
+      "titre": "IMDb · épisodes de la série RAID",
+      "url": "https://www.imdb.com/title/tt14366164/episodes/",
+      "type": "Archive secondaire",
+      "etat": "INDEXEE",
+      "note": "Synopses secondaires, corroborent les noms de Skif et Mike, sans inscrire le film dans le parcours du PMC. Spoilers possibles."
+    },
+    "ign-story-chapters": {
+      "titre": "IGN · liste des chapitres à la sortie, 9 janvier 2026",
+      "url": "https://www.ign.com/wikis/escape-from-tarkov/Story_Chapters",
+      "type": "Archive secondaire",
+      "etat": "INDEXEE",
+      "note": "Neuf chapitres à la sortie ; liste datée avant l’ajout de Boreas."
+    },
+    "Factory": {
+      "titre": "Usine — fiche de lieu (wiki FR)",
+      "url": "https://escapefromtarkov.fandom.com/fr/wiki/Factory",
+      "type": "Wiki communautaire",
+      "etat": "CONSULTEE"
+    },
+    "Customs": {
+      "titre": "Douanes — fiche de lieu (wiki FR)",
+      "url": "https://escapefromtarkov.fandom.com/fr/wiki/Customs",
+      "type": "Wiki communautaire",
+      "etat": "CONSULTEE"
+    },
+    "Woods": {
+      "titre": "Bois — fiche de lieu (wiki FR)",
+      "url": "https://escapefromtarkov.fandom.com/fr/wiki/Woods",
+      "type": "Wiki communautaire",
+      "etat": "CONSULTEE"
+    },
+    "Shoreline": {
+      "titre": "Littoral — fiche de lieu (wiki FR)",
+      "url": "https://escapefromtarkov.fandom.com/fr/wiki/Shoreline",
+      "type": "Wiki communautaire",
+      "etat": "CONSULTEE"
+    },
+    "Interchange": {
+      "titre": "Échangeur — fiche de lieu (wiki FR)",
+      "url": "https://escapefromtarkov.fandom.com/fr/wiki/Interchange",
+      "type": "Wiki communautaire",
+      "etat": "CONSULTEE"
+    },
+    "Reserve": {
+      "titre": "Base militaire — fiche de lieu (wiki FR)",
+      "url": "https://escapefromtarkov.fandom.com/fr/wiki/Base_militaire",
+      "type": "Wiki communautaire",
+      "etat": "CONSULTEE"
+    },
+    "The_Lab": {
+      "titre": "Le labo — fiche de lieu (wiki FR)",
+      "url": "https://escapefromtarkov.fandom.com/fr/wiki/Le_labo",
+      "type": "Wiki communautaire",
+      "etat": "CONSULTEE"
+    },
+    "Lighthouse": {
+      "titre": "Phare — fiche de lieu (wiki FR)",
+      "url": "https://escapefromtarkov.fandom.com/fr/wiki/Phare",
+      "type": "Wiki communautaire",
+      "etat": "CONSULTEE"
+    },
+    "Streets_of_Tarkov": {
+      "titre": "Rues de Tarkov — fiche de lieu (wiki FR)",
+      "url": "https://escapefromtarkov.fandom.com/fr/wiki/Streets_of_Tarkov",
+      "type": "Wiki communautaire",
+      "etat": "CONSULTEE"
+    },
+    "Ground_Zero": {
+      "titre": "Point zéro — fiche de lieu (wiki FR)",
+      "url": "https://escapefromtarkov.fandom.com/fr/wiki/Ground_Zero",
+      "type": "Wiki communautaire",
+      "etat": "CONSULTEE"
+    },
+    "The_Labyrinth": {
+      "titre": "Le labyrinthe — fiche de lieu (wiki FR)",
+      "url": "https://escapefromtarkov.fandom.com/fr/wiki/The_Labyrinth",
+      "type": "Wiki communautaire",
+      "etat": "CONSULTEE"
+    },
+    "Icebreaker": {
+      "titre": "Brise-glace — fiche de lieu (wiki FR)",
+      "url": "https://escapefromtarkov.fandom.com/fr/wiki/Icebreaker",
+      "type": "Wiki communautaire",
+      "etat": "CONSULTEE"
+    },
+    "Terminal": {
+      "titre": "Terminal — fiche de lieu (wiki FR)",
+      "url": "https://escapefromtarkov.fandom.com/fr/wiki/Terminal",
+      "type": "Wiki communautaire",
+      "etat": "CONSULTEE"
+    },
+    "data-maps-fr": {
+      "titre": "Tarkov.dev — libellés français des cartes",
+      "url": "https://json.tarkov.dev/regular/maps_fr",
+      "type": "Données communautaires",
+      "etat": "IMPORT_PHASE_4"
+    },
+    "data-maps-pve": {
+      "titre": "Tarkov.dev — cartes du profil PvE",
+      "url": "https://json.tarkov.dev/pve/maps",
+      "type": "Données communautaires",
+      "etat": "IMPORT_PHASE_4"
+    },
+    "data-maps-season": {
+      "titre": "Tarkov.dev — cartes du profil saisonnier",
+      "url": "https://json.tarkov.dev/pvp-season/maps",
+      "type": "Données communautaires",
+      "etat": "IMPORT_PHASE_4"
+    },
+    "github-tarkovquestmap": {
+      "titre": "EFT Quest Map — carte de quêtes et sorties (données tarkov.dev)",
+      "url": "https://github.com/tarkovquestmap/tarkovquestmap.github.io",
+      "type": "Code ouvert",
+      "etat": "CONSULTEE"
+    },
+    "github-sayser-tracker": {
+      "titre": "TarkovTracker — suivi de carte, sorties et repères",
+      "url": "https://github.com/sayser/TarkovTracker",
+      "type": "Code ouvert",
+      "etat": "CONSULTEE"
+    },
+    "github-tarkov-map": {
+      "titre": "tarkov-map — carte interactive d’Interchange (prototype)",
+      "url": "https://github.com/alexjunhenghe/tarkov-map",
+      "type": "Code ouvert",
+      "etat": "CONSULTEE"
+    },
+    "reddit-extracts": {
+      "titre": "Fil Reddit — sorties les plus faciles à retenir",
+      "url": "https://www.reddit.com/r/EscapefromTarkov/comments/1s7khcx/which_map_has_the_easiest_to_remember_extracts/",
+      "type": "Retour d’expérience",
+      "etat": "CONSULTEE"
+    },
+    "wiki-maps-fr": {
+      "titre": "Carte de Tarkov — version française",
+      "url": "https://escapefromtarkov.fandom.com/fr/wiki/Map_of_Tarkov",
+      "type": "Wiki communautaire",
+      "etat": "CONSULTEE"
+    },
+    "ign-terminal": {
+      "titre": "How to Unlock Terminal — guide d’accès",
+      "url": "https://www.ign.com/wikis/escape-from-tarkov/How_to_Unlock_Terminal",
+      "type": "Archive secondaire",
+      "etat": "CONSULTEE",
+      "portee": "Conditions d’accès au Terminal par transit depuis le Littoral, plage horaire 22 h–04 h, carte d’accès Terminal à 5 millions de roubles auprès de Prapor, perte d’équipement à l’entrée et restitution depuis une salle de stockage verrouillée.",
+      "dateConsultation": "2026-11-18"
+    },
+    "ign-ticket": {
+      "titre": "The Ticket — déroulé du dernier chapitre",
+      "url": "https://www.ign.com/wikis/escape-from-tarkov/The_Ticket_Walkthrough",
+      "type": "Archive secondaire",
+      "etat": "CONSULTEE",
+      "portee": "Conditions de fin de campagne et accès au Terminal : transit depuis le Littoral entre 22 h et 04 h, lecture du badge au poste militaire, carte d’accès de Lightkeeper.",
+      "dateConsultation": "2026-11-18"
+    },
+    "twistedvoxel-halloween": {
+      "titre": "Notes d’une mise à jour technique — correctifs Halloween",
+      "url": "https://twistedvoxel.com/escape-from-tarkov-technical-update/",
+      "type": "Communiqué relayé",
+      "etat": "CONSULTEE",
+      "portee": "Correctifs de la configuration Halloween : éclairage de l’Usine infectée, corps de scientifique non fouillable au Laboratoire infecté, menu Halloween. Aucun changement de fond sur les sorties.",
+      "dateConsultation": "2026-11-18"
+    },
+    "changelog-gg": {
+      "titre": "Escape from Tarkov — historique des correctifs et annonces",
+      "url": "https://changelog.gg/games/escape-from-tarkov-3932890",
+      "type": "Agrégateur",
+      "etat": "CONSULTEE",
+      "portee": "Chronologie des correctifs 2026 : plan de mise à jour jusqu’au quatrième trimestre, bonus d’XP, version de jeu publiée.",
+      "dateConsultation": "2026-11-18"
+    },
+    "github-goon-tracker": {
+      "titre": "goon-tracker — suivi de la position des Goon",
+      "url": "https://github.com/just5ky/goon-tracker",
+      "type": "Code ouvert",
+      "etat": "CONSULTEE",
+      "portee": "Confirmation de la structure de l’API tarkov.dev : les rapports Goon sont inclus dans le charge utile /maps de chaque profil, sans point d’entrée dédié.",
+      "dateConsultation": "2026-11-18"
+    },
+    "youtube-lighthouse-guide": {
+      "titre": "Lighthouse — guide complet (sorties, itinéraires de butin, clés)",
+      "url": "https://m.youtube.com/watch?v=Et4TGFmYwmE",
+      "type": "Vidéo communautaire",
+      "etat": "CONSULTEE",
+      "portee": "Lecture de terrain du Phare : repères, sorties, routes de butin, comportement des Rogues. Repères de lecture, jamais source de chiffres.",
+      "dateConsultation": "2026-11-18"
+    },
+    "reddit-lighthouse-loot": {
+      "titre": "Lighthouse Guide? — retours d’expérience sur les chalets",
+      "url": "https://www.reddit.com/r/EscapefromTarkov/comments/x3uhku/lighthouse_guide/",
+      "type": "Retour d’expérience",
+      "etat": "CONSULTEE",
+      "portee": "Itinéraires de butin de nuit sur le Phare : chalets, extension, contournement de la route, densité de joueurs selon l’heure.",
+      "dateConsultation": "2026-11-18"
+    },
+    "reddit-shoreline-keys": {
+      "titre": "Quelles clés Shoreline faire tourner ?",
+      "url": "https://www.reddit.com/r/EscapefromTarkov/comments/1qxyulu/screenshot_help_me_decide_which_shoreline_keys_to/",
+      "type": "Retour d’expérience",
+      "etat": "CONSULTEE",
+      "portee": "Tri des clés du Littoral : portes communicantes, clés redondantes et rooms toujours ouvertes. Avis de joueurs, sans valeur de référence.",
+      "dateConsultation": "2026-11-18"
+    },
+    "bsg-0146": {
+      "titre": "Patch 0.14.6.0 — refonte de la pénétration (25 avril 2024)",
+      "url": "https://www.ign.com/wikis/escape-from-tarkov/Escape_From_Tarkov_April_25_2024_Patch_Notes",
+      "type": "Éditeur",
+      "etat": "CONSULTEE"
+    },
+    "bsg-0145": {
+      "titre": "Patch 0.14.5.0 — dégâts et pénétration dans l'inspecteur (3 avril 2024)",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Changelog",
+      "type": "Éditeur",
+      "etat": "CONSULTEE"
+    },
+    "bsg-0140": {
+      "titre": "Patch 0.14.0.0 — plaques balistiques, zones d'armure et classes (27 décembre 2023)",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Changelog",
+      "type": "Éditeur",
+      "etat": "CONSULTEE"
+    },
+    "bsg-0150": {
+      "titre": "Patch 0.15.0.0 — classes 5 et 6 retirées du marché (20 août 2024)",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Changelog",
+      "type": "Éditeur",
+      "etat": "CONSULTEE"
+    },
+    "senseos-armure": {
+      "titre": "How Armor Works in Tarkov — classes, plaques, pénétration",
+      "url": "https://senseos.gg/guides/escape-from-tarkov/how-armor-works/",
+      "type": "Guide communautaire",
+      "etat": "CONSULTEE"
+    },
+    "senseos-munitions": {
+      "titre": "Tarkov Ammo Stats Explained — chaque statistique expliquée",
+      "url": "https://senseos.gg/guides/escape-from-tarkov/ammo-stats-explained/",
+      "type": "Guide communautaire",
+      "etat": "CONSULTEE"
+    },
+    "senseos-tableau": {
+      "titre": "Tarkov Ammo Chart — classement par calibre",
+      "url": "https://senseos.gg/guides/escape-from-tarkov/ammo-chart/",
+      "type": "Guide communautaire",
+      "etat": "REPEREE"
+    },
+    "reddit-equilibrage": {
+      "titre": "Discussion Reddit — rééquilibrage des pièces d'arme (6 mars 2026)",
+      "url": "https://www.reddit.com/r/EscapefromTarkov/comments/1rm900v/new_weapon_part_rebalance_is_terrible_and_did_the/",
+      "type": "Retour communautaire",
+      "etat": "CONSULTEE"
+    },
+    "reddit-equilibrage-2": {
+      "titre": "Discussion Reddit — « Weapon Balancing Changes are Bad » (5 mars 2026)",
+      "url": "https://www.reddit.com/r/EscapefromTarkov/comments/1rlj08u/discussion_weapon_balancing_changes_are_bad/",
+      "type": "Retour communautaire",
+      "etat": "CONSULTEE"
+    },
+    "reddit-ash12": {
+      "titre": "Discussion Reddit — usage réel de l'ASh-12 en 2026",
+      "url": "https://www.reddit.com/r/EscapefromTarkov/comments/1bzmmjs/the_ash12_is_there_anyone_who_uses_this_weapon/",
+      "type": "Retour communautaire",
+      "etat": "CONSULTEE"
+    },
+    "reddit-ak12": {
+      "titre": "Discussion Reddit — avis sur l'AK-12 et la 7N40",
+      "url": "https://www.reddit.com/r/EscapefromTarkov/comments/1kw8ia0/opinions_on_the_ak12_discussion/",
+      "type": "Retour communautaire",
+      "etat": "CONSULTEE"
+    },
+    "github-tarkov-api": {
+      "titre": "the-hideout/tarkov-api — API GraphQL communautaire du jeu",
+      "url": "https://github.com/the-hideout/tarkov-api",
+      "type": "Outil communautaire",
+      "etat": "CONSULTEE"
+    },
+    "github-gunsmith": {
+      "titre": "TarkovGunsmith — calculateur balistique et assembleur d’armes",
+      "url": "https://github.com/UnderMyBed/TarkovGunsmith",
+      "type": "Outil communautaire",
+      "etat": "REPEREE"
+    },
+    "github-tarkov-data": {
+      "titre": "the-tarkov-data — tableau des munitions et filtres de mode",
+      "url": "https://github.com/rui-han/the-tarkov-data",
+      "type": "Outil communautaire",
+      "etat": "REPEREE"
+    },
+    "github-topics-eft": {
+      "titre": "GitHub — dépôts de référence de la communauté EFT",
+      "url": "https://github.com/topics/escape-from-tarkov?o=desc&s=updated",
+      "type": "Outil communautaire",
+      "etat": "CONSULTEE"
+    },
+    "kappaguide-armes": {
+      "titre": "KappaGuide — builds.meta et méta 2026",
+      "url": "https://kappaguide.com/weapons",
+      "type": "Outil communautaire",
+      "etat": "CONSULTEE"
+    },
+    "tarkovkit-munitions": {
+      "titre": "TarkovKit — seuils de pénétration et prix marchands",
+      "url": "https://tarkovkit.com/en/guides/beginner/weapons-ammo",
+      "type": "Guide communautaire",
+      "etat": "CONSULTEE"
+    },
+    "leprestore-munitions": {
+      "titre": "LePreStore — classement communautaire des munitions (patch 1.1.5)",
+      "url": "https://leprestore.com/guides/eft/escape-from-tarkov-ammo-tier-list/",
+      "type": "Guide communautaire",
+      "etat": "CONSULTEE"
+    },
+    "fpsaim-recul": {
+      "titre": "Entraînement visée et recul 2026 — post-rééquilibrage",
+      "url": "https://fpsaim.com/tarkov-escape-from-tarkov-aim-recoil-2026.html",
+      "type": "Guide communautaire",
+      "etat": "CONSULTEE"
+    },
+    "budget-loadouts": {
+      "titre": "Budget loadouts — la règle « munition avant arme »",
+      "url": "https://escapefromtarkov.party/en/guides/budget-loadouts/",
+      "type": "Guide communautaire",
+      "etat": "CONSULTEE"
+    },
+    "youtube-build-m4": {
+      "titre": "YouTube — build M4A1 économique, fort recul et forte ergonomie",
+      "url": "https://www.youtube.com/watch?v=w7FIxU4ZVzc",
+      "type": "Retour communautaire",
+      "etat": "REPEREE"
+    },
+    "youtube-m4-zero-recul": {
+      "titre": "YouTube — builds M4 à recul quasi nul",
+      "url": "https://www.youtube.com/watch?v=P7zzHVwMOYc",
+      "type": "Retour communautaire",
+      "etat": "REPEREE"
+    },
+    "timesaver-tiers": {
+      "titre": "Classement communautaire des armes 2025-2026, par famille et munition",
+      "url": "https://timesaver.gg/blog/what-weapon-to-use",
+      "type": "Guide communautaire",
+      "etat": "CONSULTEE"
+    },
+    "gamesgg-tiers": {
+      "titre": "Classement communautaire des armes par calibre et munition",
+      "url": "https://games.gg/escape-from-tarkov/guides/escape-from-tarkov-weapon-tier-list/",
+      "type": "Guide communautaire",
+      "etat": "CONSULTEE"
+    },
+    "lucidpuzzle-munitions": {
+      "titre": "Classement communautaire des munitions par classe d’armure",
+      "url": "https://www.lucidpuzzle.com/escape-from-tarkov-ammo-tier-list/",
+      "type": "Guide communautaire",
+      "etat": "CONSULTEE"
+    },
+    "gameleap-1300": {
+      "titre": "Patch 1.3.0.0 — récapitulatif des changements d’équilibrage",
+      "url": "https://www.gameleap.com/articles/escape-from-tarkov-1-3-0-0-patch-notes-all-changes",
+      "type": "Agrégateur communautaire",
+      "etat": "CONSULTEE"
+    },
+    "wiki-ash12": {
+      "titre": "ASh-12 12,7x55 — fiche publique détaillée",
+      "url": "https://escapefromtarkov.fandom.com/wiki/ASh-12_12.7x55_assault_rifle",
+      "type": "Wiki communautaire",
+      "etat": "CONSULTEE"
+    },
+    "data-weapons": {
+      "titre": "Tarkov.dev — catalogue des armes et de leurs presets",
+      "url": "https://json.tarkov.dev/regular/weapons",
+      "type": "Données communautaires",
+      "etat": "IMPORT_PHASE_5"
+    },
+    "data-traders": {
+      "titre": "Tarkov.dev — marchands, niveaux de fidélité et devises",
+      "url": "https://json.tarkov.dev/regular/traders",
+      "type": "Données communautaires",
+      "etat": "IMPORT_PHASE_5"
+    },
+    "data-tasks": {
+      "titre": "Tarkov.dev — tâches de déblocage et exigences de niveau",
+      "url": "https://json.tarkov.dev/regular/tasks",
+      "type": "Données communautaires",
+      "etat": "IMPORT_PHASE_5"
+    },
+    "data-armor": {
+      "titre": "Tarkov.dev — classes d’armure, zones et matériaux",
+      "url": "https://json.tarkov.dev/regular/armor",
+      "type": "Données communautaires",
+      "etat": "IMPORT_PHASE_5"
+    },
+    "arena-equilibrage-2026": {
+      "titre": "Escape from Tarkov: Arena — mise à jour technique et rééquilibrage ASh-12 / RPDN",
+      "url": "https://arena.tarkov.com/news/technical-update",
+      "type": "Éditeur du jeu apparenté",
+      "etat": "CONSULTEE"
+    },
+    "lfcarry-ammo-2026": {
+      "titre": "Tarkov Ammo Chart — tableau des munitions et suivi des correctifs de novembre 2026",
+      "url": "https://lfcarry.com/guides/tarkov-ammo-chart",
+      "type": "Guide communautaire",
+      "etat": "CONSULTEE"
+    },
+    "accountshark-1300": {
+      "titre": "Patch 1.3.0.0 : événement d’Halloween, compétences saisonnières et report d’Unity 6",
+      "url": "https://accountshark.net/blog/escape-from-tarkov-patch-1-3-0-0-halloween-2026-event-quests-infected-lab-seasonal-skills-unity-6-delay",
+      "type": "Analyse communautaire",
+      "etat": "CONSULTEE"
+    },
+    "senseos-retour-2026": {
+      "titre": "Revenir sur Escape from Tarkov en 2026 : ce que les correctifs ont changé depuis le wipe",
+      "url": "https://senseos.gg/guides/escape-from-tarkov/coming-back-to-tarkov/",
+      "type": "Guide communautaire",
+      "etat": "CONSULTEE"
+    },
+    "reddit-debut-2026": {
+      "titre": "Reddit — meilleurs loadouts de début de partie achetables chez les marchands (juin 2026)",
+      "url": "https://www.reddit.com/r/Escapefromtarkov/comments/1u957jb/new_player_please_give_me_your_best_early_game/",
+      "type": "Retour communautaire",
+      "etat": "CONSULTEE"
+    },
+    "github-tarkovtools": {
+      "titre": "TarkovTools — calculateur de pénétration, tableau de munitions et solveur (données wiki d’octobre 2026)",
+      "url": "https://github.com/freebiodata/tarkovtools",
+      "type": "Code ouvert",
+      "etat": "CONSULTEE"
+    },
+    "github-awesome-tarkov": {
+      "titre": "Awesome Tarkov — annuaire communautaire des outils, guides et ressources",
+      "url": "https://github.com/uberswe/awesometarkov.com",
+      "type": "Mainteneurs du projet",
+      "etat": "CONSULTEE"
+    },
+    "github-web-calculator": {
+      "titre": "tarkov-ballistics — calculateur de balistique web pour Escape from Tarkov",
+      "url": "https://github.com/tarkov-ballistics/web-calculator",
+      "type": "Code ouvert",
+      "etat": "CONSULTEE"
+    },
+    "tarkov-changes-api": {
+      "titre": "Tarkov Changes API — documentation de l’API de suivi des changements de données de jeu",
+      "url": "https://docs.tarkov-changes.com/",
+      "type": "Documentation mainteneurs",
+      "etat": "CONSULTEE"
+    },
+    "senseos-ammo-2026": {
+      "titre": "Chaque statistique de cartouche expliquée — lecture des données de munitions d’octobre 2026",
+      "url": "https://senseos.gg/guides/escape-from-tarkov/ammo-stats-explained/",
+      "type": "Guide communautaire",
+      "etat": "CONSULTEE"
+    },
+    "wiki-armor-fr": {
+      "titre": "Boss (fiche) — version française du wiki EFT",
+      "url": "https://escapefromtarkov.fandom.com/fr/wiki/Boss",
+      "type": "Wiki communautaire",
+      "etat": "CONSULTEE"
+    },
+    "wiki-armor-equipment": {
+      "titre": "Équipement — classes d’armure, zones et ricochets",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Equipment",
+      "type": "Wiki communautaire",
+      "etat": "CONSULTEE"
+    },
+    "wiki-plate-carrier": {
+      "titre": "Porte-plaques Crye Precision AVS — fiche détaillée",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Crye_Precision_AVS_plate_carrier_(Ranger_Green)",
+      "type": "Wiki communautaire",
+      "etat": "CONSULTEE"
+    },
+    "wiki-armored-rig": {
+      "titre": "6B45 armored rig — fiche détaillée",
+      "url": "https://escapefromtarkov.fandom.com/wiki/6B45_armored_rig_(General_Purpose,_EMR)",
+      "type": "Wiki communautaire",
+      "etat": "CONSULTEE"
+    },
+    "armor-analysis-party": {
+      "titre": "Armor, plates and materials — classes, zones et réparation",
+      "url": "https://escapefromtarkov.party/en/gear/armor/",
+      "type": "Analyse communautaire",
+      "etat": "CONSULTEE"
+    },
+    "armor-tierlist-timesaver": {
+      "titre": "Tarkov Armor Tier List 2026 — plaques et casques classés",
+      "url": "https://timesaver.gg/blog/tarkov-armor-tier-list",
+      "type": "Avis communautaire",
+      "etat": "CONSULTEE"
+    },
+    "armor-guide-onlyfarms": {
+      "titre": "Best Armor in Escape from Tarkov 2026 — guide d’équipement",
+      "url": "https://onlyfarms.gg/guides/escape-from-tarkov-best-armor-guide-2025-onlyfarms-edition/",
+      "type": "Avis communautaire",
+      "etat": "CONSULTEE"
+    },
+    "armor-reddit-plates": {
+      "titre": "Reddit — discussion sur les matériaux et plaques d’armure",
+      "url": "https://www.reddit.com/r/EscapefromTarkov/comments/1rw5gi4/discussion_best_armor_materialplates/",
+      "type": "Avis communautaire",
+      "etat": "CONSULTEE"
+    },
+    "armor-reddit-body": {
+      "titre": "Reddit — question sur les gilets pare-balles",
+      "url": "https://www.reddit.com/r/EscapefromTarkov/comments/1saaylm/new_player_body_armor_question/",
+      "type": "Avis communautaire",
+      "etat": "CONSULTEE"
+    },
+    "armor-reddit-visor": {
+      "titre": "Reddit — visières et casques, portée et surdité",
+      "url": "https://www.reddit.com/r/EscapefromTarkov/comments/1jbmmdw/helmetfaceshield_options_without_horrible_blurry/",
+      "type": "Avis communautaire",
+      "etat": "CONSULTEE"
+    },
+    "armor-ricochet-note": {
+      "titre": "Cours d’EFT — casques, ricochets et zones protégées",
+      "url": "https://note.com/smokesmokesmoker/n/n6ead539d151d",
+      "type": "Analyse communautaire",
+      "etat": "CONSULTEE"
+    },
+    "armor-namu-equipment": {
+      "titre": "NamuWiki — tableau des visières et de leurs classes",
+      "url": "https://en.namu.wiki/w/Escape%20from%20Tarkov/%EC%9E%A5%EB%B9%84",
+      "type": "Wiki communautaire",
+      "etat": "CONSULTEE"
+    },
+    "armor-ign-guide": {
+      "titre": "IGN — guide d’armure et zones couvertes",
+      "url": "https://www.ign.com/wikis/escape-from-tarkov/Best_Armor_Guide",
+      "type": "Avis communautaire",
+      "etat": "CONSULTEE"
+    },
+    "boss-tracking-lfcarry": {
+      "titre": "Tarkov Bosses — cartes, chances et gardes",
+      "url": "https://lfcarry.com/guides/tarkov-bosses",
+      "type": "Suivi communautaire",
+      "etat": "CONSULTEE"
+    },
+    "boss-tracking-senseos": {
+      "titre": "Tarkov Boss Spawn Rates — PvE et PvP par carte",
+      "url": "https://senseos.gg/guides/escape-from-tarkov/boss-spawn-chances/",
+      "type": "Suivi communautaire",
+      "etat": "CONSULTEE"
+    },
+    "boss-tracking-tarkovguide": {
+      "titre": "TarkovGuide — suivi des changements de chances d’apparition",
+      "url": "https://www.tarkovguide.net/boss/changes",
+      "type": "Suivi communautaire",
+      "etat": "CONSULTEE"
+    },
+    "boss-tarkovkit": {
+      "titre": "TarkovKit — fiches de boss, PV et escortes",
+      "url": "https://tarkovkit.com/en/guides/bosses",
+      "type": "Suivi communautaire",
+      "etat": "CONSULTEE"
+    },
+    "boss-timesaver": {
+      "titre": "Tarkov Bosses Guide — PV, loot et escortes",
+      "url": "https://timesaver.gg/blog/eft-bosses-guide",
+      "type": "Avis communautaire",
+      "etat": "CONSULTEE"
+    },
+    "boss-gametree": {
+      "titre": "GameTree — classement des boss et taux d’apparition",
+      "url": "https://gametree.me/blog/tarkov-bosses/",
+      "type": "Avis communautaire",
+      "etat": "CONSULTEE"
+    },
+    "boss-reddit-pve": {
+      "titre": "Reddit PvE — stratégies contre les boss",
+      "url": "https://www.reddit.com/r/EscapeFromTarkovPvE/comments/1u2ggcl/new_playertarkov_bosses/",
+      "type": "Avis communautaire",
+      "etat": "CONSULTEE"
+    },
+    "boss-reddit-kaban": {
+      "titre": "Reddit PvE —(methodes contre Kaban",
+      "url": "https://www.reddit.com/r/EscapeFromTarkovPvE/comments/1u9qca7/kaban_help_discussion/",
+      "type": "Avis communautaire",
+      "etat": "CONSULTEE"
+    },
+    "boss-reddit-shturman": {
+      "titre": "Reddit —.discussion sur Shturman",
+      "url": "https://www.reddit.com/r/EscapefromTarkov/comments/1kunjmg/shrturman_discussion/",
+      "type": "Avis communautaire",
+      "etat": "CONSULTEE"
+    },
+    "boss-reddit-shturman-pve": {
+      "titre": "Reddit PvE — méthode contre Shturman",
+      "url": "https://www.reddit.com/r/EscapeFromTarkov/comments/1pzcfmu/new_player_pve_player_easiest_way_to_kill_sturhman/",
+      "type": "Avis communautaire",
+      "etat": "CONSULTEE"
+    },
+    "boss-reddit-farming": {
+      "title": "",
+      "titre": "Reddit — conseils de farm de boss",
+      "url": "https://www.reddit.com/r/EscapefromTarkov/comments/17gjtsc/boss_farming_tips/",
+      "type": "Avis communautaire",
+      "etat": "CONSULTEE"
+    },
+    "boss-github-schema": {
+      "titre": "tarkov-api — schéma GraphQL des spawns de boss",
+      "url": "https://github.com/the-hideout/tarkov-api/blob/main/schema-static.mjs",
+      "type": "Code ouvert",
+      "etat": "CONSULTEE"
+    },
+    "boss-github-helper": {
+      "titre": "Tarkov Helper — boss, chances et positions",
+      "url": "https://github.com/nandosie012/Tarkov-Helper",
+      "type": "Code ouvert",
+      "etat": "CONSULTEE"
+    },
+    "boss-github-tracker": {
+      "titre": "SayserTarkovTracker — marqueurs de boss et de cultistes",
+      "url": "https://github.com/sayser/TarkovTracker",
+      "type": "Code ouvert",
+      "etat": "CONSULTEE"
+    },
+    "boss-github-mcp": {
+      "titre": "Tarkov MCP Server — lecture de l’API tarkov.dev",
+      "url": "https://github.com/Yaniddze/tarkov-mcp",
+      "type": "Code ouvert",
+      "etat": "CONSULTEE"
+    },
+    "boss-unity-6-yt": {
+      "titre": "YouTube — analyses et stratégies de boss (recherche)",
+      "url": "https://www.youtube.com/results?search_query=escape+from+tarkov+boss+guide+2026",
+      "type": "Plateforme vidéo",
+      "etat": "REPEREE"
+    },
+    "armor-yt-research": {
+      "titre": "YouTube — tests d’armure et de plaques (recherche)",
+      "url": "https://www.youtube.com/results?search_query=escape+from+tarkov+armor+plates+test",
+      "type": "Plateforme vidéo",
+      "etat": "REPEREE"
+    },
+    "boss-social-x": {
+      "titre": "Battlestate Games sur X — annonces de spawn et d’équilibrage",
+      "url": "https://x.com/tarkov",
+      "type": "Compte officiel BSG",
+      "etat": "REPEREE"
+    },
+    "boss-social-reddit": {
+      "titre": "r/EscapefromTarkov — discussions de la communauté",
+      "url": "https://www.reddit.com/r/EscapefromTarkov/",
+      "type": "Réseau social",
+      "etat": "REPEREE"
+    },
+    "cartes-tarkov-dev": {
+      "url": "https://tarkov.dev/maps",
+      "titre": "Tarkov.dev — cartes interactives 2D/3D"
+    },
+    "cartes-re3mr": {
+      "url": "https://re3mr.github.io/",
+      "titre": "RE3MR — cartes isométriques 3D"
+    },
+    "cartes-gamemaps": {
+      "url": "https://www.gamemaps.net/tarkov",
+      "titre": "GameMaps.net — Tarkov"
+    },
+    "cartes-tarkov-help": {
+      "url": "https://tarkov.help/en/map/",
+      "titre": "Tarkov.help — cartes"
+    },
+    "cartes-fandom-category": {
+      "url": "https://escapefromtarkov.fandom.com/wiki/Category:Maps",
+      "titre": "Wiki Fandom — catégorie Cartes"
+    },
+    "veille-patch-1302": {
+      "titre": "Notes de patch Escape from Tarkov — hub 1.3.0.2 à la saison 1",
+      "url": "https://lfcarry.com/guides/tarkov-patch-notes",
+      "type": "Veille",
+      "etat": "CONSULTEE"
+    },
+    "veille-changelog-wiki": {
+      "titre": "Changelog officiel Escape from Tarkov Wiki",
+      "url": "https://escapefromtarkov.fandom.com/wiki/Changelog",
+      "type": "Wiki",
+      "etat": "CONSULTEE"
+    },
+    "veille-black-division": {
+      "titre": "Black Division et Wedge : patch de novembre 2026",
+      "url": "https://happygamer.com/tarkov-patch-black-division-gear-trade-offers-173467/",
+      "type": "Presse",
+      "etat": "CONSULTEE"
+    },
+    "veille-unity6": {
+      "titre": "Update 1.3.5.0 : moteur Unity 6 et chargement de raid",
+      "url": "https://ixbt.games/en/news/2026/11/18/escape-from-tarkov-polucit-novyi-dvizok-i-uskorennye-zagruzki-v-reid-razrabotciki-rasskazali-pro-obnovlenie-1350.html",
+      "type": "Presse",
+      "etat": "CONSULTEE"
+    },
+    "veille-guide-2026": {
+      "titre": "Guide débutant Tarkov 2026 — cartes, kits et premiers raids",
+      "url": "https://www.ezarena.com/blog/escape-from-tarkov-begginer-guide-2026/",
+      "type": "Guide",
+      "etat": "CONSULTEE"
+    },
+    "veille-solo-2026": {
+      "titre": "Guide solo Tarkov 2026 — stratégies",
+      "url": "https://boostroom.com/blog/escape-from-tarkov-solo-guide-best-strategies-for-playing-alone",
+      "type": "Guide",
+      "etat": "CONSULTEE"
+    }
+  },
+  "derniereRevue": "2026-11-18"
+}

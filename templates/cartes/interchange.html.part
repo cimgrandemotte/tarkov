@@ -1,0 +1,98 @@
+<section class="field-section map-section" id="reperes" tabindex="-1">
+  <h2>Repères et accès</h2>
+  <p>Le Sud de Tarkov : l’Échangeur est une position de transport stratégique qui relie le port et la périphérie industrielle de la ville. Au centre, le grand centre commercial ULTRA, qui servit de base d’opérations à l’évacuation d’EMERCOM. <a href="@source:Interchange@">Fiche publique</a>.</p>
+  <div class="field-grid field-grid--three">
+    <div class="field-card"><p class="eyebrow">Volume</p><p><strong>40 minutes</strong>, 11 à 15 PMC, tous niveaux admis. 232 points de spawn relevés.</p></div>
+    <div class="field-card"><p class="eyebrow">Électricité</p><p>Un réseau d’éclairage entièrement maillé, pilotable depuis la centrale. C’est ce qui rend les sorties conditionnelles possibles : sans courant, elles restent fermées.</p></div>
+    <div class="field-card"><p class="eyebrow">Alarmes</p><p>Des alarmes entourent certains magasins et une alarme déclenchable se trouve au magasin d’armes KIBA. Les alarmes peuvent attirer les voisins.</p></div>
+  </div>
+  <figure class="map-planche">
+    <img src="${root}images/maps/atlas-transits-schema.jpg" alt="Réseau de points de transit reliés par des fils lumineux, vue synthétique" width="1376" height="768" loading="lazy">
+    <figcaption>L’Échangeur n’a que deux liaisons directes : les Douanes au sud de l’autoroute et les Rues de Tarkov au sud-ouest du complexe d’appartements Concordia.</figcaption>
+  </figure>
+</section>
+
+<section class="field-section map-section" id="sorties" tabindex="-1">
+  <h2>Sorties et transits</h2>
+  <p>Sept sorties sont documentées : trois pour les PMC et quatre partagées. Le lieu est le plus strict du jeu : la plupart des sorties exigent une action sur place, et l’une d’elles est explicitement signalée comme ne fonctionnant pas.</p>
+  <div class="map-layers">
+    <div class="map-layers__bar" role="group" aria-label="Couches de données de l’Échangeur">
+      <span class="eyebrow">Couches</span>
+      <button type="button" class="badge" data-layer-toggle="sorties" aria-pressed="true">Sorties documentées</button>
+      <button type="button" class="badge" data-layer-toggle="transits" aria-pressed="true">Transits</button>
+      <button type="button" class="badge" data-layer-toggle="intitules" aria-pressed="false">Intitulés de jeu</button>
+    </div>
+    <div class="map-panel map-layer" data-layer="sorties">
+      <div class="map-layer__head"><h3>Sorties documentées</h3><p>Fiche publique et patch 1.2.0.0.</p></div>
+      <label class="field" for="camp-echangeur"><span class="field__label">Filtrer par camp</span>
+        <select class="field__control" id="camp-echangeur" data-camp-filter>
+          <option value="tous">Toutes les sorties</option>
+          <option value="pmc">PMC</option>
+          <option value="scav">Scav</option>
+          <option value="shared">Partagées</option>
+        </select>
+      </label>
+      %%TABLE_SORTIES%%
+    </div>
+    <div class="map-panel map-layer" data-layer="transits">
+      <div class="map-layer__head"><h3>Transits sortants</h3><p>Deux destinations, disponibles une minute après le début du raid.</p></div>
+      %%TABLE_TRANSITS%%
+    </div>
+    <div class="map-panel map-layer" data-layer="intitules" hidden>
+      <div class="map-layer__head"><h3>Intitulés de jeu</h3><p>Neuf intitulés recensés par l’instantané des données.</p></div>
+      %%TABLE_SORTIES_JEU%%
+    </div>
+  </div>
+  <p>La sortie <em>Saferoom Exfil</em> est la plus exigeante : il faut rétablir le courant à la centrale, puis actionner l’urinoir du local Burger Shot. Elle est à usage unique. La sortie <em>Power Station V-Ex</em> est elle aussi à usage unique et limitée à quatre joueurs. Le tunnel de contrebandiers est signalé par la fiche publique comme ne fonctionnant pas actuellement : nous le mentionnons pour être complet, pas comme une option.</p>
+</section>
+
+<section class="field-section map-section" id="rencontres" tabindex="-1">
+  <h2>Rencontres et menaces</h2>
+  <p>Killa tient le centre commercial et les magasins voisins, présent dans 60 % des instantanés relevés. L’Infected Tagilla apparaît avec une présence de 75 %, plus forte que partout ailleurs. Les données relèvent aussi des infectés crieurs.</p>
+  %%TABLE_RENCONTRES%%
+  <div class="map-note">
+    <p><strong>Ce que le patch 1.2 a changé ici.</strong> De nouveaux emplacements de butin ont été ajoutés au camp EMERCOM, aux objets 11SR, 14 et 21WS, aux zones de service d’OLI et au magasin d’armes KIBA ; de nouveaux conteneurs ont été placés, corps de PMC compris ; le modèle de butin des caisses des magasins OLI, Goshan et IDEA a été modifié. Les clés ne sont plus nécessaires pour les caisses des magasins ULTRA autonomes, mais le restent pour Goshan, IDEA et OLI. <a href="@source:bsg-1200@">Notes du patch 1.2.0.0</a>.</p>
+  </div>
+</section>
+
+<section class="field-section map-section" id="terrain" tabindex="-1">
+  <h2>Dangers de terrain</h2>
+  <p>Dix-huit zones de snipers et sept champs de mines relevés. Le danger de bordure est ici entièrement periphery : le pourtour de la carte forme une ceinture de snipers, et c’est le long de cette ceinture qu’il faut éviter de longer à découvert.</p>
+  %%TABLE_DANGERS%%
+</section>
+
+<section class="field-section map-section" id="cles" tabindex="-1">
+  <h2>Clés et butin</h2>
+  <p>Seize clés documentées, dont trois qui pèsent lourd : la carte d’accès de l’objet 11SR, la carte d’accès de l’objet 21WS et les clés de caisse de Goshan, d’IDEA et d’OLI.</p>
+  %%TABLE_CLES%%
+  <div class="map-note map-note--warn">
+    <p><strong>Attention à la lecture du patch.</strong> La suppression de la clé pour les caisses des magasins ULTRA autonomes ne s’applique pas aux magasins Goshan, IDEA et OLI : leurs caisses exigent toujours une clé dédiée. Confondre les deux est l’erreur la plus coûteuse du lieu, car la caisse contient le butin le plus accessible du raid.</p>
+  </div>
+</section>
+
+<section class="field-section map-section" id="conduite" tabindex="-1">
+  <h2>Conduite selon le profil</h2>
+  <p>L’Échangeur se joue par les bords. Les allées couvertes entre les magasins sont plus sûres que le pourtour, et la sortie la plus simple à tenir est celle qui se trouve du côté opposé à l’apparition. Les retours d’expérience publiés sur Reddit décrivent le lieu comme un grand rectangle, presque sans coins morts, et conseillent de longer le pourtour pour gagner les sorties plutôt que de traverser par le milieu. <a href="@source:reddit-extracts@">Fil Reddit sur les sorties les plus faciles à retenir</a>.</p>
+  <ol class="map-steps">
+    <li><strong>Débutant.</strong> Chercher la sortie d’abord, le butin ensuite. Une sortie sans sac est le meilleur compromis d’un premier raid : le <em>checkpoint EMERCOM</em> est partagé et sans condition documentée.</li>
+    <li><strong>Confirmé.</strong> Penser électricité. Rétablir le courant à la centrale ouvre des portes, mais allume aussi le centre commercial et change la posture des défenseurs qui s’y installent.</li>
+    <li><strong>Expérimenté.</strong> Travailler les étals de matériel : l’importance du butin sur cette carte tient aux caisses, aux conteneurs et aux corps de PMC, trois catégories que le patch 1.2 a densifiées.</li>
+  </ol>
+  %%TABLE_MODES%%
+  %%TABLE_VARIANTES%%
+  <div class="map-path"><strong>Écarts entre profils</strong><span>Ce que les trois profils consultés changent sur ce lieu.</span></div>
+  %%TABLE_ECARTS%%
+</section>
+
+<section class="field-section map-section" id="sources" tabindex="-1">
+  <h2>Sources et limites</h2>
+  <p>Instantané communautaire du 18 novembre 2026, fiche publique du même jour, et notes officielles du patch 1.2.0.0. Les distances et les angles de camp ne sont pas mesurés ; la fiche publique n’en donne pas. Les durées et effectifs proviennent de l’instantané des données et peuvent varier d’une saison à l’autre.</p>
+  <ul class="map-steps">
+    <li><a href="@source:Interchange@">Échangeur — fiche de lieu</a> : lore, sorties, clés, alarmes et caractéristiques.</li>
+    <li><a href="@source:data-maps@">Tarkov.dev — cartes et rencontres</a> : instantané du profil PvP Zone.</li>
+    <li><a href="@source:data-maps-fr@">Tarkov.dev — libellés français</a> et <a href="@source:data-maps-pve@">profil PvE</a> : intitulés et écarts.</li>
+    <li><a href="@source:bsg-1200@">Patch 1.2.0.0</a> : butin, caisses, clés et correctifs du lieu.</li>
+    <li><a href="@source:reddit-extracts@">Fil Reddit</a> : retours d’expérience, utilisés comme exercices.</li>
+    <li><a href="@source:mapgenie@">MapGenie</a> et <a href="@source:kappa@">Kappa Guide</a> : aides de lecture communautaires.</li>
+  </ul>
+</section>

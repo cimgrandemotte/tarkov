@@ -1,0 +1,2717 @@
+{
+ "factory": {
+  "page": "Factory",
+  "description": "The industrial estate and facilities of Chemical Plant No. 16 were rented out illegally to the TerraGroup corporation. During the advent of the Contract Wars, the plant became the scene of numerous firefights between BEAR and USEC that ultimately determined control over the industrial district of Tarkov. Later on, in the wake of the chaos, the plant facilities became a shelter for the remaining civilians, Scavs, and military operatives, including the scattered remains of the BEAR and USEC contingents.",
+  "notes": "is initially only accessible by transiting. Direct access from the location selection screen is unlocked upon progressing through the story chapter Tour.",
+  "fonctionnalites": [],
+  "cles": [
+   {
+    "nom": "Factory emergency exit key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "TerraGroup storage room keycard",
+    "quete": "✔",
+    "toujoursOuvert": true
+   }
+  ],
+  "boss": [
+   {
+    "nom": "Tagilla",
+    "zone": "",
+    "equipement": "Has to be expected everywhere",
+    "escorte": "Superfors DB 2020 Dead Blow Hammer ; Tagilla's welding mask \"UBEY\" ; Tagilla's welding mask \"Gorilla\" ; Crye Precision AVS plate carrier (Tagilla Edition)"
+   }
+  ],
+  "sorties": [
+   {
+    "nom": "Camera Bunker Door",
+    "camp": "scav",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "Cellars",
+    "camp": "pmc",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "; Used to open the door to the extraction",
+    "notes": ""
+   },
+   {
+    "nom": "Courtyard Gate",
+    "camp": "pmc",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "; Can also be accessed from the 2nd floor locker room.",
+    "notes": ""
+   },
+   {
+    "nom": "Gate 0",
+    "camp": "pmc",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "Gate 3",
+    "camp": "shared",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "Med Tent Gate",
+    "camp": "pmc",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "; Used to open the door to the extraction",
+    "notes": ""
+   },
+   {
+    "nom": "Office Window",
+    "camp": "scav",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "Smugglers' Passage",
+    "camp": "shared",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "Note with code word Ark",
+    "notes": ""
+   }
+  ],
+  "transits": [
+   {
+    "nom": "Transit to Customs",
+    "vers": "Customs",
+    "camp": "shared",
+    "conditions": "Only available 1 min after raid start",
+    "notes": "Med Tent Gate extraction side outdoor area"
+   },
+   {
+    "nom": "Transit to The Lab",
+    "vers": "The Lab",
+    "camp": "pmc",
+    "conditions": "Only available 1 min after raid start ; per player",
+    "notes": "; In the sewer tunnel connected to the flooded area"
+   },
+   {
+    "nom": "Transit to Woods",
+    "vers": "Woods",
+    "camp": "shared",
+    "conditions": "Only available 1 min after raid start",
+    "notes": "At the Courtyard Gate extraction"
+   }
+  ]
+ },
+ "customs": {
+  "page": "Customs",
+  "description": "A large area of industrial park land situated adjacent to the factory zone. The area houses a customs terminal, fuel storage facilities, offices, and dorms, as well as a variety of other infrastructure and buildings.",
+  "notes": "is initially only accessible by transiting. Direct access from the location selection screen is unlocked upon progressing through the story chapter Tour.",
+  "fonctionnalites": [
+   "Stationary weapons in the form of AGS-30 30x29mm automatic grenade launchers and NSV Utyos 12.7x108 heavy machine guns.",
+   "Be aware of Border Snipers!"
+  ],
+  "cles": [
+   {
+    "nom": "Company director's room key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Dorm guard desk key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Dorm overseer key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Dorm room 103 key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Dorm room 104 key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Dorm room 105 key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Dorm room 108 key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Dorm room 110 key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Dorm room 114 key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Dorm room 118 key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Dorm room 203 key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Dorm room 204 key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Dorm room 206 key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Dorm room 214 key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Dorm room 218 key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Dorm room 220 key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Dorm room 303 key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Dorm room 306 key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Dorm room 308 key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Dorm room 314 marked key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Dorm room 315 key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Folding car key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Gas station office key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Gas station storage room key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Machinery key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Military checkpoint key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Portable bunkhouse key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Portable cabin key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Reshala's bunkhouse key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Security post key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Tarcone Director's office key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Trailer park portable cabin key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Unknown key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "USEC stash key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "ZB-1013 key",
+    "quete": "",
+    "toujoursOuvert": false
+   }
+  ],
+  "boss": [
+   {
+    "nom": "Reshala",
+    "zone": "",
+    "equipement": "At the dorms area ; At the new gas station ; At the Scav base (ZB-1013 extraction)",
+    "escorte": "Tokarev TT-33 7.62x25 TT pistol (Golden) ; Reshala's bunkhouse key"
+   },
+   {
+    "nom": "Partisan",
+    "zone": "",
+    "equipement": "Has to be expected everywhere",
+    "escorte": "Partisan's bag ; AK skeletonized stock (Customized) ; Red Rebel ice pick"
+   },
+   {
+    "nom": "Knight",
+    "zone": "",
+    "equipement": "At the Scav base (ZB-1013 extraction)",
+    "escorte": "Death Knight mask ; Crye Precision CPC plate carrier (Goons Edition)"
+   },
+   {
+    "nom": "Big Pipe",
+    "zone": "",
+    "equipement": "At the Scav base (ZB-1013 extraction)",
+    "escorte": "Milkor M32A1 MSGL 40mm grenade launcher ; Big Pipe's smoking pipe ; Big Pipe's bandana ; S&S Precision PlateFrame plate carrier (Goons Edition)"
+   },
+   {
+    "nom": "Birdeye",
+    "zone": "",
+    "equipement": "At the Scav base (ZB-1013 extraction)",
+    "escorte": "Mystery Ranch NICE COMM 3 BVS frame system (Coyote) ; LBT-1961A Load Bearing Chest Rig (Goons Edition)"
+   }
+  ],
+  "sorties": [
+   {
+    "nom": "Administration Gate",
+    "camp": "scav",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "Boiler Room Basement (Co-op)",
+    "camp": "shared",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "Scav + PMC",
+    "notes": "; In the basement of the boiler building with the 2 chimneys in the construction area."
+   },
+   {
+    "nom": "Crossroads",
+    "camp": "shared",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "Dorms V-Ex",
+    "camp": "pmc",
+    "toujours": false,
+    "usageUnique": true,
+    "conditions": "per player\nMaximum of 4 players",
+    "notes": "The fee amount is influenced by your Scav karma."
+   },
+   {
+    "nom": "Gate Near Medblock",
+    "camp": "scav",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "Old Gas Station",
+    "camp": "shared",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "Green flares = Open for PMCs",
+    "notes": "In the basement."
+   },
+   {
+    "nom": "Railroad Passage (Flare)",
+    "camp": "pmc",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "Shoot a green flare into the sky while inside the signal flare area. If the flare doesn't reach a certain height, the extraction won't open. ; Flares: ; Handheld RSP-30 green flare ; Signal pistol fired 26x75mm green flare\n ; \nOnly one person amongst a lobby-made group needs to shoot a flare to open the extraction for all members of the group.",
+    "notes": "Upon entering the signal flare area, a notification will pop up in the bottom right corner of the screen: ; If the flare was fired correctly, a new notification pops up: ; ; ; Signal flare area and extract zone map ;"
+   },
+   {
+    "nom": "Railroad to Port",
+    "camp": "scav",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "Railroad to Reserve",
+    "camp": "shared",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "Railroad to Tarkov",
+    "camp": "scav",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "Reserve Checkpoint",
+    "camp": "scav",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "Smugglers' Boat",
+    "camp": "shared",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "Note with code word Voron",
+    "notes": ""
+   },
+   {
+    "nom": "Smugglers' Bunker (ZB-1012)",
+    "camp": "shared",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "Note with code word Voron",
+    "notes": ""
+   },
+   {
+    "nom": "Trailer Park",
+    "camp": "shared",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "In the trees.",
+    "notes": ""
+   },
+   {
+    "nom": "ZB-1011",
+    "camp": "shared",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "ZB-1013",
+    "camp": "pmc",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "; Activate lever in warehouse #4 at the crane yard. ; + ; \n ; Used to open the door to the extraction",
+    "notes": "; In the basement of the Scav base."
+   }
+  ],
+  "transits": [
+   {
+    "nom": "Transit to Factory",
+    "vers": "Factory",
+    "camp": "shared",
+    "conditions": "Only available 1 min after raid start",
+    "notes": "Next to the Old Gas Station extraction"
+   },
+   {
+    "nom": "Transit to Interchange",
+    "vers": "Interchange",
+    "camp": "shared",
+    "conditions": "Only available 1 min after raid start",
+    "notes": "Next to the Trailer Park extraction, inside the bus"
+   },
+   {
+    "nom": "Transit to Reserve",
+    "vers": "Reserve",
+    "camp": "shared",
+    "conditions": "Only available 1 min after raid start",
+    "notes": ""
+   },
+   {
+    "nom": "Transit to Shoreline",
+    "vers": "Shoreline",
+    "camp": "shared",
+    "conditions": "Only available 1 min after raid start",
+    "notes": ""
+   }
+  ]
+ },
+ "woods": {
+  "page": "Woods",
+  "description": "The Priozersk Nature Reserve recently became part of the state-protected wildlife reserves of the North-Western Federal District.",
+  "notes": "is initially only accessible by transiting. Direct access from the location selection screen is unlocked upon progressing through the story chapter Tour.",
+  "fonctionnalites": [
+   "Stationary weapons in the form of NSV Utyos 12.7x108 heavy machine guns.",
+   "Be aware of Border Snipers and Minefields!"
+  ],
+  "cles": [
+   {
+    "nom": "Old house room key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Old house toilet key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Shatun's hideout key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Shturman's stash key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "ZB-014 key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   }
+  ],
+  "boss": [
+   {
+    "nom": "Shturman",
+    "zone": "",
+    "equipement": "At the sawmill",
+    "escorte": "Shturman's stash key ; Red Rebel ice pick"
+   },
+   {
+    "nom": "Partisan",
+    "zone": "",
+    "equipement": "Has to be expected everywhere",
+    "escorte": "Partisan's bag ; AK skeletonized stock (Customized) ; Red Rebel ice pick"
+   },
+   {
+    "nom": "Knight",
+    "zone": "",
+    "equipement": "At the antenna in the northwest (Scav Bunker extraction).",
+    "escorte": "Death Knight mask ; Crye Precision CPC plate carrier (Goons Edition)"
+   },
+   {
+    "nom": "Big Pipe",
+    "zone": "",
+    "equipement": "At the antenna in the northwest (Scav Bunker extraction).",
+    "escorte": "Milkor M32A1 MSGL 40mm grenade launcher ; Big Pipe's smoking pipe ; Big Pipe's bandana ; S&S Precision PlateFrame plate carrier (Goons Edition)"
+   },
+   {
+    "nom": "Birdeye",
+    "zone": "",
+    "equipement": "At the antenna in the northwest (Scav Bunker extraction).",
+    "escorte": "Mystery Ranch NICE COMM 3 BVS frame system (Coyote) ; LBT-1961A Load Bearing Chest Rig (Goons Edition)"
+   }
+  ],
+  "sorties": [
+   {
+    "nom": "Boat",
+    "camp": "scav",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "Bridge V-Ex",
+    "camp": "pmc",
+    "toujours": false,
+    "usageUnique": true,
+    "conditions": "per player\nMaximum of 4 players",
+    "notes": "The fee amount is influenced by your Scav karma.\nThere are border snipers beyond the vehicle."
+   },
+   {
+    "nom": "Dead Man's Place",
+    "camp": "scav",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "Eastern Rocks",
+    "camp": "scav",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "Friendship Bridge (Co-Op)",
+    "camp": "shared",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "Scav + PMC",
+    "notes": "On the right side."
+   },
+   {
+    "nom": "Mountain Stash",
+    "camp": "scav",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "Northern UN Roadblock",
+    "camp": "pmc",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "There are border snipers beyond the gate.",
+    "notes": ""
+   },
+   {
+    "nom": "Old Railway Depot",
+    "camp": "scav",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "Outskirts",
+    "camp": "shared",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "Power Line Passage (Flare)",
+    "camp": "pmc",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "Shoot a green flare into the sky while inside the signal flare area. If the flare doesn't reach a certain height, the extraction won't open. ; Flares: ; Handheld RSP-30 green flare ; Signal pistol fired 26x75mm green flare\n ; \nOnly one person amongst a lobby-made group needs to shoot a flare to open the extraction for all members of the group.",
+    "notes": "Upon entering the signal flare area, a notification will pop up in the bottom right corner of the screen: ; If the flare was fired correctly, a new notification pops up: ; ; ; Signal flare area and extract zone map ;"
+   },
+   {
+    "nom": "Railway Bridge to Tarkov",
+    "camp": "shared",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "Minefield map (Woods)",
+    "notes": ""
+   },
+   {
+    "nom": "RUAF Gate",
+    "camp": "pmc",
+    "toujours": false,
+    "usageUnique": false,
+    "conditions": "Green flare = Open",
+    "notes": ""
+   },
+   {
+    "nom": "RUAF Roadblock",
+    "camp": "scav",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "Scav Bunker",
+    "camp": "scav",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "Scav House",
+    "camp": "scav",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "UN Roadblock",
+    "camp": "shared",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "There are border snipers beyond the shipping containers.",
+    "notes": ""
+   },
+   {
+    "nom": "ZB-014",
+    "camp": "pmc",
+    "toujours": false,
+    "usageUnique": false,
+    "conditions": "Green flares = Open",
+    "notes": ""
+   },
+   {
+    "nom": "ZB-016",
+    "camp": "pmc",
+    "toujours": false,
+    "usageUnique": false,
+    "conditions": "Green flares = Open",
+    "notes": ""
+   }
+  ],
+  "transits": [
+   {
+    "nom": "Transit to Customs",
+    "vers": "Customs",
+    "camp": "shared",
+    "conditions": "Only available 1 min after raid start",
+    "notes": ""
+   },
+   {
+    "nom": "Transit to Factory",
+    "vers": "Factory",
+    "camp": "shared",
+    "conditions": "Only available 1 min after raid start",
+    "notes": ""
+   },
+   {
+    "nom": "Transit to Lighthouse",
+    "vers": "Lighthouse",
+    "camp": "shared",
+    "conditions": "Only available 1 min after raid start",
+    "notes": ""
+   },
+   {
+    "nom": "Transit to Reserve",
+    "vers": "Reserve",
+    "camp": "shared",
+    "conditions": "Only available 1 min after raid start",
+    "notes": ""
+   }
+  ]
+ },
+ "shoreline": {
+  "page": "Shoreline",
+  "description": "The Shoreline area makes up a large part of the outskirts of Tarkov and is located next to the Port. The area houses a partially abandoned village, modern private housing, agricultural fields, long stretches of beach, a boating facility, gas station, weather station, and a cellular tower as well as other commercial facilities. Shoreline's main point of interest is the Azure Coast health resort which consists of several blocks, exclusively powered by a nearby hydroelectric power plant. The resort had previously been used as temporary accommodation for members of TerraGroup and the corporation's associated divisions in preparation for the evacuation of the Tarkov Port.",
+  "notes": "is initially only accessible by transiting. Direct access from the location selection screen is unlocked upon progressing through the story chapter Tour.",
+  "fonctionnalites": [
+   "Stationary weapons in the form of AGS-30 30x29mm automatic grenade launchers and NSV Utyos 12.7x108 heavy machine guns.",
+   "Be aware of Border Snipers and Minefields!"
+  ],
+  "cles": [
+   {
+    "nom": "Cottage back door key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Cottage safe key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Gas station safe key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Health Resort east wing office room 107 key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Health Resort east wing office room 108 key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Health Resort east wing room 205 key",
+    "quete": "E206",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Health Resort east wing room 206 key",
+    "quete": "E205",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Health Resort east wing room 209 key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Health Resort east wing room 213 key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Health Resort east wing room 216 key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Health Resort east wing room 222 key",
+    "quete": "E226",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Health Resort east wing room 226 key",
+    "quete": "E222",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Health Resort east wing room 306 key",
+    "quete": "E308",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Health Resort east wing room 308 key",
+    "quete": "E306",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Health Resort east wing room 310 key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Health Resort east wing room 313 key",
+    "quete": "E314",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Health Resort east wing room 314 key",
+    "quete": "E313",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Health Resort east wing room 316 key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Health Resort east wing room 322 key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Health Resort east wing room 328 key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Health Resort management office safe key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Health Resort management warehouse safe key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Health Resort office key with a blue tape",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Health Resort universal utility room key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Health Resort west wing office room 104 key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Health Resort west wing office room 112 key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Health Resort west wing room 203 key",
+    "quete": "W205",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Health Resort west wing room 205 key",
+    "quete": "W203",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Health Resort west wing room 207 key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Health Resort west wing room 216 key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Health Resort west wing room 218 key",
+    "quete": "W221/W222",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Health Resort west wing room 219 key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Health Resort west wing room 220 key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Health Resort west wing room 221 key",
+    "quete": "W218/W222",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Health Resort west wing room 222 key",
+    "quete": "W218/W221",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Health Resort west wing room 301 key",
+    "quete": "W304",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Health Resort west wing room 303 key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Health Resort west wing room 306 key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Health Resort west wing room 309 key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Health Resort west wing room 321 safe key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Health Resort west wing room 323 key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Health Resort west wing room 325 key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "HEP station storage room key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Knossos LLC facility key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "SMW car key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Voron's hideout key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Weather station safe key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   }
+  ],
+  "boss": [
+   {
+    "nom": "Sanitar",
+    "zone": "",
+    "equipement": "In the east and west wing of the health resort ; At the port/pier area ; Near the cottages",
+    "escorte": "Keycard with a blue marking ; Sanitar's bag"
+   },
+   {
+    "nom": "Partisan",
+    "zone": "",
+    "equipement": "Has to be expected everywhere",
+    "escorte": "Partisan's bag ; AK skeletonized stock (Customized) ; Red Rebel ice pick"
+   },
+   {
+    "nom": "Knight",
+    "zone": "",
+    "equipement": "At the weather station on the hill in the southeast.",
+    "escorte": "Death Knight mask ; Crye Precision CPC plate carrier (Goons Edition)"
+   },
+   {
+    "nom": "Big Pipe",
+    "zone": "",
+    "equipement": "At the weather station on the hill in the southeast.",
+    "escorte": "Milkor M32A1 MSGL 40mm grenade launcher ; Big Pipe's smoking pipe ; Big Pipe's bandana ; S&S Precision PlateFrame plate carrier (Goons Edition)"
+   },
+   {
+    "nom": "Birdeye",
+    "zone": "",
+    "equipement": "At the weather station on the hill in the southeast.",
+    "escorte": "Mystery Ranch NICE COMM 3 BVS frame system (Coyote) ; LBT-1961A Load Bearing Chest Rig (Goons Edition)"
+   }
+  ],
+  "sorties": [
+   {
+    "nom": "Admin Basement",
+    "camp": "scav",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "Climber's Trail",
+    "camp": "pmc",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "Red Rebel ice pick ; Paracord ; No armor vest equipped",
+    "notes": ""
+   },
+   {
+    "nom": "East Wing Gym Entrance",
+    "camp": "scav",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "Lighthouse",
+    "camp": "scav",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "Mountain Bunker",
+    "camp": "shared",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "Note with code word Heartbeat",
+    "notes": ""
+   },
+   {
+    "nom": "Path to Lighthouse",
+    "camp": "pmc",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "Pier Boat",
+    "camp": "pmc",
+    "toujours": false,
+    "usageUnique": false,
+    "conditions": "Green flare = Open",
+    "notes": ""
+   },
+   {
+    "nom": "Railway Bridge",
+    "camp": "pmc",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "Road to Customs",
+    "camp": "shared",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "Road to North V-Ex",
+    "camp": "pmc",
+    "toujours": true,
+    "usageUnique": true,
+    "conditions": "per player\nMaximum of 5 players",
+    "notes": "The fee amount is influenced by your Scav karma.\nThere are border snipers beyond the vehicle."
+   },
+   {
+    "nom": "Ruined Road",
+    "camp": "scav",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "Smugglers' Path (Co-op)",
+    "camp": "shared",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "Scav + PMC",
+    "notes": ""
+   },
+   {
+    "nom": "Tunnel",
+    "camp": "pmc",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   }
+  ],
+  "transits": [
+   {
+    "nom": "Transit to Icebreaker",
+    "vers": "Icebreaker",
+    "camp": "pmc",
+    "conditions": "Only available 1 min after raid start ; per player\nMaximum of 3 players",
+    "notes": "At the pier ; Has to be unlocked through the story chapter Boreas"
+   },
+   {
+    "nom": "Transit to Labyrinth",
+    "vers": "Labyrinth",
+    "camp": "pmc",
+    "conditions": "Only available 1 min after raid start ; per player",
+    "notes": "; In the basement of the health resort west wing ; Knossos LLC facility key required"
+   },
+   {
+    "nom": "Transit to Lighthouse",
+    "vers": "Lighthouse",
+    "camp": "shared",
+    "conditions": "Only available 1 min after raid start",
+    "notes": "In front of the Path to Lighthouse extraction"
+   },
+   {
+    "nom": "Transit to Terminal",
+    "vers": "Terminal",
+    "camp": "pmc",
+    "conditions": "Only available 1 min after raid start in the time period of 21:00-6:00\n ; \n + ; or ; ; or ; ; or ; ; per player",
+    "notes": "Requires presenting the access item at the port garrison intercom to not get shot ;"
+   }
+  ]
+ },
+ "interchange": {
+  "page": "Interchange",
+  "description": "The South Interchange is a key transport location for the city. This strategic area connects the port and harbor with the industrial outskirts of Tarkov. Located in the center of the interchange is a huge ULTRA shopping mall which was used as the main base of operation for the EMERCOM evacuation.",
+  "notes": "",
+  "fonctionnalites": [
+   "Stationary weapons in the form of NSV Utyos 12.7x108 heavy machine guns.",
+   "Be aware of Border Snipers and Minefields!",
+   "A fully linked illumination grid, able to be switched on at the power station.",
+   "Alarms around some stores and a triggerable alarm at the KIBA Arms store. The alarms can be switched off at designated terminals."
+  ],
+  "cles": [
+   {
+    "nom": "EMERCOM medical unit key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Goshan cash register key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Grumpy's hideout key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "IDEA cash register key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Kiba Arms inner grate door key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Kiba Arms outer door key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "NecrusPharm pharmacy key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Object #11SR keycard",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Object #21WS keycard",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "OLI administration office key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "OLI cash register key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "OLI logistics department office key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "OLI outlet utility room key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Power substation utility cabin key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Station 14-4 KORD Arshavin K. pass (Restored)",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "ULTRA medical storage key",
+    "quete": "",
+    "toujoursOuvert": false
+   }
+  ],
+  "boss": [
+   {
+    "nom": "Killa",
+    "zone": "",
+    "equipement": "In the IDEA, OLI and Goshan stores ; Around the center stores on the first and second floor of the mall",
+    "escorte": "RPK-16 5.45x39 light machine gun ; Maska-1SCh bulletproof helmet (Killa Edition) ; Maska-1SCh face shield (Killa Edition) ; 6B13 M assault armor (Killa Edition) ; BlackHawk! Commando chest harness (Black)"
+   },
+   {
+    "nom": "Tagilla",
+    "zone": "",
+    "equipement": "In the parking garage below the Goshan store",
+    "escorte": "Superfors DB 2020 Dead Blow Hammer ; Tagilla's welding mask \"UBEY\" ; Tagilla's welding mask \"Gorilla\" ; Crye Precision AVS plate carrier (Tagilla Edition)"
+   }
+  ],
+  "sorties": [
+   {
+    "nom": "Emercom Checkpoint",
+    "camp": "shared",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "Path to River (Flare)",
+    "camp": "pmc",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "Shoot a green flare into the sky while inside the signal flare area. If the flare doesn't reach a certain height, the extraction won't open. ; Flares: ; Handheld RSP-30 green flare ; Signal pistol fired 26x75mm green flare\n ; \nOnly one person amongst a lobby-made group needs to shoot a flare to open the extraction for all members of the group.",
+    "notes": "Upon entering the signal flare area, a notification will pop up in the bottom right corner of the screen: ; If the flare was fired correctly, a new notification pops up: ; ; ; Signal flare area and extract zone map ;"
+   },
+   {
+    "nom": "Power Station V-Ex",
+    "camp": "pmc",
+    "toujours": false,
+    "usageUnique": true,
+    "conditions": "per player\nMaximum of 4 players",
+    "notes": "The fee amount is influenced by your Scav karma.\nThere are border snipers beyond the vehicle."
+   },
+   {
+    "nom": "Railway Exfil",
+    "camp": "shared",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "Saferoom Exfil",
+    "camp": "pmc",
+    "toujours": true,
+    "usageUnique": true,
+    "conditions": "1.Turn on power at the power station ; 2.Flush urinal in the \"Burger Spot\" restaurant ; 3.Swipe Object #11SR keycard at revealed keycard panel ; 4.Lock the extraction door from inside with the button next to it",
+    "notes": "A lever to open the Object-14 container can be found inside the extraction."
+   },
+   {
+    "nom": "Scav Camp (Co-Op)",
+    "camp": "shared",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "Scav + PMC",
+    "notes": ""
+   },
+   {
+    "nom": "Smugglers' Tunnel\nNote: This extraction does currently not work.",
+    "camp": "shared",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "Interchange underground utility plan",
+    "notes": ""
+   }
+  ],
+  "transits": [
+   {
+    "nom": "Transit to Customs",
+    "vers": "Customs",
+    "camp": "shared",
+    "conditions": "Only available 1 min after raid start",
+    "notes": "At the southern end of the highway"
+   },
+   {
+    "nom": "Transit to Streets of Tarkov",
+    "vers": "Streets of Tarkov",
+    "camp": "shared",
+    "conditions": "Only available 1 min after raid start",
+    "notes": "At the northern end of the highway"
+   }
+  ]
+ },
+ "reserve": {
+  "page": "Reserve",
+  "description": "The secret Federal State Reserve Agency base that, according to urban legends, contains enough supplies to last for years: food, medications, and other resources, enough to survive an all-out nuclear war.",
+  "notes": "is initially only accessible by transiting. Direct access from the location selection screen is unlocked upon progressing through the story chapter Tour.",
+  "fonctionnalites": [
+   "Stationary weapons in the form of AGS-30 30x29mm automatic grenade launchers and NSV Utyos 12.7x108 heavy machine guns.",
+   "Be aware of Border Snipers and Minefields!"
+  ],
+  "cles": [
+   {
+    "nom": "RB-AK key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "RB-AM key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "RB-AO key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "RB-BK marked key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "RB-GN key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "RB-KORL key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "RB-KPRL key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "RB-KSM key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "RB-MP11 key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "RB-MP12 key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "RB-MP13 key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "RB-MP21 key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "RB-MP22 key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "RB-OB key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "RB-OP key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "RB-ORB1 key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "RB-ORB2 key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "RB-ORB3 key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "RB-PKPM marked key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "RB-PKPTS key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "RB-PSP1 key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "RB-PSP2 key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "RB-PSV1 key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "RB-PSV2 key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "RB-RH key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "RB-RLSA key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "RB-RS key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "RB-SMP key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "RB-ST key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "RB-TB key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "RB-VO marked key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   }
+  ],
+  "boss": [
+   {
+    "nom": "Glukhar",
+    "zone": "",
+    "equipement": "At the storage buildings marked with \"K\" ; At the repair building marked with white knight ; At the barracks marked with black bishop and black pawn ; In the underground storage warehouse marked with \"Д\"",
+    "escorte": "ASh-12 12.7x55 assault rifle"
+   }
+  ],
+  "sorties": [
+   {
+    "nom": "Armored Train",
+    "camp": "shared",
+    "toujours": false,
+    "usageUnique": true,
+    "conditions": "Arrives between 16 and 12 minutes left in the raid. ; Honks twice on arrival. ; Stays for 7 min. ; Honks once 1 min before departure. ; Honks twice on closing doors. ; ; Scav Raiders may spawn at the train yard around the time of arrival.",
+    "notes": ""
+   },
+   {
+    "nom": "Bunker Hermetic Door",
+    "camp": "shared",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "; Activate the lever in the shack west of the white pawn barracks.",
+    "notes": "The activation lasts for 4 minutes and a siren wails for the duration. ; ; Activating the lever has a chance to make some Scav Raiders spawn at the train yard. ;"
+   },
+   {
+    "nom": "Checkpoint Fence",
+    "camp": "scav",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "Cliff Descent",
+    "camp": "pmc",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "Red Rebel ice pick ; Paracord ; No armor vest equipped",
+    "notes": ""
+   },
+   {
+    "nom": "D-2",
+    "camp": "pmc",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "; 1.Turn on power with a lever in the ; underground bunker system ; 2.Press the button on the wall next to the sliding door",
+    "notes": "Activating the lever has the chance to make some Scav Raiders spawn in the command part of the bunker."
+   },
+   {
+    "nom": "Depot Hermetic Door",
+    "camp": "scav",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "Exit to Woods",
+    "camp": "shared",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "Minefield map (Reserve)",
+    "notes": ""
+   },
+   {
+    "nom": "Heating Pipe",
+    "camp": "scav",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "Hole in the Wall by the Mountains",
+    "camp": "scav",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "Scav Lands (Co-Op)",
+    "camp": "shared",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "Scav + PMC",
+    "notes": ""
+   },
+   {
+    "nom": "Sewer Manhole",
+    "camp": "shared",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "No backpack equipped",
+    "notes": ""
+   }
+  ],
+  "transits": [
+   {
+    "nom": "Transit to Customs",
+    "vers": "Customs",
+    "camp": "shared",
+    "conditions": "Only available 1 min after raid start",
+    "notes": "North of the black bishop barracks, where the train track ends"
+   },
+   {
+    "nom": "Transit to Lighthouse",
+    "vers": "Lighthouse",
+    "camp": "shared",
+    "conditions": "Only available 1 min after raid start",
+    "notes": "; At the map border southwest of the train yard"
+   },
+   {
+    "nom": "Transit to Woods",
+    "vers": "Woods",
+    "camp": "shared",
+    "conditions": "Only available 1 min after raid start",
+    "notes": "; At the map border northwest of the train yard"
+   }
+  ]
+ },
+ "the-lab": {
+  "page": "The_Lab",
+  "description": "Secret underground TerraGroup Labs facility hidden right under the center of Tarkov. Officially, this research center does not exist and, based on data scraps, is engaged in research and development as well as testing and simulation of projects in chemistry, physics, biology, and other high technology.",
+  "notes": "* is initially only accessible by transiting. Direct access from the location selection screen is unlocked upon progressing through the story chapter Tour.\n* This location can only be entered with a TerraGroup Labs access keycard.",
+  "fonctionnalites": [],
+  "cles": [
+   {
+    "nom": "Keycard with a blue marking",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "TerraGroup Labs arsenal storage room key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "TerraGroup Labs keycard (Black)",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "TerraGroup Labs keycard (Blue)",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "TerraGroup Labs keycard (Green)",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "TerraGroup Labs keycard (Red)",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "TerraGroup Labs keycard (Violet)",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "TerraGroup Labs keycard (Yellow)",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "TerraGroup Labs manager's office room key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "TerraGroup Labs residential unit keycard",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "TerraGroup Labs weapon testing area key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   }
+  ],
+  "boss": [],
+  "sorties": [
+   {
+    "nom": "Cargo Elevator",
+    "camp": "",
+    "toujours": true,
+    "usageUnique": true,
+    "conditions": "; Restore power in the basement, room G1.",
+    "notes": "Second floor, opposite of room G21."
+   },
+   {
+    "nom": "Hangar Gate",
+    "camp": "",
+    "toujours": false,
+    "usageUnique": false,
+    "conditions": "; Open the gate in cabin B24, on the second floor of the hangar.",
+    "notes": "Sector B11."
+   },
+   {
+    "nom": "Main Elevator",
+    "camp": "",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "; Restore power in the basement, opposite of room R4.",
+    "notes": "In the basement, in the corridor between the rooms R6 and R8."
+   },
+   {
+    "nom": "Medical Block Elevator",
+    "camp": "",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "; Restore power in the basement, room G6.",
+    "notes": "In the basement between the rooms G3 and G4."
+   },
+   {
+    "nom": "Parking Gate",
+    "camp": "",
+    "toujours": false,
+    "usageUnique": false,
+    "conditions": "; Open the gate in room Y21 on the second floor, next to R22.",
+    "notes": "Sector Y11."
+   },
+   {
+    "nom": "Sewage Conduit",
+    "camp": "",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "; Sink the water level.",
+    "notes": "Room B1 in the basement. ; The switch to sink the water is on the left, the extraction on the right side of the room. ; The water takes ~80 seconds to sink."
+   },
+   {
+    "nom": "Ventilation Shaft",
+    "camp": "",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "No backpack equipped.",
+    "notes": "In the basement, corridor between the rooms G1 and G8, next to G7."
+   }
+  ],
+  "transits": [
+   {
+    "nom": "Transit to Streets of Tarkov",
+    "vers": "Streets of Tarkov",
+    "camp": "",
+    "conditions": "Only available 1 min after raid start",
+    "notes": "Near the orange dome, next to the office with the billiard table"
+   }
+  ]
+ },
+ "lighthouse": {
+  "page": "Lighthouse",
+  "description": "The lighthouse at Cape Dalniy was an important strategic object on the way to Tarkov. During Contract Wars, it was the main entry point for USEC units and served as their base of operations. After the conflict, Scavs took a fancy to this place, until the old owners returned, who decided to stay in Tarkov and establish their own order.",
+  "notes": "is initially only accessible by transiting. Direct access from the location selection screen is unlocked upon progressing through the story chapter Tour.",
+  "fonctionnalites": [],
+  "cles": [
+   {
+    "nom": "Conference room key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Convenience store storage room key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Hillside house key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Leon's hideout key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Lighthouse island stash key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Merin car trunk key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Operating room key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Police truck cabin key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Radar station commandant room key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Rogue USEC barrack key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Rogue USEC stash key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Rogue USEC workshop key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Substation marked key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "USEC cottage first safe key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "USEC cottage room key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "USEC cottage second safe key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Water treatment plant storage room key",
+    "quete": "",
+    "toujoursOuvert": false
+   }
+  ],
+  "boss": [
+   {
+    "nom": "Partisan",
+    "zone": "",
+    "equipement": "Has to be expected everywhere",
+    "escorte": "Partisan's bag ; AK skeletonized stock (Customized) ; Red Rebel ice pick"
+   },
+   {
+    "nom": "Knight",
+    "zone": "",
+    "equipement": "At the water treatment plant in the north, and at the blue chalet.",
+    "escorte": "Death Knight mask ; Crye Precision CPC plate carrier (Goons Edition)"
+   },
+   {
+    "nom": "Big Pipe",
+    "zone": "",
+    "equipement": "At the water treatment plant in the north, and at the blue chalet.",
+    "escorte": "Milkor M32A1 MSGL 40mm grenade launcher ; Big Pipe's smoking pipe ; Big Pipe's bandana ; S&S Precision PlateFrame plate carrier (Goons Edition)"
+   },
+   {
+    "nom": "Birdeye",
+    "zone": "",
+    "equipement": "At the water treatment plant in the north, and at the blue chalet.",
+    "escorte": "Mystery Ranch NICE COMM 3 BVS frame system (Coyote) ; LBT-1961A Load Bearing Chest Rig (Goons Edition)"
+   },
+   {
+    "nom": "Zryachiy",
+    "zone": "",
+    "equipement": "At the peninsula territory.",
+    "escorte": "TheAKGuy AK-50 .50 BMG anti-materiel rifle ; Zryachiy's balaclava ; Zryachiy's balaclava (folded) ; Azimut SS \"Khamelion\" chest harness (Olive)"
+   }
+  ],
+  "sorties": [
+   {
+    "nom": "Armored Train",
+    "camp": "shared",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "-\n||Arrives between 20 and 15 minutes left in the raid. ; Honks twice on arrival. ; Stays for 7 min. ; Honks once 1 min before departure. ; Honks twice on closing doors. ;",
+    "notes": ""
+   },
+   {
+    "nom": "Hideout Under the Landing Stage",
+    "camp": "scav",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "Industrial Zone Gates",
+    "camp": "scav",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "Mountain Pass",
+    "camp": "pmc",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "Red Rebel ice pick ; Paracord ; No armor vest equipped",
+    "notes": ""
+   },
+   {
+    "nom": "Northern Checkpoint",
+    "camp": "pmc",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "Passage by the Lake",
+    "camp": "shared",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "Minefield map (Lighthouse)",
+    "notes": "; Item handover location"
+   },
+   {
+    "nom": "Path to Shoreline",
+    "camp": "shared",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "Road to Military Base V-Ex",
+    "camp": "pmc",
+    "toujours": false,
+    "usageUnique": true,
+    "conditions": "per player\nMaximum of 5 players",
+    "notes": "The fee amount is influenced by your Scav karma.\nThere are border snipers beyond the vehicle."
+   },
+   {
+    "nom": "Scav Hideout at the Grotto",
+    "camp": "scav",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "Side Tunnel (Co-Op)",
+    "camp": "shared",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "Scav + PMC",
+    "notes": "; The extraction zone is inside a room to the left after entering the tunnel."
+   },
+   {
+    "nom": "Southern Road",
+    "camp": "pmc",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "Southern Road Landslide",
+    "camp": "scav",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   }
+  ],
+  "transits": [
+   {
+    "nom": "Transit to Icebreaker",
+    "vers": "Icebreaker",
+    "camp": "pmc",
+    "conditions": "Only available 1 min after raid start ; per player\nMaximum of 3 players",
+    "notes": "At the pier next to the seaside houses ; Has to be unlocked through the story chapter Boreas"
+   },
+   {
+    "nom": "Transit to Reserve",
+    "vers": "Reserve",
+    "camp": "shared",
+    "conditions": "Only available 1 min after raid start",
+    "notes": "On the road leading to the Road to Military Base V-Ex extraction"
+   },
+   {
+    "nom": "Transit to Shoreline",
+    "vers": "Shoreline",
+    "camp": "shared",
+    "conditions": "Only available 1 min after raid start",
+    "notes": "Next to the Path to Shoreline extraction"
+   },
+   {
+    "nom": "Transit to Woods",
+    "vers": "Woods",
+    "camp": "shared",
+    "conditions": "Only available 1 min after raid start",
+    "notes": "On the road leading to the Road to Northern Checkpoint extraction"
+   }
+  ]
+ },
+ "streets-of-tarkov": {
+  "page": "Streets_of_Tarkov",
+  "description": "Downtown Tarkov houses banks, malls, and hotels, as well as all the other amenities a thriving metropolis could have needed.",
+  "notes": "is initially only accessible by transiting. Direct access from the location selection screen is unlocked upon progressing through the story chapter Tour.",
+  "fonctionnalites": [
+   "Stationary weapons in the form of AGS-30 30x29mm automatic grenade launchers and NSV Utyos 12.7x108 heavy machine guns.",
+   "Be aware of Claymores and Border Snipers!"
+  ],
+  "cles": [
+   {
+    "nom": "Abandoned factory marked key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Archive room key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Aspect company office key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Backup hideout key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Beluga restaurant director key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Car dealership closed section key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Car dealership director's office room key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Cardinal apartment key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Cargo container mesh door key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Chekannaya 15 apartment key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Concordia apartment 8 home cinema key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Concordia apartment 8 room key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Concordia apartment 34 room key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Concordia apartment 63 room key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Concordia apartment 64 key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Concordia apartment 64 office room key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Concordia security room key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Construction site bunkhouse key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Cult victim's apartment key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Elektronik's key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Financial institution office key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Financial institution small office key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Iron gate key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "\"Negotiation\" room key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "MVD academy entrance hall guard room key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Mysterious room marked key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "PE teacher's office key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Pinewood hotel room 206 key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Pinewood hotel room 215 key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Primorsky 46-48 skybridge key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Primorsky 48 apartment key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Real estate agency office room key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Relaxation room key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Reprogrammed keycard for A.P.'s apartment lock (Green)",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Rus Post car key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Rusted bloody key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Stair landing key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Store manager's key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Supply department director's office key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Tarbank cash register department key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "TerraGroup corporate apartment key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "TerraGroup meeting room key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "TerraGroup security armory key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "X-ray room key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Zmeisky 3 apartment key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Zmeisky 3 apartment 8 key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Zmeisky 5 apartment 20 key",
+    "quete": "",
+    "toujoursOuvert": false
+   }
+  ],
+  "boss": [
+   {
+    "nom": "Kaban",
+    "zone": "",
+    "equipement": "At the LexOs car dealership",
+    "escorte": "Kalashnikov PKM 7.62x54R machine gun ; Kalashnikov PKP 7.62x54R infantry machine gun"
+   },
+   {
+    "nom": "Kollontay",
+    "zone": "",
+    "equipement": "At the Klimov shopping mall ; At the ministry of the interior academy",
+    "escorte": "PR-Taran police baton"
+   }
+  ],
+  "sorties": [
+   {
+    "nom": "Cardinal Apartment Complex Parking",
+    "camp": "scav",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "Collapsed Crane",
+    "camp": "pmc",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "Courtyard",
+    "camp": "pmc",
+    "toujours": false,
+    "usageUnique": false,
+    "conditions": "Green flare = Open",
+    "notes": ""
+   },
+   {
+    "nom": "Crash Site",
+    "camp": "pmc",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "Damaged House",
+    "camp": "pmc",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "Entrance to Catacombs",
+    "camp": "scav",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "Expo Checkpoint",
+    "camp": "pmc",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "Klimov Shopping Mall Exfil",
+    "camp": "scav",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "; On the 1st floor of the eastern staircase in the Klimov shopping mall.",
+    "notes": ""
+   },
+   {
+    "nom": "Klimov Street (Flare)",
+    "camp": "pmc",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "Shoot a green flare into the sky while inside the signal flare area. If the flare doesn't reach a certain height, the extraction won't open. ; Flares: ; Handheld RSP-30 green flare ; Signal pistol fired 26x75mm green flare\n ; \nOnly one person amongst a lobby-made group needs to shoot a flare to open the extraction for all members of the group.",
+    "notes": "Upon entering the signal flare area, a notification will pop up in the bottom right corner of the screen: ; If the flare was fired correctly, a new notification pops up: ; ; ; Signal flare area and extract zone map ;"
+   },
+   {
+    "nom": "Near Kamchatskaya Arch",
+    "camp": "scav",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "; In the courtyard of the museum building.",
+    "notes": ""
+   },
+   {
+    "nom": "Pinewood Basement (Co-Op)",
+    "camp": "shared",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "Scav + PMC",
+    "notes": "; It the northeastern staircase of the Pinewood hotel."
+   },
+   {
+    "nom": "Primorsky Ave Taxi V-Ex",
+    "camp": "pmc",
+    "toujours": false,
+    "usageUnique": true,
+    "conditions": "per player\nMaximum of 4 players",
+    "notes": "The fee amount is influenced by your Scav karma.\nThere are border snipers beyond the vehicle."
+   },
+   {
+    "nom": "Sewer Manhole",
+    "camp": "scav",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "Sewer River",
+    "camp": "pmc",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "Smugglers' Basement",
+    "camp": "shared",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "Note with code word Onyx",
+    "notes": ""
+   },
+   {
+    "nom": "Stylobate Building Elevator",
+    "camp": "pmc",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "; Behind the bar on the 3rd floor of the Beluga restaurant.",
+    "notes": ""
+   },
+   {
+    "nom": "Ventilation Shaft",
+    "camp": "scav",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   }
+  ],
+  "transits": [
+   {
+    "nom": "Transit to Ground Zero",
+    "vers": "Ground Zero",
+    "camp": "shared",
+    "conditions": "Only available 1 min after raid start",
+    "notes": "Next to the ministry of the interior academy"
+   },
+   {
+    "nom": "Transit to Interchange",
+    "vers": "Interchange",
+    "camp": "shared",
+    "conditions": "Only available 1 min after raid start",
+    "notes": "Southwest of the Concordia apartment complex"
+   },
+   {
+    "nom": "Transit to The Lab",
+    "vers": "The Lab",
+    "camp": "pmc",
+    "conditions": "Only available 1 min after raid start ; per player",
+    "notes": "; Underground entrance in front of the Klimova 16A building with the Cosmonaut painting"
+   }
+  ]
+ },
+ "ground-zero": {
+  "page": "Ground_Zero",
+  "description": "The business center of Tarkov. This is where TerraGroup was headquartered. This is where it all began. The area has yet again become a hot zone since the early days of the conflict.",
+  "notes": "Matchmaking on this location is divided into beginners (Level <21) and experienced players (Level 21+). For groups, matchmaking is based on the highest level player in the group.\nIn experienced matchmaking there are the following differences:\n* Chance to find rare loot\n* Increased Scavs difficulty\n* Cultists can appear",
+  "fonctionnalites": [
+   "Stationary weapons in the form of AGS-30 30x29mm automatic grenade launchers and NSV Utyos 12.7x108 heavy machine guns.",
+   "Be aware of Minefields, Claymores and Border Snipers!"
+  ],
+  "cles": [
+   {
+    "nom": "TerraGroup science office key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Underground parking utility room key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Unity Credit Bank cash register key",
+    "quete": "",
+    "toujoursOuvert": false
+   }
+  ],
+  "boss": [],
+  "sorties": [
+   {
+    "nom": "Emercom Checkpoint",
+    "camp": "shared",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "",
+    "notes": ""
+   },
+   {
+    "nom": "Mira Ave (Flare)",
+    "camp": "pmc",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "Shoot a green flare into the sky while inside the signal flare area. If the flare doesn't reach a certain height, the extraction won't open. ; Flares: ; Handheld RSP-30 green flare ; Signal pistol fired 26x75mm green flare ; ; The Scav body leaned against the yellow bus at the extraction spawns one flare every raid.\n ; \nOnly one person amongst a lobby-made group needs to shoot a flare to open the extraction for all members of the group.",
+    "notes": "Upon entering the signal flare area, a notification will pop up in the bottom right corner of the screen: ; If the flare was fired correctly, a new notification pops up: ; ; ; Signal flare area and extract zone map ;"
+   },
+   {
+    "nom": "Nakatani Basement Stairs",
+    "camp": "shared",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "; In the basement of the Nakatani building.",
+    "notes": ""
+   },
+   {
+    "nom": "Police Cordon V-Ex",
+    "camp": "pmc",
+    "toujours": true,
+    "usageUnique": true,
+    "conditions": "per player\nMaximum of 4 players",
+    "notes": "The fee amount is influenced by your Scav karma.\nThere are border snipers beyond the vehicle."
+   },
+   {
+    "nom": "Scav Checkpoint (Co-op)",
+    "camp": "shared",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "Scav + PMC",
+    "notes": ""
+   },
+   {
+    "nom": "Tartowers Sales Office",
+    "camp": "shared",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "Note with code word Adaptation",
+    "notes": ""
+   }
+  ],
+  "transits": [
+   {
+    "nom": "Transit to Streets of Tarkov",
+    "vers": "Streets of Tarkov",
+    "camp": "shared",
+    "conditions": "Only available 1 min after raid start",
+    "notes": "Next to the Mira Ave extraction"
+   }
+  ]
+ },
+ "the-labyrinth": {
+  "page": "The_Labyrinth",
+  "description": "A facility of one of TerraGroup's contractors, Knossos LLC. According to public sources, they build amusement and theme parks. However, this place looks more like a heavily fortified bunker than a new theme park.",
+  "notes": "This location can only be entered with a Labrys access keycard through transiting from Shoreline. The transit is located in the basement of the health resort west wing and requires the Knossos LLC facility key.\nFile:Vitamins1 Shoreline outdoor map.png|Health resort west wing location marked on map\nFile:The Labyrinth Transit Map.png|Transit location marked on west wing basement map\nFile:The Labyrinth Transit Door.png|Door to the transit\nFile:The Labyrinth Transit.png|The transit",
+  "fonctionnalites": [],
+  "cles": [
+   {
+    "nom": "Corpse room key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   },
+   {
+    "nom": "Key 01",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Key 02",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Key 03",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Key 04",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Observation room key",
+    "quete": "✔",
+    "toujoursOuvert": true
+   }
+  ],
+  "boss": [
+   {
+    "nom": "Shadow of Tagilla",
+    "zone": "",
+    "equipement": "Has to be expected everywhere",
+    "escorte": "Chained Labrys ; Tagilla's welding mask \"ZABEY\" ; Crye Precision AVS plate carrier (Tagilla Edition) ; Labrys research notes"
+   },
+   {
+    "nom": "Vengeful Killa",
+    "zone": "",
+    "equipement": "Appears after the death of Shadow of Tagilla",
+    "escorte": "RPK-16 5.45x39 light machine gun ; Maska-1SCh bulletproof helmet (Killa Edition) ; Maska-1SCh face shield (Killa Edition) ; 6B13 M assault armor (Killa Edition) ; BlackHawk! Commando chest harness (Black)"
+   }
+  ],
+  "sorties": [
+   {
+    "nom": "Ariadne's Path",
+    "camp": "",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "Ariadne symbol key",
+    "notes": ""
+   },
+   {
+    "nom": "The Way Up",
+    "camp": "",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "Only available 15 min after raid start.",
+    "notes": "When the extraction becomes available, a door opening sound can be heard. ;"
+   }
+  ],
+  "transits": []
+ },
+ "icebreaker": {
+  "page": "Icebreaker",
+  "description": "In the Gulf of Finland, trapped within the blockade surrounding Tarkov, lies the nuclear-powered icebreaker \"Boreas\", owned by the logistics corporation Paradigm Shipping. The exact purpose of \"Boreas\" and the cargo it carries remain unknown. It appears that Paradigm Shipping and TerraGroup made special efforts to minimize any mention of the icebreaker in the press and keep its routes and assignments classified.",
+  "notes": "* This location can initially only be entered through transiting from Lighthouse or Shoreline after unlocking it in the story chapter Boreas. The transits are located at the piers and require a Sudak-Tudak marine repair kit.\nFile:LighthouseTransitToIcebreakerMap.png|Lighthouse transit location marked on map\nFile:LighthouseTransitToIcebreaker.png|The transit\nFile:ShorelineTransitToIcebreakerMap.png|Shoreline transit location marked on map\nFile:ShorelineTransitToIcebreaker.png|The transit\n* Direct access from the location selection screen is unlocked upon completing the questline Stick to It. The requirement for a Sudak-Tudak marine repair kit still applies.\n* The number of encountered Black Division operatives and The Wedge's followers depends on the number of players in the raid. Detailed numbers can be found on the maps below.",
+  "fonctionnalites": [],
+  "cles": [
+   {
+    "nom": "BBQ-S43 gas torch",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Boreas crew quarters keycard",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Boreas engine room keycard",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Compartment C-1 keycard",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Compartment C-3 keycard",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "SZ-1 explosive charge",
+    "quete": "",
+    "toujoursOuvert": false
+   }
+  ],
+  "boss": [
+   {
+    "nom": "The Wedge",
+    "zone": "",
+    "equipement": "On level 3 in the gym",
+    "escorte": "Spiritus Systems LV-119 Plate Carrier (MultiCam Black) ; TW EXFIL Peltor ComTac VI headset (Black) ; HK MP7 SureFire SF3P 4.6x30 flash hider ; HK MP7 FAB Defense ARS stock adapter ; FAB Defense FX-KPOS ARS stock"
+   },
+   {
+    "nom": "Knight",
+    "zone": "",
+    "equipement": "On level 0",
+    "escorte": "Death Knight mask ; Crye Precision CPC plate carrier (Goons Edition) ; Magnum Research Desert Eagle L6 .50 AE pistol (WTS)"
+   }
+  ],
+  "sorties": [
+   {
+    "nom": "Helicopter",
+    "camp": "pmc",
+    "toujours": true,
+    "usageUnique": false,
+    "conditions": "Shoot a green flare into the sky while inside the signal flare area. If the flare doesn't reach a certain height, the helicopter won't come. ; Flares: ; Handheld RSP-30 green flare ; Signal pistol fired 26x75mm green flare\n per player",
+    "notes": "Upon entering the signal flare area, a notification will pop up in the bottom right corner of the screen: \n ; The helicopter will arrive after a short period of time."
+   }
+  ],
+  "transits": []
+ },
+ "terminal": {
+  "page": "Terminal",
+  "description": "The southern port Terminal has been under Russian Armed Forces control since the beginning of the Tarkov conflict. After the city was sealed off, the terminal was fortified and became the primary evacuation point, sought by both civilian refugees and PMC units. According to unconfirmed reports, TerraGroup personnel were also evacuated through this port.",
+  "notes": "* When leaving this location by either dying or extracting, the state of the character is returned as it was before entering, besides the consumed access item.\n \n* This location can only be entered through transiting from Shoreline in the time period of 21:00-6:00 after presenting an access item at the port garrison intercom.\n:{|class=\"wikitable\"\n|-\n!Icon\n!Item name\n|-\n| ; + ; \n| |Reprogrammed RFID keycard with Mr. Kerman's hash codes ; + ; Secure container Alpha-1 with TerraGroup evidence\n|-\n| \n| |RFID keycard with unknown name\n|-\n| \n| |Prapor's letter for the port checkpoint\n|-\n| \n| |Reprogrammed RFID keycard with Prapor's hash codes\n|-\n|}",
+  "fonctionnalites": [],
+  "cles": [
+   {
+    "nom": "Armory key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Black Division keycard",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "Pier door key",
+    "quete": "",
+    "toujoursOuvert": false
+   },
+   {
+    "nom": "SZ-1 explosive charge",
+    "quete": "",
+    "toujoursOuvert": false
+   }
+  ],
+  "boss": [
+   {
+    "nom": "Glukhar",
+    "zone": "",
+    "equipement": "ASh-12 12.7x55 assault rifle",
+    "escorte": "3 heavily armed and armored guards"
+   },
+   {
+    "nom": "Killa",
+    "zone": "",
+    "equipement": "RPK-16 5.45x39 light machine gun ; Maska-1SCh bulletproof helmet (Killa Edition) ; Maska-1SCh face shield (Killa Edition) ; 6B13 M assault armor (Killa Edition) ; BlackHawk! Commando chest harness (Black)",
+    "escorte": "None"
+   },
+   {
+    "nom": "Reshala",
+    "zone": "",
+    "equipement": "Tokarev TT-33 7.62x25 TT pistol (Golden) ; Reshala's bunkhouse key",
+    "escorte": "3 heavily armed and armored guards"
+   },
+   {
+    "nom": "Sanitar",
+    "zone": "",
+    "equipement": "Keycard with a blue marking ; Sanitar's bag",
+    "escorte": "3 heavily armed and armored guards"
+   },
+   {
+    "nom": "Tagilla",
+    "zone": "",
+    "equipement": "Superfors DB 2020 Dead Blow Hammer ; Tagilla's welding mask \"UBEY\" ; Tagilla's welding mask \"Gorilla\" ; Crye Precision AVS plate carrier (Tagilla Edition)",
+    "escorte": "None"
+   }
+  ],
+  "sorties": [
+   {
+    "nom": "Zubr Boat",
+    "camp": "pmc",
+    "toujours": true,
+    "usageUnique": true,
+    "conditions": "The available boat seats depend on the number of players that entered the raid: ; 3 seats with 1-3 players ; 3 to 4 seats with 4 players ; 4 to 5 seats with 5 players\nPlayers who brought in the Secure container Alpha-1 with TerraGroup evidence must have it on them.",
+    "notes": "Upon arriving at the pier, the 3 minute extraction timer begins. ;"
+   }
+  ],
+  "transits": []
+ }
+}

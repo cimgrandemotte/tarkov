@@ -1,0 +1,598 @@
+{{Infobox location
+|image              =banner_shoreline.png
+|image size         =
+|icon               =
+|type               =
+|prev               =[[Lighthouse]]<br/>[[Customs]]
+|next               =[[Terminal]]<br/>[[The Labyrinth]]<br/>[[Icebreaker]]<br/>[[Lighthouse]]
+|chapter            =
+|enemies            =[[Scavs]], [[Sanitar]], [[Partisan]], [[Knight]], [[Big Pipe]], [[Birdeye]], [[Cultists]], [[RUAF]]
+|players            =10-14
+|difficulty         =
+|duration           =45 minutes
+|notable loot       =
+}}
+
+'''{{PAGENAME}}''' is a [[Map of Tarkov|location]] in ''[[Escape from Tarkov]]''. It is the fourth map that was added to the game.
+
+==Description==
+The Shoreline area makes up a large part of the outskirts of Tarkov and is located next to the Port. The area houses a partially abandoned village, modern private housing, agricultural fields, long stretches of beach, a boating facility, gas station, weather station, and a cellular tower as well as other commercial facilities. Shoreline's main point of interest is the Azure Coast health resort which consists of several blocks, exclusively powered by a nearby hydroelectric power plant. The resort had previously been used as temporary accommodation for members of TerraGroup and the corporation's associated divisions in preparation for the evacuation of the Tarkov Port.
+
+==Notes==
+{{PAGENAME}} is initially only accessible by [[Transits|transiting]]. Direct access from the location selection screen is unlocked upon progressing through the story chapter [[Tour]].
+
+==Features==
+* Stationary weapons in the form of [[AGS-30 30x29mm automatic grenade launcher]]s and [[NSV Utyos 12.7x108 heavy machine gun]]s.
+* Be aware of [[Map of Tarkov#Border Snipers|Border Snipers]] and [[Map of Tarkov#Minefields|Minefields]]!
+
+===Port Terminal===
+The Terminal is guarded by [[RUAF]] soldiers and machine gunners. They are neutral towards the player but will open fire when they get shot, and if a player gets too close to the Terminal without presenting an access item at the port garrison intercom. Check our [[Shoreline#Maps|maps]] to keep a safe distance.
+
+==Usable Keys==
+<div class="mw-collapsible mw-collapsed leftcollapse" data-expandtext="Show keys" data-collapsetext="Hide keys"><br/>
+{| class="wikitable sortable"
+!Icon
+!Key Name
+!Used in Quest
+!Always unlocked
+!Balcony Access
+|-
+![[File:Cottage Shoreline key.png|link=Cottage back door key]]
+|[[Cottage back door key]]
+! style="color: green" |✔
+!
+!
+|-
+![[File:Cottagesafe.png|link=Cottage safe key]]
+|[[Cottage safe key]]
+!
+!
+!
+|-
+![[File:Shoreline gassafe.png|link=Gas station safe key]]
+|[[Gas station safe key]]
+!
+! style="color: green" |✔
+!
+|-
+![[File:East 107 Resort-Icon.png|link=Health Resort east wing office room 107 key]]
+|[[Health Resort east wing office room 107 key]]
+!
+!
+!
+|-
+![[File:San108KeyIcon.png|link=Health Resort east wing office room 108 key]]
+|[[Health Resort east wing office room 108 key]]
+!
+! style="color: green" |✔
+!
+|-
+![[File:San205East.png|link=Health Resort east wing room 205 key]]
+|[[Health Resort east wing room 205 key]]
+!
+!
+!E206
+|-
+![[File:San.206.png|link=Health Resort east wing room 206 key]]
+|[[Health Resort east wing room 206 key]]
+!
+!
+!E205
+|-
+![[File:San.209.png|link=Health Resort east wing room 209 key]]
+|[[Health Resort east wing room 209 key]]
+!
+! style="color: green" |✔
+!E213
+|-
+![[File:San213.png|link=Health Resort east wing room 213 key]]
+|[[Health Resort east wing room 213 key]]
+!
+! style="color: green" |✔
+!E209
+|-
+![[File:san216east.png|64px|link=Health Resort east wing room 216 key]]
+|[[Health Resort east wing room 216 key]]
+!
+! style="color: green" |✔
+!
+|-
+![[File:San222East.png|link=Health Resort east wing room 222 key]]
+|[[Health Resort east wing room 222 key]]
+!
+!
+!E226
+|-
+![[File:San226icon.png|link=Health Resort east wing room 226 key]]
+|[[Health Resort east wing room 226 key]]
+!
+!
+!E222
+|-
+![[File:San306East.png|link=Health Resort east wing room 306 key]]
+|[[Health Resort east wing room 306 key]]
+!
+!
+!E308
+|-
+![[File:308 East Icon.png|link=Health Resort east wing room 308 key]]
+|[[Health Resort east wing room 308 key]]
+!
+!
+!E306
+|-
+![[File:San.310.png|link=Health Resort east wing room 310 key]]
+|[[Health Resort east wing room 310 key]]
+!
+!
+!
+|-
+![[File:San313icon.png|link=Health Resort east wing room 313 key]]
+|[[Health Resort east wing room 313 key]]
+!
+!
+!E314
+|-
+![[File:East 314 Resort-Icon.png|link=Health Resort east wing room 314 key]]
+|[[Health Resort east wing room 314 key]]
+!
+!
+!E313
+|-
+![[File:316 East Icon.png|link=Health Resort east wing room 316 key]]
+|[[Health Resort east wing room 316 key]]
+!
+!
+!
+|-
+![[File:San322icon.png|link=Health Resort east wing room 322 key]]
+|[[Health Resort east wing room 322 key]]
+!
+! style="color: green" |✔
+!
+|-
+![[File:328 East Icon.png|link=Health Resort east wing room 328 key]]
+|[[Health Resort east wing room 328 key]]
+! style="color: green" |✔
+!
+!
+|-
+![[File:Cottagesafe.png|link=Health Resort management office safe key]]
+|[[Health Resort management office safe key]]
+!
+!
+!
+|-
+![[File:Cottagesafe.png|link=Health Resort management warehouse safe key]]
+|[[Health Resort management warehouse safe key]]
+!
+!
+!
+|-
+![[File:Key With Tape icon.png|64px|link=Health Resort office key with a blue tape]]
+|[[Health Resort office key with a blue tape]]
+! style="color: green" |✔
+!
+!
+|-
+![[File:StoreroomKey.png|link=Health Resort universal utility room key]]
+|[[Health Resort universal utility room key]]
+!
+!
+!
+|-
+![[File:San104.png|link=Health Resort west wing office room 104 key]]
+|[[Health Resort west wing office room 104 key]]
+!
+!
+!
+|-
+![[File:San112icon.png|link=Health Resort west wing office room 112 key]]
+|[[Health Resort west wing office room 112 key]]
+! style="color: green" |✔
+!
+!
+|-
+![[File:San203icon.png|link=Health Resort west wing room 203 key]]
+|[[Health Resort west wing room 203 key]]
+!
+!
+!W205
+|-
+![[File:San.205.png|link=Health Resort west wing room 205 key]]
+|[[Health Resort west wing room 205 key]]
+!
+!
+!W203
+|-
+![[File:San207icon.png|link=Health Resort west wing room 207 key]]
+|[[Health Resort west wing room 207 key]]
+!
+! style="color: green" |✔
+!
+|-
+![[File:West 216 Resort-Icon.png|64px|link=Health Resort west wing room 216 key]]
+|[[Health Resort west wing room 216 key]]
+!
+!
+!
+|-
+![[File:San.218.png|link=Health Resort west wing room 218 key]]
+|[[Health Resort west wing room 218 key]]
+!
+!
+!W221/W222
+|-
+![[File:San.219.png|link=Health Resort west wing room 219 key]]
+|[[Health Resort west wing room 219 key]]
+! style="color: green" |✔
+!
+!
+|-
+![[File:West 220 Resort-Icon.png|link=Health Resort west wing room 220 key]]
+|[[Health Resort west wing room 220 key]]
+! style="color: green" |✔
+!
+!
+|-
+![[File:San.221.png|link=Health Resort west wing room 221 key]]
+|[[Health Resort west wing room 221 key]]
+!
+!
+!W218/W222
+|-
+![[File:East 222 Resort-Icon.png|link=Health Resort west wing room 222 key]]
+|[[Health Resort west wing room 222 key]]
+!
+!
+!W218/W221
+|-
+![[File:West 301 Resort-Icon.png|link=Health Resort west wing room 301 key]]
+|[[Health Resort west wing room 301 key]]
+!
+!
+!W304
+|-
+![[File:San303Key.png|link=Health Resort west wing room 303 key]]
+|[[Health Resort west wing room 303 key]]
+!
+! style="color: green" |✔
+!
+|-
+![[File:WestWing306KeyIcon.png|link=Health Resort west wing room 306 key]]
+|[[Health Resort west wing room 306 key]]
+! style="color: green" |✔
+!
+!
+|-
+![[File:San309icon.png|link=Health Resort west wing room 309 key]]
+|[[Health Resort west wing room 309 key]]
+!
+! style="color: green" |✔
+!
+|-
+![[File:Safe 321 key.png|link=Health Resort west wing room 321 safe key]]
+|[[Health Resort west wing room 321 safe key]]
+!
+!
+!
+|-
+![[File:San323icon.png|link=Health Resort west wing room 323 key]]
+|[[Health Resort west wing room 323 key]]
+!
+! style="color: green" |✔
+!
+|-
+![[File:San325.png|link=Health Resort west wing room 325 key]]
+|[[Health Resort west wing room 325 key]]
+!
+! style="color: green" |✔
+!
+|-
+![[File:HEPSKeyIcon.png|64px|link=HEP station storage room key]]
+|[[HEP station storage room key]]
+!
+!
+!
+|-
+![[File:Knossos LLC Key icon.png|64px|link=Knossos LLC facility key]]
+|[[Knossos LLC facility key]]
+! style="color: green" |✔
+!
+!
+|-
+![[File:SMW shoreline key.png|link=SMW car key]]
+|[[SMW car key]]
+!
+!
+!
+|-
+![[File:Voron Icon.png|link=Voron's hideout key]]
+|[[Voron's hideout key]]
+!
+!
+!
+|-
+![[File:Cottagesafe.png|link=Weather station safe key]]
+|[[Weather station safe key]]
+!
+! style="color: green" |✔
+!
+|-
+|}
+</div>
+{{clear}}
+
+==Bosses==
+{{Seasonal change|[[Black Division]] operatives roam through the map. They do not have a fixed spawn location and have to be expected everywhere.}}
+{| class="wikitable sortable"
+!Name
+!Image
+!Location
+!Notable equipment
+!Followers
+|-
+|[[Sanitar]]
+![[File:Sanitar Portrait.png|frameless|140px|link=Sanitar]]
+|In the east and west wing of the health resort<br/>At the port/pier area<br/>Near the cottages
+|[[Keycard with a blue marking]]<br/>[[Sanitar's bag]]
+|2-4 heavily armed and armored guards
+|-
+|[[Partisan]]
+![[File:Partisan Portrait.png|frameless|140px|link=Partisan]]
+|Has to be expected everywhere
+|[[Partisan's bag]]<br />[[AK skeletonized stock (Customized)]]<br />[[Red Rebel ice pick]]
+|None
+|-
+|[[Knight]]
+![[File:KnightPortrait.png|frameless|140px|link=Knight]]
+|At the weather station on the hill in the southeast.
+|[[Death Knight mask]]<br/>[[Crye Precision CPC plate carrier (Goons Edition)]]
+|[[Big Pipe]], [[Birdeye]]
+|-
+|[[Big Pipe]]
+![[File:BigPipePortrait.png|frameless|140px|link=Big Pipe]]
+|At the weather station on the hill in the southeast.
+|[[Milkor M32A1 MSGL 40mm grenade launcher]]<br/>[[Big Pipe's smoking pipe]]<br/>[[Big Pipe's bandana]]<br/>[[S&S Precision PlateFrame plate carrier (Goons Edition)]]
+|[[Knight]], [[Birdeye]]
+|-
+|[[Birdeye]]
+![[File:BirdeyePortrait.png|frameless|140px|link=Birdeye]]
+|At the weather station on the hill in the southeast.
+|[[Mystery Ranch NICE COMM 3 BVS frame system (Coyote)]]<br/>[[LBT-1961A Load Bearing Chest Rig (Goons Edition)]]
+|[[Knight]], [[Big Pipe]]
+|}
+
+==Extractions==
+To locate the extractions use the [[Shoreline#Maps|maps]] below the table.
+{| class="wikitable sortable stickyheader" style="text-align: center;"
+!Extraction
+!Name
+!Faction
+!Always available
+!Single-Use
+!Requirements
+!Notes
+|-
+![[File:Adm Basement.png|240px]]
+! style="text-align: left;" | Admin Basement
+| Scav
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+| -
+|
+|-
+![[File:Shoreline Climber's Trail Extraction.png|240px]]
+! style="text-align: left;" | Climber's Trail
+|PMC
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|[[Red Rebel ice pick]]<br/>[[Paracord]]<br/>No [[armor vest]] equipped
+|
+|-
+![[File:Rwing Gym Entrance.png|240px]]
+! style="text-align: left;" | East Wing Gym Entrance
+| Scav
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+| -
+|
+|-
+![[File:Lighthouse.png|240px]]
+! style="text-align: left;" | Lighthouse
+| Scav
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+| -
+|
+|-
+![[File:South Fence Passage.png|240px]]
+! style="text-align: left;" | Mountain Bunker
+| All
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|[[File:Note with code word Heartbeat icon.png|link=Note with code word Heartbeat]]
+[[Note with code word Heartbeat]]
+|
+|-
+![[File:Path to Lighthouse.png|240px]]
+! style="text-align: left;" | Path to Lighthouse
+| PMC
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+| -
+|
+|-
+![[File:Pier Boat.png|240px]]
+! style="text-align: left;" | Pier Boat
+| PMC
+|<font color="red">✘</font>
+|<font color="red">✘</font>
+| Green flare = Open 
+|
+|-
+![[File:Road at Railbridge.png|240px]]
+! style="text-align: left;" | Railway Bridge
+|PMC
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+| -
+|
+|-
+![[File:Road To Customs.png|240px]]
+! style="text-align: left;" | Road to Customs
+| All
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+| -
+|
+|-
+![[File:Shoreline Road to North V-Ex Extraction.png|240px]]
+! style="text-align: left;" | Road to North V-Ex
+|PMC
+|<font color="green">✔</font>
+|<font color="green">✔</font>
+|[[File:5000 Roubles.png|frameless|64px|link=Roubles]] per player
+'''Maximum of 5 players'''
+|The fee amount is influenced by your [[Scavs#Scav karma|Scav karma]].
+There are [[border snipers]] beyond the vehicle.
+|-
+![[File:Ruined Road.png|240px]]
+! style="text-align: left;" | Ruined Road
+| Scav
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+| -
+|
+|-
+![[File:Smuggler's Path Extraction.png|240px]]
+! style="text-align: left;" |Smugglers' Path (Co-op)
+|All
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|[[Scav]] + PMC
+|
+|-
+![[File:Tunnel.png|240px]]
+! style="text-align: left;" | Tunnel
+| PMC
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+| -
+|
+|}
+
+==Transits==
+{| class="wikitable sortable stickyheader" style="text-align: center;"
+!Transit
+!Name
+!Faction
+!Always available
+!Single-Use
+!Requirements
+!Notes
+|-
+![[File:ShorelineTransitToIcebreaker.png|240px]]
+! style="text-align: left;" |Transit to Icebreaker
+|PMC
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|Only available 1 min after raid start<br/>[[File:Sudak-Tudak marine repair kit icon.png|link=Sudak-Tudak marine repair kit]] per player
+'''Maximum of 3 players'''
+|At the pier<br/>Has to be unlocked through the story chapter [[Boreas]]
+|-
+![[File:The Labyrinth Transit.png|240px]]
+! style="text-align: left;" |Transit to Labyrinth
+|PMC
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|Only available 1 min after raid start<br/>[[File:Labrys access keycard icon.png|link=Labrys access keycard]] per player
+|[[File:The Labyrinth Transit Door.png|240px]]<br/>In the basement of the health resort west wing<br/>[[Knossos LLC facility key]] required
+|-
+![[File:Path to Lighthouse.png|240px]]
+! style="text-align: left;" |Transit to Lighthouse
+|All
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|Only available 1 min after raid start
+|In front of the Path to Lighthouse extraction
+|-
+![[File:ShorelineTransitToTerminal.png|240px]]
+! style="text-align: left;" |Transit to Terminal
+|PMC
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|Only available 1 min after raid start in the time period of 21:00-6:00
+<br/>
+[[File:Reprogrammed RFID keycard with Mr. Kerman's hash codes icon.png|link=Reprogrammed RFID keycard with Mr. Kerman's hash codes]] + [[File:Secure container Alpha-1 with TerraGroup evidence icon.png|link=Secure container Alpha-1 with TerraGroup evidence]]<br/>or<br/>[[File:RFID keycard with unknown name icon.png|link=RFID keycard with unknown name]]<br/>or<br/>[[File:Prapor's letter for the port checkpoint icon.png|link=Prapor's letter for the port checkpoint]]<br/>or<br/>[[File:Reprogrammed RFID keycard with Prapor's hash codes icon.png|link=Reprogrammed RFID keycard with Prapor's hash codes]]<br/>per player
+|Requires presenting the access item at the port garrison intercom to not get shot<br/>[[File:ShorelineIMIntercomButton.png|240px]]
+|}
+
+==Maps==
+===Interactive Map===
+Click [[File:FS.png|link=]] for fullscreen. Separate map page [[Map:Shoreline|here]].
+<interactive-map name="Shoreline" width="800px"/>
+
+===3D Map===
+[[File:ShorelineQuestsRe3mr.jpg|800px|link={{filepath:ShorelineQuestsRe3mr.jpg}}]]
+
+===2D Map===
+[[File:Shoreline2DMapByMonkiUpdatedByJindouz.png|800px|link={{filepath:Shoreline2DMapByMonkiUpdatedByJindouz.png}}]]
+
+===2D Map Health Resort===
+[[File:ShorelineResortRoomsByreemr.png|800px|link={{filepath:ShorelineResortRoomsByreemr.png}}]]
+
+===Ingame Map - North bottom===
+[[File:Map Shoreline.jpg|800px|link={{filepath:Map Shoreline.jpg}}]]
+
+===Ingame Map Health Resort - North bottom===
+[[File:Map Shoreline Resort.jpg|800px|link={{filepath:Map Shoreline Resort.jpg}}]]
+
+==Gallery==
+<center>
+<li style="display: inline-block;"><gallery mode="slideshow">
+File:Shoreline Showcase 1.png
+File:Shoreline Showcase 2.png
+File:Shoreline Showcase 3.png
+File:Shoreline Showcase 4.png
+File:Shoreline Showcase 5.png
+File:Shoreline Showcase 6.png
+File:Shoreline Showcase 7.png
+File:Shoreline Showcase 8.png
+File:Shoreline Showcase 9.png
+File:Shoreline Showcase 10.png
+File:Shoreline Showcase 11.png
+File:Shoreline Showcase 12.png
+File:Shoreline Showcase 13.png
+File:Shoreline Showcase 14.png
+File:Shoreline Showcase 15.png
+File:Shoreline Showcase 16.png
+File:Shoreline Showcase 17.png
+File:Shoreline Showcase 18.png
+File:Shoreline Showcase 19.png
+File:Shoreline Showcase 20.png
+File:Shoreline Showcase 21.png
+File:Shoreline Showcase 22.png
+File:Shoreline Showcase 23.png
+File:Shoreline Showcase 24.png
+File:Shoreline Showcase 25.png
+</gallery></li>
+</center>
+
+==Trivia==
+* The location was first expanded with [[Changelog#v0.5.0.811_(26_Dec_2017)|patch 0.5.0.811]] on December 26, 2017.
+* The location was completely reworked and expanded with [[Changelog#0.14.0.0.28333_(27_Dec_2023)|patch 0.14.0.0.28333]] on December 27, 2023.
+* The health resort in-universe is called the "Azure Coast" resort, or alternatively the "Côte d’Azur" resort.
+* This location is based on the abandoned sanatorium "Strelna" which is located near St. Petersburg.
+<li style="display: inline-block;"><gallery widths="300" heights="169" mode="packed">
+File:Sanatorium Strelna 11512904.jpg|Strelna sanatorium 
+</gallery></li>
+:[https://www.google.com/maps/place/Strelna/@59.8578282,30.0447319,562m/data=!3m2!1e3!4b1!4m5!3m4!1s0x46963926a914777b:0xf54dbbe9f252791b!8m2!3d59.8578255!4d30.0469203 Link to the location on Google Maps]
+
+{{Navbox locations}}
+[[Category:Locations]]
+
+[[cs:Shoreline]]
+[[de:Küste]]
+[[fr:Littoral]]
+[[ru:Берег]]

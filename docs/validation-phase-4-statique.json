@@ -1,0 +1,293 @@
+{
+  "statut": "OK",
+  "controleCloture": true,
+  "compteurs": {
+    "pagesPlanifiees": 86,
+    "pagesGenerees": 17,
+    "pagesHtmlTechniques": 1,
+    "imagesCreees": 41,
+    "audiosCrees": 8
+  },
+  "routes": {
+    "pages/maps/index.html": {
+      "referencesLocales": 70,
+      "sourcesExternes": 17,
+      "tableaux": 2,
+      "sections": 6
+    },
+    "pages/maps/factory.html": {
+      "referencesLocales": 47,
+      "sourcesExternes": 11,
+      "tableaux": 6,
+      "sections": 7
+    },
+    "pages/maps/customs.html": {
+      "referencesLocales": 47,
+      "sourcesExternes": 9,
+      "tableaux": 6,
+      "sections": 7
+    },
+    "pages/maps/woods.html": {
+      "referencesLocales": 46,
+      "sourcesExternes": 10,
+      "tableaux": 6,
+      "sections": 7
+    },
+    "pages/maps/shoreline.html": {
+      "referencesLocales": 46,
+      "sourcesExternes": 10,
+      "tableaux": 6,
+      "sections": 7
+    },
+    "pages/maps/interchange.html": {
+      "referencesLocales": 46,
+      "sourcesExternes": 8,
+      "tableaux": 6,
+      "sections": 7
+    },
+    "pages/maps/reserve.html": {
+      "referencesLocales": 45,
+      "sourcesExternes": 7,
+      "tableaux": 6,
+      "sections": 7
+    },
+    "pages/maps/the-lab.html": {
+      "referencesLocales": 45,
+      "sourcesExternes": 10,
+      "tableaux": 6,
+      "sections": 7
+    },
+    "pages/maps/lighthouse.html": {
+      "referencesLocales": 45,
+      "sourcesExternes": 11,
+      "tableaux": 6,
+      "sections": 7
+    },
+    "pages/maps/streets-of-tarkov.html": {
+      "referencesLocales": 45,
+      "sourcesExternes": 9,
+      "tableaux": 6,
+      "sections": 7
+    },
+    "pages/maps/ground-zero.html": {
+      "referencesLocales": 45,
+      "sourcesExternes": 9,
+      "tableaux": 7,
+      "sections": 7
+    },
+    "pages/maps/the-labyrinth.html": {
+      "referencesLocales": 45,
+      "sourcesExternes": 9,
+      "tableaux": 5,
+      "sections": 7
+    },
+    "pages/maps/icebreaker.html": {
+      "referencesLocales": 45,
+      "sourcesExternes": 9,
+      "tableaux": 4,
+      "sections": 7
+    },
+    "pages/maps/terminal.html": {
+      "referencesLocales": 45,
+      "sourcesExternes": 13,
+      "tableaux": 4,
+      "sections": 7
+    }
+  },
+  "mediasPhase4": {
+    "images/maps/atlas-panorama.jpg": {
+      "px": [
+        1584,
+        672
+      ],
+      "octets": 207891,
+      "sha256": "4cb1148a9f6a4ae9e4ef5a60406ab971fad0d324b4141871c3a5b37ef4b34f4c"
+    },
+    "images/maps/atlas-port.jpg": {
+      "px": [
+        1376,
+        768
+      ],
+      "octets": 188421,
+      "sha256": "ba1f73d882a20b633ded4dfa6fcdd236656995fac9352445e106cdf25a86f7c3"
+    },
+    "images/maps/atlas-transits.jpg": {
+      "px": [
+        1408,
+        768
+      ],
+      "octets": 163999,
+      "sha256": "4706cafcc380576d71d7e0761d795836b2635545afb1d44b4e4e690d16157a41"
+    },
+    "images/maps/customs-acces.jpg": {
+      "px": [
+        1408,
+        768
+      ],
+      "octets": 422290,
+      "sha256": "d4fb2c2d87f554227c5b03e85bc365fc3df0d455bce0caed6d395279d0c92ed3"
+    },
+    "images/maps/customs-dortoirs.jpg": {
+      "px": [
+        1376,
+        768
+      ],
+      "octets": 183807,
+      "sha256": "86ea8865b3ab216d0a29de37220cb959e6ddd4d72a152d7a35429b3968d6414e"
+    },
+    "images/maps/customs-pont.jpg": {
+      "px": [
+        1584,
+        672
+      ],
+      "octets": 206977,
+      "sha256": "f5d05ae7f6f77adb8a84750605d6f667bd135e5a90a0b28dbd7e44b032ffc9fd"
+    },
+    "images/maps/factory-bureaux.jpg": {
+      "px": [
+        1584,
+        672
+      ],
+      "octets": 220739,
+      "sha256": "15580bfbf7bf23a9332da0f7f630ebb93dff7e1055a3c9398e12a38d06ca670f"
+    },
+    "images/maps/factory-halle.jpg": {
+      "px": [
+        1600,
+        672
+      ],
+      "octets": 246572,
+      "sha256": "3d517c51e4f0ce5e2eadd3c1e88d50ad72a6699d94fdeda7f9df5426f76b0475"
+    },
+    "images/maps/factory-niveaux.jpg": {
+      "px": [
+        1408,
+        768
+      ],
+      "octets": 374163,
+      "sha256": "fa008f9cbac377c074840b427d30302eb733bd20439e05c91dd99171588bd40d"
+    },
+    "images/maps/ground-zero.jpg": {
+      "px": [
+        1584,
+        672
+      ],
+      "octets": 208456,
+      "sha256": "b4534ac51885e937987eada0f78d6513963f7c62cff36e57371ba26b1f60dfd5"
+    },
+    "images/maps/icebreaker.jpg": {
+      "px": [
+        1600,
+        672
+      ],
+      "octets": 313812,
+      "sha256": "e0970bee84dbdb1ebf6428f5b20e35aceb9ecdca51dec849f0f71aacadfc27b1"
+    },
+    "images/maps/interchange.jpg": {
+      "px": [
+        1376,
+        768
+      ],
+      "octets": 279347,
+      "sha256": "8845f589d13b9627f88a4b6e734b0ada1a0f46d4ed1a9d30e5d97b1cdf981348"
+    },
+    "images/maps/lighthouse.jpg": {
+      "px": [
+        1584,
+        672
+      ],
+      "octets": 189722,
+      "sha256": "831bccd7582c37c42bf12e6a3186345ebcee4611dc79c4280cd3482aed74f27b"
+    },
+    "images/maps/reserve.jpg": {
+      "px": [
+        1584,
+        672
+      ],
+      "octets": 215362,
+      "sha256": "19926e6e53b11cb6e82b8a1607cc59b4530e7ada2d48d37084d68d5266fe780a"
+    },
+    "images/maps/shoreline.jpg": {
+      "px": [
+        1376,
+        768
+      ],
+      "octets": 207223,
+      "sha256": "76a96b558edc3dab283730b7ab7d5e8cc54273f2c7c7a62be0e7aa7a7ef571b1"
+    },
+    "images/maps/streets-of-tarkov.jpg": {
+      "px": [
+        1584,
+        672
+      ],
+      "octets": 215542,
+      "sha256": "0d19560b3cc7023109023b5c01afd862d37db97cb23ee9b5394180b9b2020b16"
+    },
+    "images/maps/terminal.jpg": {
+      "px": [
+        1600,
+        672
+      ],
+      "octets": 186341,
+      "sha256": "4118c920d200ae273af725169927f04bb6f4adf3cce788ce11d9f92fabc55b85"
+    },
+    "images/maps/the-lab.jpg": {
+      "px": [
+        1584,
+        672
+      ],
+      "octets": 218106,
+      "sha256": "2772a6c7c8ef394970084c5a2e88865ca10bcfa2a4c8c29a9044267978eabb62"
+    },
+    "images/maps/the-labyrinth.jpg": {
+      "px": [
+        1584,
+        672
+      ],
+      "octets": 325984,
+      "sha256": "b089ad8a97e228b5fedfc2c32fa5c828a87adfba3e7f611a16fe547337fe06ab"
+    },
+    "images/maps/woods-lac.jpg": {
+      "px": [
+        1584,
+        672
+      ],
+      "octets": 227271,
+      "sha256": "dc144beafd858f8356589ff94b7d4f2f9fb6746a70583f60f3ca5da1715ab72c"
+    }
+  },
+  "index": {
+    "accueil": 6,
+    "atelier": 8,
+    "publiee": 17,
+    "planifiee": 69,
+    "dossier": 19
+  },
+  "sourcesRegistre": 155,
+  "donneesJeu": {
+    "sorties": 119,
+    "transits": 29,
+    "rencontres": 48,
+    "cles": 230,
+    "variantes": 6
+  },
+  "reproductibilite": [
+    "pages/maps/index.html · 17 références directes · 13 fiches indexées",
+    "pages/maps/factory.html · 11 références directes · 8 sorties documentées · 10 intitulés de jeu",
+    "pages/maps/customs.html · 9 références directes · 16 sorties documentées · 28 intitulés de jeu",
+    "pages/maps/woods.html · 10 références directes · 18 sorties documentées · 20 intitulés de jeu",
+    "pages/maps/shoreline.html · 10 références directes · 13 sorties documentées · 19 intitulés de jeu",
+    "pages/maps/interchange.html · 8 références directes · 7 sorties documentées · 9 intitulés de jeu",
+    "pages/maps/reserve.html · 7 références directes · 11 sorties documentées · 11 intitulés de jeu",
+    "pages/maps/the-lab.html · 10 références directes · 7 sorties documentées · 7 intitulés de jeu",
+    "pages/maps/lighthouse.html · 11 références directes · 12 sorties documentées · 12 intitulés de jeu",
+    "pages/maps/streets-of-tarkov.html · 9 références directes · 17 sorties documentées · 19 intitulés de jeu",
+    "pages/maps/ground-zero.html · 9 références directes · 6 sorties documentées · 9 intitulés de jeu",
+    "pages/maps/the-labyrinth.html · 9 références directes · 2 sorties documentées · 2 intitulés de jeu",
+    "pages/maps/icebreaker.html · 9 références directes · 1 sorties documentées · 1 intitulés de jeu",
+    "pages/maps/terminal.html · 13 références directes · 1 sorties documentées · 0 intitulés de jeu",
+    "pages/getting-started.html · 21 références directes · description 156 caractères",
+    "pages/lore/index.html · 20 références directes · description 157 caractères",
+    "Accueil : 17 / 86 routes éditoriales, 3 profils, 5 498 objets par profil, description 152 caractères."
+  ]
+}

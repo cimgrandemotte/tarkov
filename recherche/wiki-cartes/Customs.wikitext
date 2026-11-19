@@ -1,0 +1,464 @@
+{{Infobox location
+|image              =Customs Banner.png
+|image size         =
+|icon               =
+|type               =
+|prev               =[[Interchange]]<br/>[[Factory]]<br/>[[Reserve]]<br/>[[Woods]]
+|next               =[[Factory]]<br/>[[Reserve]]<br/>[[Interchange]]<br/>[[Shoreline]]
+|chapter            =
+|enemies            =[[Scavs]], [[Reshala]], [[Partisan]], [[Knight]], [[Big Pipe]], [[Birdeye]], [[Cultists]]
+|players            =10-12
+|difficulty         =
+|duration           =35 minutes
+|notable loot       =
+}}
+
+'''{{PAGENAME}}''' is a [[Map of Tarkov|location]] in ''[[Escape from Tarkov]]''. It is the second map that was added to the game.
+
+==Description==
+A large area of industrial park land situated adjacent to the factory zone. The area houses a customs terminal, fuel storage facilities, offices, and dorms, as well as a variety of other infrastructure and buildings.
+
+==Notes==
+{{PAGENAME}} is initially only accessible by [[Transits|transiting]]. Direct access from the location selection screen is unlocked upon progressing through the story chapter [[Tour]].
+
+==Features==
+* Stationary weapons in the form of [[AGS-30 30x29mm automatic grenade launcher]]s and [[NSV Utyos 12.7x108 heavy machine gun]]s.
+* Be aware of [[Map of Tarkov#Border Snipers|Border Snipers]]!
+
+==Usable Keys==
+<div class="mw-collapsible mw-collapsed leftcollapse" data-expandtext="Show keys" data-collapsetext="Hide keys"><br/>
+{| class="wikitable sortable"
+!Icon
+!Key Name
+!Used in Quest
+|-
+![[File:Company director's room key icon.png|link=Company director's room key]]
+|[[Company director's room key]]
+! style="color: green" |✔
+|-
+![[File:GDesk-Key-Icon.png|link=Dorm guard desk key]]
+|[[Dorm guard desk key]]
+!
+|-
+![[File:Dorm overseer key icon.png|link=Dorm overseer key]]
+|[[Dorm overseer key]]
+! style="color: green" |✔
+|-
+![[File:Dorm 103 icon.png|link=Dorm room 103 key]]
+|[[Dorm room 103 key]]
+!
+|-
+![[File:Key-104-Icon.png|link=Dorm room 104 key]]
+|[[Dorm room 104 key]]
+!
+|-
+![[File:Key-105-Icon.png|link=Dorm room 105 key]]
+|[[Dorm room 105 key]]
+!
+|-
+![[File:Key-108-Icon.png|link=Dorm room 108 key]]
+|[[Dorm room 108 key]]
+!
+|-
+![[File:Key-110-Icon.png|link=Dorm room 110 key]]
+|[[Dorm room 110 key]]
+! style="color: green" |✔
+|-
+![[File:Key-114-Icon.png|link=Dorm room 114 key]]
+|[[Dorm room 114 key]]
+! style="color: green" |✔
+|-
+![[File:Dorm 118 icon.png|link=Dorm room 118 key]]
+|[[Dorm room 118 key]]
+!
+|-
+![[File:Key-203-Icon.png|link=Dorm room 203 key]]
+|[[Dorm room 203 key]]
+! style="color: green" |✔
+|-
+![[File:Key-204-Icon.png|link=Dorm room 204 key]]
+|[[Dorm room 204 key]]
+!
+|-
+![[File:Key-206-Icon.png|link=Dorm room 206 key]]
+|[[Dorm room 206 key]]
+! style="color: green" |✔
+|-
+![[File:Key-214-Icon.png|link=Dorm room 214 key]]
+|[[Dorm room 214 key]]
+!
+|-
+![[File:Key-218-Icon.png|link=Dorm room 218 key]]
+|[[Dorm room 218 key]]
+!
+|-
+![[File:Key-220-Icon.png|link=Dorm room 220 key]]
+|[[Dorm room 220 key]]
+! style="color: green" |✔
+|-
+![[File:Key-303-Icon.png|link=Dorm room 303 key]]
+|[[Dorm room 303 key]]
+! style="color: green" |✔
+|-
+![[File:Key-306.png|link=Dorm room 306 key]]
+|[[Dorm room 306 key]]
+!
+|-
+![[File:Key-308-Icon.png|link=Dorm room 308 key]]
+|[[Dorm room 308 key]]
+!
+|-
+![[File:Marked-key-Icon.png|link=Dorm room 314 marked key]]
+|[[Dorm room 314 marked key]]
+! style="color: green" |✔
+|-
+![[File:Key-315-Icon.png|link=Dorm room 315 key]]
+|[[Dorm room 315 key]]
+!
+|-
+![[File:Car-key-Icon.png|link=Folding car key]]
+|[[Folding car key]]
+!
+|-
+![[File:Cabinet key Gas Station Icon.png|link=Gas station office key]]
+|[[Gas station office key]]
+!
+|-
+![[File:Storage-Key-Icon.png|link=Gas station storage room key]]
+|[[Gas station storage room key]]
+!
+|-
+![[File:Machinery-key-Icon.png|link=Machinery key]]
+|[[Machinery key]]
+! style="color: green" |✔
+|-
+![[File:Checkpoint Key icon.png|link=Military checkpoint key]]
+|[[Military checkpoint key]]
+!
+|-
+![[File:Cabinet-key-Icon.png|link=Portable bunkhouse key]]
+|[[Portable bunkhouse key]]
+!
+|-
+![[File:Portable-cabin-key-Icon.png|link=Portable cabin key]]
+|[[Portable cabin key]]
+!
+|-
+|[[File:Reshala's bunkhouse key icon.png|link=Reshala's bunkhouse key]]
+|[[Reshala's bunkhouse key]]
+!style="color: green" |✔
+|-
+![[File:Security post key icon.png|link=Security post key]]
+|[[Security post key]]
+!
+|-
+![[File:Customs-office-key-Icon.png|link=Tarcone Director's office key]]
+|[[Tarcone Director's office key]]
+! style="color: green" |✔
+|-
+![[File:Portable-cabin-key-Icon.png|link=Trailer park portable cabin key]]
+|[[Trailer park portable cabin key]]
+!
+|-
+![[File:Unknown-key-Icon.png|link=Unknown key]]
+|[[Unknown key]]
+! style="color: green" |✔
+|-
+![[File:USECstashoncustomskeyicon.png|64px|link=USEC stash key]]
+|[[USEC stash key]]
+!
+|-
+![[File:ZB-1013 key icon.png|64px|link=ZB-1013 key]]
+|[[ZB-1013 key]]
+!
+|-
+|}
+</div>
+{{clear}}
+
+==Bosses==
+{| class="wikitable sortable"
+!Name
+!Image
+!Location
+!Notable equipment
+!Followers
+|-
+|[[Reshala]]
+![[File:Dealmaker Portrait.png|frameless|140px|link=Reshala]]
+|At the dorms area<br/>At the new gas station<br/>At the Scav base (ZB-1013 extraction)
+|[[Tokarev TT-33 7.62x25 TT pistol (Golden)]]<br/>[[Reshala's bunkhouse key]]
+|2-4 heavily armed and armored guards
+|-
+|[[Partisan]]
+![[File:Partisan Portrait.png|frameless|140px|link=Partisan]]
+|Has to be expected everywhere
+|[[Partisan's bag]]<br />[[AK skeletonized stock (Customized)]]<br />[[Red Rebel ice pick]]
+|None
+|-
+|[[Knight]]
+![[File:KnightPortrait.png|frameless|140px|link=Knight]]
+|At the Scav base (ZB-1013 extraction)
+|[[Death Knight mask]]<br/>[[Crye Precision CPC plate carrier (Goons Edition)]]
+|[[Big Pipe]], [[Birdeye]]
+|-
+|[[Big Pipe]]
+![[File:BigPipePortrait.png|frameless|140px|link=Big Pipe]]
+|At the Scav base (ZB-1013 extraction)
+|[[Milkor M32A1 MSGL 40mm grenade launcher]]<br/>[[Big Pipe's smoking pipe]]<br/>[[Big Pipe's bandana]]<br/>[[S&S Precision PlateFrame plate carrier (Goons Edition)]]
+|[[Knight]], [[Birdeye]]
+|-
+|[[Birdeye]]
+![[File:BirdeyePortrait.png|frameless|140px|link=Birdeye]]
+|At the Scav base (ZB-1013 extraction)
+|[[Mystery Ranch NICE COMM 3 BVS frame system (Coyote)]]<br/>[[LBT-1961A Load Bearing Chest Rig (Goons Edition)]]
+|[[Knight]], [[Big Pipe]]
+|}
+
+==Extractions==
+To locate the extractions use the [[Customs#Maps|maps]] below the table.
+{| class="wikitable sortable stickyheader" style="text-align: center;"
+!Extraction
+!Name
+!Faction
+!Always available
+!Single-Use
+!Requirements
+!Notes
+|-
+![[File:Administration Gate.png|240px]]
+! style="text-align: left;" |Administration Gate
+|Scav
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+| -
+|
+|-
+![[File:Boiler room basement.png|240px]]
+! style="text-align: left;" |Boiler Room Basement (Co-op)
+|All
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|[[Scav]] + PMC
+|[[File:Boiler room basement2.png|240px]]<br/>In the basement of the boiler building with the 2 chimneys in the construction area.
+|-
+![[File:Crossroads.png|240px]]
+! style="text-align: left;" |Crossroads
+|All
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+| -
+|
+|-
+![[File:Dorms V-Ex.png|240px]]
+! style="text-align: left;" |Dorms V-Ex
+|PMC
+|<font color="red">✘</font>
+|<font color="green">✔</font>
+|[[File:5000 Roubles.png|link=Roubles]] per player
+'''Maximum of 4 players'''
+|The fee amount is influenced by your [[Scavs#Scav karma|Scav karma]].
+|-
+![[File:Gate Near Medblock.png|240px]]
+! style="text-align: left;" |Gate Near Medblock
+|Scav
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+| -
+|
+|-
+![[File:Old Gas Station Extraction.png|240px]]
+! style="text-align: left;" |Old Gas Station
+|All
+|PMC: <font color="red">✘</font><br/>Scav: <font color="green">✔</font>
+|<font color="red">✘</font>
+|Green flares = Open for PMCs
+|In the basement.
+|-
+![[File:Railroad Passage.png|240px]]
+! style="text-align: left;" |Railroad Passage (Flare)
+|PMC
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|Shoot a green flare '''into the sky''' while inside the signal flare area. If the flare doesn't reach a certain height, the extraction '''won't''' open.<br/>Flares:<br/>[[RSP-30 reactive signal cartridge (Green)|Handheld RSP-30 green flare]]<br/>[[26x75mm flare cartridge (Green)|Signal pistol fired 26x75mm green flare]]
+<br/>
+Only one person amongst a lobby-made group needs to shoot a flare to open the extraction for all members of the group.
+|Upon entering the signal flare area, a notification will pop up in the bottom right corner of the screen: [[File:KlimovStreetSignalAreaNote.png]]<br/>If the flare was fired correctly, a new notification pops up:<br/>[[File:FlareSuccessNote.png]]<br/><br/>Signal flare area and extract zone map<br/>[[File:RailroadPassageCustomsSignalArea.png|300px]]
+|-
+![[File:Railroad to Port.png|240px]]
+! style="text-align: left;" |Railroad to Port
+|Scav
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+| -
+|
+|-
+![[File:Railroad To Military Base.png|240px]]
+! style="text-align: left;" |Railroad to Reserve
+|All
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+| -
+|
+|-
+![[File:Railroad To Tarkov.png|240px]]
+! style="text-align: left;" |Railroad to Tarkov
+|Scav
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+| -
+|
+|-
+![[File:Scavs checkpoint.png|240px]]
+! style="text-align: left;" |Reserve Checkpoint
+|Scav
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+| -
+|
+|-
+![[File:Smuggler's Boat.png|240px]]
+! style="text-align: left;" |Smugglers' Boat
+|All
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|[[File:Note with code word Voron icon.png|link=Note with code word Voron]]
+[[Note with code word Voron]]
+|
+|-
+![[File:ZB-1012.png|240px]]
+! style="text-align: left;" |Smugglers' Bunker (ZB-1012)
+|All
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|[[File:Note with code word Voron icon.png|link=Note with code word Voron]]
+[[Note with code word Voron]]
+|
+|-
+![[File:Trailer Park.png|240px]]
+! style="text-align: left;" |Trailer Park
+|All
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+| -
+|In the trees.
+|-
+![[File:ZB-1011.png|240px]]
+! style="text-align: left;" |ZB-1011
+|All
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+| -
+|
+|-
+![[File:ZB013 Grate.png|240px]]
+! style="text-align: left;" |ZB-1013
+|PMC
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|[[File:ZB013 Switch.png|240px]]<br/>Activate lever in warehouse #4 at the crane yard.<br/>+<br/>
+[[File:ZB-1013 key icon.png|link=ZB-1013 key]]<br/>Used to open the door to the extraction
+|[[File:ZB-013 Building.png|240px]]<br/>In the basement of the Scav base.
+|}
+
+==Transits==
+{| class="wikitable sortable stickyheader" style="text-align: center;"
+!Transit
+!Name
+!Faction
+!Always available
+!Single-Use
+!Requirements
+!Notes
+|-
+![[File:CustomsTransitToFactory.png|240px]]
+! style="text-align: left;" |Transit to Factory
+|All
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|Only available 1 min after raid start
+|Next to the Old Gas Station extraction
+|-
+![[File:CustomsTransitToInterchange.png|240px]]
+! style="text-align: left;" |Transit to Interchange
+|All
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|Only available 1 min after raid start
+|Next to the Trailer Park extraction, inside the bus
+|-
+![[File:CustomsTransitToReserve.png|240px]]
+! style="text-align: left;" |Transit to Reserve
+|All
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|Only available 1 min after raid start
+|
+|-
+![[File:CustomsTransitToShoreline.png|240px]]
+! style="text-align: left;" |Transit to Shoreline
+|All
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|Only available 1 min after raid start
+|
+|}
+
+==Maps==
+===Interactive Map===
+Click [[File:FS.png|link=]] for fullscreen. Separate map page [[Map:Customs|here]].
+<interactive-map name="Customs" width="800px"/>
+
+===3D Map===
+[[File:re3mrCustoms2.jpg|800px|link={{filepath:re3mrCustoms2.jpg}}]]
+
+===Isometric Map Dorms===
+[[File:CustomsDormsByre3mr.jpg|800px|link={{filepath:CustomsDormsByre3mr.jpg}}]]
+
+===Ingame Map - North bottom===
+[[File:Customs Map 0.5.4.823.jpg|800px|link={{filepath:Customs Map 0.5.4.823.jpg}}]]
+
+==Gallery==
+<center>
+<li style="display: inline-block;"><gallery mode="slideshow">
+File:Customs Showcase 1.png
+File:Customs Showcase 2.png
+File:Customs Showcase 3.png
+File:Customs Showcase 4.png
+File:Customs Showcase 5.png
+File:Customs Showcase 6.png
+File:Customs Showcase 7.png
+File:Customs Showcase 8.png
+File:Customs Showcase 9.png
+File:Customs Showcase 10.png
+File:Customs Showcase 11.png
+File:Customs Showcase 12.png
+File:Customs Showcase 13.png
+File:Customs Showcase 14.png
+File:Customs Showcase 15.png
+File:Customs Showcase 16.png
+File:Customs Showcase 17.png
+File:Customs Showcase 18.png
+File:Customs Showcase 19.png
+File:Customs Showcase 20.png
+File:Customs Showcase 21.png
+File:Customs Showcase 22.png
+File:Customs Showcase 23.png
+File:Customs Showcase 24.png
+File:Customs Showcase 25.png
+</gallery></li>
+</center>
+
+==Trivia==
+*The location was first slightly expanded with [[Changelog#v0.6.0.861_(19_Jan_2018)|patch 0.6.0.861]] on January 19, 2018.
+*The location was expanded for the second time with [[Changelog#v0.11.0.2448_(25_Dec_2018)|patch 0.11.0.2448]] on December 25, 2018.
+*The location was expanded again with [[Changelog#0.12.7.8334_(20_Jul_2020)|patch 0.12.7.8334]] on July 20, 2020.
+*The location was completely reworked and expanded with [[Changelog#0.16.0.0.34447_(26_December_2024)|patch 0.16.0.0.34447]] on December 26, 2024.
+
+{{Navbox locations}}
+[[Category:Locations]]
+
+[[ru:Таможня]]
+[[cs:Customs]]
+[[de:Zollgelände]]
+[[fr:Douanes]]

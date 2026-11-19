@@ -1,0 +1,89 @@
+<section class="field-section map-section" id="reperes" tabindex="-1">
+  <h2>Repères et accès</h2>
+  <p>Le terminal portuaire sud est sous le contrôle des forces armées russes depuis le début du conflit de Tarkov. Après la mise en quarantaine de la ville, le terminal a été fortifié et est devenu le principal point d’évacuation, recherché aussi bien par les civils en fuite que par les unités PMC. Selon des rapports non confirmés, le personnel de TerraGroup aurait également été évacué par ce port. <a href="@source:Terminal@">Fiche publique</a>.</p>
+  <div class="field-grid field-grid--three">
+    <div class="field-card"><p class="eyebrow">Format</p><p><strong>50 minutes</strong>, 1 à 5 PMC. Les données de jeu relèvent 109 points de spawn, dont 5 côté PMC et 104 côté Scav.</p></div>
+    <div class="field-card"><p class="eyebrow">Une seule porte</p><p>Une sortie unique, un boat, et un temps de RAID qui compte double : la sortie du Terminal est une exfil de véhicule, donc une décision à prendre tôt.</p></div>
+    <div class="field-card"><p class="eyebrow">Tirs de mortier</p><p>La fiche publique avertit : « soyez attentifs aux salves de mortier ». Un dispositif de signalement, <em>The Eye</em>, permet d’être prévenu quand un tir est imminent.</p></div>
+  </div>
+  <div class="map-note map-note--warn">
+    <p><strong>La durée diverge entre les sources.</strong> L’instantané des données de jeu du 18 novembre 2026 indique 50 minutes ; la fiche publique consultée indique 45 minutes. Nous retenons 50 minutes comme valeur de travail et signalons l’écart plutôt que de le trancher. Pour l’entrée, la fiche publique en français et sa version anglaise ne se recoupent pas : la première décrit un accès « en solo » de 22 h à 4 h par le Littoral, la seconde un transit depuis le Littoral de 21 h à 6 h après présentation d’un objet d’accès au standard militaire du port. Deux guides de campagne indépendants, plus récents que la version anglaise de la fiche, indiquent tous deux 22 h–4 h : c’est la valeur que nous retenons comme probable, sans la traiter comme attestée, et la fiche du client fait foi. <a href="@source:ign-terminal@">Guide d’accès au Terminal</a> et <a href="@source:ign-ticket@">déroulé du dernier chapitre</a>.</p>
+  </div>
+</section>
+
+<section class="field-section map-section" id="sorties" tabindex="-1">
+  <h2>Sorties et transits</h2>
+  <p>Une sortie documentée, le <em>Zubr Boat</em>, et aucun transit sortant : le Terminal est un cul-de-sac qui se referme sur une seule exfil. L’entrée, elle, se fait par transit depuis le Littoral, dans une plage horaire restreinte, après présentation d’un objet d’accès au standard du poste militaire du port.</p>
+  <div class="map-layers">
+    <div class="map-layers__bar" role="group" aria-label="Couches de données du Terminal">
+      <span class="eyebrow">Couches</span>
+      <button type="button" class="badge" data-layer-toggle="sorties" aria-pressed="true">Sorties documentées</button>
+      <button type="button" class="badge" data-layer-toggle="transits" aria-pressed="true">Transits</button>
+      <button type="button" class="badge" data-layer-toggle="intitules" aria-pressed="false">Intitulés de jeu</button>
+    </div>
+    <div class="map-panel map-layer" data-layer="sorties">
+      <div class="map-layer__head"><h3>Sorties documentées</h3><p>Fiche publique du 18 novembre 2026.</p></div>
+      %%TABLE_SORTIES%%
+    </div>
+    <div class="map-panel map-layer" data-layer="transits">
+      <div class="map-layer__head"><h3>Transits sortants</h3><p>Aucun : le lieu n’a pas de sortie autre que le boat.</p></div>
+      %%TABLE_TRANSITS%%
+    </div>
+    <div class="map-panel map-layer" data-layer="intitules" hidden>
+      <div class="map-layer__head"><h3>Intitulés de jeu</h3><p>Un intitulé recensé par l’instantané des données.</p></div>
+      %%TABLE_SORTIES_JEU%%
+    </div>
+  </div>
+  <p>La sortie <em>Zubr Boat</em> est à usage unique. Le nombre de places dépend de la composition du groupe : trois places pour un raid de un à trois joueurs, trois à quatre pour quatre joueurs, quatre à cinq pour cinq joueurs. Un joueur qui est entré avec le conteneur sécurisé Alpha-1 contenant les preuves TerraGroup doit l’avoir sur lui au moment de l’exfil. Une fois arrivé au quai, un compte à rebours de trois minutes démarre.</p>
+  <div class="map-note">
+    <p><strong>L’état du personnage est rendu intact.</strong> La fiche publique précise qu’en quittant le lieu — par la mort comme par l’extraction — l’état du personnage est celui qu’il avait à l’entrée, à l’exception de l’objet d’accès consommé. C’est une règle propre au Terminal : elle annule la plupart des conséquences d’un échec, sauf la perte du matériel.</p>
+  </div>
+</section>
+
+<section class="field-section map-section" id="rencontres" tabindex="-1">
+  <h2>Rencontres et menaces</h2>
+  <p>Le Terminal est le seul lieu où sept encounters se disputent la même zone : forces armées russes et Black Division y sont toujours présentes dans les données, et cinq rencontres se partagent l’aire des conteneurs, avec 20 % de chance relevée pour chacune. <a href="@source:wiki-maps@">Inventaire des lieux</a>.</p>
+  %%TABLE_RENCONTRES%%
+  <div class="map-note">
+    <p><strong>Un seul de ces cinq à la fois.</strong> La fiche publique est explicite : seul un des boss listés apparaît à chaque raid dans la zone des bateaux porte-conteneurs. Les probabilités de 20 % par boss dans les données ne signifient donc pas qu’un de ces cinq est présent à chaque raid : elles décrivent, prises ensemble, une partition de l’aire des conteneurs. Nous ne publions pas de probabilité cumulée que les sources ne fournissent pas.</p>
+  </div>
+</section>
+
+<section class="field-section map-section" id="terrain" tabindex="-1">
+  <h2>Dangers de terrain</h2>
+  <p>Un champ de mines et une zone de sniper relevés dans les données : le Terminal n’est pas un lieu miné, mais c’est un lieuobservable depuis les toits. La pression est militaire, pas topographique.</p>
+  %%TABLE_DANGERS%%
+</section>
+
+<section class="field-section map-section" id="cles" tabindex="-1">
+  <h2>Clés et butin</h2>
+  <p>Quatre clés documentées : la clé de l’armurerie, la carte d’accès de la Black Division, la clé de la porte du quai et la charge explosive SZ-1. Les trois objets d’accès du port sont d’une autre nature : ce sont des consommables d’accès, pas des clés de bâtiment.</p>
+  %%TABLE_CLES%%
+</section>
+
+<section class="field-section map-section" id="conduite" tabindex="-1">
+  <h2>Conduite selon le profil</h2>
+  <p>Le Terminal est un lieu de fin d’histoire autant qu’un lieu de raid. La fiche de lieu renvoie au dossier <em>The Ticket</em>, qui raconte la fin du récit : nous en gardons seulement ce qui est utile au jeu, et rien sur ce qui s’y passe. <a href="@source:wiki-ticket@">Fiche du dossier The Ticket</a>.</p>
+  <ol class="map-steps">
+    <li><strong>Débutant.</strong> Ne pas venir. L’accès demande un objet d’accès rare, une plage horaire restreinte et un groupe réduit, alors que le butin du lieu est mieux describé par la fiche publique que par les données de jeu, qui n’en listent que deux.</li>
+    <li><strong>Confirmé.</strong> Décider du groupe avant de choisir l’entrée : le nombre de places sur le boat et le nombre de rencontres sur le quai dépendent l’un comme l’autre de la taille du raid.</li>
+    <li><strong>Expérimenté.</strong> Travailler le chronomètre du quai : trois minutes s’écoulent entre l’arrivée au pier et le départ du boat, et le mortier ne tient pas compte de votre départ.</li>
+  </ol>
+  %%TABLE_MODES%%
+  %%TABLE_VARIANTES%%
+  <div class="map-path"><strong>Écarts entre profils</strong><span>Ce que les trois profils consultés changent sur ce lieu.</span></div>
+  %%TABLE_ECARTS%%
+</section>
+
+<section class="field-section map-section" id="sources" tabindex="-1">
+  <h2>Sources et limites</h2>
+  <p>Instantané communautaire des données de jeu et fiche publique, tous deux du 18 novembre 2026, complétés par les notes des correctifs successifs. Deux points restent signalés sans être arbitrés par nous : la durée du raid (45 ou 50 minutes selon la source) et les conditions d’entrée, dont les deux versions de la fiche divergeantes sont recoupées par deux guides de campagne indépendants en faveur de 22 h–4 h. La vérification dans le client reste la référence.</p>
+  <ul class="map-steps">
+    <li><a href="@source:Terminal@">Terminal — fiche de lieu</a> : lore, conditions d’entrée, clé d’accès, boss et exfil.</li>
+    <li><a href="@source:wiki-ticket@">The Ticket</a> : contexte de fin d’histoire, sans divulgation.</li>
+    <li><a href="@source:data-maps@">Tarkov.dev — cartes et rencontres</a> : instantané du profil PvP Zone.</li>
+    <li><a href="@source:data-maps-fr@">Tarkov.dev — libellés français</a>, <a href="@source:data-maps-pve@">profil PvE</a> et <a href="@source:data-maps-season@">profil saisonnier</a> : intitulés et écarts.</li>
+    <li><a href="@source:bsg-1200@">Patch 1.2.0.0</a> et <a href="@source:steam-news@">fil Steam</a> : correctifs et discussions de la communauté.</li>
+    <li><a href="@source:mapgenie@">MapGenie</a> et <a href="@source:kappa@">Kappa Guide</a> : aides de lecture communautaires.</li>
+  </ul>
+</section>

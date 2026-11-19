@@ -1,0 +1,36 @@
+[
+  {
+    "slug": "premiers-pas",
+    "route": "pages/getting-started.html",
+    "description": "Prépare ton premier raid dans Escape from Tarkov : choix du mode, tutoriel Tour, kit, soins, extractions, réglages et 24 réponses aux questions de débutant.",
+    "image": "images/guide/preparation-pmc.jpg",
+    "alt": "Dans une planque, un PMC vérifie le contenu d’un sac sous une lampe de bureau.",
+    "crumb": "Premiers pas",
+    "kicker": "01 / Guide de terrain",
+    "headline": "Ton premier",
+    "headline_tail": "raid Tarkov",
+    "lead": "Commence avec un kit que tu peux perdre, un objectif simple et deux sorties à vérifier. Voici quoi faire avant, pendant et après le raid.",
+    "hero_links": [["parcours", "Suivre les 10 étapes"], ["touches", "Voir les commandes"]],
+    "scene": "Planque du PMC",
+    "strip": [["10", "Étapes à cocher"], ["03", "Moments du raid"], ["24", "Questions fréquentes"]],
+    "aside_note": "Notes de référence : EFT 1.3.0.0",
+    "toc": [["parcours", "Parcours en 10 étapes"], ["profil", "Rôle, faction et mode"], ["pre-raid", "Préparer le kit"], ["en-raid", "Lire le raid"], ["sante", "Soins et santé"], ["extractions", "Sortir de la carte"], ["apres-raid", "Stash et Traders"], ["touches", "Réglages et touches"], ["faq", "FAQ du premier raid"], ["sources", "Sources et limites"]]
+  },
+  {
+    "slug": "norvinsk",
+    "route": "pages/lore/index.html",
+    "description": "Découvre le lore de Tarkov : la région de Norvinsk, TerraGroup, USEC, BEAR et les Scavs. Deux chronologies et des révélations facultatives sur les chapitres.",
+    "image": "images/lore/tarkov-crepuscule.jpg",
+    "alt": "À la tombée du jour, fumée et lumière orangée sur une ville industrielle et son port.",
+    "crumb": "Lore de Norvinsk",
+    "kicker": "02 / Archives narratives",
+    "headline": "Le dossier",
+    "headline_tail": "Norvinsk",
+    "lead": "Une zone économique, deux sociétés militaires privées et une ville coupée du monde. Reconstitue le début du conflit sans découvrir les fins du jeu.",
+    "hero_links": [["chronologie", "Explorer la chronologie"], ["factions", "Identifier les factions"]],
+    "scene": "Tarkov au crépuscule",
+    "strip": [["02", "Fils chronologiques"], ["10", "Chapitres répertoriés"], ["FERMÉS", "Spoilers par défaut"]],
+    "aside_note": "Cadre officiel et lectures séparés",
+    "toc": [["carte-norvinsk", "Lire le territoire"], ["factions", "Les forces en présence"], ["chronologie", "Les deux chronologies"], ["personnages", "Personnages et marchands"], ["chapitres", "Les arcs du jeu"], ["spoilers", "Dossier avec révélations"], ["sources", "Canon et sources"]]
+  }
+]

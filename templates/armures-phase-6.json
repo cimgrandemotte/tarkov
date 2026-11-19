@@ -1,0 +1,1452 @@
+{
+ "schemaVersion": 1,
+ "phase": 6,
+ "dateSource": "2026-11-18",
+ "hub_armor": {
+  "route": "pages/armor/index.html",
+  "titre": "Armures et protection",
+  "slug": "index",
+  "gabarit": "hub-armor",
+  "description": "Trois cent quatre-vingt-dix pièces d’armure issues de l’export du 18 novembre 2026 : zones, classes, matériaux, plaques et leurs emplacements.",
+  "image": "images/armor/armor-index.jpg",
+  "alt": "Gilet porte-plaques ouvert sur un établi, plaques balistiques alignées devant lui, lumière rasante.",
+  "crumb": "Armures et protection",
+  "kicker": "Armures · 390 pièces",
+  "headline": "Armures",
+  "headline_tail": "et protection",
+  "lead": "Trois cent quatre-vingt-dix pièces d’armure, de casque, de masque et de plaque dans l’export du 18 novembre 2026. Le guide explique ce que ces chiffres signifient réellement : une classe n’est pas une garantie, une plaque n’est pas un gilet, et la masse se paie en mobilité.",
+  "scene": "Établi de blindage",
+  "aside_note": "390 pièces, 8 matériaux, 6 classes et 97 pièces acceptant des plaques.",
+  "toc": [
+   {
+    "id": "reperes",
+    "titre": "Repères du catalogue"
+   },
+   {
+    "id": "modele",
+    "titre": "Le modèle de protection"
+   },
+   {
+    "id": "materiaux",
+    "titre": "Les huit matériaux"
+   },
+   {
+    "id": "classes",
+    "titre": "Les six classes"
+   },
+   {
+    "id": "catalogue",
+    "titre": "Le catalogue des pièces"
+   },
+   {
+    "id": "plaques",
+    "titre": "Plaques et emplacements"
+   },
+   {
+    "id": "conduite",
+    "titre": "Comment s’équiper"
+   },
+   {
+    "id": "sources",
+    "titre": "Sources et limites"
+   }
+  ],
+  "hero_links": [
+   {
+    "id": "reperes",
+    "titre": "Repères du catalogue"
+   },
+   {
+    "id": "modele",
+    "titre": "Le modèle de protection"
+   },
+   {
+    "id": "materiaux",
+    "titre": "Les huit matériaux"
+   },
+   {
+    "id": "catalogue",
+    "titre": "Le catalogue"
+   }
+  ]
+ },
+ "armor_body": {
+  "route": "pages/armor/body-armor.html",
+  "titre": "Gilets et porte-plaques",
+  "slug": "body-armor",
+  "gabarit": "guide-armor",
+  "description": "Quarante-neuf gilets pare-balles et trente-huit plaques : classes, matériaux, emplacements de plaque, compatibilités et poids relevés dans l’export.",
+  "image": "images/armor/gilets-plaques.jpg",
+  "alt": "Porte-plaques déplié sur une table d’atelier, emplacement avant vide et plaque retirée posée à côté.",
+  "crumb": "Gilets et porte-plaques",
+  "kicker": "Guide · Gilets et plaques",
+  "headline": "Gilets",
+  "headline_tail": "et plaques",
+  "lead": "Le gilet porte la forme, la plaque porte la classe. Quarante-neuf gilets et trente-huit plaques dans l’export : voici ce que chaque valeur signifie, et pourquoi deux pièces de classe 6 ne se valent pas.",
+  "scene": "Porte-plaques ouvert",
+  "aside_note": "49 gilets, 38 plaques, 19 emplacements de plaque recensés.",
+  "toc": [
+   {
+    "id": "reperes",
+    "titre": "Repères du catalogue"
+   },
+   {
+    "id": "modele",
+    "titre": "Le modèle de protection"
+   },
+   {
+    "id": "materiaux",
+    "titre": "Les huit matériaux"
+   },
+   {
+    "id": "classes",
+    "titre": "Les six classes"
+   },
+   {
+    "id": "catalogue",
+    "titre": "Le catalogue des pièces"
+   },
+   {
+    "id": "plaques",
+    "titre": "Plaques et emplacements"
+   },
+   {
+    "id": "conduite",
+    "titre": "Comment s’équiper"
+   },
+   {
+    "id": "sources",
+    "titre": "Sources et limites"
+   }
+  ],
+  "hero_links": [
+   {
+    "id": "reperes",
+    "titre": "Repères du catalogue"
+   },
+   {
+    "id": "modele",
+    "titre": "Le modèle de protection"
+   },
+   {
+    "id": "classes",
+    "titre": "Les six classes"
+   },
+   {
+    "id": "catalogue",
+    "titre": "Le catalogue"
+   }
+  ]
+ },
+ "armor_helmets": {
+  "route": "pages/armor/helmets.html",
+  "titre": "Casques et visières",
+  "slug": "helmets",
+  "gabarit": "guide-armor",
+  "description": "Quatre-vingt-treize casques, vingt masques et six protections oculaires : zones couvertes, ricochet, compatibilité audio et blocage des lunettes.",
+  "image": "images/armor/casques-visieres.jpg",
+  "alt": "Casque pare-balles posé de profil sur un socle, visière rabattue, éclairage de studio sur la coque.",
+  "crumb": "Casques et visières",
+  "kicker": "Guide · Casques et masques",
+  "headline": "Casques",
+  "headline_tail": "et visières",
+  "lead": "Un casque protège la tête ; une visière protège les yeux. Quatre-vingt-treize casques, vingt masques et six protections oculaires dans l’export, avec les compatibilités que le client refuse ou accepte.",
+  "scene": "Casque en studio",
+  "aside_note": "93 casques, 20 masques, 6 protections oculaires.",
+  "toc": [
+   {
+    "id": "reperes",
+    "titre": "Repères du catalogue"
+   },
+   {
+    "id": "modele",
+    "titre": "Le modèle de protection"
+   },
+   {
+    "id": "materiaux",
+    "titre": "Les huit matériaux"
+   },
+   {
+    "id": "classes",
+    "titre": "Les six classes"
+   },
+   {
+    "id": "catalogue",
+    "titre": "Le catalogue des pièces"
+   },
+   {
+    "id": "plaques",
+    "titre": "Plaques et emplacements"
+   },
+   {
+    "id": "conduite",
+    "titre": "Comment s’équiper"
+   },
+   {
+    "id": "sources",
+    "titre": "Sources et limites"
+   }
+  ],
+  "hero_links": [
+   {
+    "id": "reperes",
+    "titre": "Repères du catalogue"
+   },
+   {
+    "id": "modele",
+    "titre": "Le modèle de protection"
+   },
+   {
+    "id": "classes",
+    "titre": "Les six classes"
+   },
+   {
+    "id": "catalogue",
+    "titre": "Le catalogue"
+   }
+  ]
+ },
+ "armor_rigs": {
+  "route": "pages/armor/rigs.html",
+  "titre": "Rigs et poches",
+  "slug": "rigs",
+  "gabarit": "guide-armor",
+  "description": "Cent cinq gilets tactiques de l’export : capacité de rangement, poids, prix de base et emplacements d’équipement. Un rig porte, il ne protège pas.",
+  "image": "images/armor/rigs-poches.jpg",
+  "alt": "Gilet tactique chargé de poches, sangles et cartes, posé sur un banc dans une planque.",
+  "crumb": "Rigs et poches",
+  "kicker": "Guide · Gilets tactiques",
+  "headline": "Rigs",
+  "headline_tail": "et poches",
+  "lead": "Cent cinq gilets tactiques, de six à vingt-huit emplacements, de 0,22 à 12,2 kilos. Le rig décide de ce que vous pouvez emporter, pas de ce que vous pouvez encaisser.",
+  "scene": "Rig chargé en planque",
+  "aside_note": "105 rigs, 6 à 28 emplacements, 0,22 à 12,2 kg.",
+  "toc": [
+   {
+    "id": "reperes",
+    "titre": "Repères du catalogue"
+   },
+   {
+    "id": "modele",
+    "titre": "Le modèle de protection"
+   },
+   {
+    "id": "materiaux",
+    "titre": "Les huit matériaux"
+   },
+   {
+    "id": "classes",
+    "titre": "Les six classes"
+   },
+   {
+    "id": "catalogue",
+    "titre": "Le catalogue des pièces"
+   },
+   {
+    "id": "plaques",
+    "titre": "Plaques et emplacements"
+   },
+   {
+    "id": "conduite",
+    "titre": "Comment s’équiper"
+   },
+   {
+    "id": "sources",
+    "titre": "Sources et limites"
+   }
+  ],
+  "hero_links": [
+   {
+    "id": "reperes",
+    "titre": "Repères du catalogue"
+   },
+   {
+    "id": "modele",
+    "titre": "Le modèle de protection"
+   },
+   {
+    "id": "classes",
+    "titre": "Les six classes"
+   },
+   {
+    "id": "catalogue",
+    "titre": "Le catalogue"
+   }
+  ]
+ },
+ "armor_chart": {
+  "route": "pages/armor/armor-chart.html",
+  "titre": "Comparateur d’armures",
+  "slug": "armor-chart",
+  "gabarit": "outil-armor",
+  "description": "Outil de comparaison des pièces d’armure : deux à trois pièces, colonnes normalisées, plaques, matériaux, pénalités et données manquantes signalées.",
+  "image": "images/armor/comparateur-armures.jpg",
+  "alt": "Deux tenues défensives complètes côte à côte, une légère et une renforcée, éclairées en studio.",
+  "crumb": "Comparateur d’armures",
+  "kicker": "Outil · Comparaison",
+  "headline": "Comparateur",
+  "headline_tail": "d’armures",
+  "lead": "Deux ou trois pièces, les mêmes colonnes, les mêmes unités. Le comparateur aligne classe, matériau, durabilité, poids et pénalités, et signale ce que l’export ne dit pas.",
+  "scene": "Deux tenues défensives",
+  "aside_note": "390 pièces comparables, 6 classes, 8 matériaux.",
+  "toc": [
+   {
+    "id": "reperes",
+    "titre": "Repères du catalogue"
+   },
+   {
+    "id": "modele",
+    "titre": "Le modèle de protection"
+   },
+   {
+    "id": "materiaux",
+    "titre": "Les huit matériaux"
+   },
+   {
+    "id": "classes",
+    "titre": "Les six classes"
+   },
+   {
+    "id": "catalogue",
+    "titre": "Le catalogue des pièces"
+   },
+   {
+    "id": "plaques",
+    "titre": "Plaques et emplacements"
+   },
+   {
+    "id": "conduite",
+    "titre": "Comment s’équiper"
+   },
+   {
+    "id": "sources",
+    "titre": "Sources et limites"
+   }
+  ],
+  "hero_links": [
+   {
+    "id": "reperes",
+    "titre": "Repères du catalogue"
+   },
+   {
+    "id": "modele",
+    "titre": "Le modèle de protection"
+   },
+   {
+    "id": "classes",
+    "titre": "Les six classes"
+   },
+   {
+    "id": "catalogue",
+    "titre": "Le catalogue"
+   }
+  ]
+ },
+ "hub_boss": {
+  "route": "pages/bosses/index.html",
+  "titre": "Boss et rencontres",
+  "slug": "index",
+  "gabarit": "hub-boss",
+  "description": "Quatorze fiches de boss, quarante-huit mobs et quatre-vingt-neuf apparitions sur Regular, PvE et Seasonal : points de vie, escortes, équipement et butin.",
+  "image": "images/bosses/bosses-index.jpg",
+  "alt": "Silhouette de boss en contre-jour dans un couloir industriel, brouillard et éclairage d’urgence.",
+  "crumb": "Boss et rencontres",
+  "kicker": "Boss · 14 fiches",
+  "headline": "Boss",
+  "headline_tail": "et rencontres",
+  "lead": "Quatorze fiches, quarante-huit entrées dans l’export, quatre-vingt-neuf apparitions sur trois profils de jeu. Les chiffres de données d’abord ; les avis de la communauté à part, datés et jamais fusionnés.",
+  "scene": "Couloir industriel",
+  "aside_note": "14 fiches, 48 entrées d’export, 89 apparitions.",
+  "toc": [
+   {
+    "id": "reperes",
+    "titre": "Repères du corpus"
+   },
+   {
+    "id": "grille",
+    "titre": "Les quatorze fiches"
+   },
+   {
+    "id": "matrice",
+    "titre": "Cartes et apparitions"
+   },
+   {
+    "id": "pv",
+    "titre": "Points de vie comparés"
+   },
+   {
+    "id": "horsfiche",
+    "titre": "Les entrées sans fiche"
+   },
+   {
+    "id": "suivis",
+    "titre": "Ce que disent les suivis"
+   },
+   {
+    "id": "conduite",
+    "titre": "Comment lire ces données"
+   },
+   {
+    "id": "sources",
+    "title": "Sources et limites",
+    "titre": "Sources et limites"
+   }
+  ],
+  "hero_links": [
+   {
+    "id": "reperes",
+    "titre": "Repères du corpus"
+   },
+   {
+    "id": "grille",
+    "titre": "Les quatorze fiches"
+   },
+   {
+    "id": "matrice",
+    "titre": "Cartes et apparitions"
+   },
+   {
+    "id": "pv",
+    "titre": "Points de vie comparés"
+   }
+  ]
+ },
+ "bosses": [
+  {
+   "slug": "reshala",
+   "route": "pages/bosses/reshala.html",
+   "titre": "Reshala",
+   "slugBoss": "bossBully",
+   "famille": "Scav",
+   "description": "Reshala à Customs, au Terminal et en Stronghold : points de vie, escortes, apparitions par profil, équipement et butin dans l’export du 18 novembre.",
+   "image": "images/bosses/reshala.jpg",
+   "alt": "Silhouette en capuche adossée à un chariot dans un dortoir abandonné, néons hors service.",
+   "crumb": "Reshala",
+   "kicker": "Boss · Scav",
+   "headline": "Reshala",
+   "headline_tail": "le Marchand",
+   "lead": "Le premier boss que l’on rencontre, et celui dont la rate d’apparition n’a pas bougé depuis des mois : 0,60 sur Customs en profil Regular, 0,75 en profil PvE, plus une présence à 0,20 au Terminal.",
+   "scene": "Dortoirs de Customs",
+   "aside_note": "752 PV au total, 1 escorte, 6 apparitions relevées.",
+   "toc": [
+    {
+     "id": "reperes",
+     "titre": "Repères de la rencontre"
+    },
+    {
+     "id": "pv",
+     "titre": "Points de vie par membre"
+    },
+    {
+     "id": "apparitions",
+     "titre": "Apparitions par profil"
+    },
+    {
+     "id": "escortes",
+     "titre": "Escortes"
+    },
+    {
+     "id": "equipement",
+     "titre": "Équipement porté"
+    },
+    {
+     "id": "butin",
+     "titre": "Butin"
+    },
+    {
+     "id": "communaute",
+     "titre": "Ce que dit la communauté"
+    },
+    {
+     "id": "sources",
+     "titre": "Sources et limites"
+    }
+   ],
+   "hero_links": [
+    {
+     "id": "reperes",
+     "titre": "Repères de la rencontre"
+    },
+    {
+     "id": "pv",
+     "titre": "Points de vie par membre"
+    },
+    {
+     "id": "apparitions",
+     "titre": "Apparitions par profil"
+    },
+    {
+     "id": "butin",
+     "titre": "Butin"
+    }
+   ],
+   "communaute": [
+    "Les guides communautaires décrivent Reshala comme le boss le plus simple de la rotation : peu de points de vie, une escorte, et un butin qui tourne autour des clés et de promesse de monnaie.",
+    "Le Golden TT est régulièrement cité comme la pièce qui justifie une chasse à Reshala : l’export le mentionne dans l’équipement porté, mais son taux de sortie n’est pas indiqué par les données et ne doit pas être inventé.",
+    "Les avis de forum sur la station-service, les dortoirs et le camp de scav à Customs concordent sur les zones : l’export les confirme par trois emplacements distincts, un par zone, à 0,33 chacun."
+   ]
+  },
+  {
+   "slug": "killa",
+   "route": "pages/bosses/killa.html",
+   "titre": "Killa",
+   "slugBoss": "bossKilla",
+   "famille": "Scav",
+   "description": "Killa sur les variantes d’Interchange : points de vie, casque Maska, apparitions par profil, équipement et butin dans l’export du 18 novembre.",
+   "image": "images/bosses/killa.jpg",
+   "alt": "Silhouette masquée de chef de PMC dans une galerie marchande, néons rouges en contre-jour.",
+   "crumb": "Killa",
+   "kicker": "Boss · Scav",
+   "headline": "Killa",
+   "headline_tail": "le patron d’ULTRA",
+   "lead": "Quatre-vingt-dix points de vie, aucune escorte, et le meilleur butin de tout l’export en volume : deux cent vingt-huit objets recensés. Sa chance d’apparition reste à 0,60 en profil Regular.",
+   "scene": "ULTRA, galerie marchande",
+   "aside_note": "890 PV au total, aucune escorte, 228 objets de butin.",
+   "toc": [
+    {
+     "id": "reperes",
+     "titre": "Repères de la rencontre"
+    },
+    {
+     "id": "pv",
+     "titre": "Points de vie par membre"
+    },
+    {
+     "id": "apparitions",
+     "titre": "Apparitions par profil"
+    },
+    {
+     "id": "escortes",
+     "titre": "Escortes"
+    },
+    {
+     "id": "equipement",
+     "titre": "Équipement porté"
+    },
+    {
+     "id": "butin",
+     "titre": "Butin"
+    },
+    {
+     "id": "communaute",
+     "titre": "Ce que dit la communauté"
+    },
+    {
+     "id": "sources",
+     "titre": "Sources et limites"
+    }
+   ],
+   "hero_links": [
+    {
+     "id": "reperes",
+     "titre": "Repères de la rencontre"
+    },
+    {
+     "id": "pv",
+     "titre": "Points de vie par membre"
+    },
+    {
+     "id": "apparitions",
+     "titre": "Apparitions par profil"
+    },
+    {
+     "id": "butin",
+     "titre": "Butin"
+    }
+   ],
+   "communaute": [
+    "La communauté traite Killa comme le boss le plus rentable de l’ULTRA, davantage pour le butin que pour la difficulté : le guide tient compte des deux.",
+    "Le casque Maska édition Killa, le gilet 6B13 M édition Killa et les plaques Granit 4 figurent dans l’équipement porté ; c’est un indice de solidité, pas une garantie de classe pour le joueur.",
+    "Vengeful Killa est une entrée distincte de l’export, avec 960 points de vie et aucune fiche propre dans cette phase : elle n’est pas Killa et n’est pas comptée comme telle."
+   ]
+  },
+  {
+   "slug": "shturman",
+   "route": "pages/bosses/shturman.html",
+   "titre": "Shturman",
+   "slugBoss": "bossKojaniy",
+   "famille": "Scav",
+   "description": "Shturman dans les bois de Forest : points de vie par membre, escorte, clé de cache dédiée, apparitions par profil, équipement et butin dans l’export du 18 novembre 2026.",
+   "image": "images/bosses/shturman.jpg",
+   "alt": "Fusil de précision posé sur un tronc moussus dans une clairière de conifères, brume au sol.",
+   "crumb": "Shturman",
+   "kicker": "Boss · Scav",
+   "headline": "Shturman",
+   "headline_tail": "le sniper des bois",
+   "lead": "Le boss qui tient la lisière : 812 points de vie, un sniper audible avant d’être visible, et la plus longue liste de butin de tout l’export avec six cent cinquante-sept objets recensés.",
+   "scene": "Lisière de Forest",
+   "aside_note": "812 PV au total, 1 escorte, 657 objets de butin.",
+   "toc": [
+    {
+     "id": "reperes",
+     "titre": "Repères de la rencontre"
+    },
+    {
+     "id": "pv",
+     "titre": "Points de vie par membre"
+    },
+    {
+     "id": "apparitions",
+     "titre": "Apparitions par profil"
+    },
+    {
+     "id": "escortes",
+     "titre": "Escortes"
+    },
+    {
+     "id": "equipement",
+     "titre": "Équipement porté"
+    },
+    {
+     "id": "butin",
+     "titre": "Butin"
+    },
+    {
+     "id": "communaute",
+     "titre": "Ce que dit la communauté"
+    },
+    {
+     "id": "sources",
+     "titre": "Sources et limites"
+    }
+   ],
+   "hero_links": [
+    {
+     "id": "reperes",
+     "titre": "Repères de la rencontre"
+    },
+    {
+     "id": "pv",
+     "titre": "Points de vie par membre"
+    },
+    {
+     "id": "apparitions",
+     "titre": "Apparitions par profil"
+    },
+    {
+     "id": "butin",
+     "titre": "Butin"
+    }
+   ],
+   "communaute": [
+    "Les retours de joueurs décrivent un Shturman qui peut charger le joueur plutôt que camper : c’est un comportement, pas une donnée chiffrée, et il est séparé ici des chiffres de l’export.",
+    "Les discussions de mai 2025 et de juin 2026 insistent sur le SVD, dont le tir s’entend à distance, et sur l’absence de protection schwer : elles recommandent le déplacement plutôt que le duel frontal.",
+    "La clé de la cache de Shturman sort à 100 % dans l’export, comme le kit de premiers secours individuel. Ce sont des lignes de données, pas des promesses de Butin complet."
+   ]
+  },
+  {
+   "slug": "glukhar",
+   "route": "pages/bosses/glukhar.html",
+   "titre": "Glukhar",
+   "slugBoss": "bossGluhar",
+   "famille": "Scav",
+   "description": "Glukhar à Reserve : points de vie par membre, trois escortesifferentiated, apparitions par profil, équipement et butin dans l’export du 18 novembre 2026.",
+   "image": "images/bosses/glukhar.jpg",
+   "alt": "Cuir militaire et casque de chef dans une cour de caserne, lumière blanche et silhouettes en arrière-plan.",
+   "crumb": "Glukhar",
+   "kicker": "Boss · Scav",
+   "headline": "Glukhar",
+   "headline_tail": "le chef de Reserve",
+   "lead": "Mille dix points de vie, trois escortes à rôles distincts, et une chance stable à 0,60 sur Reserve dans les trois profils. Le boss le plus « scolaire » de la rotation.",
+   "scene": "Cour de Reserve",
+   "aside_note": "1 010 PV au total, 3 escortes, 6 apparitions relevées.",
+   "toc": [
+    {
+     "id": "reperes",
+     "titre": "Repères de la rencontre"
+    },
+    {
+     "id": "pv",
+     "titre": "Points de vie par membre"
+    },
+    {
+     "id": "apparitions",
+     "titre": "Apparitions par profil"
+    },
+    {
+     "id": "escortes",
+     "titre": "Escortes"
+    },
+    {
+     "id": "equipement",
+     "titre": "Équipement porté"
+    },
+    {
+     "id": "butin",
+     "titre": "Butin"
+    },
+    {
+     "id": "communaute",
+     "titre": "Ce que dit la communauté"
+    },
+    {
+     "id": "sources",
+     "titre": "Sources et limites"
+    }
+   ],
+   "hero_links": [
+    {
+     "id": "reperes",
+     "titre": "Repères de la rencontre"
+    },
+    {
+     "id": "pv",
+     "titre": "Points de vie par membre"
+    },
+    {
+     "id": "apparitions",
+     "titre": "Apparitions par profil"
+    },
+    {
+     "id": "butin",
+     "titre": "Butin"
+    }
+   ],
+   "communaute": [
+    "Les guides communautaires séparent le comportement de Glukhar de celui de ses gardes : l’assaut part de loin, les gardes montent la colline et couvrent le repli.",
+    "Cette division du travail est un avis de joueur. L’export confirme en revanche l’existence de trois escortes distinctes : garde d’assaut, garde de sécurité et éclaireur.",
+    "La sortie de l’export à 0,20 sur le Terminal concerne la même entrée de boss que celle de Reserve : elle est comptée une fois par carte et par profil, jamais fusionnée."
+   ]
+  },
+  {
+   "slug": "sanitar",
+   "route": "pages/bosses/sanitar.html",
+   "titre": "Sanitar",
+   "slugBoss": "bossSanitar",
+   "famille": "Scav",
+   "description": "Sanitar à Shoreline, Resort et autres zones : points de vie par membre, escorte, apparitions par profil, équipement et butin dans l’export du 18 novembre 2026.",
+   "image": "images/bosses/sanitar.jpg",
+   "alt": "Sac d’ambulancier et matériel médical surgical posés sur une table de camp, lumière froide de tente.",
+   "crumb": "Sanitar",
+   "kicker": "Boss · Scav",
+   "headline": "Sanitar",
+   "headline_tail": "le chirurgien",
+   "lead": "Mille deux cent soixante-dix points de vie : le deuxième boss le plus résistant du corpus. Sa chance reste à 0,60 sur Shoreline en profil Regular et monte à 0,75 en profil PvE.",
+   "scene": "Shoreline, poste de secours",
+   "aside_note": "1 270 PV au total, 1 escorte, 243 objets de butin.",
+   "toc": [
+    {
+     "id": "reperes",
+     "titre": "Repères de la rencontre"
+    },
+    {
+     "id": "pv",
+     "titre": "Points de vie par membre"
+    },
+    {
+     "id": "apparitions",
+     "titre": "Apparitions par profil"
+    },
+    {
+     "id": "escortes",
+     "titre": "Escortes"
+    },
+    {
+     "id": "equipement",
+     "titre": "Équipement porté"
+    },
+    {
+     "id": "butin",
+     "titre": "Butin"
+    },
+    {
+     "id": "communaute",
+     "titre": "Ce que dit la communauté"
+    },
+    {
+     "id": "sources",
+     "titre": "Sources et limites"
+    }
+   ],
+   "hero_links": [
+    {
+     "id": "reperes",
+     "titre": "Repères de la rencontre"
+    },
+    {
+     "id": "pv",
+     "titre": "Points de vie par membre"
+    },
+    {
+     "id": "apparitions",
+     "titre": "Apparitions par profil"
+    },
+    {
+     "id": "butin",
+     "titre": "Butin"
+    }
+   ],
+   "communaute": [
+    "Les retours de forum décrivent un Sanitar qui se soigne et récupère : les statistiques d’export ne disent rien de ce comportement, elles disent seulement combien de points de vie il faut retirer.",
+    "Le kit chirurgical CMS et le kit Grizzly sortent à 100 % dans l’export : ce sont des soins, pas des objets de quête, et la distinction entre les deux est celle du wiki communautaire.",
+    "Les sources communautaires mentionnent le Resort et la jetée de Shoreline ; l’export de novembre 2026 ne recense que Shoreline et le Terminal pour cette fiche, et c’est ce qui est affiché."
+   ]
+  },
+  {
+   "slug": "tagilla",
+   "route": "pages/bosses/tagilla.html",
+   "titre": "Tagilla",
+   "slugBoss": "bossTagilla",
+   "famille": "Scav",
+   "description": "Tagilla à Factory et au Terminal : points de vie par membre, apparitions par profil, masque de soudure, équipement et butin dans l’export du 18 novembre 2026.",
+   "image": "images/bosses/tagilla.jpg",
+   "alt": "Masque de soudure noircs dans un faisceau de lumière d’arc électrique, étincelles à l’arrière-plan.",
+   "crumb": "Tagilla",
+   "kicker": "Boss · Scav",
+   "headline": "Tagilla",
+   "headline_tail": "l’infectée",
+   "lead": "Mille deux cent vingt points de vie, aucune escorte, et un masque de soudure dans l’équipement : Tagilla est le boss dont la silhouette dit le plus de choses avant le combat.",
+   "scene": "Factory, passerelles",
+   "aside_note": "1 220 PV au total, aucune escorte, 284 objets de butin.",
+   "toc": [
+    {
+     "id": "reperes",
+     "titre": "Repères de la rencontre"
+    },
+    {
+     "id": "pv",
+     "titre": "Points de vie par membre"
+    },
+    {
+     "id": "apparitions",
+     "titre": "Apparitions par profil"
+    },
+    {
+     "id": "escortes",
+     "titre": "Escortes"
+    },
+    {
+     "id": "equipement",
+     "titre": "Équipement porté"
+    },
+    {
+     "id": "butin",
+     "titre": "Butin"
+    },
+    {
+     "id": "communaute",
+     "titre": "Ce que dit la communauté"
+    },
+    {
+     "id": "sources",
+     "titre": "Sources et limites"
+    }
+   ],
+   "hero_links": [
+    {
+     "id": "reperes",
+     "titre": "Repères de la rencontre"
+    },
+    {
+     "id": "pv",
+     "titre": "Points de vie par membre"
+    },
+    {
+     "id": "apparitions",
+     "titre": "Apparitions par profil"
+    },
+    {
+     "id": "butin",
+     "titre": "Butin"
+    }
+   ],
+   "communaute": [
+    "Tagilla, Tagilla infecté et Shadow of Tagilla sont trois entrées distinctes de l’export, avec 1 220, 1 530 et 1 305 points de vie. Les traiter comme une seule fiche serait faux, et le guide les sépare.",
+    "Les avis de communauté décrivent une poursuite possible de Tagilla hors de sa zone : c’est un comportement observé, daté, et il ne remplace pas la donnée d’apparition.",
+    "Le masque de soudure Gorilla apparaît dans l’équipement porté de la fiche, comme la variante ZABEY pour Shadow of Tagilla : deux objets distincts, pour deux fiches distinctes."
+   ]
+  },
+  {
+   "slug": "kaban",
+   "route": "pages/bosses/kaban.html",
+   "titre": "Kaban",
+   "slugBoss": "bossBoar",
+   "famille": "Scav",
+   "description": "Kaban au showroom de Streets of Tarkov : points de vie par membre, quatre escortes, apparitions par profil, équipement et butin dans l’export du 18 novembre 2026.",
+   "image": "images/bosses/kaban.jpg",
+   "alt": "Fusil-mitrailleur lourd appuyé sur une carrosserie dans un showroom automobile, éclairage néon froid.",
+   "crumb": "Kaban",
+   "kicker": "Boss · Scav",
+   "headline": "Kaban",
+   "headline_tail": "le sanglier",
+   "lead": "Mille trois cents points de vie, quatre escortes, une chance à 0,60 sur Streets : le boss le plus escorté du corpus avec Kaban, et un duel qui se prépare au Pakistan.",
+   "scene": "Streets, showroom",
+   "aside_note": "1 300 PV au total, 4 escortes, 280 objets de butin.",
+   "toc": [
+    {
+     "id": "reperes",
+     "titre": "Repères de la rencontre"
+    },
+    {
+     "id": "pv",
+     "titre": "Points de vie par membre"
+    },
+    {
+     "id": "apparitions",
+     "titre": "Apparitions par profil"
+    },
+    {
+     "id": "escortes",
+     "titre": "Escortes"
+    },
+    {
+     "id": "equipement",
+     "titre": "Équipement porté"
+    },
+    {
+     "id": "butin",
+     "titre": "Butin"
+    },
+    {
+     "id": "communaute",
+     "titre": "Ce que dit la communauté"
+    },
+    {
+     "id": "sources",
+     "titre": "Sources et limites"
+    }
+   ],
+   "hero_links": [
+    {
+     "id": "reperes",
+     "titre": "Repères de la rencontre"
+    },
+    {
+     "id": "pv",
+     "titre": "Points de vie par membre"
+    },
+    {
+     "id": "apparitions",
+     "titre": "Apparitions par profil"
+    },
+    {
+     "id": "butin",
+     "titre": "Butin"
+    }
+   ],
+   "communaute": [
+    "Les discussions de juin 2026 décrivent Kaban comme particulièrement résistant et recommandent les grenades contre ses mitrailleurs, la couverture et le timing de rechargement : ce sont des avis datés, pas des statistiques.",
+    "L’export confirme la structure du groupe : un garde rapproché, deux gardes nommés Gus et Basmach, et une escorte de tireurs d’élite, avec 1 300 points de vie pour le chef.",
+    "Les taux de spawn publiés par les guides divergent de l’export ; le guide affiche la valeur de l’export et signale l’écart dans la section des suivis."
+   ]
+  },
+  {
+   "slug": "kollontay",
+   "route": "pages/bosses/kollontay.html",
+   "titre": "Kollontay",
+   "slugBoss": "bossKolontay",
+   "famille": "Scav",
+   "description": "Kollontay dans les quartiers de Streets of Tarkov : points de vie par membre, deux escortes, bâton, apparitions par profil et butin dans l’export du 18 novembre 2026.",
+   "image": "images/bosses/kollontay.jpg",
+   "alt": "Casque anti-émeute et matraque en acier posés sur un plan de travail marqueté, lumière dure.",
+   "crumb": "Kollontay",
+   "kicker": "Boss · Scav",
+   "headline": "Kollontay",
+   "headline_tail": "le chef de quartier",
+   "lead": "Mille cinquante-cinq points de vie, deux escortes, une matraque et un butin presque vide dans l’export : seulement deux objets de butin recensés pour cette fiche.",
+   "scene": "Streets, quartier policier",
+   "aside_note": "1 055 PV au total, 2 escortes, 2 objets de butin.",
+   "toc": [
+    {
+     "id": "reperes",
+     "titre": "Repères de la rencontre"
+    },
+    {
+     "id": "pv",
+     "titre": "Points de vie par membre"
+    },
+    {
+     "id": "apparitions",
+     "titre": "Apparitions par profil"
+    },
+    {
+     "id": "escortes",
+     "titre": "Escortes"
+    },
+    {
+     "id": "equipement",
+     "titre": "Équipement porté"
+    },
+    {
+     "id": "butin",
+     "titre": "Butin"
+    },
+    {
+     "id": "communaute",
+     "titre": "Ce que dit la communauté"
+    },
+    {
+     "id": "sources",
+     "titre": "Sources et limites"
+    }
+   ],
+   "hero_links": [
+    {
+     "id": "reperes",
+     "titre": "Repères de la rencontre"
+    },
+    {
+     "id": "pv",
+     "titre": "Points de vie par membre"
+    },
+    {
+     "id": "apparitions",
+     "titre": "Apparitions par profil"
+    },
+    {
+     "id": "butin",
+     "titre": "Butin"
+    }
+   ],
+   "communaute": [
+    "Les sources communautaires décrivent la matraque de Kollontay et ses équipiers, mais aucune donnée du jeu ne quantifie les dégâts de la matraque : le guide l’évoque comme un comportement observé, pas comme un chiffre.",
+    "Le casque anti-émeute PSh-97 figure dans l’équipement porté ; c’est un indice visuel, pas un élément de blindage du joueur.",
+    "Le butin réduit à deux objets dans l’export contraste avec les descriptions de forum : l’écart vient de la date de l’export et il est assumé ici plutôt que comblé."
+   ]
+  },
+  {
+   "slug": "zryachiy",
+   "route": "pages/bosses/zryachiy.html",
+   "titre": "Zryachiy",
+   "slugBoss": "bossZryachiy",
+   "famille": "Cultiste",
+   "description": "Zryachiy sur l’île du Phare : points de vie par membre, apparitions à 100 %, équipement lourd et butin dans l’export du 18 novembre 2026.",
+   "image": "images/bosses/zryachiy.jpg",
+   "alt": "Cagoule sombre et fusil de précision contre un phare dans la brume, faisceau de phare au loin.",
+   "crumb": "Zryachiy",
+   "kicker": "Boss · Cultiste",
+   "headline": "Zryachiy",
+   "headline_tail": "le veilleur",
+   "lead": "Seize cent cinquante-cinq points de vie : le boss le plus résistant du corpus. Sa chance d’apparition est de 1 sur Lighthouse, dans les trois profils de jeu.",
+   "scene": "Île du Phare",
+   "aside_note": "1 655 PV au total, aucune escorte, 2 objets de butin.",
+   "toc": [
+    {
+     "id": "reperes",
+     "titre": "Repères de la rencontre"
+    },
+    {
+     "id": "pv",
+     "titre": "Points de vie par membre"
+    },
+    {
+     "id": "apparitions",
+     "titre": "Apparitions par profil"
+    },
+    {
+     "id": "escortes",
+     "titre": "Escortes"
+    },
+    {
+     "id": "equipement",
+     "titre": "Équipement porté"
+    },
+    {
+     "id": "butin",
+     "titre": "Butin"
+    },
+    {
+     "id": "communaute",
+     "titre": "Ce que dit la communauté"
+    },
+    {
+     "id": "sources",
+     "titre": "Sources et limites"
+    }
+   ],
+   "hero_links": [
+    {
+     "id": "reperes",
+     "titre": "Repères de la rencontre"
+    },
+    {
+     "id": "pv",
+     "titre": "Points de vie par membre"
+    },
+    {
+     "id": "apparitions",
+     "titre": "Apparitions par profil"
+    },
+    {
+     "id": "butin",
+     "titre": "Butin"
+    }
+   ],
+   "communaute": [
+    "La relation entre Zryachiy et l’accès Lightkeeper est un point de progression décrit par les sources communautaires ; les conditions d’accès elles-mêmes relèvent des notes de l’éditeur pour Lighthouse.",
+    "L’équipement porté comprend un fusil de précision anti-matériel AK-50 en .50 BMG : c’est le boss dont l’armement de distance est le plus lourd de l’export.",
+    "L’export de novembre 2026 ne recense que deux objets de butin pour cette fiche ; les suivis communautaires en citent davantage, et cet écart est signalé plutôt que masqué."
+   ]
+  },
+  {
+   "slug": "partisan",
+   "route": "pages/bosses/partisan.html",
+   "titre": "Partisan",
+   "slugBoss": "bossPartisan",
+   "famille": "PMC",
+   "description": "Partisan, PMC Karma : points de vie, apparitions sur quatre cartes avec délai de 900 secondes, équipement et butin dans l’export du 18 novembre.",
+   "image": "images/bosses/partisan.jpg",
+   "alt": "Fusil d’assaut tenu bas dans un sentier forestier déserté, brume et lumière de fin de journée.",
+   "crumb": "Partisan",
+   "kicker": "Boss · PMC",
+   "headline": "Partisan",
+   "headline_tail": "le PMC isolé",
+   "lead": "Neuf cent cinquante points de vie et une apparition à 0,25 sur quatre cartes, avec un délai de 900 secondes avant d’entrer en jeu : un boss qui se laisse chercher.",
+   "scene": "Sentier forestier",
+   "aside_note": "950 PV au total, aucune escorte, 328 objets de butin.",
+   "toc": [
+    {
+     "id": "reperes",
+     "titre": "Repères de la rencontre"
+    },
+    {
+     "id": "pv",
+     "titre": "Points de vie par membre"
+    },
+    {
+     "id": "apparitions",
+     "titre": "Apparitions par profil"
+    },
+    {
+     "id": "escortes",
+     "titre": "Escortes"
+    },
+    {
+     "id": "equipement",
+     "titre": "Équipement porté"
+    },
+    {
+     "id": "butin",
+     "titre": "Butin"
+    },
+    {
+     "id": "communaute",
+     "titre": "Ce que dit la communauté"
+    },
+    {
+     "id": "sources",
+     "titre": "Sources et limites"
+    }
+   ],
+   "hero_links": [
+    {
+     "id": "reperes",
+     "titre": "Repères de la rencontre"
+    },
+    {
+     "id": "pv",
+     "titre": "Points de vie par membre"
+    },
+    {
+     "id": "apparitions",
+     "titre": "Apparitions par profil"
+    },
+    {
+     "id": "butin",
+     "titre": "Butin"
+    }
+   ],
+   "communaute": [
+    "Les conditions d’apparition de Partisan ont été modifiées par le correctif 1.3.0.0 du 29 octobre 2026 : les exceptions éventuelles doivent être datées, et le guide ne présente que l’état de l’export de novembre.",
+    "La grenade F-1 à délai réduit sort à 100 % dans l’export, comme le kit de premiers secours tactique : des lignes de données, sans conclusion sur la rentabilité du boss.",
+    "L’absence d’escorte est un point notable : Partisan est le seul boss du corpus sans escorte et sans escorte additionnelle sur ses quatre cartes."
+   ]
+  },
+  {
+   "slug": "cultist-priest",
+   "route": "pages/bosses/cultist-priest.html",
+   "titre": "Cultist Priest",
+   "slugBoss": "sectantPriest",
+   "famille": "Cultiste",
+   "description": "Cultist Priest sur cinq cartes, la nuit : points de vie par membre, escorte, apparitions par profil, équipement et butin dans l’export.",
+   "image": "images/bosses/cultist-priest.jpg",
+   "alt": "Silhouette encapuchonnée sous une lampe de secours dans un abri de terre, masse d’armes à la main.",
+   "crumb": "Cultist Priest",
+   "kicker": "Boss · Cultiste",
+   "headline": "Cultist",
+   "headline_tail": "le prêtre",
+   "lead": "Huit cent cinquante points de vie, une escorte, et une présence qui se répète : cinq cartes, six apparitions par profil, et des chances qui vont de 0,15 à 0,30.",
+   "scene": "Abri de terre, nuit",
+   "aside_note": "850 PV au total, 1 escorte, 15 apparitions relevées.",
+   "toc": [
+    {
+     "id": "reperes",
+     "titre": "Repères de la rencontre"
+    },
+    {
+     "id": "pv",
+     "titre": "Points de vie par membre"
+    },
+    {
+     "id": "apparitions",
+     "titre": "Apparitions par profil"
+    },
+    {
+     "id": "escortes",
+     "titre": "Escortes"
+    },
+    {
+     "id": "equipement",
+     "titre": "Équipement porté"
+    },
+    {
+     "id": "butin",
+     "titre": "Butin"
+    },
+    {
+     "id": "communaute",
+     "titre": "Ce que dit la communauté"
+    },
+    {
+     "id": "sources",
+     "titre": "Sources et limites"
+    }
+   ],
+   "hero_links": [
+    {
+     "id": "reperes",
+     "titre": "Repères de la rencontre"
+    },
+    {
+     "id": "pv",
+     "titre": "Points de vie par membre"
+    },
+    {
+     "id": "apparitions",
+     "titre": "Apparitions par profil"
+    },
+    {
+     "id": "butin",
+     "titre": "Butin"
+    }
+   ],
+   "communaute": [
+    "Les sources communautaires utilisent le terme Sectant pour la faction et distinguent le prêtre de ses guerriers : l’export sépare de la même façon l’entrée de fiche et son escorte.",
+    "Les conditions de nuit et les tranches horaires de Ground Zero sont décrites par les guides ; l’export ne contient pas de champ de tranche horaire, et le guide ne l’invente pas.",
+    "Les taux de spawn publiés par les suivis communautaires divergent de l’export, notamment sur les petites cartes : le guide affiche la donnée et signale la divergence."
+   ]
+  },
+  {
+   "slug": "the-goons",
+   "route": "pages/bosses/the-goons.html",
+   "titre": "The Goons",
+   "slugBoss": "bossKnight",
+   "famille": "Rogue",
+   "description": "The Goons : Knight, Big Pipe et Birdeye, points de vie par membre, rotation selon le profil, apparitions par carte, équipement et butin dans l’export du 18 novembre 2026.",
+   "image": "images/bosses/the-goons.jpg",
+   "alt": "Trois silhouettes en tenue de reconnaissance dans une clairière brumeuse, armes longues baissées.",
+   "crumb": "The Goons",
+   "kicker": "Boss · Rogue",
+   "headline": "The Goons",
+   "headline_tail": "Knight, Big Pipe, Birdeye",
+   "lead": "Une fiche, trois entrées : Knight avec 1 120 points de vie, Big Pipe avec 910 et Birdeye avec 795. Les additionner donnerait un chiffre que le jeu ne calcule jamais.",
+   "scene": "Clairière de Woods",
+   "aside_note": "1 120 PV pour Knight, 2 escortes, 15 apparitions relevées.",
+   "toc": [
+    {
+     "id": "reperes",
+     "titre": "Repères de la rencontre"
+    },
+    {
+     "id": "pv",
+     "titre": "Points de vie par membre"
+    },
+    {
+     "id": "apparitions",
+     "titre": "Apparitions par profil"
+    },
+    {
+     "id": "escortes",
+     "titre": "Escortes"
+    },
+    {
+     "id": "equipement",
+     "titre": "Équipement porté"
+    },
+    {
+     "id": "butin",
+     "titre": "Butin"
+    },
+    {
+     "id": "communaute",
+     "titre": "Ce que dit la communauté"
+    },
+    {
+     "id": "sources",
+     "titre": "Sources et limites"
+    }
+   ],
+   "hero_links": [
+    {
+     "id": "reperes",
+     "titre": "Repères de la rencontre"
+    },
+    {
+     "id": "pv",
+     "titre": "Points de vie par membre"
+    },
+    {
+     "id": "apparitions",
+     "titre": "Apparitions par profil"
+    },
+    {
+     "id": "butin",
+     "titre": "Butin"
+    }
+   ],
+   "communaute": [
+    "La composition du groupe varie selon la carte : sur Icebreaker, l’export annonce deux Rogue comme escortes au lieu de Big Pipe et Birdeye. C’est une donnée, et elle change la lecture d’un même encounter.",
+    "Le guide présente une seule fiche pour les trois, avec les points de vie de chacun : l’agrégation en un total unique serait une construction éditoriale, pas une mesure.",
+    "Les avis de communauté décrivent une rotation de composition selon les modes et signalent le risque de double comptage ; le guide expose chaque entrée séparément pour l’éviter."
+   ]
+  },
+  {
+   "slug": "shadow-of-tagilla",
+   "route": "pages/bosses/shadow-of-tagilla.html",
+   "titre": "Shadow of Tagilla",
+   "slugBoss": "bossTagillaAgro",
+   "famille": "Scav",
+   "description": "Shadow of Tagilla dans le Labyrinth : points de vie par membre, apparition à 100 %, masque ZABEY, équipement et butin dans l’export du 18 novembre 2026.",
+   "image": "images/bosses/shadow-of-tagilla.jpg",
+   "alt": "Couloir de labyrinthe métallique éclairé au néon vert, silhouette d’infectée au fond du passage.",
+   "crumb": "Shadow of Tagilla",
+   "kicker": "Boss · Scav",
+   "headline": "Shadow of",
+   "headline_tail": "Tagilla",
+   "lead": "Mille trois cent cinq points de vie, une chance d’apparition de 1 sur le Labyrinth, et un masque ZABEY distinct de celui de Tagilla : la variante n’est pas la même fiche.",
+   "scene": "Labyrinth, galeries",
+   "aside_note": "1 305 PV au total, aucune escorte, 285 objets de butin.",
+   "toc": [
+    {
+     "id": "reperes",
+     "titre": "Repères de la rencontre"
+    },
+    {
+     "id": "pv",
+     "titre": "Points de vie par membre"
+    },
+    {
+     "id": "apparitions",
+     "titre": "Apparitions par profil"
+    },
+    {
+     "id": "escortes",
+     "titre": "Escortes"
+    },
+    {
+     "id": "equipement",
+     "titre": "Équipement porté"
+    },
+    {
+     "id": "butin",
+     "titre": "Butin"
+    },
+    {
+     "id": "communaute",
+     "titre": "Ce que dit la communauté"
+    },
+    {
+     "id": "sources",
+     "titre": "Sources et limites"
+    }
+   ],
+   "hero_links": [
+    {
+     "id": "reperes",
+     "titre": "Repères de la rencontre"
+    },
+    {
+     "id": "pv",
+     "titre": "Points de vie par membre"
+    },
+    {
+     "id": "apparitions",
+     "titre": "Apparitions par profil"
+    },
+    {
+     "id": "butin",
+     "titre": "Butin"
+    }
+   ],
+   "communaute": [
+    "Shadow of Tagilla est une entrée distincte de Tagilla et de Tagilla infecté : trois identifiants, trois totaux de points de vie, et une fiche séparée pour chacune.",
+    "Les sources communautaires décrivent une séquence de rencontre dans le Labyrinth et évoquent une possible apparition de Vengeful Killa ; l’export ne relie pas les deux, et le guide ne le fait pas non plus.",
+    "L’injecteur d’antidote xTG-12 et la clé avec un symbole d’Ariane sortent à 100 % dans l’export de cette fiche : deux lignes de données."
+   ]
+  },
+  {
+   "slug": "the-wedge",
+   "route": "pages/bosses/the-wedge.html",
+   "titre": "The Wedge",
+   "slugBoss": "bossWedge",
+   "famille": "Black Division",
+   "description": "The Wedge à bord de l’Icebreaker : points de vie, renforts par zone, variante laboratoire, apparitions par profil et butin dans l’export.",
+   "image": "images/bosses/the-wedge.jpg",
+   "alt": "Silhouette de soldat de Black Division dans un gymnase de brise-glace, bandes de lumière au plafond.",
+   "crumb": "The Wedge",
+   "kicker": "Boss · Black Division",
+   "headline": "The Wedge",
+   "headline_tail": "à bord",
+   "lead": "Sept cent cinquante points de vie pour le chef, mais un groupe qui se renforce selon la zone : sur Icebreaker, l’export compte jusqu’à deux Wedge supplémentaires par rencontre.",
+   "scene": "Icebreaker, gymnase",
+   "aside_note": "750 PV pour le chef, renforts de 1 à 2, 36 zones d’apparition.",
+   "toc": [
+    {
+     "id": "reperes",
+     "titre": "Repères de la rencontre"
+    },
+    {
+     "id": "pv",
+     "titre": "Points de vie par membre"
+    },
+    {
+     "id": "apparitions",
+     "titre": "Apparitions par profil"
+    },
+    {
+     "id": "escortes",
+     "titre": "Escortes"
+    },
+    {
+     "id": "equipement",
+     "titre": "Équipement porté"
+    },
+    {
+     "id": "butin",
+     "titre": "Butin"
+    },
+    {
+     "id": "communaute",
+     "titre": "Ce que dit la communauté"
+    },
+    {
+     "id": "sources",
+     "titre": "Sources et limites"
+    }
+   ],
+   "hero_links": [
+    {
+     "id": "reperes",
+     "titre": "Repères de la rencontre"
+    },
+    {
+     "id": "pv",
+     "titre": "Points de vie par membre"
+    },
+    {
+     "id": "apparitions",
+     "titre": "Apparitions par profil"
+    },
+    {
+     "id": "butin",
+     "titre": "Butin"
+    }
+   ],
+   "communaute": [
+    "Les sources communautaires parlent d’escortes dépendant de la taille du groupe et d’une variante Blackout : ce sont des avis datés sur des règles de jeu, et ils ne remplacent pas le taux d’apparition.",
+    "L’export ne donne pas de taux universel pour The Wedge : il donne une chance de 1 sur Icebreaker et de 0,33 sur la carte du laboratoire en profil Regular, portée à 1 en profil PvE. Ce sont ces valeurs qui sont affichées.",
+    "Les quatre-vingt-dix-neuf apparitions du corpus incluent douze zones distinctes pour Icebreaker : le guide les regroupe par zone et montre le nombre de renforts associé à chacune."
+   ]
+  }
+ ]
+}

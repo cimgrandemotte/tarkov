@@ -1,0 +1,10 @@
+[
+  {"id":"vue-ensemble","titre":"Atelier des fondations","description":"Le banc d’essai de l’interface du guide.","termes":["socle","aperçu","phase 1","HUD"]},
+  {"id":"outils","titre":"Composants de l’atelier","description":"Recherche, navigation et outils interactifs.","termes":["fuse","fuzzy","interface","navigation","index"]},
+  {"id":"modes","titre":"Modes de jeu","description":"PvP Zone, PvE Zone, Seasonal, Arena et SP-Tushonka.","termes":["solo","spt","saisonnier","Kord Breach","mode jeu"]},
+  {"id":"filtres","titre":"Catalogue et filtres","description":"Filtrer les cartes de démonstration par mode et type.","termes":["catalogue","filtrer","liste","atlas","terrain"]},
+  {"id":"comparateur","titre":"Comparateur de cartes","description":"Comparer deux ou trois lieux à partir d’un export Tarkov.dev.","termes":["tableau","comparaison","extracts","extractions","transits","Tarkov.dev"]},
+  {"id":"priorites","titre":"Tier list de prise en main","description":"Une liste de priorités avec ses critères et ses justifications.","termes":["rangs","classement","checklist","conseils","niveau","méthode"]},
+  {"id":"ambiances","titre":"Ambiances et sons UI","description":"Quatre boucles MP3 originales et trois sons d’interface.","termes":["pluie","forêt","industrie","ruines","son","audio","mp3","radio","lecteur"]},
+  {"id":"veille","titre":"Journal de veille","description":"Référence 1.3.0.0, correctifs signalés et fin de saison.","termes":["actualités","novembre","1.3.0.0","1.3.0.2","Unity 6","tarkov city","Kord Breach"]}
+]

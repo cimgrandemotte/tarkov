@@ -1,0 +1,49 @@
+<section class="field-section armes-section" id="reperes" tabindex="-1">
+  <h2>Repères de la famille</h2>
+  <p>Vingt-sept armes de mêlée : baïonnettes, couteaux, machettes, haches, piolets, tomahawks, glaives et une labrys de dix-neuf kilos. Ces armes n’ont ni balle ni munition, et le catalogue le dit explicitement : leur calibre est « sans munition », leur cadence est nulle, et leur prix de marchand n’existe pas. Elles n’occupent pas la même place qu’une arme à feu : elles ne servent ni à l’échange de tirs ni à la distance, et leur intérêt tient à trois chiffres seulement.</p>
+  <div class="field-grid field-grid--three">
+    <div class="field-card"><p class="eyebrow">18 à 166</p><p><strong>Dégâts de taille.</strong> La labrys enchaînée, à 166 points de dégâts de taille, est presque six fois plus puissante que le couteau Bars A-2607 Damas, à 18 points. Le haut de la famille : haches de secours à 31, machettes à 30 et 33, tomahawks à 25 et 32.</p></div>
+    <div class="field-card"><p class="eyebrow">25 à 199</p><p><strong>Dégâts de pointe.</strong> La labrys atteint 199 points de dégâts de pointe et le glaive tactique APOK 57 ; le couteau Bars A-2607 95Kh18 ferme la marche à 25. La pointe prime toujours sur la taille.</p></div>
+    <div class="field-card"><p class="eyebrow">0,35 à 0,90</p><p><strong>Rayon d’atteinte.</strong> En mètres : 0,35 pour les couteaux les plus courts, 0,45 pour les haches, 0,55 pour la pelle MPL-50, 0,80 pour le glaive tactique et 0,90 pour la labrys. Le rayon décide de l’utilité réelle de l’arme.</p></div>
+  </div>
+  <div class="field-callout">
+    <p><strong>La labrys : 19,08 kilos.</strong> C’est l’arme la plus lourde de tout le catalogue, cinq fois le poids d’un fusil d’assaut. Son rayon d’atteinte de 0,90 mètre et ses 199 points de dégâts de pointe en font l’arme de mêlée la plus redoutable du jeu, à condition de pouvoir la porter et la manier.</p>
+  </div>
+</section>
+
+<section class="field-section armes-section" id="catalogue" tabindex="-1">
+  <h2>Le catalogue de la famille</h2>
+  <p>Les vingt-sept armes de mêlée de l’export, avec leurs dégâts de taille, leurs dégâts de pointe et leur rayon d’atteinte.</p>
+  %%TABLE_CATALOGUE%%
+  <p class="armes-note">Les colonnes de cadence, de recul et de distance efficace restent vides : ces armes n’en ont pas. Le tableau les conserve pour que la comparaison avec les autres familles reste lisible.</p>
+</section>
+
+<section class="field-section armes-section" id="presets" tabindex="-1">
+  <h2>Presets publiés</h2>
+  <p>Aucune des vingt-sept armes de mêlée ne porte de preset dans l’export : il n’y a rien à monter sur une lame, et le catalogue ne propose donc aucune configuration pour cette famille. Le tableau est vide, et cette absence fait partie du relevé.</p>
+  %%TABLE_PRESETS%%
+</section>
+
+<section class="field-section armes-section" id="acquisition" tabindex="-1">
+  <h2>Acquisition et disponibilité</h2>
+  <p>Aucune des vingt-sept armes de mêlée n’a d’offre marchande dans l’instantané. Elles s’obtiennent en raid, dans les conteneurs, sur les corps, ou par tâche. Deux armes de la famille sont d’ailleurs désignées « baïonnette », et se trouvent normalement sur une arme à feu plutôt que seules.</p>
+  %%TABLE_ACQUISITION%%
+  <div class="field-callout">
+    <p><strong>Le poids, c’est de l’ergonomie perdue ailleurs.</strong> Une labrys de 19 kilos ne se porte pas dans un raid comme une arme secondaire : elle occupe la place d’une armure, d’un sac, ou d’un rifle. C’est le seul arbitrage que cette famille pose.</p>
+  </div>
+</section>
+
+<section class="field-section armes-section" id="conduite" tabindex="-1">
+  <h2>Comment s’équiper</h2>
+  <ul class="armes-list">
+    <li><strong>Comparer pointe et taille, pas le nom.</strong> Le catalogue donne deux chiffres distincts : les dégâts de taille s’appliquent à une zone large, les dégâts de pointe à un point précis. Un couteau à 24 points de taille et 31 de pointe n’est pas équivalent à un couteau à 24 et 43 : la pointe change tout.</li>
+    <li><strong>Le rayon décide de l’usage.</strong> À 0,35 mètre, une lame ne sert qu’au contact le plus proche ; à 0,80 et 0,90 mètre, la portée change la façon de s’approcher. Les haches et la labrys ont une utilité de combat que les couteaux courts n’ont pas.</li>
+    <li><strong>Ne pas confondre utilité et prix.</strong> Aucune de ces armes n’a de valeur marchande dans l’export. Leur intérêt est tactique, et il se mesure au moment où l’arme à feu est vide ou inutilisable — pas dans une préparation de raid classique.</li>
+  </ul>
+</section>
+
+<section class="field-section armes-section" id="sources" tabindex="-1">
+  <h2>Sources et limites</h2>
+  <p>Les dégâts de taille, les dégâts de pointe, le rayon d’atteinte et le poids viennent de l’export communautaire du 18 novembre 2026. Ces valeurs décrivent l’arme au corps à corps ; elles ne décrivent pas la facilité de les utiliser, ni les conditions dans lesquelles un joueur peut réellement s’en servir.</p>
+  %%SOURCES_FAMILLE%%
+</section>

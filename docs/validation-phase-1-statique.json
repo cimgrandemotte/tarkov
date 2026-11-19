@@ -1,0 +1,90 @@
+{
+  "statut": "OK",
+  "referenceUtc": "2026-11-18",
+  "atelier": "atelier/index.html",
+  "routesPlanifiees": 86,
+  "routesEditorialesPubliees": 0,
+  "index": {
+    "atelier": 8,
+    "planifiee": 86
+  },
+  "attributsLocauxResolus": 35,
+  "urlsExternesSyntaxeVerifiee": 7,
+  "referencesCssResolues": 5,
+  "longueurDescription": 159,
+  "dependenciesLocalesVerifiees": 13,
+  "contrastesPalette": {
+    "texte principal / fond": 16.94,
+    "texte secondaire / carte": 9.22,
+    "or / carte": 7.91,
+    "texte / bouton or": 8.3,
+    "contours commandes / surface": 3.47,
+    "focus / surface": 10.94,
+    "valeur en écart / cellule": 10.4,
+    "vert / badge": 8.05,
+    "identifiant hero / fond badge au maximum": 10.95
+  },
+  "images": {
+    "images/ui/control-room.jpg": {
+      "largeur": 1376,
+      "hauteur": 768,
+      "octets": 173178,
+      "sha256": "88d6200f0ce18f1113e44bfe49fa75545c0212179f630c799a689c39f8598e11"
+    },
+    "images/ui/hud-field-kit.jpg": {
+      "largeur": 1376,
+      "hauteur": 768,
+      "octets": 182636,
+      "sha256": "08359fe059023e4ca08bcf0532d9e8893ed663745b805244c950d651db535c56"
+    },
+    "images/ui/norvinsk-port.jpg": {
+      "largeur": 1376,
+      "hauteur": 768,
+      "octets": 295390,
+      "sha256": "cfe4f06f7271035fd785d0e749705c63ba35073322095615093a844a2453bf8f"
+    },
+    "images/ui/rain-antenna.jpg": {
+      "largeur": 1376,
+      "hauteur": 768,
+      "octets": 234761,
+      "sha256": "d8b536c6369d9c44d1718542822a1090602f5a9f9d20a218ce8cfb884f3e1e79"
+    }
+  },
+  "audios": {
+    "audio/ambient/ambient_rain.mp3": {
+      "secondesMp3": 60.029,
+      "boucle": true,
+      "octets": 1200588
+    },
+    "audio/ambient/ambient_industrial.mp3": {
+      "secondesMp3": 60.029,
+      "boucle": true,
+      "octets": 1200588
+    },
+    "audio/ambient/ambient_forest.mp3": {
+      "secondesMp3": 60.029,
+      "boucle": true,
+      "octets": 1200588
+    },
+    "audio/ambient/ambient_urban.mp3": {
+      "secondesMp3": 60.029,
+      "boucle": true,
+      "octets": 1200588
+    },
+    "audio/ui/ui_hover.mp3": {
+      "secondesMp3": 0.209,
+      "boucle": false,
+      "octets": 4180
+    },
+    "audio/ui/ui_click.mp3": {
+      "secondesMp3": 0.366,
+      "boucle": false,
+      "octets": 7314
+    },
+    "audio/ui/ui_notification.mp3": {
+      "secondesMp3": 0.862,
+      "boucle": false,
+      "octets": 17241
+    }
+  }
+}

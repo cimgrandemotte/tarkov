@@ -1,0 +1,372 @@
+{{Infobox location
+|image              =Reserve.png
+|image size         =
+|icon               =
+|type               =
+|prev               =[[Woods]]<br/>[[Customs]]<br/>[[Lighthouse]]
+|next               =[[Lighthouse]]<br/>[[Customs]]<br/>[[Woods]]
+|chapter            =
+|enemies            =[[Scavs]], [[Scav Raiders]], [[Glukhar]]
+|players            =9-11
+|difficulty         =
+|duration           =40 minutes
+|notable loot       =
+}}
+
+''For the quest, see [[Reserve (quest)]].''
+
+'''{{PAGENAME}}''' is a [[Map of Tarkov|location]] in ''[[Escape from Tarkov]]''. It is the seventh map that was added to the game.
+
+==Description==
+The secret Federal State Reserve Agency base that, according to urban legends, contains enough supplies to last for years: food, medications, and other resources, enough to survive an all-out nuclear war.
+
+==Notes==
+{{PAGENAME}} is initially only accessible by [[Transits|transiting]]. Direct access from the location selection screen is unlocked upon progressing through the story chapter [[Tour]].
+
+==Features==
+*Stationary weapons in the form of [[AGS-30 30x29mm automatic grenade launcher]]s and [[NSV Utyos 12.7x108 heavy machine gun]]s.
+*Be aware of [[Map of Tarkov#Border Snipers|Border Snipers]] and [[Map of Tarkov#Minefields|Minefields]]!
+
+==Usable Keys==
+<div class="mw-collapsible mw-collapsed leftcollapse" data-expandtext="Show keys" data-collapsetext="Hide keys"><br/>
+{| class="wikitable sortable"
+!Icon
+!Key Name
+!Used in Quest
+|-
+![[File:rb-ak item.png|64px|link=RB-AK key]]
+|[[RB-AK key]]
+!
+|-
+![[File:RB-AM Key.png|64px|link=RB-AM key]]
+|[[RB-AM key]]
+!
+|-
+![[File:RB-AO key icon.png|64px|link=RB-AO key]]
+|[[RB-AO key]]
+!
+|-
+![[File:RB-BK Icon.png|64px|link=RB-BK marked key]]
+|[[RB-BK marked key]]
+! style="color: green" |✔
+|-
+![[File:RB-GN key icon.png|64px|link=RB-GN key]]
+|[[RB-GN key]]
+!
+|-
+![[File:RB-KORL key icon.png|64px|link=RB-KORL key]]
+|[[RB-KORL key]]
+!
+|-
+![[File:RB-KPRL key icon.png|64px|link=RB-KPRL key]]
+|[[RB-KPRL key]]
+!
+|-
+![[File:RB-KSM Icon.PNG|64px|link=RB-KSM key]]
+|[[RB-KSM key]]
+! style="color: green" |✔
+|-
+![[File:RB-MP11.png|64px|link=RB-MP11 key]]
+|[[RB-MP11 key]]
+!
+|-
+![[File:RB-MP12.png|64px|link=RB-MP12 key]]
+|[[RB-MP12 key]]
+!
+|-
+![[File:RB-MP13.png|64px|link=RB-MP13 key]]
+|[[RB-MP13 key]]
+!
+|-
+![[File:RB-MP21.png|64px|link=RB-MP21 key]]
+|[[RB-MP21 key]]
+!
+|-
+![[File:RB-MP22.png|64px|link=RB-MP22 key]]
+|[[RB-MP22 key]]
+!
+|-
+![[File:RB-OB key icon.png|64px|link=RB-OB key]]
+|[[RB-OB key]]
+! style="color: green" |✔
+|-
+![[File:RB-OP key icon.png|64px|link=RB-OP key]]
+|[[RB-OP key]]
+!
+|-
+![[File:RB-ORB1 key icon.png|64px|link=RB-ORB1 key]]
+|[[RB-ORB1 key]]
+! style="color: green" |✔
+|-
+![[File:RB-ORB2 key icon.png|64px|link=RB-ORB2 key]]
+|[[RB-ORB2 key]]
+! style="color: green" |✔
+|-
+![[File:RB-ORB3 key icon.png|64px|link=RB-ORB3 key]]
+|[[RB-ORB3 key]]
+! style="color: green" |✔
+|-
+![[File:RB-PKPM key icon.png|64px|link=RB-PKPM marked key]]
+|[[RB-PKPM marked key]]
+! style="color: green" |✔
+|-
+![[File:RB-PKPTS key icon.png|64px|link=RB-PKPTS key]]
+|[[RB-PKPTS key]]
+! style="color: green" |✔
+|-
+![[File:RB-PSP1 key icon.png|64px|link=RB-PSP1 key]]
+|[[RB-PSP1 key]]
+! style="color: green" |✔
+|-
+![[File:RB-PSP2 key icon.png|64px|link=RB-PSP2 key]]
+|[[RB-PSP2 key]]
+! style="color: green" |✔
+|-
+![[File:RB-PS81.png|64px|link=RB-PSV1 key]]
+|[[RB-PSV1 key]]
+! style="color: green" |✔
+|-
+![[File:RB-PS82 key icon.png|64px|link=RB-PSV2 key]]
+|[[RB-PSV2 key]]
+! style="color: green" |✔
+|-
+![[File:RB-RH key icon.png|64px|link=RB-RH key]]
+|[[RB-RH key]]
+!
+|-
+![[File:RB-RLSSA key icon.png|64px|link=RB-RLSA key]]
+|[[RB-RLSA key]]
+!
+|-
+![[File:RB-RS key icon.png|64px|link=RB-RS key]]
+|[[RB-RS key]]
+!
+|-
+![[File:RB-SMP key icon.png|64px|link=RB-SMP key]]
+|[[RB-SMP key]]
+! style="color: green" |✔
+|-
+![[File:RB-ST key icon.png|64px|link=RB-ST key]]
+|[[RB-ST key]]
+! style="color: green" |✔
+|-
+![[File:RB-TB key icon.png|64px|link=RB-TB key]]
+|[[RB-TB key]]
+!
+|-
+![[File:RB-VO key icon.png|64px|link=RB-VO marked key]]
+|[[RB-VO marked key]]
+! style="color: green" |✔
+|}
+</div>
+{{clear}}
+
+==Boss==
+{| class="wikitable sortable"
+!Name
+!Image
+!Location
+!Notable equipment
+!Followers
+|-
+|[[Glukhar]]
+![[File:Gluhar Portrait.PNG|frameless|140px|link=Glukhar]]
+|At the storage buildings marked with "K"<br/>At the repair building marked with white knight<br/>At the barracks marked with black bishop and black pawn <br/>In the underground storage warehouse marked with "Д"
+|[[ASh-12 12.7x55 assault rifle]]
+|6 heavily armed and armored guards
+|}
+
+==Extractions==
+To locate the extractions use the [[Reserve#Maps|maps]] below the table.
+{| class="wikitable sortable stickyheader" style="text-align: center;"
+!Extraction
+!Name
+!Faction
+!Always available
+!Single-Use
+!Requirements
+!Notes
+|-
+![[File:Armored train 3.png|240px]]
+! style="text-align: left;" |Armored Train
+|All
+|<font color="red">✘</font>
+|<font color="green">✔</font>
+| -
+|Arrives between 16 and 12 minutes left in the raid.<br/>Honks twice on arrival.<br/>Stays for 7 min.<br/>Honks once 1 min before departure.<br/>Honks twice on closing doors.<br/>[[File:ExtractionTrainHorn.wav|282px]]<br/>[[Scav Raiders]] may spawn at the train yard around the time of arrival.
+|-
+![[File:Bunker hermetic door.png|240px]]
+! style="text-align: left;" |Bunker Hermetic Door
+|All
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|[[File:BunkerHermeticDoorExtractTrigger.png|240px]]<br/>Activate the lever in the shack west of the white pawn barracks. 
+|The activation lasts for 4 minutes and a siren wails for the duration.<br/>[[File:ReserveHermeticSiren.wav|282px]]<br/>Activating the lever has a chance to make some [[Scav Raiders]] spawn at the train yard.<br/>
+|-
+![[File:CP Fence.png|240px]]
+! style="text-align: left;" |Checkpoint Fence
+|Scav
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+| -
+|
+|-
+![[File:Cliff descent (fence behind weather dome).png|240px]]
+! style="text-align: left;" |Cliff Descent
+|PMC
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|[[Red Rebel ice pick]]<br/>[[Paracord]]<br/>No [[armor vest]] equipped
+|
+|-
+![[File:D2 Extract.png|240px]]
+! style="text-align: left;" |D-2
+|PMC
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|[[File:D2 Switch.png|240px]]<br/>1.Turn on power with a lever in the<br/>underground bunker system<br/>2.Press the button on the wall next to the sliding door
+|Activating the lever has the chance to make some [[Scav Raiders]] spawn in the command part of the bunker.
+|-
+![[File:Depot hermetic door.png|240px]]
+! style="text-align: left;" |Depot Hermetic Door
+|Scav
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+| -
+|
+|-
+![[File:Exit to Woods.png|240px]]
+! style="text-align: left;" |Exit to Woods
+|All
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|[[File:Minefield map (Reserve) icon.png|link=Minefield map (Reserve)]]
+[[Minefield map (Reserve)]]
+|
+|-
+![[File:Heating Pipe.png|240px]]
+! style="text-align: left;" |Heating Pipe
+|Scav
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+| -
+|
+|-
+![[File:Hole in fence by the mountains (Northwest Corner of map).png|240px]]
+! style="text-align: left;" |Hole in the Wall by the Mountains
+|Scav
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+| -
+|
+|-
+![[File:Scav lands.png|240px]]
+! style="text-align: left;" |Scav Lands (Co-Op)
+|All
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|[[Scav]] + PMC
+|
+|-
+![[File:Sewer manhole.png|240px]]
+! style="text-align: left;" |Sewer Manhole
+|All
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|No [[Backpacks|backpack]] equipped
+|
+|}
+
+==Transits==
+{| class="wikitable sortable stickyheader" style="text-align: center;"
+!Transit
+!Name
+!Faction
+!Always available
+!Single-Use
+!Requirements
+!Notes
+|-
+![[File:ReserveTransitToCustoms.png|240px]]
+! style="text-align: left;" |Transit to Customs
+|All
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|Only available 1 min after raid start
+|North of the black bishop barracks, where the train track ends
+|-
+![[File:ReserveTransitToLighthouse.png|240px]]
+! style="text-align: left;" |Transit to Lighthouse
+|All
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|Only available 1 min after raid start
+|[[File:ReserveTransitToLighthouse2.png|240px]]<br/>At the map border southwest of the train yard 
+|-
+![[File:ReserveTransitToWoods.png|240px]]
+! style="text-align: left;" |Transit to Woods
+|All
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|Only available 1 min after raid start
+|[[File:ReserveTransitToWoods2.png|240px]]<br/>At the map border northwest of the train yard 
+|}
+
+==Maps==
+===Interactive Map===
+Click [[File:FS.png|link=]] for fullscreen. Separate map page [[Map:Reserve|here]].
+<interactive-map name="Reserve" width="800px"/>
+
+===3D Map===
+[[File:Re3mrReserveCardinalNorthWikiVer.jpg|800px|link={{filepath:Re3mrReserveCardinalNorthWikiVer.jpg}}]]
+
+===2D Map===
+[[File:JindouzReserve v1 2dmap.png|800px|link={{filepath:JindouzReserve v1 2dmap.png}}]]
+
+===2D Map Underground===
+[[File:ReserveUnderground2DMapByRe3mr.png|800px|link={{filepath:ReserveUnderground2DMapByRe3mr.png}}]]
+
+===Ingame Map Translated - North bottom===
+[[File:Reserve Map Translated.png|800px|link={{filepath:Reserve Map Translated.png}}]]
+
+==Gallery==
+<center>
+<li style="display: inline-block;"><gallery mode="slideshow">
+File:Reserve Showcase 1.png
+File:Reserve Showcase 2.png
+File:Reserve Showcase 3.png
+File:Reserve Showcase 4.png
+File:Reserve Showcase 5.png
+File:Reserve Showcase 6.png
+File:Reserve Showcase 7.png
+File:Reserve Showcase 8.png
+File:Reserve Showcase 9.png
+File:Reserve Showcase 10.png
+File:Reserve Showcase 11.png
+File:Reserve Showcase 12.png
+File:Reserve Showcase 13.png
+File:Reserve Showcase 14.png
+File:Reserve Showcase 15.png
+File:Reserve Showcase 16.png
+File:Reserve Showcase 17.png
+File:Reserve Showcase 18.png
+File:Reserve Showcase 19.png
+File:Reserve Showcase 20.png
+File:Reserve Showcase 21.png
+File:Reserve Showcase 22.png
+File:Reserve Showcase 23.png
+File:Reserve Showcase 24.png
+File:Reserve Showcase 25.png
+</gallery></li>
+</center>
+
+==Trivia==
+*The location was expanded with [[Changelog#0.12.6.7982_(29_Jun_2020)|patch 0.12.6.7982]] on June 29, 2020.
+* The underground bunker system is based on "Бункер 703" (Bunker 703) in Moscow, which was in use by the Russian ministry of Foreign Affairs.
+
+{{Navbox locations}}
+[[Category:Locations]]
+
+[[cs:Reserve]]
+[[fr:Base militaire]]
+[[ru:Резерв]]

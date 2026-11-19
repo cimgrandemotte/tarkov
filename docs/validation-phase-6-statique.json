@@ -1,0 +1,369 @@
+{
+  "statut": "OK",
+  "controleCloture": true,
+  "publication": {
+    "publiees": 50,
+    "routesPhase6NonPubliees": []
+  },
+  "compteurs": {
+    "pagesPlanifiees": 86,
+    "pagesGenerees": 50,
+    "pagesHtmlTechniques": 1,
+    "imagesCreees": 74,
+    "audiosCrees": 8
+  },
+  "routes": {
+    "pages/armor/index.html": {
+      "referencesLocales": 50,
+      "sourcesExternes": 11,
+      "tableaux": 5,
+      "sections": 8
+    },
+    "pages/armor/body-armor.html": {
+      "referencesLocales": 50,
+      "sourcesExternes": 13,
+      "tableaux": 6,
+      "sections": 8
+    },
+    "pages/armor/helmets.html": {
+      "referencesLocales": 50,
+      "sourcesExternes": 12,
+      "tableaux": 5,
+      "sections": 8
+    },
+    "pages/armor/rigs.html": {
+      "referencesLocales": 50,
+      "sourcesExternes": 11,
+      "tableaux": 6,
+      "sections": 8
+    },
+    "pages/armor/armor-chart.html": {
+      "referencesLocales": 50,
+      "sourcesExternes": 11,
+      "tableaux": 5,
+      "sections": 8
+    },
+    "pages/bosses/index.html": {
+      "referencesLocales": 62,
+      "sourcesExternes": 15,
+      "tableaux": 3,
+      "sections": 8
+    },
+    "pages/bosses/reshala.html": {
+      "referencesLocales": 49,
+      "sourcesExternes": 12,
+      "tableaux": 5,
+      "sections": 8
+    },
+    "pages/bosses/killa.html": {
+      "referencesLocales": 49,
+      "sourcesExternes": 12,
+      "tableaux": 4,
+      "sections": 8
+    },
+    "pages/bosses/shturman.html": {
+      "referencesLocales": 49,
+      "sourcesExternes": 12,
+      "tableaux": 5,
+      "sections": 8
+    },
+    "pages/bosses/glukhar.html": {
+      "referencesLocales": 49,
+      "sourcesExternes": 11,
+      "tableaux": 5,
+      "sections": 8
+    },
+    "pages/bosses/sanitar.html": {
+      "referencesLocales": 49,
+      "sourcesExternes": 11,
+      "tableaux": 5,
+      "sections": 8
+    },
+    "pages/bosses/tagilla.html": {
+      "referencesLocales": 49,
+      "sourcesExternes": 11,
+      "tableaux": 4,
+      "sections": 8
+    },
+    "pages/bosses/kaban.html": {
+      "referencesLocales": 49,
+      "sourcesExternes": 12,
+      "tableaux": 5,
+      "sections": 8
+    },
+    "pages/bosses/kollontay.html": {
+      "referencesLocales": 49,
+      "sourcesExternes": 11,
+      "tableaux": 5,
+      "sections": 8
+    },
+    "pages/bosses/zryachiy.html": {
+      "referencesLocales": 49,
+      "sourcesExternes": 11,
+      "tableaux": 4,
+      "sections": 8
+    },
+    "pages/bosses/partisan.html": {
+      "referencesLocales": 49,
+      "sourcesExternes": 11,
+      "tableaux": 4,
+      "sections": 8
+    },
+    "pages/bosses/cultist-priest.html": {
+      "referencesLocales": 49,
+      "sourcesExternes": 12,
+      "tableaux": 5,
+      "sections": 8
+    },
+    "pages/bosses/the-goons.html": {
+      "referencesLocales": 49,
+      "sourcesExternes": 11,
+      "tableaux": 5,
+      "sections": 8
+    },
+    "pages/bosses/shadow-of-tagilla.html": {
+      "referencesLocales": 49,
+      "sourcesExternes": 11,
+      "tableaux": 4,
+      "sections": 8
+    },
+    "pages/bosses/the-wedge.html": {
+      "referencesLocales": 49,
+      "sourcesExternes": 13,
+      "tableaux": 5,
+      "sections": 8
+    }
+  },
+  "mediasPhase6": {
+    "images/armor/armor-index.jpg": {
+      "px": [
+        1376,
+        768
+      ],
+      "octets": 199321,
+      "sha256": "1ea2c39fbc40d0cc544d83108f742184fa1b500c0d62f0bcbf50a5600bfce438"
+    },
+    "images/armor/casques-visieres.jpg": {
+      "px": [
+        1376,
+        768
+      ],
+      "octets": 141666,
+      "sha256": "427fb02f700b36a0f1352d204af4cfab5ca15ebffb9a346adcff389e73734232"
+    },
+    "images/armor/comparateur-armures.jpg": {
+      "px": [
+        1376,
+        768
+      ],
+      "octets": 145187,
+      "sha256": "d955f63ed62bdb35a1bfb7ea56d8cbbc64b87e715f799ba501a9cbd7115d8f96"
+    },
+    "images/armor/gilets-plaques.jpg": {
+      "px": [
+        1376,
+        768
+      ],
+      "octets": 277005,
+      "sha256": "9ba7fdd969f04b5a3562f5f08ee3988076f0b0e1e57f8968a613568d032dfc1e"
+    },
+    "images/armor/rigs-poches.jpg": {
+      "px": [
+        1376,
+        768
+      ],
+      "octets": 200676,
+      "sha256": "2088c0d1fb9a5f8b32dca99ce48b9047957a01580543d369d8af869ea0b0420c"
+    },
+    "images/bosses/bosses-index.jpg": {
+      "px": [
+        1376,
+        768
+      ],
+      "octets": 140451,
+      "sha256": "aadfb314d9309b0df5706660a058b612f2c9dd711e44877ca6c769d30fc21536"
+    },
+    "images/bosses/cultist-priest.jpg": {
+      "px": [
+        1376,
+        768
+      ],
+      "octets": 196040,
+      "sha256": "899f8a4015265f13c2d647e328b2678012e14d97fa678c506f6b04ed733300a9"
+    },
+    "images/bosses/glukhar.jpg": {
+      "px": [
+        1376,
+        768
+      ],
+      "octets": 159633,
+      "sha256": "f2d1dd7c5e7866bd63fa4a0069b6d00d5786147586df9a05d0033a4a115b5f4e"
+    },
+    "images/bosses/kaban.jpg": {
+      "px": [
+        1376,
+        768
+      ],
+      "octets": 381532,
+      "sha256": "386519290eed2a0a1d75918ac0ab178eb6da3943d3f85462d9da15758e2524fb"
+    },
+    "images/bosses/killa.jpg": {
+      "px": [
+        1376,
+        768
+      ],
+      "octets": 225589,
+      "sha256": "2c6db0f6dd71236938ee10c7518d7ee3c07617c5072231d1d5288c99ba8533f1"
+    },
+    "images/bosses/kollontay.jpg": {
+      "px": [
+        1376,
+        768
+      ],
+      "octets": 277926,
+      "sha256": "5247da919b20e811dda37837bcdacac69c57b8f5668465a13e0a8f9468c78582"
+    },
+    "images/bosses/partisan.jpg": {
+      "px": [
+        1376,
+        768
+      ],
+      "octets": 280011,
+      "sha256": "6bbbe1a4d642e96a9aa50d1cbe87114300d989910750e275063a07e62e98a96e"
+    },
+    "images/bosses/reshala.jpg": {
+      "px": [
+        1376,
+        768
+      ],
+      "octets": 250218,
+      "sha256": "bdee6f2af9cb446f20c85823838fac80eef82bf93d9ab0af348f86626bc8dc8a"
+    },
+    "images/bosses/sanitar.jpg": {
+      "px": [
+        1376,
+        768
+      ],
+      "octets": 180844,
+      "sha256": "299f0f9bff487cc2a92850be91927533374cae5c54a49f068bf602ea107d7b22"
+    },
+    "images/bosses/shadow-of-tagilla.jpg": {
+      "px": [
+        1376,
+        768
+      ],
+      "octets": 237127,
+      "sha256": "867bc7c2d88438129d100f53394fec7db1a5ba2d521a9493558c2013c05a9796"
+    },
+    "images/bosses/shturman.jpg": {
+      "px": [
+        1376,
+        768
+      ],
+      "octets": 309795,
+      "sha256": "a4512a2b4f6d675c4f0d3971ce6b14d320ea3ed694597045a3c1825e22aad36d"
+    },
+    "images/bosses/tagilla.jpg": {
+      "px": [
+        1376,
+        768
+      ],
+      "octets": 201324,
+      "sha256": "0e4f1613b5696d15146dcce5d57e9ff9926e3dd33bf369f408325bcf8307f580"
+    },
+    "images/bosses/the-goons.jpg": {
+      "px": [
+        1376,
+        768
+      ],
+      "octets": 345674,
+      "sha256": "73433f37c14f2f2dcd393e585aa62a8230d1c2b51177b37175d059dff7b5850d"
+    },
+    "images/bosses/the-wedge.jpg": {
+      "px": [
+        1376,
+        768
+      ],
+      "octets": 270577,
+      "sha256": "7b5011e0179b01b483eca9175e9e8d70047b7b32ef4a1a950a1cd89cfa6e6926"
+    },
+    "images/bosses/zryachiy.jpg": {
+      "px": [
+        1376,
+        768
+      ],
+      "octets": 190368,
+      "sha256": "5c09a895bbf142055451bbc4dd032c34ec353de186940f6abac2b584e5c54cec"
+    }
+  },
+  "index": {
+    "accueil": 6,
+    "atelier": 8,
+    "publiee": 50,
+    "planifiee": 36,
+    "dossier": 19
+  },
+  "sourcesRegistre": 228,
+  "donneesJeu": {
+    "piecesArmure": 390,
+    "materiaux": 8,
+    "plaques": 38,
+    "piecesAvecPlaques": 97,
+    "fichesBoss": 14,
+    "mobsExport": 48,
+    "horsFiche": 18,
+    "apparitions": 89
+  },
+  "reproductibilite": [
+    "pages/armor/index.html · 390 pièces · 8 matériaux",
+    "pages/armor/body-armor.html · 87 pièces",
+    "pages/armor/helmets.html · 119 pièces",
+    "pages/armor/rigs.html · 105 pièces",
+    "pages/armor/armor-chart.html · comparateur · 390 pièces",
+    "pages/bosses/index.html · 14 fiches · 18 entrées hors fiche",
+    "pages/bosses/reshala.html · 752 PV · 6 apparitions",
+    "pages/bosses/killa.html · 890 PV · 6 apparitions",
+    "pages/bosses/shturman.html · 812 PV · 3 apparitions",
+    "pages/bosses/glukhar.html · 1010 PV · 6 apparitions",
+    "pages/bosses/sanitar.html · 1270 PV · 6 apparitions",
+    "pages/bosses/tagilla.html · 1220 PV · 3 apparitions",
+    "pages/bosses/kaban.html · 1300 PV · 3 apparitions",
+    "pages/bosses/kollontay.html · 1055 PV · 3 apparitions",
+    "pages/bosses/zryachiy.html · 1655 PV · 3 apparitions",
+    "pages/bosses/partisan.html · 950 PV · 12 apparitions",
+    "pages/bosses/cultist-priest.html · 850 PV · 15 apparitions",
+    "pages/bosses/the-goons.html · 1120 PV · 15 apparitions",
+    "pages/bosses/shadow-of-tagilla.html · 1305 PV · 3 apparitions",
+    "pages/bosses/the-wedge.html · 750 PV · 5 apparitions",
+    "pages/weapons/index.html · 199 armes au catalogue · 10 familles",
+    "pages/weapons/assault-rifles.html · 63 entrées de catalogue · Fusils d’assaut et carabines",
+    "pages/weapons/smgs.html · 23 entrées de catalogue · Pistolets-mitrailleurs (SMG)",
+    "pages/weapons/shotguns.html · 16 entrées de catalogue · Fusils à pompe et semi-automatiques",
+    "pages/weapons/sniper-rifles.html · 10 entrées de catalogue · Fusils de précision à verrou",
+    "pages/weapons/dmrs.html · 11 entrées de catalogue · Fusils de précision semi-auto (DMR)",
+    "pages/weapons/lmgs.html · 8 entrées de catalogue · Mitrailleuses légères et polyvalentes",
+    "pages/weapons/pistols.html · 31 entrées de catalogue · Pistolets et revolvers",
+    "pages/weapons/melee.html · 27 entrées de catalogue · Armes de mêlée",
+    "pages/weapons/grenade-launchers.html · 10 entrées de catalogue · Lance-grenades et lanceurs spéciaux",
+    "pages/weapons/weapon-mods.html · 0 entrées de catalogue · Modifications et accessoires",
+    "pages/ammo/index.html · 200 cartouches · 31 calibres",
+    "pages/ammo/ammo-chart.html · 200 cartouches listées",
+    "pages/maps/index.html · 17 références directes · 13 fiches indexées",
+    "pages/maps/factory.html · 11 références directes · 8 sorties documentées · 10 intitulés de jeu",
+    "pages/maps/customs.html · 9 références directes · 16 sorties documentées · 28 intitulés de jeu",
+    "pages/maps/woods.html · 10 références directes · 18 sorties documentées · 20 intitulés de jeu",
+    "pages/maps/shoreline.html · 10 références directes · 13 sorties documentées · 19 intitulés de jeu",
+    "pages/maps/interchange.html · 8 références directes · 7 sorties documentées · 9 intitulés de jeu",
+    "pages/maps/reserve.html · 7 références directes · 11 sorties documentées · 11 intitulés de jeu",
+    "pages/maps/the-lab.html · 10 références directes · 7 sorties documentées · 7 intitulés de jeu",
+    "pages/maps/lighthouse.html · 11 références directes · 12 sorties documentées · 12 intitulés de jeu",
+    "pages/maps/streets-of-tarkov.html · 9 références directes · 17 sorties documentées · 19 intitulés de jeu",
+    "pages/maps/ground-zero.html · 9 références directes · 6 sorties documentées · 9 intitulés de jeu",
+    "pages/maps/the-labyrinth.html · 9 références directes · 2 sorties documentées · 2 intitulés de jeu",
+    "pages/maps/icebreaker.html · 9 références directes · 1 sorties documentées · 1 intitulés de jeu",
+    "pages/maps/terminal.html · 13 références directes · 1 sorties documentées · 0 intitulés de jeu",
+    "pages/getting-started.html · 21 références directes · description 156 caractères",
+    "pages/lore/index.html · 20 références directes · description 157 caractères",
+    "Accueil : 50 / 86 routes éditoriales, 3 profils, 5 498 objets par profil, description 152 caractères."
+  ]
+}

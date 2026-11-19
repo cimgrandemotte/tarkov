@@ -1,0 +1,246 @@
+{
+  "statut": "OK",
+  "controleCloture": true,
+  "compteurs": {
+    "pagesPlanifiees": 86,
+    "pagesGenerees": 30,
+    "pagesHtmlTechniques": 1,
+    "imagesCreees": 54,
+    "audiosCrees": 8
+  },
+  "routes": {
+    "pages/weapons/index.html": {
+      "referencesLocales": 53,
+      "sourcesExternes": 7,
+      "tableaux": 6,
+      "sections": 6
+    },
+    "pages/weapons/assault-rifles.html": {
+      "referencesLocales": 45,
+      "sourcesExternes": 5,
+      "tableaux": 3,
+      "sections": 6
+    },
+    "pages/weapons/smgs.html": {
+      "referencesLocales": 44,
+      "sourcesExternes": 5,
+      "tableaux": 2,
+      "sections": 6
+    },
+    "pages/weapons/shotguns.html": {
+      "referencesLocales": 44,
+      "sourcesExternes": 5,
+      "tableaux": 2,
+      "sections": 6
+    },
+    "pages/weapons/sniper-rifles.html": {
+      "referencesLocales": 44,
+      "sourcesExternes": 5,
+      "tableaux": 2,
+      "sections": 6
+    },
+    "pages/weapons/dmrs.html": {
+      "referencesLocales": 44,
+      "sourcesExternes": 5,
+      "tableaux": 3,
+      "sections": 6
+    },
+    "pages/weapons/lmgs.html": {
+      "referencesLocales": 44,
+      "sourcesExternes": 5,
+      "tableaux": 2,
+      "sections": 6
+    },
+    "pages/weapons/pistols.html": {
+      "referencesLocales": 44,
+      "sourcesExternes": 5,
+      "tableaux": 3,
+      "sections": 6
+    },
+    "pages/weapons/melee.html": {
+      "referencesLocales": 44,
+      "sourcesExternes": 5,
+      "tableaux": 1,
+      "sections": 6
+    },
+    "pages/weapons/grenade-launchers.html": {
+      "referencesLocales": 44,
+      "sourcesExternes": 5,
+      "tableaux": 2,
+      "sections": 6
+    },
+    "pages/weapons/weapon-mods.html": {
+      "referencesLocales": 44,
+      "sourcesExternes": 6,
+      "tableaux": 2,
+      "sections": 6
+    },
+    "pages/ammo/index.html": {
+      "referencesLocales": 45,
+      "sourcesExternes": 8,
+      "tableaux": 6,
+      "sections": 7
+    },
+    "pages/ammo/ammo-chart.html": {
+      "referencesLocales": 42,
+      "sourcesExternes": 6,
+      "tableaux": 1,
+      "sections": 5
+    }
+  },
+  "mediasPhase5": {
+    "images/weapons/arsenal-etabli.jpg": {
+      "px": [
+        1376,
+        768
+      ],
+      "octets": 199238,
+      "sha256": "b3782e9d338dd08be8860f263493fa9bdf930cdea54e850a814196753103c339"
+    },
+    "images/weapons/balistique-calibres.jpg": {
+      "px": [
+        1376,
+        768
+      ],
+      "octets": 255010,
+      "sha256": "2f12e3aeca4091eae03a5d29950713e726ad0dd156e7766b6a1e2ca868f41a87"
+    },
+    "images/weapons/famille-assaut.jpg": {
+      "px": [
+        1376,
+        768
+      ],
+      "octets": 224062,
+      "sha256": "629ee81e51083c8f7073df49c31e6585294eb92abbc608d0ecfac381bd914ae8"
+    },
+    "images/weapons/famille-dmr.jpg": {
+      "px": [
+        1376,
+        768
+      ],
+      "octets": 228380,
+      "sha256": "d1415db65d78e2dd4cd3747a4eda910745ba1bb5a91f5a6864f5bb5fa59e3ba9"
+    },
+    "images/weapons/famille-lanceur.jpg": {
+      "px": [
+        1376,
+        768
+      ],
+      "octets": 124593,
+      "sha256": "a14ae53b53ff1c2a0fdba90180355d30109da846ead80e4c3c487ce24e201f1f"
+    },
+    "images/weapons/famille-melee.jpg": {
+      "px": [
+        1376,
+        768
+      ],
+      "octets": 239758,
+      "sha256": "fdb2da2635ec83ebd81f67ea29279e21fe6500257ee3df9783311381c49a51cd"
+    },
+    "images/weapons/famille-mitrailleuse.jpg": {
+      "px": [
+        1376,
+        768
+      ],
+      "octets": 183379,
+      "sha256": "157d23c8904bf2c88d7bae5f6b82848dd7f2ca39dd8de68718879a97978c586a"
+    },
+    "images/weapons/famille-pistolet.jpg": {
+      "px": [
+        1376,
+        768
+      ],
+      "octets": 228311,
+      "sha256": "67c0aa142fa266ac500682b8a26ec7d727f978eeae9cdfce45ddbabc628849ea"
+    },
+    "images/weapons/famille-pompe.jpg": {
+      "px": [
+        1376,
+        768
+      ],
+      "octets": 186097,
+      "sha256": "e26b66ff35c0f450a132922f84604342528fd8cef1f8a83116b04f089fcaaf7d"
+    },
+    "images/weapons/famille-precision.jpg": {
+      "px": [
+        1376,
+        768
+      ],
+      "octets": 185315,
+      "sha256": "5eac3a08627697ed7c63b95e1ce76ba237a6aaf96ed66f6f437ea56d418b02a7"
+    },
+    "images/weapons/famille-smg.jpg": {
+      "px": [
+        1376,
+        768
+      ],
+      "octets": 181384,
+      "sha256": "d67bd8bdc5518c624e59ff528c1756fad06d525309bd2c55a2f33d68f2bfd140"
+    },
+    "images/weapons/mods-composants.jpg": {
+      "px": [
+        1376,
+        768
+      ],
+      "octets": 218572,
+      "sha256": "1e58161b30d8b4a95803d59b277d764d091fe2436610513e3291c3bc52574cdc"
+    },
+    "images/weapons/munitions-macro.jpg": {
+      "px": [
+        1376,
+        768
+      ],
+      "octets": 180172,
+      "sha256": "9125f7143b7d2a01a094372e577e9c893d7c34b33132faebddff0a920d92bc88"
+    }
+  },
+  "index": {
+    "accueil": 6,
+    "atelier": 8,
+    "publiee": 30,
+    "planifiee": 56,
+    "dossier": 19
+  },
+  "sourcesRegistre": 196,
+  "donneesJeu": {
+    "armes": 199,
+    "pieces": 2283,
+    "munitions": 200,
+    "calibres": 31,
+    "grenades": 7,
+    "presets": 401,
+    "familles": 9
+  },
+  "reproductibilite": [
+    "pages/weapons/index.html · 199 armes au catalogue · 10 familles",
+    "pages/weapons/assault-rifles.html · 63 entrées de catalogue · Fusils d’assaut et carabines",
+    "pages/weapons/smgs.html · 23 entrées de catalogue · Pistolets-mitrailleurs (SMG)",
+    "pages/weapons/shotguns.html · 16 entrées de catalogue · Fusils à pompe et semi-automatiques",
+    "pages/weapons/sniper-rifles.html · 10 entrées de catalogue · Fusils de précision à verrou",
+    "pages/weapons/dmrs.html · 11 entrées de catalogue · Fusils de précision semi-auto (DMR)",
+    "pages/weapons/lmgs.html · 8 entrées de catalogue · Mitrailleuses légères et polyvalentes",
+    "pages/weapons/pistols.html · 31 entrées de catalogue · Pistolets et revolvers",
+    "pages/weapons/melee.html · 27 entrées de catalogue · Armes de mêlée",
+    "pages/weapons/grenade-launchers.html · 10 entrées de catalogue · Lance-grenades et lanceurs spéciaux",
+    "pages/weapons/weapon-mods.html · 0 entrées de catalogue · Modifications et accessoires",
+    "pages/ammo/index.html · 200 cartouches · 31 calibres",
+    "pages/ammo/ammo-chart.html · 200 cartouches listées",
+    "pages/maps/index.html · 17 références directes · 13 fiches indexées",
+    "pages/maps/factory.html · 11 références directes · 8 sorties documentées · 10 intitulés de jeu",
+    "pages/maps/customs.html · 9 références directes · 16 sorties documentées · 28 intitulés de jeu",
+    "pages/maps/woods.html · 10 références directes · 18 sorties documentées · 20 intitulés de jeu",
+    "pages/maps/shoreline.html · 10 références directes · 13 sorties documentées · 19 intitulés de jeu",
+    "pages/maps/interchange.html · 8 références directes · 7 sorties documentées · 9 intitulés de jeu",
+    "pages/maps/reserve.html · 7 références directes · 11 sorties documentées · 11 intitulés de jeu",
+    "pages/maps/the-lab.html · 10 références directes · 7 sorties documentées · 7 intitulés de jeu",
+    "pages/maps/lighthouse.html · 11 références directes · 12 sorties documentées · 12 intitulés de jeu",
+    "pages/maps/streets-of-tarkov.html · 9 références directes · 17 sorties documentées · 19 intitulés de jeu",
+    "pages/maps/ground-zero.html · 9 références directes · 6 sorties documentées · 9 intitulés de jeu",
+    "pages/maps/the-labyrinth.html · 9 références directes · 2 sorties documentées · 2 intitulés de jeu",
+    "pages/maps/icebreaker.html · 9 références directes · 1 sorties documentées · 1 intitulés de jeu",
+    "pages/maps/terminal.html · 13 références directes · 1 sorties documentées · 0 intitulés de jeu",
+    "pages/getting-started.html · 21 références directes · description 156 caractères",
+    "pages/lore/index.html · 20 références directes · description 157 caractères",
+    "Accueil : 30 / 86 routes éditoriales, 3 profils, 5 498 objets par profil, description 152 caractères."
+  ]
+}

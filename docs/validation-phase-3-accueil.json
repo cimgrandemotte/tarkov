@@ -1,0 +1,98 @@
+{
+  "statut": "OK",
+  "rubriques": [
+    "Accueil 200 sans redirection ; compteurs 3/86 · 5 498/3 ; hero JPG prioritaire et 7 images différées. Aucun MP3, index Fuse ou code atelier au premier affichage.",
+    "Évitement clavier, menu Tab/Échap, retour du focus, fermeture en sortant et accès aux aperçus sans lien absent.",
+    "Recherche différée : Ctrl+K, faute, accents, résultat « À venir » sans href, portée accueil, zéro résultat, flèche et entrée, Échap et restitution.",
+    "Checklist au clavier, compteur live, mémoire locale et reset ; cinq onglets parcourus par flèches/Home/End.",
+    "Radio : piste sélectionnable sans requête ; lancement clavier, fin non bouclée, reprise, pause, volume, préférences et rechargement muet. Requête Range MP3 206.",
+    "Contraste renforcé, mouvement système respecté, animation effective seulement à l’écran et réduction manuelle persistante.",
+    "Sans débordement page ou panneau de 320 à 1440 px. Recherche vers le comparateur réel et retour accueil, aucune requête externe automatique ni erreur console.",
+    "Les huit JPG, dont les sept différés, décodent après défilement.",
+    "Sur mobile tactile et sans JS : menu et sections atteignables ; dossiers, programme, contenu des cinq modes, checklist native et lien MP3 disponibles.",
+    "Défaillance simulée de l’index : message compréhensible, navigation disponible et rechargement réussi."
+  ],
+  "largeursPx": [
+    320,
+    390,
+    600,
+    768,
+    991,
+    1024,
+    1440
+  ],
+  "wcag": [
+    {
+      "scope": "accueil bureau, état de base",
+      "violations": [],
+      "controleHumain": [
+        {
+          "id": "color-contrast",
+          "noeuds": 30
+        }
+      ],
+      "reglesReussies": 31
+    },
+    {
+      "scope": "méga-menu ouvert",
+      "violations": [],
+      "controleHumain": [
+        {
+          "id": "color-contrast",
+          "noeuds": 30
+        }
+      ],
+      "reglesReussies": 31
+    },
+    {
+      "scope": "dialogue de recherche",
+      "violations": [],
+      "controleHumain": [],
+      "reglesReussies": 23
+    },
+    {
+      "scope": "accueil, contraste renforcé",
+      "violations": [],
+      "controleHumain": [
+        {
+          "id": "color-contrast",
+          "noeuds": 30
+        }
+      ],
+      "reglesReussies": 31
+    },
+    {
+      "scope": "accueil tactile à 390 px",
+      "violations": [],
+      "controleHumain": [
+        {
+          "id": "color-contrast",
+          "noeuds": 29
+        }
+      ],
+      "reglesReussies": 31
+    }
+  ],
+  "console": [],
+  "requetesInitiales": {
+    "total": 24,
+    "mp3": 0,
+    "rechercheOuOutils": 0,
+    "externes": 0
+  },
+  "medias": {
+    "requetesObservees": [
+      "intro_norvinsk.mp3"
+    ],
+    "pause": true,
+    "finNonBouclee": true,
+    "rechargementSilencieux": true,
+    "range": 206
+  },
+  "chromium": "141.0.7390.0",
+  "lcpLocal": {
+    "ms": 1716,
+    "element": "IMG",
+    "ressource": "/images/hero/tarkov-night-rain.jpg"
+  }
+}

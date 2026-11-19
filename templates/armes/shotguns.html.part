@@ -1,0 +1,48 @@
+<section class="field-section armes-section" id="reperes" tabindex="-1">
+  <h2>Repères de la famille</h2>
+  <p>Seize fusils à pompe et semi-automatiques : la famille la plus courte en portée et la plus longue en temps de manipulation. Treize des seize armes sont en 12 gauges, une en 20 gauges, une en 23 x 75 mm et une en 7,62 x 54 mm R. La distance efficace publiée ne dépasse jamais 100 mètres, et le recul vertical atteint 663 points sur l’arme la plus lourde de la famille.</p>
+  <p>Ces armes ont une mécanique de rechargement qui se lit dans les chiffres : la cadence publiée va de 10 à 900 coups par minute. Les valeurs basses sont celles des armes à pompe, où chaque coup demande une manipulation ; les valeurs hautes, celles des armes automatiques comme l’Auto Assault-12.</p>
+  <div class="field-grid field-grid--three">
+    <div class="field-card"><p class="eyebrow">30 à 60</p><p><strong>Ergonomie.</strong> La famille est peu maniable, et c’est structurel : le TOZ-106 en 20 gauges culmine à 60, le MP-43 à canons sciés à 50, et le bas de la famille reste à 30.</p></div>
+    <div class="field-card"><p class="eyebrow">70 à 100</p><p><strong>Distance efficace.</strong> Aucune de ces seize armes ne dépasse cent mètres de portée utile publiée. Le combat se décide avant.</p></div>
+    <div class="field-card"><p class="eyebrow">13 sur 16</p><p><strong>En 12 gauges.</strong> Le 12 gauges concentre l’essentiel de la famille, avec cinq références de plombs et de slug dans le catalogue des munitions.</p></div>
+  </div>
+  <div class="field-callout">
+    <p><strong>Le coût réel du 12 gauges.</strong> Un fusil à pompe se recharge par projectiles, pas par cartouche : le sac de plombs de 12 gauges est une référence à part entière, avec son prix et son poids. C’est le poste de dépense forgotten de cette famille.</p>
+  </div>
+</section>
+
+<section class="field-section armes-section" id="catalogue" tabindex="-1">
+  <h2>Le catalogue de la famille</h2>
+  <p>Les seize fusils à pompe et semi-automatiques de l’export, avec leurs mesures à configuration de base.</p>
+  %%TABLE_CATALOGUE%%
+  <p class="armes-note">La colonne <em>Munitions</em> recense le nombre de cartouches compatibles dans le catalogue des munitions. Pour les armes à pompe, ce chiffre inclut les projectiles en sacs, dont le poids et le prix pèsent autant que la munition elle-même.</p>
+</section>
+
+<section class="field-section armes-section" id="presets" tabindex="-1">
+  <h2>Presets publiés</h2>
+  <p>Trente-cinq presets sont rattachés aux armes de cette famille, dont le preset par défaut de chacune. Les modifications apportées à une arme à pompe portent en général sur la crosse et la pompe, deux pièces qui changent le confort autant que les chiffres.</p>
+  %%TABLE_PRESETS%%
+</section>
+
+<section class="field-section armes-section" id="acquisition" tabindex="-1">
+  <h2>Acquisition et disponibilité</h2>
+  <p>Aucune des seize armes de cette famille n’a d’offre marchande dans l’instantané : la famille s’acquiert en raid, par tâche ou au marché. Le tableau d’acquisition est donc vide.</p>
+  %%TABLE_ACQUISITION%%
+  <p class="armes-note">Cette absence d’offre est cohérente avec le profil de la famille : des armes courtes, lourdes, à la munition volumineuse, dont le rapport prix/utilité décourage la production en série.</p>
+</section>
+
+<section class="field-section armes-section" id="conduite" tabindex="-1">
+  <h2>Comment s’équiper</h2>
+  <ul class="armes-list">
+    <li><strong>Plombs ou slug : deux façons de tirer.</strong> Le catalogue des munitions recense cinq références de cartouches à plombs et à slug en 12 gauges. Le plombs multiplie les projectiles et donc la surface touchée ; le slug est un projectile unique, plus lourd et plus pénétrant. C’est le même arbitrage que dans le jeu, appliqué à la facture.</li>
+    <li><strong>Le semi-automatique coûte moins cher à tirer.</strong> Les armes à pompe demandent une manipulation par coup : la cadence publiée de 10 à 60 coups par minute le dit mieux qu’un tableau. Les semi-automatiques et automatiques de la famille montent à 900, et leur prix d’achat comme leur précision enrage plus vite.</li>
+    <li><strong>La distance utile se compte en mètres.</strong> À 70 ou 100 mètres de distance efficace, l’arme n’a plus de portée : cela impose de fermer la distance, de choisir l’angle, et de ne pas payer le prix d’une optique longue pour une arme qui ne l’exploite pas.</li>
+  </ul>
+</section>
+
+<section class="field-section armes-section" id="sources" tabindex="-1">
+  <h2>Sources et limites</h2>
+  <p>Les chiffres viennent de l’export communautaire du 18 novembre 2026. Les indications de manipulation sont déduites des cadences et des modes de tir publiés dans cet export ; les guides communautaires qui conseillent cette famille sont lus comme des avis, pas comme des données.</p>
+  %%SOURCES_FAMILLE%%
+</section>

@@ -1,0 +1,132 @@
+/* Tarkov Ultimate Guide — pages Cartes (phase 4).
+   Thème or/bleu, planches JPG annotées en HTML/CSS, tableaux filtrables. */
+
+.map-page {
+  --map-accent: var(--accent-bright);
+  --map-edge: #6e5d3c;
+  --map-line: rgba(198, 176, 118, .22);
+  --map-card: #161a16;
+  --map-card-sheen: #1d221c;
+  --map-muted: #b9c1b2;
+}
+
+.map-page--shoreline { --map-accent: #9fc6e8; --map-edge: #5b7488; --map-line: rgba(159, 198, 232, .22); --map-card: #141a1f; --map-card-sheen: #1b2329; }
+.map-page--lighthouse { --map-accent: #f0c27a; --map-edge: #7a6642; --map-line: rgba(240, 194, 122, .22); }
+.map-page--the-lab   { --map-accent: #8fd3c8; --map-edge: #4a6f6a; --map-line: rgba(143, 211, 200, .22); --map-card: #121917; }
+.map-page--terminal  { --map-accent: #d59a9a; --map-edge: #6f4c4c; --map-line: rgba(213, 154, 154, .22); }
+.map-page--reserve   { --map-accent: #b7c39a; --map-edge: #5f6a4c; --map-line: rgba(183, 195, 154, .22); }
+.map-page--woods     { --map-accent: #a8d69a; --map-edge: #4f6b48; --map-line: rgba(168, 214, 154, .22); --map-card: #131a14; }
+.map-page--factory   { --map-accent: #e0a08a; --map-edge: #7a5344; --map-line: rgba(224, 160, 138, .22); --map-card: #1a1613; }
+.map-page--customs   { --map-accent: #c9c07f; --map-edge: #6b6440; --map-line: rgba(201, 192, 127, .22); }
+.map-page--interchange { --map-accent: #c4b6e8; --map-edge: #635a80; --map-line: rgba(196, 182, 232, .22); }
+.map-page--streets-of-tarkov { --map-accent: #d6b58f; --map-edge: #755a40; --map-line: rgba(214, 181, 143, .22); }
+.map-page--ground-zero { --map-accent: #d9d2b4; --map-edge: #6d6752; --map-line: rgba(217, 210, 180, .22); }
+.map-page--the-labyrinth { --map-accent: #a0b8c9; --map-edge: #4f5f6c; --map-line: rgba(160, 184, 201, .22); --map-card: #12171b; }
+.map-page--icebreaker { --map-accent: #a7c8e8; --map-edge: #4c6a86; --map-line: rgba(167, 200, 232, .22); --map-card: #10161c; }
+
+/* ---------- Bandeau de repères ---------- */
+.map-strip { border-block-end: 1px solid var(--map-line); background: linear-gradient(180deg, rgba(12, 16, 12, .82), rgba(12, 16, 12, .55)); }
+.map-strip__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(9.5rem, 1fr)); border-inline-start: 1px solid var(--map-line); }
+.map-strip__grid > div { display: grid; gap: .34rem; padding: clamp(.8rem, 2vw, 1.15rem) clamp(.85rem, 2vw, 1.2rem); border-inline-end: 1px solid var(--map-line); }
+.map-strip__grid dt { color: var(--map-accent); font: 700 .68rem/1.2 var(--font-display, sans-serif); letter-spacing: .1em; text-transform: uppercase; }
+.map-strip__grid dd { margin: 0; color: var(--text-primary, #f1efe7); font-size: .92rem; line-height: 1.38; }
+
+/* ---------- Sections ---------- */
+.map-section { display: grid; align-content: start; gap: clamp(.85rem, 1.9vw, 1.35rem); min-inline-size: 0; }
+/* Les enfants d'une grille doivent pouvoir rétrécir sous la largeur de leur contenu. */
+.map-section > * { min-inline-size: 0; }
+.map-section:not(:first-child) { border-block-start: 1px solid var(--map-line); padding-block-start: clamp(1.1rem, 2.4vw, 1.8rem); }
+.map-section > h2 { margin: 0; color: var(--map-accent); font-size: clamp(1.16rem, 2.2vw, 1.5rem); letter-spacing: .01em; }
+.map-section > h3 { margin: 0; font-size: 1.02rem; }
+.map-section p { margin: 0; color: var(--map-muted); max-inline-size: 74ch; font-size: .93rem; line-height: 1.62; }
+.map-section strong { color: var(--text-primary, #f1efe7); font-weight: 650; }
+.map-section a { color: var(--map-accent); }
+
+/* ---------- Cartes à couches ---------- */
+.map-layers { display: grid; gap: .8rem; min-inline-size: 0; }
+.map-layers > * { min-inline-size: 0; }
+.map-layers__bar { display: flex; flex-wrap: wrap; gap: .45rem; align-items: center; min-inline-size: 0; }
+.map-layers__bar .badge { cursor: pointer; }
+.map-layer[hidden] { display: none; }
+.map-layer__head { display: flex; justify-content: space-between; align-items: baseline; gap: .7rem; flex-wrap: wrap; }
+.map-layer__head p { font-size: .82rem; color: var(--text-muted, #8d9384); }
+.map-panel { border: 1px solid var(--map-line); background: linear-gradient(180deg, var(--map-card-sheen), var(--map-card)); padding: clamp(.85rem, 2.1vw, 1.2rem); }
+
+/* ---------- Tableaux ---------- */
+.map-table { inline-size: 100%; border-collapse: collapse; font-size: .86rem; }
+.map-table caption { text-align: start; color: var(--text-muted, #8d9384); font-size: .8rem; padding-block-end: .55rem; }
+.map-table th, .map-table td { text-align: start; vertical-align: top; padding: .5rem .6rem; border-block-end: 1px solid var(--map-line); }
+.map-table thead th { color: var(--map-accent); font: 700 .68rem/1.25 var(--font-display, sans-serif); letter-spacing: .09em; text-transform: uppercase; }
+.map-table tbody tr:last-child td { border-block-end: 0; }
+.map-table .variante-thumb { inline-size: 160px; block-size: 90px; object-fit: cover; border-radius: 4px; border: 1px solid var(--map-line, rgba(255,255,255,.12)); display: block; }
+.map-table .variante-thumb--vide { display: inline-flex; align-items: center; justify-content: center; color: var(--text-muted, #8d9384); font-size: .8rem; }
+.map-table td small { display: block; color: var(--text-muted, #8d9384); font-size: .78rem; line-height: 1.45; margin-block-start: .18rem; }
+.map-table__row--scav td:first-child { box-shadow: inset 3px 0 0 #7d9cc4; }
+.map-table__row--shared td:first-child { box-shadow: inset 3px 0 0 #b59a5e; }
+.map-table__row--pmc td:first-child { box-shadow: inset 3px 0 0 var(--map-accent); }
+.map-table__row--on td { background: rgba(198, 176, 118, .06); }
+
+/* ---------- Comparatif ---------- */
+.map-compare { display: grid; gap: .8rem; }
+.map-compare__pickers { display: grid; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); gap: .7rem; }
+.map-compare__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: .8rem; }
+.map-compare__col { border: 1px solid var(--map-line); background: var(--map-card); padding: .85rem; }
+.map-compare__col h3 { margin: 0 0 .45rem; color: var(--map-accent); font-size: 1rem; }
+.map-compare__col dl { margin: 0; display: grid; grid-template-columns: auto 1fr; gap: .3rem .6rem; font-size: .85rem; }
+.map-compare__col dt { color: var(--text-muted, #8d9384); }
+.map-compare__col dd { margin: 0; }
+
+/* ---------- Atlas ---------- */
+.atlas-hero { position: relative; min-block-size: clamp(24rem, 34vw, 32rem); display: grid; align-items: end; overflow: hidden; border-block-end: 1px solid var(--map-line); }
+.atlas-hero img { position: absolute; inset: 0; inline-size: 100%; block-size: 100%; object-fit: cover; z-index: -2; }
+.atlas-hero::before { content: ''; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgba(8, 10, 8, .2) 0%, rgba(8, 10, 8, .88) 78%); }
+.atlas-hero__inner { padding-block: clamp(1.4rem, 4vw, 3rem); display: grid; gap: .8rem; }
+.atlas-hero h1 { margin: 0; font-size: clamp(1.7rem, 4.4vw, 3rem); }
+.atlas-hero p { margin: 0; max-inline-size: 62ch; color: var(--map-muted); }
+
+.atlas-filters { display: grid; gap: .7rem; border: 1px solid var(--map-line); background: var(--map-card); padding: clamp(.85rem, 2vw, 1.1rem); }
+.atlas-filters__row { display: flex; flex-wrap: wrap; gap: .45rem; align-items: center; }
+.atlas-filters__row > .eyebrow { margin: 0; min-inline-size: 7.5rem; }
+.atlas-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 19rem), 1fr)); gap: .85rem; }
+.atlas-card { display: grid; grid-template-rows: auto 1fr; gap: .6rem; border: 1px solid var(--map-line); background: var(--map-card); overflow: hidden; }
+.atlas-card__media { position: relative; aspect-ratio: 16 / 9; background: #0d100d; }
+.atlas-card__media img { inline-size: 100%; block-size: 100%; object-fit: cover; }
+.atlas-card__body { padding: .85rem; display: grid; gap: .42rem; align-content: start; }
+.atlas-card__body h3 { margin: 0; font-size: 1.02rem; }
+.atlas-card__body p { margin: 0; font-size: .84rem; color: var(--map-muted); }
+.atlas-card__meta { display: flex; flex-wrap: wrap; gap: .35rem; }
+.atlas-card[hidden] { display: none; }
+.atlas-empty { padding: 1.1rem; border: 1px dashed var(--map-line); color: var(--text-muted, #8d9384); font-size: .88rem; }
+
+/* ---------- Planche annotée ---------- */
+.map-planche { border: 1px solid var(--map-line); background: #0d100d; }
+.map-planche img { inline-size: 100%; block-size: auto; display: block; }
+.map-planche figcaption { padding: .7rem .85rem; font-size: .82rem; color: var(--text-muted, #8d9384); border-block-start: 1px solid var(--map-line); }
+.map-gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr)); gap: .8rem; }
+.map-gallery figure { margin: 0; }
+
+/* ---------- Chemins et liens ---------- */
+.map-paths { display: grid; gap: .55rem; }
+.map-path { display: grid; gap: .2rem; border-inline-start: 2px solid var(--map-accent); padding-inline-start: .7rem; }
+.map-path strong { font-size: .9rem; color: var(--text-primary, #f1efe7); }
+.map-path span { font-size: .82rem; color: var(--text-muted, #8d9384); }
+
+.map-note { border-inline-start: 3px solid var(--map-accent); background: rgba(198, 176, 118, .05); padding: .8rem .95rem; }
+.map-note--warn { border-inline-start-color: #c47b52; background: rgba(196, 123, 82, .07); }
+.map-note p { color: var(--map-muted); }
+.map-note strong { color: var(--text-primary, #f1efe7); }
+
+.map-steps { margin: 0; padding-inline-start: 1.1rem; display: grid; gap: .45rem; color: var(--map-muted); font-size: .9rem; line-height: 1.55; }
+.map-steps strong { color: var(--text-primary, #f1efe7); }
+
+@media (max-width: 640px) {
+  .map-strip__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .map-table { font-size: .8rem; }
+  .map-table th, .map-table td { padding: .42rem .45rem; }
+}
+
+/* ---------- Repli typographique (illustration absente) ---------- */
+.atlas-hero--plaque, .field-hero--plaque { background: radial-gradient(120% 140% at 18% 0%, #1b241d 0%, #0b100c 62%, #070a08 100%); }
+.atlas-hero--plaque::before, .field-hero--plaque::before { background: linear-gradient(180deg, rgba(8, 10, 8, .1) 0%, rgba(8, 10, 8, .82) 74%); }
+.atlas-card__media--plaque { display: grid; place-items: center; background: linear-gradient(140deg, #141a15 0%, #0b0f0c 100%); }
+.atlas-card__plaque { font: 400 .78rem/1.3 var(--font-mono, monospace); letter-spacing: .16em; text-transform: uppercase; color: #9fb09a; text-align: center; padding: .6rem; }

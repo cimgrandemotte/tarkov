@@ -1,0 +1,41 @@
+{
+ "schemaVersion": 1,
+ "lots": [
+  {
+   "phase": "PHASE_6",
+   "lot": 1,
+   "date": "2026-11-18",
+   "imagesJpg": [
+    "images/armor/armor-index.jpg",
+    "images/armor/gilets-plaques.jpg",
+    "images/armor/casques-visieres.jpg",
+    "images/armor/rigs-poches.jpg",
+    "images/armor/comparateur-armures.jpg",
+    "images/bosses/bosses-index.jpg",
+    "images/bosses/reshala.jpg",
+    "images/bosses/killa.jpg",
+    "images/bosses/shturman.jpg",
+    "images/bosses/glukhar.jpg"
+   ],
+   "audiosMp3": [],
+   "statut": "PARTIEL",
+   "reste": [
+    "sanitar",
+    "tagilla",
+    "kaban",
+    "kollontay",
+    "zryachiy",
+    "partisan",
+    "cultist-priest",
+    "the-goons",
+    "shadow-of-tagilla",
+    "the-wedge"
+   ],
+   "note": "Budget de médias de la réponse épuisé : dix visuels produits sur vingt. Les neuf portraits de boss restants et la validation de la phase attendent la reprise."
+  }
+ ],
+ "inventaire": {
+  "imagesJpg": 64,
+  "audiosMp3": 8
+ }
+}

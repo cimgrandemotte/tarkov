@@ -1,0 +1,297 @@
+{{Infobox location
+|image              =Banner_interchange.png
+|image size         =
+|icon               =
+|type               =
+|prev               =[[Streets of Tarkov]]<br/>[[Customs]]
+|next               =[[Customs]]<br/>[[Streets of Tarkov]]
+|chapter            =
+|enemies            =[[Scavs]], [[Killa]], [[Tagilla]]
+|players            =11-15
+|difficulty         =
+|duration           =40 minutes
+|notable loot       =
+}}
+
+'''{{PAGENAME}}''' is a [[Map of Tarkov|location]] in ''[[Escape from Tarkov]]''. It is the fifth map that was added to the game.
+
+==Description==
+The South Interchange is a key transport location for the city. This strategic area connects the port and harbor with the industrial outskirts of Tarkov. Located in the center of the interchange is a huge ULTRA shopping mall which was used as the main base of operation for the EMERCOM evacuation.
+
+==Features==
+* Stationary weapons in the form of [[NSV Utyos 12.7x108 heavy machine gun]]s.
+* Be aware of [[Map of Tarkov#Border Snipers|Border Snipers]] and [[Map of Tarkov#Minefields|Minefields]]!
+* A fully linked illumination grid, able to be switched on at the power station.
+<li style="display: inline-block;"><gallery widths="300" heights="169" mode="packed">
+File:PowerStationMap.png|Power station marked on map
+File:InterchangePowerStation.png|The power station
+File:Power switch.png|The power switch inside the station
+File:PowerStationSwitchOn.png|A green light shows when the switch is turned on
+</gallery></li>
+* Alarms around some stores and a triggerable alarm at the [[Kiba Arms inner grate door key|KIBA Arms store]]. The alarms can be switched off at designated terminals.
+<li style="display: inline-block;"><gallery widths="300" heights="169" mode="packed">
+File:Interchange alarm map.png|Alarm switches marked on map
+File:Inter alarm terminal 2.png|Alarm switch in the security room on the first floor: Turns off all alarms in the mall
+File:Inter alarm terminal.png|Alarm switch at the information desk on the second floor: Turns off all alarms in the mall except for the [[Kiba Arms inner grate door key|KIBA Arms store]]
+</gallery></li>
+
+==Usable Keys==
+<div class="mw-collapsible mw-collapsed leftcollapse" data-expandtext="Show keys" data-collapsetext="Hide keys"><br/>
+{| class="wikitable sortable"
+!Icon
+!Key Name
+!Used in Quest
+|-
+|[[File:EMERCOM Key icon.png|link=EMERCOM medical unit key]]
+|[[EMERCOM medical unit key]]
+! style="color: green" |✔
+|-
+|[[File:Goshan key.png|link=Goshan cash register key]]
+|[[Goshan cash register key]]
+! style="color: green" |✔
+|-
+|[[File:Grumpy Icon.png|link=Grumpy's hideout key]]
+|[[Grumpy's hideout key]]
+!
+|-
+|[[File:IDEARegisterKey.png|link=IDEA cash register key]]
+|[[IDEA cash register key]]
+! style="color: green" |✔
+|-
+|[[File:KibaKey2Icon.png|link=Kiba Arms inner grate door key]]
+|[[Kiba Arms inner grate door key]]
+! style="color: green" |✔
+|-
+![[File:KibaKeyIcon.png|link=Kiba Arms outer door key]]
+|[[Kiba Arms outer door key]]
+! style="color: green" |✔
+|-
+![[File:PharmacyKeyIcon.png|link=NecrusPharm pharmacy key]]
+|[[NecrusPharm pharmacy key]]
+!
+|-
+|[[File:11sr icon.png|link=Object 11SR keycard]]
+|[[Object 11SR keycard|Object #11SR keycard]]
+! style="color: green" |✔
+|-
+|[[File:21ws icon.png|link=Object 21WS keycard]]
+|[[Object 21WS keycard|Object #21WS keycard]]
+! style="color: green" |✔
+|-
+![[File:OLIAdminOffice.png|link=OLI administration office key]]
+|[[OLI administration office key]]
+!
+|-
+|[[File:OLI cash register.png|link=OLI cash register key]]
+|[[OLI cash register key]]
+! style="color: green" |✔
+|-
+![[File:LogOfficeKey.png|link=OLI logistics department office key]]
+|[[OLI logistics department office key]]
+! style="color: green" |✔
+|-
+![[File:OLIUtiKey.png|link=OLI outlet utility room key]]
+|[[OLI outlet utility room key]]
+!
+|-
+![[File:Power utility Key icon.png|link=Power substation utility cabin key]]
+|[[Power substation utility cabin key]]
+!
+|-
+|[[File:Station 14-4 KORD Arshavin K. pass (Restored) icon.png|link=Station 14-4 KORD Arshavin K. pass (Restored)]]
+|[[Station 14-4 KORD Arshavin K. pass (Restored)]]
+! style="color: green" |✔
+|-
+|[[File:Medst icon.png|link=ULTRA medical storage key]]
+|[[ULTRA medical storage key]]
+!
+|-
+|}
+</div>
+{{clear}}
+
+==Boss==
+{| class="wikitable sortable"
+!Name
+!Image
+!Location
+!Notable equipment
+!Followers
+|-
+|[[Killa]]
+![[File:Killa Portrait.png|140px|link=Killa]]
+|In the IDEA, OLI and Goshan stores<br/>Around the center stores on the first and second floor of the mall
+|[[RPK-16 5.45x39 light machine gun]]<br/>[[Maska-1SCh bulletproof helmet (Killa Edition)]]<br/>[[Maska-1SCh face shield (Killa Edition)]]<br/>[[6B13 M assault armor (Killa Edition)]]<br/>[[BlackHawk! Commando chest harness (Black)]]
+|None
+|-
+|[[Tagilla]] 
+![[File:Tagilla Portrait.png|140px|link=Tagilla]]
+|In the parking garage below the Goshan store
+|[[Superfors DB 2020 Dead Blow Hammer]]<br />[[Tagilla's welding mask "UBEY"]]<br />[[Tagilla's welding mask "Gorilla"]]<br />[[Crye Precision AVS plate carrier (Tagilla Edition)]]
+|None
+|}
+
+==Extractions==
+To locate the extractions use the [[Interchange#Maps|maps]] below the table.
+{| class="wikitable sortable stickyheader" style="text-align: center;"
+!Extraction
+!Name
+!Faction
+!Always available
+!Single-Use
+!Requirements
+!Notes
+|-
+![[File:InterchangeSouthEastExit.png|240px]]
+! style="text-align: left;" |Emercom Checkpoint
+| All
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+| -
+|
+|-
+![[File:Path to River.png|240px]]
+! style="text-align: left;" |Path to River (Flare)
+|PMC
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|Shoot a green flare '''into the sky''' while inside the signal flare area. If the flare doesn't reach a certain height, the extraction '''won't''' open.<br/>Flares:<br/>[[RSP-30 reactive signal cartridge (Green)|Handheld RSP-30 green flare]]<br/>[[26x75mm flare cartridge (Green)|Signal pistol fired 26x75mm green flare]]
+<br/>
+Only one person amongst a lobby-made group needs to shoot a flare to open the extraction for all members of the group.
+|Upon entering the signal flare area, a notification will pop up in the bottom right corner of the screen: [[File:KlimovStreetSignalAreaNote.png]]<br/>If the flare was fired correctly, a new notification pops up:<br/>[[File:FlareSuccessNote.png]]<br/><br/>Signal flare area and extract zone map<br/>[[File:PathToRiverSignalZone.png|300px]]
+|-
+![[File:InterchangePowerPlantExit.png|240px]]
+! style="text-align: left;" |Power Station V-Ex
+| PMC
+|<font color="red">✘</font>
+|<font color="green">✔</font>
+| [[File:5000 Roubles.png|frameless|64px|link=Roubles]] per player
+'''Maximum of 4 players'''
+|The fee amount is influenced by your [[Scavs#Scav karma|Scav karma]].
+There are [[border snipers]] beyond the vehicle.
+|-
+![[File:InterchangeNorthWestExit.png|240px]]
+! style="text-align: left;" |Railway Exfil
+| All
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+| -
+| 
+|-
+![[File:IC-Saferoom EXFIL.png|240px]]
+! style="text-align: left;" |Saferoom Exfil
+|PMC
+|<font color="green">✔</font>
+|<font color="green">✔</font>
+|1.Turn on power at the power station<br/>2.Flush urinal in the "Burger Spot" restaurant<br/>3.Swipe [[Object 11SR keycard|Object #11SR keycard]] at revealed keycard panel<br/>4.Lock the extraction door from inside with the button next to it
+|[[File:Object-14 lever.png|240px]]
+A lever to open the [[Object_11SR_keycard#Behind_The_Lock|Object-14 container]] can be found inside the extraction.
+|-
+![[File:IC-Scav Camp.png|240px]]
+! style="text-align: left;" |Scav Camp (Co-Op)
+|All
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|[[Scav]] + PMC
+|
+|-
+![[File:Smugglers' Tunnel.png|240px]]
+! style="text-align: left;" |Smugglers' Tunnel
+<font color="red">'''Note:'''</font> This extraction does currently not work.
+|All
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|[[File:Interchange underground utility plan icon.png|link=Interchange underground utility plan]]
+[[Interchange underground utility plan]]
+|
+|}
+
+==Transits==
+{| class="wikitable sortable stickyheader" style="text-align: center;"
+!Transit
+!Name
+!Faction
+!Always available
+!Single-Use
+!Requirements
+!Notes
+|-
+![[File:InterchangeTransitToCustoms.png|240px]]
+! style="text-align: left;" |Transit to Customs
+|All
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|Only available 1 min after raid start
+|At the southern end of the highway
+|-
+![[File:InterchangeTransitToStreetsOfTarkov.png|240px]]
+! style="text-align: left;" |Transit to Streets of Tarkov
+|All
+|<font color="green">✔</font>
+|<font color="red">✘</font>
+|Only available 1 min after raid start
+|At the northern end of the highway
+|}
+
+==Maps==
+===Interactive Map===
+Click [[File:FS.png|link=]] for fullscreen. Separate map page [[Map:Interchange|here]].
+<interactive-map name="Interchange" width="800px"/>
+
+===2D/3D Map===
+[[File:InterchangeMapByre3mr.jpg|800px|link={{filepath:InterchangeMapByre3mr.jpg}}]]
+
+===Ingame Map - North bottom===
+[[File:OfficialInterchangePaperMap.jpg|800px|link={{filepath:OfficialInterchangePaperMap.jpg}}]]
+
+==Gallery==
+<center>
+<li style="display: inline-block;"><gallery mode="slideshow">
+File:Interchange Showcase 1.png
+File:Interchange Showcase 2.png
+File:Interchange Showcase 3.png
+File:Interchange Showcase 4.png
+File:Interchange Showcase 5.png
+File:Interchange Showcase 6.png
+File:Interchange Showcase 7.png
+File:Interchange Showcase 8.png
+File:Interchange Showcase 9.png
+File:Interchange Showcase 10.png
+File:Interchange Showcase 11.png
+File:Interchange Showcase 12.png
+File:Interchange Showcase 13.png
+File:Interchange Showcase 14.png
+File:Interchange Showcase 15.png
+File:Interchange Showcase 16.png
+File:Interchange Showcase 17.png
+File:Interchange Showcase 18.png
+File:Interchange Showcase 19.png
+File:Interchange Showcase 20.png
+File:Interchange Showcase 21.png
+File:Interchange Showcase 22.png
+File:Interchange Showcase 23.png
+File:Interchange Showcase 24.png
+File:Interchange Showcase 25.png
+</gallery></li>
+</center>
+
+==Trivia==
+*The location was expanded with [[Changelog#0.12.4.6254_(12_Mar_2020)|patch 0.12.4.6254]] on March 12, 2020.
+*The location was completely reworked and expanded with [[Changelog#1.0.0.0.41760_(15_November_2025)|patch 1.0.0.0.41760]] on November 15, 2025.
+*The three anchor stores are based off real stores:
+**Idea is based off Ikea.
+**Goshan is based off Auchan.
+**OLI is based off OBI.
+*The mall is based off the MEGA group stores which can be found all over Russia.
+*The MEGA Parnassus Mall in Poroshkino most closely resembles the one that is portrayed in-game.
+<li style="display: inline-block;"><gallery widths="300" heights="169" mode="packed">
+File:Intechange MEGA-Dybenko Mall.jpeg|MEGA Parnassus Mall
+</gallery></li>
+:[https://www.google.com/maps/place/Mega+Parnassus+Mall/@60.0911141,30.3783864,17z/data=!4m6!3m5!1s0x469631106885390f:0x1a10271904c6a9e3!8m2!3d60.0915119!4d30.3806484!16s%2Fg%2F1tmxv7qq Link to the location on Google Maps]
+
+{{Navbox locations}}
+[[Category:Locations]]
+
+[[cs:Interchange]]
+[[fr:Échangeur]]
+[[ru:Развязка]]

@@ -1,0 +1,184 @@
+{
+  "statut": "OK",
+  "controleCloture": true,
+  "compteurs": {
+    "pagesPlanifiees": 86,
+    "pagesGenerees": 3,
+    "pagesHtmlTechniques": 1,
+    "imagesCreees": 21,
+    "audiosCrees": 8
+  },
+  "routes": {
+    "index.html": {
+      "referencesLocales": 49,
+      "sourcesExternes": 13,
+      "images": {
+        "images/hero/tarkov-night-rain.jpg": {
+          "px": [
+            1376,
+            768
+          ],
+          "octets": 154538,
+          "sha256": "ed912d4640aa0b27d78b0de571292438285eceacb269df675b6d12e92595c3a1"
+        },
+        "images/hero/atlas-norvinsk.jpg": {
+          "px": [
+            1376,
+            768
+          ],
+          "octets": 209661,
+          "sha256": "f42861bf6a9de7b2d071d180a549dacb91445dc79020bdd549a877fb54373bfb"
+        },
+        "images/hero/armurerie.jpg": {
+          "px": [
+            1376,
+            768
+          ],
+          "octets": 215857,
+          "sha256": "92822abcea6da6949b3af6aa7de96b49e090b383fb770b5a0279c807d1645214"
+        },
+        "images/hero/protections-boss.jpg": {
+          "px": [
+            1376,
+            768
+          ],
+          "octets": 184503,
+          "sha256": "720f88a0e7ca540fb3bdaa03cc644cae1822934b5fd13f91bce0dd53e71581f9"
+        },
+        "images/hero/echoppe-traders.jpg": {
+          "px": [
+            1376,
+            768
+          ],
+          "octets": 142591,
+          "sha256": "10cdf64c441bb3ad6d5f9e2920b78c8edc93911428b25f68bffa1b9ef99da23a"
+        },
+        "images/hero/hideout-atelier.jpg": {
+          "px": [
+            1376,
+            768
+          ],
+          "octets": 240446,
+          "sha256": "ec9bac1e257f389574db70915f0f8b2f6e51d90d29f4a072a3019c2d66560901"
+        },
+        "images/hero/solo-lisiere.jpg": {
+          "px": [
+            1376,
+            768
+          ],
+          "octets": 236657,
+          "sha256": "07ba3211a78d7f924a3347d752191f0462dde34e6ff111cfa73a9cd6bdbd6b88"
+        },
+        "images/hero/premier-raid.jpg": {
+          "px": [
+            1376,
+            768
+          ],
+          "octets": 181895,
+          "sha256": "67cf831c54289b7d9efcb1ad1522aa45b8bad959dadc5b6b6180d82d87f9d6e8"
+        }
+      }
+    },
+    "pages/getting-started.html": {
+      "referencesLocales": 65,
+      "sourcesExternes": 21,
+      "images": {
+        "images/guide/preparation-pmc.jpg": {
+          "px": [
+            1376,
+            768
+          ],
+          "octets": 121533,
+          "sha256": "afeb0be9e77990e5173d57b3782428f7539fc1fe4eac03363252afe0401a07b9"
+        },
+        "images/guide/trousse-raid.jpg": {
+          "px": [
+            1376,
+            768
+          ],
+          "octets": 135750,
+          "sha256": "8fd707ca96766f051a81382c36611553d8f2e55d595d05a2636c58cf8f540cd4"
+        },
+        "images/guide/reperes-raid.jpg": {
+          "px": [
+            1376,
+            768
+          ],
+          "octets": 223571,
+          "sha256": "76c8fbe9047c4048c7109a42417311dad040c655f45f579d12cf038701fec8d6"
+        },
+        "images/guide/zones-pmc.jpg": {
+          "px": [
+            1376,
+            768
+          ],
+          "octets": 118429,
+          "sha256": "d2a6ce5701654aebe48ae49a2ca51c5e0dcccfc8206e86966a29d9baf83b660f"
+        },
+        "images/guide/retour-planque.jpg": {
+          "px": [
+            1584,
+            672
+          ],
+          "octets": 175458,
+          "sha256": "d649ef450267c992f7859e0f11296d62305929cb23fddb76f338cae83a8979ad"
+        }
+      }
+    },
+    "pages/lore/index.html": {
+      "referencesLocales": 53,
+      "sourcesExternes": 20,
+      "images": {
+        "images/lore/tarkov-crepuscule.jpg": {
+          "px": [
+            1376,
+            768
+          ],
+          "octets": 162183,
+          "sha256": "5353cbe0988514785e2f2e37178e01f759e375e146ddbeced9bcd5be28e7b2e6"
+        },
+        "images/lore/relief-norvinsk.jpg": {
+          "px": [
+            1376,
+            768
+          ],
+          "octets": 204168,
+          "sha256": "fac97b0243b77088f10a5fb7ab062c45d4d5cf68275b27e6df38001679bbccb7"
+        },
+        "images/lore/archives-terragroup.jpg": {
+          "px": [
+            1376,
+            768
+          ],
+          "octets": 173379,
+          "sha256": "70144277dfd44c3530b171811ea6cecbd06fd5a19dc398ef467cf8ef112c2ed9"
+        },
+        "images/lore/barrage-peripherie.jpg": {
+          "px": [
+            1584,
+            672
+          ],
+          "octets": 153761,
+          "sha256": "7dc50ca418a42e4174b46bc3c206534a4169eb8c40ceefdea32070dbd106d25f"
+        }
+      }
+    }
+  },
+  "index": {
+    "accueil": 6,
+    "atelier": 8,
+    "publiee": 3,
+    "planifiee": 83,
+    "dossier": 15
+  },
+  "sourcesRegistre": 126,
+  "budgetPhase3": {
+    "imagesJpg": 9,
+    "audiosMp3": 0
+  },
+  "reproductibilite": [
+    "Accueil : 3 / 86 routes éditoriales, 3 profils, 5 498 objets par profil, description 152 caractères.",
+    "pages/getting-started.html · 21 références directes · description 156 caractères",
+    "pages/lore/index.html · 20 références directes · description 157 caractères"
+  ]
+}

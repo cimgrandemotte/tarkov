@@ -1,0 +1,677 @@
+{
+ "schemaVersion": 1,
+ "phase": "PHASE_4",
+ "hub": {
+  "gabarit": "hub",
+  "slug": "atlas",
+  "route": "pages/maps/index.html",
+  "titre": "Atlas des cartes",
+  "description": "Treize lieux de référence de Tarkov : sorties, transits, rencontres, dangers et variantes, comparés profil par profil sur les données publiées le 18 novembre 2026.",
+  "image": "images/maps/atlas-panorama.jpg",
+  "alt": "Vue panoramique de Tarkov et de sa périphérie sous une bruine orageuse.",
+  "kicker": "Hub cartographique · 13 lieux",
+  "headline": "Atlas",
+  "headline_tail": "des cartes",
+  "lead": "Les treize lieux de raid de Tarkov, leurs sorties, leurs transits, leurs rencontres et leurs dangers, comparés profil par profil à partir des données publiées le 18 novembre 2026. Chaque fiche signale ses limites et l’écart entre les sources quand elles se contredisent.",
+  "scene": "Périmètre de Tarkov",
+  "aside_note": "Données de jeu du 18 novembre 2026, trois profils comparés.",
+  "strip": [
+   [
+    "13",
+    "Lieux documentés"
+   ],
+   [
+    "119",
+    "Sorties relevées"
+   ],
+   [
+    "29",
+    "Transits recensés"
+   ],
+   [
+    "48",
+    "Rencontres possibles"
+   ],
+   [
+    "3",
+    "Profils comparés"
+   ],
+   [
+    "6",
+    "Variantes"
+   ]
+  ],
+  "hero_links": [
+   [
+    "lieux",
+    "Les treize lieux"
+   ],
+   [
+    "comparatif",
+    "Comparer deux lieux"
+   ],
+   [
+    "transits",
+    "Le réseau de transits"
+   ]
+  ],
+  "toc": [
+   [
+    "repere",
+    "Ce que contient cet atlas"
+   ],
+   [
+    "lieux",
+    "Les treize lieux"
+   ],
+   [
+    "comparatif",
+    "Comparer deux lieux"
+   ],
+   [
+    "transits",
+    "Le réseau de transits"
+   ],
+   [
+    "variantes",
+    "Variantes et événements"
+   ],
+   [
+    "sources",
+    "Sources et limites"
+   ]
+  ]
+ },
+ "toc_commun": [
+  [
+   "reperes",
+   "Repères et accès"
+  ],
+  [
+   "sorties",
+   "Sorties et transits"
+  ],
+  [
+   "rencontres",
+   "Rencontres et menaces"
+  ],
+  [
+   "terrain",
+   "Dangers de terrain"
+  ],
+  [
+   "cles",
+   "Clés et butin"
+  ],
+  [
+   "conduite",
+   "Conduite selon le profil"
+  ],
+  [
+   "sources",
+   "Sources et limites"
+  ]
+ ],
+ "hero_commun": [
+  [
+   "sorties",
+   "Sorties et transits"
+  ],
+  [
+   "rencontres",
+   "Rencontres"
+  ],
+  [
+   "conduite",
+   "Conduite"
+  ]
+ ],
+ "fiches": [
+  {
+   "gabarit": "carte",
+   "slug": "factory",
+   "route": "pages/maps/factory.html",
+   "titre": "Usine (Factory)",
+   "description": "Trois niveaux sous une halle chimique, Tagilla au centre, des sorties tenues et trois transits : la carte la plus compacte et la plus rapide du jeu.",
+   "image": "images/maps/factory-halle.jpg",
+   "crumb": "Usine",
+   "kicker": "Fiche de lieu · Usine",
+   "headline": "Usine",
+   "headline_tail": "(Factory)",
+   "lead": "L’ancienne usine chimique n° 16, louée illegalement à TerraGroup, est la plus petite carte jouable : vingt minutes de raid, trois niveaux, un boss. On y apprend à lire une sortie.",
+   "scene": "Halle industrielle",
+   "aside_note": "Données de jeu du 18 novembre 2026, profil PvP Zone comme référence.",
+   "strip": [
+    [
+     "20 min",
+     "Durée (jour)"
+    ],
+    [
+     "25 min",
+     "Durée (nuit)"
+    ],
+    [
+     "7-8",
+     "PMC par raid"
+    ],
+    [
+     "2",
+     "Rencontres possibles"
+    ],
+    [
+     "3",
+     "Transits"
+    ],
+    [
+     "8",
+     "Sorties documentées"
+    ]
+   ],
+   "alt": "Halle chimique désaffectée de l’ancienne usine n° 16, éclairée par les verrières et la brume."
+  },
+  {
+   "gabarit": "carte",
+   "slug": "customs",
+   "route": "pages/maps/customs.html",
+   "titre": "Douanes (Customs)",
+   "description": "Poste de frontière, dortoirs et entrepôts : la carte d’apprentissage des premières quêtes, des sorties ajoutées au 1.2 et des clés à code RFID en série.",
+   "image": "images/maps/customs-pont.jpg",
+   "crumb": "Douanes",
+   "kicker": "Fiche de lieu · Douanes",
+   "headline": "Douanes",
+   "headline_tail": "(Customs)",
+   "lead": "Un parc industriel frontalier, long et ouvert, où tout se traverse en marchant. Les douanes restent la carte d’apprentissage la plus rentable, à condition de connaître ses sorties.",
+   "scene": "Poste de frontière",
+   "aside_note": "Sorties et clés alignées sur la fiche publique et le patch 1.2.0.0 du 6 octobre 2026.",
+   "strip": [
+    [
+     "35 min",
+     "Durée"
+    ],
+    [
+     "10-12",
+     "PMC par raid"
+    ],
+    [
+     "0-100",
+     "Niveaux"
+    ],
+    [
+     "16",
+     "Sorties documentées"
+    ],
+    [
+     "5",
+     "Rencontres possibles"
+    ],
+    [
+     "4",
+     "Transits"
+    ]
+   ],
+   "alt": "Poste de douane frontalier sous la pluie, piles de dossiers et barrières de contrôle."
+  },
+  {
+   "gabarit": "carte",
+   "slug": "woods",
+   "route": "pages/maps/woods.html",
+   "titre": "Bois (Woods)",
+   "description": "Forêt dense, lac central et scierie : Shturman, cultistes, snipers de bordure, et un événement de rébellion scav qui s’est terminé en juillet 2026.",
+   "image": "images/maps/woods-lac.jpg",
+   "crumb": "Bois",
+   "kicker": "Fiche de lieu · Bois",
+   "headline": "Bois",
+   "headline_tail": "(Woods)",
+   "lead": "Le pourtour nord de Tarkov : une forêt qui masque tout, un lac qui trahit, une scierie tenue par Shturman. On y travaille la lenteur et la lecture du terrain.",
+   "scene": "Lac et scierie",
+   "aside_note": "Les règles de l’événement Wild Wild Woods sont séparées des règles normales du lieu.",
+   "strip": [
+    [
+     "35 min",
+     "Durée"
+    ],
+    [
+     "10-14",
+     "PMC par raid"
+    ],
+    [
+     "0-100",
+     "Niveaux"
+    ],
+    [
+     "18",
+     "Sorties documentées"
+    ],
+    [
+     "5",
+     "Rencontres possibles"
+    ],
+    [
+     "4",
+     "Transits"
+    ]
+   ],
+   "alt": "Lac froid et scierie abandonnée dans la forêt, brume basse entre les sapins."
+  },
+  {
+   "gabarit": "carte",
+   "slug": "shoreline",
+   "route": "pages/maps/shoreline.html",
+   "titre": "Littoral (Shoreline)",
+   "description": "Faubourg côtier, station Azure Coast et village abandonné : Sanitar, quatre transits vers le Phare, le Terminal, le Labyrinthe et le Brise-glace.",
+   "image": "images/maps/shoreline.jpg",
+   "crumb": "Littoral",
+   "kicker": "Fiche de lieu · Littoral",
+   "headline": "Littoral",
+   "headline_tail": "(Shoreline)",
+   "lead": "Le plus grand quartier périphérique de Tarkov : un village abandonné, une station de cure et un poste de douane gardé par l’armée. On y quitte la prairie pour la densité.",
+   "scene": "Station Azure Coast",
+   "aside_note": "Quatre destinations par transit, dont deux qui dépendent d’une histoire et d’une clé.",
+   "strip": [
+    [
+     "45 min",
+     "Durée"
+    ],
+    [
+     "10-14",
+     "PMC par raid"
+    ],
+    [
+     "0-100",
+     "Niveaux"
+    ],
+    [
+     "13",
+     "Sorties documentées"
+    ],
+    [
+     "6",
+     "Rencontres possibles"
+    ],
+    [
+     "4",
+     "Transits"
+    ]
+   ],
+   "alt": "Resort de bord de mer désaffecté, jetée de bois et hôtel art déco aux fenêtres brisées."
+  },
+  {
+   "gabarit": "carte",
+   "slug": "interchange",
+   "route": "pages/maps/interchange.html",
+   "titre": "Échangeur (Interchange)",
+   "description": "Centre commercial ULTRA et halls voisins : Killa, Tagilla, une sortie sans sac et les corrections de butin et de caisses du patch 1.2 du 6 octobre 2026.",
+   "image": "images/maps/interchange.jpg",
+   "crumb": "Échangeur",
+   "kicker": "Fiche de lieu · Échangeur",
+   "headline": "Échangeur",
+   "headline_tail": "(Interchange)",
+   "lead": "Un grand rectangle de bitume autour d’un mall, trois magasins fournisseurs et des allées de service : la carte où le loot est le plus dense et les sorties les plus étroites.",
+   "scene": "Façades d’ULTRA",
+   "aside_note": "Corrections de butin et de caisses du 1.2.0.0 intégrées à la lecture.",
+   "strip": [
+    [
+     "40 min",
+     "Durée"
+    ],
+    [
+     "11-15",
+     "PMC par raid"
+    ],
+    [
+     "0-100",
+     "Niveaux"
+    ],
+    [
+     "7",
+     "Sorties documentées"
+    ],
+    [
+     "3",
+     "Rencontres possibles"
+    ],
+    [
+     "2",
+     "Transits"
+    ]
+   ],
+   "alt": "Centre commercial abandonné reconverti en marché noir, galeries hautes et lumière filtrée."
+  },
+  {
+   "gabarit": "carte",
+   "slug": "reserve",
+   "route": "pages/maps/reserve.html",
+   "titre": "Base militaire (Reserve)",
+   "description": "Bunkers fédéraux, surface et voies ferrées : Glukhar, Raiders, clés de bâtiments et plusieurs sorties à conditions, dont deux d’une exigence réelle.",
+   "image": "images/maps/reserve.jpg",
+   "crumb": "Base militaire",
+   "kicker": "Fiche de lieu · Base militaire",
+   "headline": "Base militaire",
+   "headline_tail": "(Reserve)",
+   "lead": "Le secret le mieux gardé de la fiction officielle : une base souterraine de l’Agence fédérale des réserves, ses leviers, ses convois et ses poursuivis.",
+   "scene": "Dôme de la base",
+   "aside_note": "Les sorties les plus exigeantes ont été relues sur la fiche publique.",
+   "strip": [
+    [
+     "40 min",
+     "Durée"
+    ],
+    [
+     "9-11",
+     "PMC par raid"
+    ],
+    [
+     "0-100",
+     "Niveaux"
+    ],
+    [
+     "11",
+     "Sorties documentées"
+    ],
+    [
+     "3",
+     "Rencontres possibles"
+    ],
+    [
+     "3",
+     "Transits"
+    ]
+   ],
+   "alt": "Base militaire fortifiée sous la brume, voies ferrées et wagons de munitions."
+  },
+  {
+   "gabarit": "carte",
+   "slug": "the-lab",
+   "route": "pages/maps/the-lab.html",
+   "titre": "Le labo (The Lab)",
+   "description": "Complexe souterrain TerraGroup : keycard obligatoire, alarmes, sept sorties à commander par interrupteur et une variante d’obscurité documentée par les données.",
+   "image": "images/maps/the-lab.jpg",
+   "crumb": "Le labo",
+   "kicker": "Fiche de lieu · Le labo",
+   "headline": "Le labo",
+   "headline_tail": "(The Lab)",
+   "lead": "Un laboratoire sous la ville, accessible par carte d’accès et par un transit depuis les Rues de Tarkov. Chaque sortie s’ouvre à l’électricité et se referme sur elle.",
+   "scene": "Laboratoire TerraGroup",
+   "aside_note": "Les variantes événementielles et la variante sombre sont traitées à part.",
+   "strip": [
+    [
+     "30 min",
+     "Durée"
+    ],
+    [
+     "8-10",
+     "PMC par raid"
+    ],
+    [
+     "0-99",
+     "Niveaux"
+    ],
+    [
+     "7",
+     "Sorties documentées"
+    ],
+    [
+     "1",
+     "Rencontre possible"
+    ],
+    [
+     "1",
+     "Transit"
+    ]
+   ],
+   "alt": "Laboratoire souterrain de TerraGroup, couloirs carrelés et verrerie éclairée au néon."
+  },
+  {
+   "gabarit": "carte",
+   "slug": "lighthouse",
+   "route": "pages/maps/lighthouse.html",
+   "titre": "Phare (Lighthouse)",
+   "description": "Côte du cap Dalniy, chalets dans la montagne et station d’épuration : Rogues, BTR, Lightkeeper, un transit vers le Brise-glace et une carte revue en 2026.",
+   "image": "images/maps/lighthouse.jpg",
+   "crumb": "Phare",
+   "kicker": "Fiche de lieu · Phare",
+   "headline": "Phare",
+   "headline_tail": "(Lighthouse)",
+   "lead": "Un phare, des chalets, une station d’épuration : la carte a été entièrement refaite en septembre 2026 pour que le risque se pilote au lieu de se subir.",
+   "scene": "Côte et phare",
+   "aside_note": "Refonte du 1.1.5.0 du 8 septembre 2026 prise en compte.",
+   "strip": [
+    [
+     "40 min",
+     "Durée"
+    ],
+    [
+     "10-12",
+     "PMC par raid"
+    ],
+    [
+     "0-100",
+     "Niveaux"
+    ],
+    [
+     "12",
+     "Sorties documentées"
+    ],
+    [
+     "5",
+     "Rencontres possibles"
+    ],
+    [
+     "4",
+     "Transits"
+    ]
+   ],
+   "alt": "Phare de Cap Dalniy sur son promontoire, chalets et route côtière dans le soir bleu."
+  },
+  {
+   "gabarit": "carte",
+   "slug": "streets-of-tarkov",
+   "route": "pages/maps/streets-of-tarkov.html",
+   "titre": "Rues de Tarkov (Streets of Tarkov)",
+   "description": "Centre-ville en ruine : concession, galerie marchande, Kaban et Kollontay, et la porte d’entrée du Labo sous la ville. La carte la plus peuplée du jeu.",
+   "image": "images/maps/streets-of-tarkov.jpg",
+   "crumb": "Rues de Tarkov",
+   "kicker": "Fiche de lieu · Rues de Tarkov",
+   "headline": "Rues de Tarkov",
+   "headline_tail": "(Streets of Tarkov)",
+   "lead": "Le centre de la ville, là où les artères se croisent : le lieu le plus peuplé, le plus large, et celui qui relie la périphérie au Labo.",
+   "scene": "Avenue post-industrielle",
+   "aside_note": "Effectif le plus élevé du jeu : 12 à 16 PMC, plus les bots du profil PvE.",
+   "strip": [
+    [
+     "40 min",
+     "Durée"
+    ],
+    [
+     "12-16",
+     "PMC par raid"
+    ],
+    [
+     "0-100",
+     "Niveaux"
+    ],
+    [
+     "17",
+     "Sorties documentées"
+    ],
+    [
+     "3",
+     "Rencontres possibles"
+    ],
+    [
+     "3",
+     "Transits"
+    ]
+   ],
+   "alt": "Centre-ville de Tarkov en ruines, galeries marchandes éventrées et axes remplis de brume."
+  },
+  {
+   "gabarit": "carte",
+   "slug": "ground-zero",
+   "route": "pages/maps/ground-zero.html",
+   "titre": "Point zéro (Ground Zero)",
+   "description": "Le centre d’affaires où TerraGroup a tout commencé : tutoriel, deux tranches de niveau, cultistes en mode expérimenté et sorties partagées. Le point de départ.",
+   "image": "images/maps/ground-zero.jpg",
+   "crumb": "Point zéro",
+   "kicker": "Fiche de lieu · Point zéro",
+   "headline": "Point zéro",
+   "headline_tail": "(Ground Zero)",
+   "lead": "Le lieu où l’on apprend Tarkov : la place du centre d’affaires, le tutoriel, et le premier contact sérieux avec les Scavs.",
+   "scene": "Place du centre d’affaires",
+   "aside_note": "Le matchmaking sépare les niveaux inférieurs à 21 des joueurs expérimentés.",
+   "strip": [
+    [
+     "30 min",
+     "Durée"
+    ],
+    [
+     "9-12",
+     "PMC par raid"
+    ],
+    [
+     "0-100",
+     "Niveaux"
+    ],
+    [
+     "6",
+     "Sorties documentées"
+    ],
+    [
+     "1",
+     "Rencontre possible"
+    ],
+    [
+     "1",
+     "Transit"
+    ]
+   ],
+   "alt": "Place du quartier d’affaires de Tarkov à l’aube, bus abandonné et sacs de voyage."
+  },
+  {
+   "gabarit": "carte",
+   "slug": "the-labyrinth",
+   "route": "pages/maps/the-labyrinth.html",
+   "titre": "Le labyrinthe (The Labyrinth)",
+   "description": "Bunker de Knossos LLC sous la station de cure : cinq joueurs, cinq chambres-pièges, deux sorties et une rencontre qui n’apparaît qu’ensuite Un examen fermé.",
+   "image": "images/maps/the-labyrinth.jpg",
+   "crumb": "Le labyrinthe",
+   "kicker": "Fiche de lieu · Le labyrinthe",
+   "headline": "Le labyrinthe",
+   "headline_tail": "(The Labyrinth)",
+   "lead": "Un parcours souterrain fermé, conçu comme un examen : cinq joueurs, cinq chambres mortelles, deux sorties et une rencontre qui apparaît après l’autre.",
+   "scene": "Galerie souterraine",
+   "aside_note": "Accès par transit depuis le Littoral, avec carte d’accès et clé de facility.",
+   "strip": [
+    [
+     "30 min",
+     "Durée"
+    ],
+    [
+     "5",
+     "PMC par raid"
+    ],
+    [
+     "0-100",
+     "Niveaux"
+    ],
+    [
+     "2",
+     "Sorties documentées"
+    ],
+    [
+     "2",
+     "Rencontres possibles"
+    ],
+    [
+     "0",
+     "Transit sortant"
+    ]
+   ],
+   "alt": "Labyrinthe souterrain d’un parc d’attraction : carrousel rouillé et couloirs industriels."
+  },
+  {
+   "gabarit": "carte",
+   "slug": "icebreaker",
+   "route": "pages/maps/icebreaker.html",
+   "titre": "Brise-glace (Icebreaker)",
+   "description": "Le navire nucléaire Boreas en mer de Finlande : trois joueurs, un kit de réparation, Wedge et Knight, et une seule sortie en hélicoptère Aucun repli possible.",
+   "image": "images/maps/icebreaker.jpg",
+   "crumb": "Brise-glace",
+   "kicker": "Fiche de lieu · Brise-glace",
+   "headline": "Brise-glace",
+   "headline_tail": "(Icebreaker)",
+   "lead": "Un brise-glace nucléaire coincé dans le blocus et owned par Paradigm Shipping. On n’y entre qu’avec un kit de réparation, et on n’en sort qu’en hélicoptère.",
+   "scene": "Brise-glace dans le golfe",
+   "aside_note": "Le lieu n’a aucune sortie de secours : une seule extraction, payante.",
+   "strip": [
+    [
+     "50 min",
+     "Durée"
+    ],
+    [
+     "1-3",
+     "PMC par raid"
+    ],
+    [
+     "0-100",
+     "Niveaux"
+    ],
+    [
+     "1",
+     "Sortie documentée"
+    ],
+    [
+     "5",
+     "Rencontres possibles"
+    ],
+    [
+     "2",
+     "Transits entrants"
+    ]
+   ],
+   "alt": "Brise-glace nucléaire pris dans les glaces, coque d’acier rongée par le froid."
+  },
+  {
+   "gabarit": "carte",
+   "slug": "terminal",
+   "route": "pages/maps/terminal.html",
+   "titre": "Terminal",
+   "description": "Le port sud et la fin du récit : accès nocturne par le Littoral, obusiers, une seule sortie bateau et un état de personnage restauré La fin de l’histoire.",
+   "image": "images/maps/terminal.jpg",
+   "crumb": "Terminal",
+   "kicker": "Fiche de lieu · Terminal",
+   "headline": "Terminal",
+   "headline_tail": "(Terminal)",
+   "lead": "Le terminal sud, tenu par l’armée russe depuis le début du conflit, est la porte de sortie de l’histoire. On y entre la nuit, et on en repart en bateau.",
+   "scene": "Terminal portuaire",
+   "aside_note": "L’état du personnage est restauré à la sortie, sauf les objets d’accès consommés.",
+   "strip": [
+    [
+     "50 min",
+     "Durée"
+    ],
+    [
+     "1-5",
+     "PMC par raid"
+    ],
+    [
+     "0-99",
+     "Niveaux"
+    ],
+    [
+     "1",
+     "Sortie documentée"
+    ],
+    [
+     "8",
+     "Rencontres possibles"
+    ],
+    [
+     "1",
+     "Transit entrant"
+    ]
+   ],
+   "alt": "Terminal portuaire fortifié de nuit, conteneurs empilés et grues portuaires."
+  }
+ ]
+}

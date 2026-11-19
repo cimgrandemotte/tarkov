@@ -1,0 +1,63 @@
+<section class="field-section armes-section" id="reperes" tabindex="-1">
+  <h2>Ce que contient l’outil</h2>
+  <p>Un tableau de travail sur les deux cents cartouches de l’export du 18 novembre 2026, avec deux entrées : un nuage des couples pénétration-dégâts, et un tableau complet filtrable et triable. Tout y est lisible sans JavaScript : le tableau ci-dessous contient les deux cents lignes, le nuage vient en complément.</p>
+  <div class="field-grid field-grid--three">
+    <div class="field-card"><p class="eyebrow">200</p><p><strong>Cartouches.</strong> Trente et un calibres, des projectiles simples aux projectiles multiples, jusqu’à quinze projectiles pour une seule cartouche.</p></div>
+    <div class="field-card"><p class="eyebrow">154</p><p><strong>En magasin.</strong> Avec le niveau de fidélité, le prix et la date du relevé. Les quarante-six autres n’existent qu’en raid ou au marché.</p></div>
+    <div class="field-card"><p class="eyebrow">18 nov. 2026</p><p><strong>Horodatage.</strong> Les prix de marché bougent tous les jours : chaque ligne porte la date du relevé, pour qu’on sache ce qu’on regarde.</p></div>
+  </div>
+</section>
+
+<section class="field-section armes-section" id="nuage" tabindex="-1">
+  <h2>Le nuage pénétration / dégâts</h2>
+  <p>Chaque cartouche est un point : la pénétration en abscisse, les dégâts en ordonnée. Le graphe fait apparaître ce que les tableaux laissent deviner — les cartouches qui percent sont rarement les plus destructrices, et les plus destructrices sont rarement les plus pénétrantes.</p>
+  <div class="armes-chart" data-armes-chart>
+    <canvas id="armes-nuage" width="960" height="520" role="img" aria-label="Nuage des deux cents cartouches : pénétration en abscisse, dégâts en ordonnée."></canvas>
+  </div>
+  <p class="armes-note" data-armes-chart-note>Le nuage se charge à partir des mêmes données que le tableau. Sans JavaScript, il reste vide ; le tableau complet ci-dessous reste, lui, entièrement disponible.</p>
+  <div class="field-callout">
+    <p><strong>Comment lire le nuage.</strong> Le coin supérieur gauche correspond aux cartouches qui frappent fort sans percer : elles sont efficaces contre une cible sans armure. Le coin droit correspond aux cartouches qui percent : elles franchissent les plaques, mais frappent moins fort. Le point idéal dépend de la cible, et c’est exactement ce que la règle de pénétration du correctif 0.14.6.0 permet de calculer.</p>
+  </div>
+</section>
+
+<section class="field-section armes-section" id="tableau" tabindex="-1">
+  <h2>Le tableau complet</h2>
+  <p>Les deux cents cartouches de l’export, avec dégâts, pénétration, dégâts d’armure, type de projectile, nombre de projectiles et fragmentation. Les filtres portent sur le calibre, la disponibilité marchande, les traçantes et les projectiles multiples.</p>
+  <div class="armes-filters" role="search" aria-label="Filtrer le tableau des munitions">
+    <div class="armes-filters__row">
+      <label class="field" for="ammo-recherche"><span class="field__label">Rechercher une cartouche</span><input type="search" class="field__control" id="ammo-recherche" data-ammo-search placeholder="M855, BSg, 7,62 x 51…" autocomplete="off"></label>
+      <label class="field" for="ammo-calibre"><span class="field__label">Calibre</span><select class="field__control" id="ammo-calibre" data-ammo-calibre><option value="tous">Tous les calibres</option></select></label>
+      <label class="field" for="ammo-marchand"><span class="field__label">Disponibilité</span><select class="field__control" id="ammo-marchand" data-ammo-marchand><option value="toutes">Toutes</option><option value="oui">Vendues en magasin</option><option value="non">Sans offre en magasin</option></select></label>
+      <label class="field" for="ammo-type"><span class="field__label">Type de projectile</span><select class="field__control" id="ammo-type" data-ammo-type><option value="tous">Tous les types</option></select></label>
+    </div>
+    <div class="armes-filters__row">
+      <label class="field" for="ammo-penetration"><span class="field__label">Pénétration minimale</span><input type="number" class="field__control" id="ammo-penetration" data-ammo-penetration min="0" max="100" step="1" placeholder="0" inputmode="numeric"></label>
+      <label class="field" for="ammo-degats"><span class="field__label">Dégâts minimaux</span><input type="number" class="field__control" id="ammo-degats" data-ammo-degats min="0" step="1" placeholder="0" inputmode="numeric"></label>
+      <label class="field" for="ammo-classe"><span class="field__label">Classe d’armure atteinte</span><select class="field__control" id="ammo-classe" data-ammo-classe><option value="toutes">Toutes les classes</option><option value="1">Classe 1</option><option value="2">Classe 2</option><option value="3">Classe 3</option><option value="4">Classe 4</option><option value="5">Classe 5</option><option value="6">Classe 6</option></select></label>
+      <p class="eyebrow" role="status" data-ammo-compte>200 cartouches affichées sur 200</p>
+    </div>
+  </div>
+  %%TABLE_MUNITIONS%%
+  <p class="armes-note">Le tableau ci-dessus est construit par le guide à partir des données publiées ; il ne dépend d’aucun script. Les filtres qui le surmontent ne font que masquer des lignes. La page <a href="${root}pages/ammo/index.html">balistique</a> reprend les mêmes cartouches avec leur prix marchand, leur horodatage et les règles de lecture.</p>
+</section>
+
+<section class="field-section armes-section" id="method" tabindex="-1">
+  <h2>Méthode et limites</h2>
+  <p>Trois points de méthode, à connaître avant de tirer une conclusion de ce tableau.</p>
+  <ol class="armes-list">
+    <li><strong>La classe affichée est une lecture dérivée.</strong> Elle vaut la pénétration divisée par dix, plafonnée à six. Ce n’est pas une valeur publiée par l’éditeur : c’est une application de la règle du correctif 0.14.6.0, qui veut qu’une armure intacte de classe <em>n</em> ait une durabilité effective d’environ <em>n</em> multiplié par dix, et qu’une cartouche la franchise avec quinze points de pénétration de plus.</li>
+    <li><strong>Les dégâts affichés sont ceux de la cartouche seule.</strong> Ils s’appliquent au projectile, avant distance, avant canon, avant armure. Les dégâts réels d’un tir dépendent de la distance, de la longueur du canon et de ce qui est touché : le tableau donne la base, pas le résultat.</li>
+    <li><strong>Les prix sont datés, pas garantis.</strong> Chaque ligne porte l’horodatage du relevé du 18 novembre 2026. Les prix de marché bougent, les niveaux de fidélité évoluent, et la disponibilité en magasin dépend des réapprovisionnements.</li>
+  </ol>
+  <div class="field-callout">
+    <p><strong>Ce que l’outil ne fait pas.</strong> Il ne prédit pas un résultat de combat, ne hiérarchise pas les cartouches au-delà des chiffres publiés, et ne remplace pas la vérification dans le client. Les classements communautaires de munitions, très nombreux, ne sont pas repris ici : ils sont datés de façon hétérogène et reposent souvent sur des configurations de raid que l’export ne décrit pas.</p>
+  </div>
+</section>
+
+<section class="field-section armes-section" id="sources" tabindex="-1">
+  <h2>Sources</h2>
+  <p>Les caractéristiques de cartouche viennent de l’export communautaire du 18 novembre 2026. La règle de pénétration et de durabilité vient des notes de l’éditeur pour les correctifs 0.14.x. La visualisation utilise la bibliothèque Chart.js, embarquée localement dans le guide.</p>
+  %%SOURCES_OUTIL%%
+</section>
+
+<script type="application/json" id="munitions-donnees">%%JSON_MUNITIONS%%</script>

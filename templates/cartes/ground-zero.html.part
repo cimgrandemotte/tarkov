@@ -1,0 +1,91 @@
+<section class="field-section map-section" id="reperes" tabindex="-1">
+  <h2>Repères et accès</h2>
+  <p>Le centre d’affaires de Tarkov. C’est là que TerraGroup avait son siège, là que tout a commencé, et la zone est redevenue un foyer chaud depuis les premiers jours du conflit. <a href="@source:Ground_Zero@">Fiche publique</a> et <a href="@source:wiki-start@">guide de démarrage</a>.</p>
+  <div class="field-grid field-grid--three">
+    <div class="field-card"><p class="eyebrow">Deux files</p><p>Le matchmaking sépare les joueurs de niveau inférieur à 21 des joueurs expérimentés. Pour un groupe, c’est le niveau du joueur le plus élevé qui compte.</p></div>
+    <div class="field-card"><p class="eyebrow">Ce qui change</p><p>En file expérimentée : plus de chances de trouver du butin rare, des Scavs plus difficiles, et l’apparition possible des cultistes.</p></div>
+    <div class="field-card"><p class="eyebrow">Dangers</p><p>Champs de mines, claymores et snipers de bordure sont signalés par la fiche publique, avec des armes fixes de type AGS-30 et NSV Utyos.</p></div>
+  </div>
+  <div class="map-note">
+    <p><strong>Le tutoriel n’est pas une carte à part.</strong> Les données enregistrent une variante dédiée, <em>Ground Zero Tutoriel</em>, qui ne comporte ni sortie ni transiting. C’est le pendant moderne du prologue où le joueur quitte Point zéro par Klimov Street pour rejoindre la Thérapeute. <a href="@source:wiki-tour@">Fiche du chapitre Tour</a>.</p>
+  </div>
+</section>
+
+<section class="field-section map-section" id="sorties" tabindex="-1">
+  <h2>Sorties et transits</h2>
+  <p>Six sorties sont documentées : deux pour les PMC et quatre partagées. C’est la liste la plus courte des treize lieux, ce qui est logique : Point zéro est la porte d’entrée du jeu, pas un raid de butin.</p>
+  <div class="map-layers">
+    <div class="map-layers__bar" role="group" aria-label="Couches de données de Point zéro">
+      <span class="eyebrow">Couches</span>
+      <button type="button" class="badge" data-layer-toggle="sorties" aria-pressed="true">Sorties documentées</button>
+      <button type="button" class="badge" data-layer-toggle="transits" aria-pressed="true">Transits</button>
+      <button type="button" class="badge" data-layer-toggle="intitules" aria-pressed="false">Intitulés de jeu</button>
+    </div>
+    <div class="map-panel map-layer" data-layer="sorties">
+      <div class="map-layer__head"><h3>Sorties documentées</h3><p>Fiche publique du 18 novembre 2026.</p></div>
+      <label class="field" for="camp-point-zero"><span class="field__label">Filtrer par camp</span>
+        <select class="field__control" id="camp-point-zero" data-camp-filter>
+          <option value="tous">Toutes les sorties</option>
+          <option value="pmc">PMC</option>
+          <option value="scav">Scav</option>
+          <option value="shared">Partagées</option>
+        </select>
+      </label>
+      %%TABLE_SORTIES%%
+    </div>
+    <div class="map-panel map-layer" data-layer="transits">
+      <div class="map-layer__head"><h3>Transits sortants</h3><p>Une seule destination : les Rues de Tarkov.</p></div>
+      %%TABLE_TRANSITS%%
+    </div>
+    <div class="map-panel map-layer" data-layer="intitules" hidden>
+      <div class="map-layer__head"><h3>Intitulés de jeu</h3><p>Neuf intitulés recensés par l’instantané des données.</p></div>
+      %%TABLE_SORTIES_JEU%%
+    </div>
+  </div>
+  <p>La sortie <em>Escouade de police</em> est une exfil de véhicule à usage unique, limitée à quatre joueurs, dont le montant dépend du karma Scav du joueur. Elle est suivie par des snipers de bordure au-delà du véhicule : le tarif et le danger sont liés. La sortie <em>Escaliers du sous-sol Nakatani</em> se trouve sous l’immeuble Nakatani, et le bureau de vente Tartowers exige une note portant le code « Adaptation ».</p>
+</section>
+
+<section class="field-section map-section" id="rencontres" tabindex="-1">
+  <h2>Rencontres et menaces</h2>
+  <p>En file de débutants, aucun boss n’est attendu : la fiche publique ne mentionne que des Scavs ordinaires. En file expérimentée, les cultistes peuvent apparaître — c’est l’une des trois différences explicites entre les deux files. Les données enregistrent par ailleurs une variante 21+ distincte, où le prêtre cultiste est présent.</p>
+  %%TABLE_RENCONTRES%%
+</section>
+
+<section class="field-section map-section" id="terrain" tabindex="-1">
+  <h2>Dangers de terrain</h2>
+  <p>Cinq champs de mines et quatre zones de snipers relevés. Sur une carte où le joueur se déplace en surface, ces quelques zones suffisent à rendre les bords mortels.</p>
+  %%TABLE_DANGERS%%
+</section>
+
+<section class="field-section map-section" id="cles" tabindex="-1">
+  <h2>Clés et butin</h2>
+  <p>Trois clés documentées : la clé du bureau scientifique de TerraGroup, la clé du local technique du parking souterrain et la clé de caisse de la banque Unity Credit. C’est le lieu où le joueur apprend à ouvrir un conteur, pas à vider une carte.</p>
+  %%TABLE_CLES%%
+</section>
+
+<section class="field-section map-section" id="conduite" tabindex="-1">
+  <h2>Conduite selon le profil</h2>
+  <p>Point zéro est une carte d’apprentissage : elle enseigne le déplacement en ville, la lecture des sorties et le risque des bords. Les retours d’expérience publiés sur Reddit la placent parmi les cartes dont les sorties sont les plus simples, à condition de les prendre tôt. <a href="@source:reddit-extracts@">Fil Reddit sur les sorties les plus faciles à retenir</a>.</p>
+  <ol class="map-steps">
+    <li><strong>Débutant.</strong> Sortir par le <em>checkpoint EMERCOM</em> ou par les <em>Escaliers du sous-sol Nakatani</em> : les deux sont partagées et sans condition documentée. Ce raid a pour but d’apprendre, pas de remplir uneallah.</li>
+    <li><strong>Confirmé.</strong> Choisir la file selon son niveau : rester en file de débutants en tant qu’utilisateur expérimenté, c’est perdre les chances de butin rare sans pour autant s’être allégé.</li>
+    <li><strong>Expérimenté.</strong> Utiliser le transit vers les Rues de Tarkov : c’est la porte directe vers le cœur de la ville et vers le Labo.</li>
+  </ol>
+  %%TABLE_MODES%%
+  %%TABLE_VARIANTES%%
+  <div class="map-path"><strong>Écarts entre profils</strong><span>Ce que les trois profils consultés changent sur ce lieu.</span></div>
+  %%TABLE_ECARTS%%
+</section>
+
+<section class="field-section map-section" id="sources" tabindex="-1">
+  <h2>Sources et limites</h2>
+  <p>Instantané communautaire des données de jeu et fiche publique, tous deux du 18 novembre 2026, complétés par le guide de démarrage et la fiche du chapitre <em>Tour</em>. Le seuil de niveau 21 qui sépare les deux files est celui de la fiche publique ; il n’a pas été vérifié dans le client.</p>
+  <ul class="map-steps">
+    <li><a href="@source:Ground_Zero@">Point zéro — fiche de lieu</a> : lore, sorties, files de matchmaking et dangers.</li>
+    <li><a href="@source:wiki-start@">Guide de démarrage</a> et <a href="@source:wiki-tour@">chapitre Tour</a> : tutoriel et progression.</li>
+    <li><a href="@source:data-maps@">Tarkov.dev — cartes et rencontres</a> : instantané du profil PvP Zone.</li>
+    <li><a href="@source:data-maps-fr@">Tarkov.dev — libellés français</a> et <a href="@source:data-maps-pve@">profil PvE</a> : intitulés et écarts.</li>
+    <li><a href="@source:reddit-extracts@">Fil Reddit</a> : retours d’expérience sur les sorties.</li>
+    <li><a href="@source:mapgenie@">MapGenie</a> et <a href="@source:kappa@">Kappa Guide</a> : aides de lecture communautaires.</li>
+  </ul>
+</section>

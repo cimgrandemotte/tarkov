@@ -1,0 +1,90 @@
+<section class="field-section map-section" id="reperes" tabindex="-1">
+  <h2>Repères et accès</h2>
+  <p>Le centre de Tarkov : les Rues de Tarkov couvrent le cœur de la ville, avec ses quartiers reconvertis, sa galerie marchande, ses immeubles et ses axes routiers. C’est le lieu qui relie la périphérie au Labo. <a href="@source:Streets_of_Tarkov@">Fiche publique</a>.</p>
+  <div class="field-grid field-grid--three">
+    <div class="field-card"><p class="eyebrow">Volume</p><p><strong>40 minutes</strong>, 12 à 16 PMC : l’effectif le plus élevé des treize lieux de référence. 420 points de spawn relevés.</p></div>
+    <div class="field-card"><p class="eyebrow">Dangers</p><p><strong>Claymores</strong> et snipers de bordure sont signalés par la fiche publique, avec quarante-trois champs de mines relevés dans les données.</p></div>
+    <div class="field-card"><p class="eyebrow">Performance</p><p>Le patch 1.1.0.0 a introduit une nouvelle méthode de calcul de la zone jouable sur ce lieu, pour réduire le traitement des données inutiles. <a href="@source:bsg-1100@">Notes du patch 1.1.0.0</a>.</p></div>
+  </div>
+  <div class="map-note map-note--warn">
+    <p><strong>Les claymores ne se désamorcent pas.</strong> Une claymore est une mine directionnelle : elle s’active dans un rayon de cinq à dix mètres, ne réagit ni aux tirs ni aux explosions, et tue net. Contrairement au champ de mines, elle ne réapparaît pas une fois déclenchée : le passage peut être nettoyé, mais pas deviné.</p>
+  </div>
+</section>
+
+<section class="field-section map-section" id="sorties" tabindex="-1">
+  <h2>Sorties et transits</h2>
+  <p>Dix-sept sorties sont documentées : neuf pour les PMC, sept pour les Scavs, une partagée en co-op et une autre. C’est le nombre de sorties le plus élevé du jeu, et il est à la mesure de l’étendue du lieu.</p>
+  <div class="map-layers">
+    <div class="map-layers__bar" role="group" aria-label="Couches de données des Rues de Tarkov">
+      <span class="eyebrow">Couches</span>
+      <button type="button" class="badge" data-layer-toggle="sorties" aria-pressed="true">Sorties documentées</button>
+      <button type="button" class="badge" data-layer-toggle="transits" aria-pressed="true">Transits</button>
+      <button type="button" class="badge" data-layer-toggle="intitules" aria-pressed="false">Intitulés de jeu</button>
+    </div>
+    <div class="map-panel map-layer" data-layer="sorties">
+      <div class="map-layer__head"><h3>Sorties documentées</h3><p>Fiche publique du 18 novembre 2026.</p></div>
+      <label class="field" for="camp-rues"><span class="field__label">Filtrer par camp</span>
+        <select class="field__control" id="camp-rues" data-camp-filter>
+          <option value="tous">Toutes les sorties</option>
+          <option value="pmc">PMC</option>
+          <option value="scav">Scav</option>
+          <option value="shared">Partagées</option>
+        </select>
+      </label>
+      %%TABLE_SORTIES%%
+    </div>
+    <div class="map-panel map-layer" data-layer="transits">
+      <div class="map-layer__head"><h3>Transits sortants</h3><p>Trois destinations : Point zéro 21+, Échangeur et Labo.</p></div>
+      %%TABLE_TRANSITS%%
+    </div>
+    <div class="map-panel map-layer" data-layer="intitules" hidden>
+      <div class="map-layer__head"><h3>Intitulés de jeu</h3><p>Dix-neuf intitulés recensés par l’instantané des données.</p></div>
+      %%TABLE_SORTIES_JEU%%
+    </div>
+  </div>
+  <p>La sortie <em>Taxi de l’avenue Primorski</em> est une exfil de véhicule : à usage unique, limitée à quatre joueurs. L’ascenseur du bâtiment Stylobate se trouve derrière le bar du troisième étage du restaurant Beluga. La sortie <em>Cour</em> s’ouvre à la lumière verte. Le tunnel d’égout et la gaine de ventilation sont des sorties Scav ; le sous-sol de contrebandiers exige une note portant le code « Onyx ».</p>
+</section>
+
+<section class="field-section map-section" id="rencontres" tabindex="-1">
+  <h2>Rencontres et menaces</h2>
+  <p>Deux rencontres structurent le lieu, toutes deux présentes dans 60 % des instantanés relevés : Kaban et Kollontay. Elles occupent le centre-ville, là où les circuits de quêtes passent. <a href="@source:wiki-maps@">Inventaire des lieux</a>.</p>
+  %%TABLE_RENCONTRES%%
+</section>
+
+<section class="field-section map-section" id="terrain" tabindex="-1">
+  <h2>Dangers de terrain</h2>
+  <p>Quarante-trois champs de mines et treize zones de snipers : les Rues de Tarkov cumulent les deux types de danger de bordure, avec les claymores en plus. Les mines servent à couper les coins du terrain.</p>
+  %%TABLE_DANGERS%%
+</section>
+
+<section class="field-section map-section" id="cles" tabindex="-1">
+  <h2>Clés et butin</h2>
+  <p>Quarante-sept clés documentées, la plus longue liste du jeu : la carte du centre-ville a beaucoup de portes à code. On y trouve la clé de la direction du parc de voitures d’occasion, la clé de la salle d’archives, la clé du complexe d’appartements Cardinal, ou celle de la porte du conteneur en maille.</p>
+  %%TABLE_CLES%%
+</section>
+
+<section class="field-section map-section" id="conduite" tabindex="-1">
+  <h2>Conduite selon le profil</h2>
+  <p>Les Rues de Tarkov sont un lieu de trajet, pas de station : quarante minutes, seize PMC, et une géométrie urbaine qui offre des lignes de vue longues. On y entre pour la route, pas pour la fouille.</p>
+  <ol class="map-steps">
+    <li><strong>Débutant.</strong> Se déplacer le long des axes principaux et sortir par une sortie simple : la <em>Grue effondrée</em>, le <em>Site d’accident</em> ou la <em>Maison endommagée</em> ne demandent aucune condition documentée.</li>
+    <li><strong>Confirmé.</strong> Utiliser le transit vers l’Échangeur, placé au sud-ouest du complexe d’appartements Concordia : c’est le moyen de quitter la ville par le sud sans traverser les quartiers.</li>
+    <li><strong>Expérimenté.</strong> Travailler les clés d’immeubles. Avec quarante-sept clés, le nombre de pièces ouvertes dans un raid dépasse rapidement celui des pieces que l’on sait visitée.</li>
+  </ol>
+  %%TABLE_MODES%%
+  %%TABLE_VARIANTES%%
+  <div class="map-path"><strong>Écarts entre profils</strong><span>Ce que les trois profils consultés changent sur ce lieu.</span></div>
+  %%TABLE_ECARTS%%
+</section>
+
+<section class="field-section map-section" id="sources" tabindex="-1">
+  <h2>Sources et limites</h2>
+  <p>Instantané communautaire des données de jeu et fiche publique, tous deux du 18 novembre 2026, complétés par les notes du patch 1.1.0.0. Les distances, les angles de vue et la dangerosité des claymores sont rapportés, non mesurés.</p>
+  <ul class="map-steps">
+    <li><a href="@source:Streets_of_Tarkov@">Rues de Tarkov — fiche de lieu</a> : lore, sorties, clés et caractéristiques.</li>
+    <li><a href="@source:bsg-1100@">Patch 1.1.0.0</a> : optimisation du calcul de zone jouable.</li>
+    <li><a href="@source:data-maps@">Tarkov.dev — cartes et rencontres</a> : instantané du profil PvP Zone.</li>
+    <li><a href="@source:data-maps-fr@">Tarkov.dev — libellés français</a>, <a href="@source:data-maps-pve@">profil PvE</a> et <a href="@source:data-maps-season@">profil saisonnier</a> : intitulés et écarts.</li>
+    <li><a href="@source:mapgenie@">MapGenie</a> et <a href="@source:kappa@">Kappa Guide</a> : aides de lecture communautaires.</li>
+  </ul>
+</section>

@@ -1,0 +1,126 @@
+<section class="field-section map-section" id="repere" tabindex="-1">
+  <h2>Ce que contient cet atlas</h2>
+  <p>Trois sources structurent ces pages : l’instantané communautaire des données de jeu du <strong>18 novembre 2026</strong>, les fiches publiques par lieu, et les notes officielles des correctifs du 1.1.0.0 au 1.3.0.0. Chaque fiche de lieu reprend les sorties documentées, les transits, les rencontres, les dangers de terrain, les clés et les écarts entre profils, avec la date et la limite à chaque fois.</p>
+  <div class="field-grid field-grid--three">
+    <div class="field-card"><p class="eyebrow">13</p><p><strong>Treize lieux de référence.</strong> Douze lieux de raid plus le Terminal, dont l’accès et la durée divergent entre les sources consultées.</p></div>
+    <div class="field-card"><p class="eyebrow">119</p><p><strong>Sorties documentées.</strong> Chaque sortie est donnée avec son camp, sa condition d’ouverture et son caractère à usage unique ou non.</p></div>
+    <div class="field-card"><p class="eyebrow">3</p><p><strong>Profils comparés.</strong> PvP Zone, PvE Zone et PvP Season : les écarts réels entre les trois sont isolés, pas supposés.</p></div>
+  </div>
+
+  <figure class="map-planche">
+    <img src="${root}images/maps/atlas-port.jpg" alt="Port industriel désaffecté sous la brume" width="1376" height="768" loading="lazy">
+    <figcaption>Vue portuaire : le Terminal et le Littoral sont les deux portes du sud de la carte. Le port n’est pas un décor — c’est un axe d’approche et un lieu de rupture.</figcaption>
+  </figure>
+  <div class="map-note map-note--warn">
+    <p><strong>Ce que cet atlas ne dit pas.</strong> Aucune position de spawn n’est donnée comme un point à-viser : les zones sont celles des données, et elles sont exprimées en identifiants de zone, pas en repères de terrain. Les chances d’apparition sont celles de l’instantané consulté, à la date indiquée, et elles ne valent pas probabilité de raid tant qu’elles ne sont pas recoupées dans le client.</p>
+  </div>
+</section>
+
+<section class="field-section map-section" id="lieux" tabindex="-1">
+  <h2>Les treize lieux</h2>
+  <p>Les filtres ci-dessous agissent sur les fiches. Sans JavaScript, les treize fiches restent listées et accessibles : le filtrage n’est qu’un confort, jamais un accès exclusif.</p>
+  <div class="atlas-filters" role="search" aria-label="Filtrer les fiches de lieu">
+    <div class="atlas-filters__row">
+      <label class="field" for="atlas-recherche"><span class="field__label">Rechercher un lieu</span><input type="search" class="field__control" id="atlas-recherche" data-atlas-search placeholder="Douanes, littoral, Brise-glace…" autocomplete="off"></label>
+    </div>
+    <div class="atlas-filters__row">
+      <p class="eyebrow">Profil</p>
+      <label class="field" for="atlas-mode"><span class="field__label">Profil de jeu</span>
+        <select class="field__control" id="atlas-mode" data-atlas-mode>
+          <option value="tous">Tous les profils</option>
+          <option value="regular">PvP Zone</option>
+          <option value="pve">PvE Zone</option>
+          <option value="pvp-season">PvP Season</option>
+        </select>
+      </label>
+    </div>
+    <div class="atlas-filters__row">
+      <p class="eyebrow">Menace</p>
+      <label class="field" for="atlas-menace"><span class="field__label">Danger documenté</span>
+        <select class="field__control" id="atlas-menace" data-atlas-threat>
+          <option value="toutes">Tous les dangers</option>
+          <option value="mines">Champ de mines</option>
+          <option value="snipers">Sniper de bordure</option>
+          <option value="claymores">Claymore</option>
+        </select>
+      </label>
+    </div>
+    <p class="eyebrow" role="status" data-atlas-count>13 lieux affichés sur 13</p>
+  </div>
+  <div class="atlas-grid" data-atlas-grid>
+%%GRILLE_LIEUX%%
+  </div>
+  <p class="atlas-empty" data-atlas-empty hidden>Aucun lieu ne correspond à ces critères. Effacez la recherche ou élargissez le filtre.</p>
+</section>
+
+<section class="field-section map-section" id="comparatif" tabindex="-1">
+  <h2>Comparer deux lieux</h2>
+  <p>Le comparatif oppose deux fiches ligne à ligne : durée, effectif, niveaux, sorties par camp, transits, rencontres, dangers relevés et variantes. Les valeurs proviennent du même instantané que les fiches, donc la comparaison est homogène.</p>
+  <div class="map-compare">
+    <div class="map-compare__pickers">
+      <label class="field" for="compare-a"><span class="field__label">Lieu de référence</span>
+        <select class="field__control" id="compare-a" data-compare-a></select>
+      </label>
+      <label class="field" for="compare-b"><span class="field__label">Lieu comparé</span>
+        <select class="field__control" id="compare-b" data-compare-b></select>
+      </label>
+    </div>
+    <div class="map-compare__grid" data-compare-grid aria-live="polite"></div>
+  </div>
+  <script type="application/json" data-compare-data>%%JSON_COMPARATIF%%</script>
+</section>
+
+<section class="field-section map-section" id="transits" tabindex="-1">
+  <h2>Le réseau de transits</h2>
+  <p>Vingt-neuf transits documentés relient les lieux entre eux. Un transit n’est pas une sortie : il déplace le raid vers un autre lieu, dans un délai qui peut en interdire l’usage. Trois lieux n’ont aucun transit sortant — le Brise-glace, le Labyrinthe et le Terminal — et un seul, les Rues de Tarkov, en propose vers trois destinations.</p>
+  %%TABLE_TRANSITS_ATLAS%%
+
+  <figure class="map-planche">
+    <img src="${root}images/maps/atlas-transits.jpg" alt="Réseau de points de transit reliés par des fils lumineux" width="1376" height="768" loading="lazy">
+    <figcaption>Schéma original du réseau de transits : chaque passage se mérite, aucun n’est gratuit. Un transit déplace le raid vers un autre lieu, dans un délai qui peut en interdire l’usage.</figcaption>
+  </figure>
+  <div class="map-note">
+    <p><strong>Le transit n’est jamais gratuit.</strong> Chaque passage demande un objet, une clé ou une minute d’attente : le transit vers le Labo depuis les Rues de Tarkov exige une carte d’accès TerraGroup Labs par joueur, et la plupart des transits ne sont disponibles qu’une minute après le début du raid. Vérifier la liste complète avant de choisir son point d’entrée.</p>
+  </div>
+</section>
+
+<section class="field-section map-section" id="variantes" tabindex="-1">
+  <h2>Variantes et événements</h2>
+  <p>Six variantes sont rattachées aux lieux de référence dans l’instantané consulté : deux sur l’Usine, deux sur le Labo, deux sur Point zéro. Ce ne sont pas des cartes à part entière mais des configurations d’un lieu, avec des règles d’assurance et de file d’attente propres.</p>
+  %%TABLE_VARIANTES_ATLAS%%
+  <div class="map-note map-note--warn">
+    <p><strong>Une variante d’événement n’est pas un raid normal.</strong> L’<em>Infected Factory</em>, l’<em>Infected Lab</em>, la <em>Point zéro 21+</em> et le <em>Point zéro Tutoriel</em> remplacent tout ou partie des rencontres habituelles. Le tutoriel n’a aucune sortie : c’est une configuration d’apprentissage, pas une carte à raider.</p>
+  </div>
+</section>
+
+<section class="field-section map-section" id="cartes-interactives" tabindex="-1">
+  <h2>Cartes interactives de référence</h2>
+  <p>Ces fiches décrivent les lieux, mais une fiche n’est pas une carte navigable. Les sites ci-dessous proposent des cartes interactives du jeu — vues 2D, 3D, points de repère et marqueurs de mission — et servent de références de lecture pour compléter ces pages. Chaque lien est une ressource externe ; le guide ne reprend ni leur fond ni leurs marqueurs comme données.</p>
+  <div class="field-grid field-grid--three">
+    <div class="field-card"><p class="eyebrow">Référence</p><p><strong>Tarkov.dev — cartes</strong>. Cartes interactives gratuites en 2D et 3D : extractions, caches, spawns et marqueurs de mission pour tous les lieux.</p><p><a href="https://tarkov.dev/maps">tarkov.dev/maps</a></p></div>
+    <div class="field-card"><p class="eyebrow">Complet</p><p><strong>MapGenie</strong>. Expérience interactive la plus aboutie : plus de 500 points de butin, spawns PMC et Scav, extractions, avec application mobile. Freemium.</p><p><a href="https://mapgenie.io/tarkov">mapgenie.io/tarkov</a></p></div>
+    <div class="field-card"><p class="eyebrow">3D</p><p><strong>RE3MR — cartes isométriques</strong>. Cartes 3D de haute qualité pour chaque lieu, y compris les sous-cartes spécialisées (dortoirs, tunnels, resort). Gratuit.</p><p><a href="https://re3mr.github.io/">re3mr.github.io</a></p></div>
+    <div class="field-card"><p class="eyebrow">Communautaire</p><p><strong>GameMaps.net — Tarkov</strong>. Variantes de cartes communautaires avec suivi de missions et filtrage de niveau. Gratuit.</p><p><a href="https://www.gamemaps.net/tarkov">gamemaps.net/tarkov</a></p></div>
+    <div class="field-card"><p class="eyebrow">Wiki</p><p><strong>Wiki Fandom — cartes</strong>. Cartes interactives définitives avec marqueurs de spawns, extractions, butin, clés et missions pour tous les lieux.</p><p><a href="https://escapefromtarkov.fandom.com/wiki/Category:Maps">fandom.com/wiki/Category:Maps</a></p></div>
+    <div class="field-card"><p class="eyebrow">Tutoriel</p><p><strong>Tarkov.help — carte</strong>. Cartes de navigation avec points de mission, utile pour la planification de raid.</p><p><a href="https://tarkov.help/en/map/">tarkov.help/en/map</a></p></div>
+  </div>
+  <div class="map-note">
+    <p><strong>Comment les utiliser.</strong> Ces sites sont des références de lecture : ils complètent les fiches, mais les chiffres du guide (sorties, transits, rencontres, chances) viennent de l’instantané du 18 novembre 2026 et ne sont pas repris de ces cartes. Consultez une carte interactive pour visualiser un lieu ; consultez la fiche pour les données chiffrées et datées.</p>
+  </div>
+</section>
+
+<section class="field-section map-section" id="sources" tabindex="-1">
+  <h2>Sources et limites</h2>
+  <p>Les données de jeu viennent d’un instantané communautaire daté du 18 novembre 2026, disponible en trois profils. Les fiches publiques par lieu, qui décrivent les sorties, les transits, les clés et les lore, sont une source communautaire distincte : quand les deux se contredisent, la fiche le signale au lieu de trancher.</p>
+  <ul class="map-steps">
+    <li><a href="@source:wiki-maps@">Carte de Tarkov — liste des lieux</a> : transits, rencontres, durées, joueurs et zones de danger.</li>
+    <li><a href="@source:wiki-maps-fr@">Carte de Tarkov — version française</a> : libellés et durées en français.</li>
+    <li><a href="@source:data-maps@">Tarkov.dev — cartes et rencontres</a> : instantané du profil PvP Zone.</li>
+    <li><a href="@source:data-maps-fr@">Tarkov.dev — libellés français</a>, <a href="@source:data-maps-pve@">profil PvE</a> et <a href="@source:data-maps-season@">profil saisonnier</a> : intitulés de sortie et écarts.</li>
+    <li><a href="@source:bsg-1150@">Patch 1.1.5.0</a>, <a href="@source:bsg-1200@">patch 1.2.0.0</a> et <a href="@source:bsg-1300@">patch 1.3.0.0</a> : refontes et corrections qui changent les fiches.</li>
+    <li><a href="@source:mapgenie@">MapGenie</a> et <a href="@source:kappa@">Kappa Guide</a> : aides de lecture communautaires, utilisées comme repères de lecture et jamais comme source de chiffres.</li>
+  </ul>
+  <p>La version de jeu de référence est celle relevée dans la chronologie des correctifs : la documentation de la communauté indique une version 1.3.0.2 publiée en novembre 2026, et une mise à jour technique de la même période corrigeait l’éclairage de l’Usine infectée et un corps de scientifique du Laboratoire infecté. Ces correctifs ne changent ni les sorties ni les rencontres, mais ils rappellent que ces tables décrivent un instantané, pas un état permanent. <a href="@source:wiki-changelog@">Chronologie des correctifs</a>, <a href="@source:changelog-gg@">historique des annonces</a> et <a href="@source:twistedvoxel-halloween@">notes de la mise à jour technique</a>.</p>
+  <p>Les outils communautaires qui suivent les déplacements en direct s’appuient tous sur la même API que nos données : les rapports de position des Goon sont transportés dans la charge utile des cartes de chaque profil, sans point d’accès distinct. C’est un indice de cohérence sur la provenance de nos chiffres, pas une validation du fond. <a href="@source:github-goon-tracker@">Suivi des Goon</a>.</p>
+  <p>Les limites sont explicites : les probabilités d’apparition ne sont pas des fréquences de raid, les positions de spawn ne sont pas des repères, les durées divergent parfois entre les sources, et les fichiers eux-mêmes ne remplacent pas une vérification dans le client. <a href="@source:wiki-controls@">Les commandes du jeu</a> et <a href="@source:wiki-game-modes@">les profils de jeu</a> sont rappelés dans le guide pour situer ces limites.</p>
+</section>

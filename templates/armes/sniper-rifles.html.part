@@ -1,0 +1,47 @@
+<section class="field-section armes-section" id="reperes" tabindex="-1">
+  <h2>Repères de la famille</h2>
+  <p>Dix fusils de précision à verrou : dix armes qui ne se rechargent pas entre deux tirs et dont la cadence publiée, de 30 à 100 coups par minute, dit tout de l’usage. Les dix partagent la même distance efficace publiée — mille mètres — et se répartissent sur cinq calibres : 7,62 x 51 mm NATO pour trois d’entre elles, 7,62 x 54 mm R pour trois autres, puis le 8,6 x 70 mm, le .366 TKM et le 7,84 x 49 mm.</p>
+  <div class="field-grid field-grid--three">
+    <div class="field-card"><p class="eyebrow">21 à 55</p><p><strong>Ergonomie.</strong> La famille est peu maniable, et c’est normal : ces armes sont construites pour la précision, pas pour la vitesse de manipulation. Le DVL-10 culmine à 55, le Remington Model 700 à 49.</p></div>
+    <div class="field-card"><p class="eyebrow">111 à 468</p><p><strong>Recul vertical.</strong> Le DVL-10 affiche 111, l’ORSIS T-5000 141, et le bas de la famille atteint 468. Un recul de cette ampleur transforme chaque tir en décision de repositionnement.</p></div>
+    <div class="field-card"><p class="eyebrow">1 000</p><p><strong>Distance efficace.</strong> Mille mètres pour les dix armes, une valeur qui décrit le canon et la cartouche, pas la précision d’un tir en conditions de raid.</p></div>
+  </div>
+  <div class="field-callout">
+    <p><strong>Le coût, c’est l’optique.</strong> Le catalogue compte vingt-quatre lunettes telescopiques et dix-huit lunettes d’assaut, avec leurs prix de base. Une lunette à usage précis coûte plus cher que plusieurs armes de la famille : c’est le premier poste du budget d’un tireur de précision.</p>
+  </div>
+</section>
+
+<section class="field-section armes-section" id="catalogue" tabindex="-1">
+  <h2>Le catalogue de la famille</h2>
+  <p>Les dix fusils de précision à verrou de l’export, avec leurs mesures à configuration de base.</p>
+  %%TABLE_CATALOGUE%%
+  <p class="armes-note">Le Mosin apparaît en deux entrées distinctes, une version infanterie et une version sniper : ce sont deux objets différents dans l’export, avec des mesures différentes.</p>
+</section>
+
+<section class="field-section armes-section" id="presets" tabindex="-1">
+  <h2>Presets publiés</h2>
+  <p>Trente-et-un presets sont rattachés aux dix armes de cette famille. Sur une arme à verrou, le preset touche surtout l’optique et la crosse : l’ergonomie progresse, la précision se stabilise, et le poids augmente.</p>
+  %%TABLE_PRESETS%%
+  <p class="armes-note">La précision est exprimée en minutes d’angle. À mille mètres de distance efficace, une minute d’angle correspond à un groupement d’environ dix-sept centimètres : la valeur compte moins que le nombre de carts que l’on peut tirer avant que la cible ne bouge.</p>
+</section>
+
+<section class="field-section armes-section" id="acquisition" tabindex="-1">
+  <h2>Acquisition et disponibilité</h2>
+  <p>Aucune des dix armes de cette famille n’est vendue en magasin dans l’instantané. Elles s’acquièrent en raid, par tâche ou au marché, avec des prix qui dépassent couramment le million de roubles une fois l’optique ajoutée.</p>
+  %%TABLE_ACQUISITION%%
+</section>
+
+<section class="field-section armes-section" id="conduite" tabindex="-1">
+  <h2>Comment s’équiper</h2>
+  <ul class="armes-list">
+    <li><strong>La munition décide du match.</strong> Le 7,62 x 51 mm NATO et le 7,62 x 54 mm R montent dans les trois armes les plus répandues de la famille. Leur pénétration dépend entièrement de la cartouche chargée : le même fusil de précision franchit une classe 5 ou s’arrête dans une classe 3 selon le projectile. La page balistique donne la règle exacte.</li>
+    <li><strong>Comparer les cinq calibres plutôt que les armes.</strong> Cinq calibres pour dix armes signifie que le choix réel se joue à deux ou trois armes par calibre. Le tableau croisé des calibres est plus utile ici que le classement des modèles.</li>
+    <li><strong>Compter les cartouches, pas les mètres.</strong> Une cadence de 30 à 100 coups par minute signifie qu’un duel se gagne sur le premier tir ou se perd. L’optique, le bipied et la discipline de position comptent autant que le canon.</li>
+  </ul>
+</section>
+
+<section class="field-section armes-section" id="sources" tabindex="-1">
+  <h2>Sources et limites</h2>
+  <p>Les mesures viennent de l’export communautaire du 18 novembre 2026. La distance efficace de mille mètres est une valeur publiée par le catalogue, pas une garantie de précision : les valeurs de groupement viennent des presets et restent des mesures de configuration, dans des conditions de tir qui ne sont pas celles d’un raid.</p>
+  %%SOURCES_FAMILLE%%
+</section>

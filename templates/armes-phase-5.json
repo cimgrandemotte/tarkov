@@ -1,0 +1,1062 @@
+{
+ "schemaVersion": 1,
+ "phase": "PHASE_5",
+ "hub": {
+  "gabarit": "hub",
+  "slug": "arsenal",
+  "route": "pages/weapons/index.html",
+  "titre": "Arsenal EFT",
+  "description": "Cent quatre-vingt-dix-neuf armes du catalogue public, réparties en dix familles, avec presets, prix marchands et comparateur à trois entrées.",
+  "image": "images/weapons/arsenal-etabli.jpg",
+  "alt": "Établi modulaire d’armement éclairé à froid, armes démontées alignées sur un tapis technique.",
+  "kicker": "Hub arsenal · 199 armes",
+  "headline": "Arsenal",
+  "headline_tail": "EFT",
+  "lead": "Tout le catalogue d’armes publié par l’export communautaire du 18 novembre 2026, filtrable par famille, calibre, prix, ergonomie, recul et cadence, avec un comparateur à trois entrées et des sélections guidées par les données.",
+  "scene": "Établi d’armement",
+  "aside_note": "Instantané du 18 novembre 2026, catalogue public en trois profils de jeu identiques.",
+  "strip": [
+   [
+    "199",
+    "Armes au catalogue"
+   ],
+   [
+    "10",
+    "Fiches de famille"
+   ],
+   [
+    "2 283",
+    "Pièces et accessoires"
+   ],
+   [
+    "31",
+    "Calibres de munitions"
+   ],
+   [
+    "401",
+    "Presets publiés"
+   ],
+   [
+    "3",
+    "Profils comparés"
+   ]
+  ],
+  "hero_links": [
+   [
+    "familles",
+    "Les dix familles"
+   ],
+   [
+    "catalogue",
+    "Le catalogue filtrable"
+   ],
+   [
+    "comparateur",
+    "Comparer trois armes"
+   ]
+  ],
+  "toc": [
+   [
+    "perimetre",
+    "Ce que couvre cet arsenal"
+   ],
+   [
+    "familles",
+    "Les dix familles"
+   ],
+   [
+    "catalogue",
+    "Le catalogue filtrable"
+   ],
+   [
+    "comparateur",
+    "Comparer trois armes"
+   ],
+   [
+    "selections",
+    "Sélections guidées par les données"
+   ],
+   [
+    "sources",
+    "Sources et limites"
+   ]
+  ],
+  "crumb": "Arsenal"
+ },
+ "hub_ammo": {
+  "gabarit": "hub",
+  "slug": "balistique",
+  "route": "pages/ammo/index.html",
+  "titre": "Munitions : comprendre la balistique",
+  "description": "Pénétration, dégâts, classes d’armure et règle du correctif 0.14.6.0 expliquées, avec 200 munitions et 31 calibres lus dans l’export.",
+  "image": "images/weapons/munitions-macro.jpg",
+  "alt": "Macro d’un chargeur de cartouches 5,56 x 45 aligné sur un tapis de Bancal, douilles cuivrées.",
+  "kicker": "Hub munitions · 200 cartouches",
+  "headline": "Munitions",
+  "headline_tail": "et balistique",
+  "lead": "Comment une cartouche traverse une plaque, ce que chaque statistique signifie vraiment, et pourquoi la munition compte plus que l’arme : la règle du correctif 0.14.6.0, les six classes d’armure et 200 munitions lues dans l’export.",
+  "scene": "Bancal de cartouches",
+  "aside_note": "Règle de pénétration du correctif 0.14.6.0, données du 18 novembre 2026.",
+  "strip": [
+   [
+    "200",
+    "Cartouches au catalogue"
+   ],
+   [
+    "31",
+    "Calibres"
+   ],
+   [
+    "6",
+    "Classes d’armure"
+   ],
+   [
+    "154",
+    "Vendues en magasin"
+   ],
+   [
+    "46",
+    "Sans offre en magasin"
+   ],
+   [
+    "15",
+    "Coups multiples"
+   ]
+  ],
+  "hero_links": [
+   [
+    "regle",
+    "La règle de pénétration"
+   ],
+   [
+    "statistiques",
+    "Chaque statistique expliquée"
+   ],
+   [
+    "classes",
+    "Les six classes d’armure"
+   ],
+   [
+    "calibres",
+    "Par calibre"
+   ]
+  ],
+  "toc": [
+   [
+    "reperes",
+    "Ce que contient cette page"
+   ],
+   [
+    "regle",
+    "La règle de pénétration"
+   ],
+   [
+    "statistiques",
+    "Chaque statistique expliquée"
+   ],
+   [
+    "classes",
+    "Les six classes d’armure"
+   ],
+   [
+    "calibres",
+    "Par calibre"
+   ],
+   [
+    "achats",
+    "Où acheter, à quel prix"
+   ],
+   [
+    "sources",
+    "Sources et limites"
+   ]
+  ],
+  "crumb": "Munitions"
+ },
+ "families": [
+  {
+   "gabarit": "famille-arme",
+   "slug": "assault-rifles",
+   "route": "pages/weapons/assault-rifles.html",
+   "famille": "fusils-assaut",
+   "titre": "Fusils d’assaut et carabines",
+   "description": "Soixante-trois fusils d’assaut et carabines de l’export : M4A1, AK-74N, SA-58, AUG A3 et MDR, filtrés par recul, ergonomie et munitions autorisées.",
+   "image": "images/weapons/famille-assaut.jpg",
+   "alt": "Fusil d’assaut sur établi, crosse et garde-main démontés, lumière rasante sur la table de travail.",
+   "crumb": "Fusils d’assaut",
+   "kicker": "Famille d’armes · 63 modèles",
+   "headline": "Fusils",
+   "headline_tail": "d’assaut",
+   "lead": "La famille la plus large du catalogue, et la plus disputée : soixante-trois armes, onze calibres et une seule variable qui compte vraiment — la munition qu’on y met.",
+   "scene": "Établi d’armement",
+   "aside_note": "63 armes, deux sous-familles de jeu : fusil d’assaut et carabine d’assaut.",
+   "strip": [
+    [
+     "63",
+     "Armes de la famille"
+    ],
+    [
+     "53",
+     "Fusils d’assaut"
+    ],
+    [
+     "10",
+     "Carabines d’assaut"
+    ],
+    [
+     "11",
+     "Calibres différents"
+    ],
+    [
+     "12",
+     "Avec offre en magasin"
+    ]
+   ],
+   "hero_links": [
+    [
+     "reperes",
+     "Repères de la famille"
+    ],
+    [
+     "catalogue",
+     "Le catalogue de la famille"
+    ],
+    [
+     "presets",
+     "Presets publiés"
+    ],
+    [
+     "conduite",
+     "Comment s’équiper"
+    ]
+   ],
+   "toc": [
+    [
+     "reperes",
+     "Repères de la famille"
+    ],
+    [
+     "catalogue",
+     "Le catalogue de la famille"
+    ],
+    [
+     "presets",
+     "Presets publiés"
+    ],
+    [
+     "acquisition",
+     "Acquisition et disponibilité"
+    ],
+    [
+     "conduite",
+     "Comment s’équiper"
+    ],
+    [
+     "sources",
+     "Sources et limites"
+    ]
+   ]
+  },
+  {
+   "gabarit": "famille-arme",
+   "slug": "smgs",
+   "route": "pages/weapons/smgs.html",
+   "famille": "pistolets-mitrailleurs",
+   "titre": "Pistolets-mitrailleurs (SMG)",
+   "description": "Vingt-trois pistolets-mitrailleurs du catalogue public : MP5, MP7, Vector, UMP et P90, classés par cadence, calibre et disponibilité marchande.",
+   "image": "images/weapons/famille-smg.jpg",
+   "alt": "Pistolet-mitrailleur en vitrine d’atelier, chargeur dégagé et sights repliés, éclairage rasant.",
+   "crumb": "Pistolets-mitrailleurs",
+   "kicker": "Famille d’armes · 23 modèles",
+   "headline": "Pistolets",
+   "headline_tail": "mitrailleurs",
+   "lead": "Vingt-trois armes de corps à corps : cadence élevée, recul contenu, et une contrainte de munition qui décide de tout — le 4,6 x 30 traverse, le 9 x 19 fronterairement.",
+   "scene": "Vitrine d’arme",
+   "aside_note": "23 armes, huit calibres, dont le 4,6 x 30 et le .45 ACP.",
+   "strip": [
+    [
+     "23",
+     "Armes de la famille"
+    ],
+    [
+     "8",
+     "Calibres différents"
+    ],
+    [
+     "1 100",
+     "Cadence maximale relevée"
+    ],
+    [
+     "0",
+     "Avec offre en magasin"
+    ]
+   ],
+   "hero_links": [
+    [
+     "reperes",
+     "Repères de la famille"
+    ],
+    [
+     "catalogue",
+     "Le catalogue de la famille"
+    ],
+    [
+     "presets",
+     "Presets publiés"
+    ],
+    [
+     "conduite",
+     "Comment s’équiper"
+    ]
+   ],
+   "toc": [
+    [
+     "reperes",
+     "Repères de la famille"
+    ],
+    [
+     "catalogue",
+     "Le catalogue de la famille"
+    ],
+    [
+     "presets",
+     "Presets publiés"
+    ],
+    [
+     "acquisition",
+     "Acquisition et disponibilité"
+    ],
+    [
+     "conduite",
+     "Comment s’équiper"
+    ],
+    [
+     "sources",
+     "Sources et limites"
+    ]
+   ]
+  },
+  {
+   "gabarit": "famille-arme",
+   "slug": "shotguns",
+   "route": "pages/weapons/shotguns.html",
+   "famille": "fusils-a-pompe",
+   "titre": "Fusils à pompe et semi-automatiques",
+   "description": "Seize fusils à pompe et semi-automatiques : MP-133, Saiga-12K, Remington 870, Benelli M3, avec plombs, slugs et le coût réel du sac de plombs.",
+   "image": "images/weapons/famille-pompe.jpg",
+   "alt": "Fusil à pompe à pompe ouverte sur un râtelier d’armes, cartouches de 12/70 alignées à côté.",
+   "crumb": "Fusils à pompe",
+   "kicker": "Famille d’armes · 16 modèles",
+   "headline": "Fusils",
+   "headline_tail": "à pompe",
+   "lead": "Seize armes à chambers courtes, entre 12/70 et 20 gauges : la pompe qui exige de la vigueur, la semi-automatique qui l’exige moins mais coûte plus cher.",
+   "scene": "Râtelier d’armes",
+   "aside_note": "16 armes, quatre calibres, dont le 12 gauges et le 20 gauges.",
+   "strip": [
+    [
+     "16",
+     "Armes de la famille"
+    ],
+    [
+     "4",
+     "Calibres différents"
+    ],
+    [
+     "13",
+     "En 12 gauges"
+    ],
+    [
+     "0",
+     "Avec offre en magasin"
+    ]
+   ],
+   "hero_links": [
+    [
+     "reperes",
+     "Repères de la famille"
+    ],
+    [
+     "catalogue",
+     "Le catalogue de la famille"
+    ],
+    [
+     "presets",
+     "Presets publiés"
+    ],
+    [
+     "conduite",
+     "Comment s’équiper"
+    ]
+   ],
+   "toc": [
+    [
+     "reperes",
+     "Repères de la famille"
+    ],
+    [
+     "catalogue",
+     "Le catalogue de la famille"
+    ],
+    [
+     "presets",
+     "Presets publiés"
+    ],
+    [
+     "acquisition",
+     "Acquisition et disponibilité"
+    ],
+    [
+     "conduite",
+     "Comment s’équiper"
+    ],
+    [
+     "sources",
+     "Sources et limites"
+    ]
+   ]
+  },
+  {
+   "gabarit": "famille-arme",
+   "slug": "sniper-rifles",
+   "route": "pages/weapons/sniper-rifles.html",
+   "famille": "fusils-de-precision",
+   "titre": "Fusils de précision à verrou",
+   "description": "Dix fusils de précision à verrou : SV-98, Model 700, Mosin, DVL-10, AXMC et Sako TRG M10, avec distance efficace et coût de l’optique.",
+   "image": "images/weapons/famille-precision.jpg",
+   "alt": "Fusil de précision à verrou sur bipied dans un poste de tir virtuel, lunette telescopique éclairée de biais.",
+   "crumb": "Fusils de précision",
+   "kicker": "Famille d’armes · 10 modèles",
+   "headline": "Fusils de",
+   "headline_tail": "précision",
+   "lead": "Dix armes à verrou, chacune nerfs d’un tir : la distance efficace publiée par le jeu, la précision du preset et ce qu’une lunette coûte en roubles.",
+   "scene": "Poste de tir virtuel",
+   "aside_note": "10 armes à verrou, du Mosin au .338 Lapua Magnum.",
+   "strip": [
+    [
+     "10",
+     "Armes de la famille"
+    ],
+    [
+     "5",
+     "Calibres différents"
+    ],
+    [
+     "1 000",
+     "Distance efficace relevée"
+    ],
+    [
+     "0",
+     "Avec offre en magasin"
+    ]
+   ],
+   "hero_links": [
+    [
+     "reperes",
+     "Repères de la famille"
+    ],
+    [
+     "catalogue",
+     "Le catalogue de la famille"
+    ],
+    [
+     "presets",
+     "Presets publiés"
+    ],
+    [
+     "conduite",
+     "Comment s’équiper"
+    ]
+   ],
+   "toc": [
+    [
+     "reperes",
+     "Repères de la famille"
+    ],
+    [
+     "catalogue",
+     "Le catalogue de la famille"
+    ],
+    [
+     "presets",
+     "Presets publiés"
+    ],
+    [
+     "acquisition",
+     "Acquisition et disponibilité"
+    ],
+    [
+     "conduite",
+     "Comment s’équiper"
+    ],
+    [
+     "sources",
+     "Sources et limites"
+    ]
+   ]
+  },
+  {
+   "gabarit": "famille-arme",
+   "slug": "dmrs",
+   "route": "pages/weapons/dmrs.html",
+   "famille": "dmr",
+   "titre": "Fusils de précision semi-auto (DMR)",
+   "description": "Onze DMR du catalogue : SR-25, SVDS, G28, RSASS, Vintorez et M1A, avec la cadence semi-automatique qui change tout à moyenne distance.",
+   "image": "images/weapons/famille-dmr.jpg",
+   "alt": "Fusil de précision semi-automatique sur établi optique, lunette et chargeur de rechange posés à côté.",
+   "crumb": "DMR",
+   "kicker": "Famille d’armes · 11 modèles",
+   "headline": "Fusils de précision",
+   "headline_tail": "semi-auto",
+   "lead": "Onze armes qui tirent aussi vite qu’un fusil d’assaut en automatique, à la précision d’un sniper : la famille des calibres lourds et des chargeurs de dix-huit rounds.",
+   "scene": "Atelier optique",
+   "aside_note": "11 armes, six calibres, dont le 7,62 x 51 et le 7,62 x 54 R.",
+   "strip": [
+    [
+     "11",
+     "Armes de la famille"
+    ],
+    [
+     "6",
+     "Calibres différents"
+    ],
+    [
+     "1 000",
+     "Distance efficace maximale"
+    ],
+    [
+     "1",
+     "Avec offre en magasin"
+    ]
+   ],
+   "hero_links": [
+    [
+     "reperes",
+     "Repères de la famille"
+    ],
+    [
+     "catalogue",
+     "Le catalogue de la famille"
+    ],
+    [
+     "presets",
+     "Presets publiés"
+    ],
+    [
+     "conduite",
+     "Comment s’équiper"
+    ]
+   ],
+   "toc": [
+    [
+     "reperes",
+     "Repères de la famille"
+    ],
+    [
+     "catalogue",
+     "Le catalogue de la famille"
+    ],
+    [
+     "presets",
+     "Presets publiés"
+    ],
+    [
+     "acquisition",
+     "Acquisition et disponibilité"
+    ],
+    [
+     "conduite",
+     "Comment s’équiper"
+    ],
+    [
+     "sources",
+     "Sources et limites"
+    ]
+   ]
+  },
+  {
+   "gabarit": "famille-arme",
+   "slug": "lmgs",
+   "route": "pages/weapons/lmgs.html",
+   "famille": "mitrailleuses",
+   "titre": "Mitrailleuses légères et polyvalentes",
+   "description": "Huit mitrailleuses légères du catalogue : RPK-16, PKM, PKP, RPD, RPDN, M60E4, M60E6 et sa variante FDE, avec poids et cadence.",
+   "image": "images/weapons/famille-mitrailleuse.jpg",
+   "alt": "Mitrailleuse légère dans une armurerie, caisse de munitions ouverte et bandoulière posée au premier plan.",
+   "crumb": "Mitrailleuses",
+   "kicker": "Famille d’armes · 8 modèles",
+   "headline": "Mitrailleuses",
+   "headline_tail": "légères",
+   "lead": "Huit armes de sustained fire : le RPK-16 et le M60 face au PKP, avec ce que le poids, la taille du chargeur et la munition coûtent vraiment en raid.",
+   "scene": "Armurerie",
+   "aside_note": "8 armes, quatre calibres, du 7,62 x 39 au 7,62 x 51.",
+   "strip": [
+    [
+     "8",
+     "Armes de la famille"
+    ],
+    [
+     "4",
+     "Calibres différents"
+    ],
+    [
+     "5,76",
+     "Poids maximal en kg"
+    ],
+    [
+     "0",
+     "Avec offre en magasin"
+    ]
+   ],
+   "hero_links": [
+    [
+     "reperes",
+     "Repères de la famille"
+    ],
+    [
+     "catalogue",
+     "Le catalogue de la famille"
+    ],
+    [
+     "presets",
+     "Presets publiés"
+    ],
+    [
+     "conduite",
+     "Comment s’équiper"
+    ]
+   ],
+   "toc": [
+    [
+     "reperes",
+     "Repères de la famille"
+    ],
+    [
+     "catalogue",
+     "Le catalogue de la famille"
+    ],
+    [
+     "presets",
+     "Presets publiés"
+    ],
+    [
+     "acquisition",
+     "Acquisition et disponibilité"
+    ],
+    [
+     "conduite",
+     "Comment s’équiper"
+    ],
+    [
+     "sources",
+     "Sources et limites"
+    ]
+   ]
+  },
+  {
+   "gabarit": "famille-arme",
+   "slug": "pistols",
+   "route": "pages/weapons/pistols.html",
+   "famille": "pistolets",
+   "titre": "Pistolets et revolvers",
+   "description": "Trente et une armes de poing : Makarov, Glock 19X, USP, Five-seveN, SR-1MP, Chiappa Rhino et revolvers, avec leurs calibres et leurs prix.",
+   "image": "images/weapons/famille-pistolet.jpg",
+   "alt": "Pistolet de poche dans un casier métallique ouvert, Weapons/Makarov posé sur un tapis de rangement.",
+   "crumb": "Pistolets et revolvers",
+   "kicker": "Famille d’armes · 31 modèles",
+   "headline": "Pistolets",
+   "headline_tail": "et revolvers",
+   "lead": "Trente et une armes de poing, dont cinq revolvers : la famille des armes de secours, où le calibre conditionne la munition de secours qu’on peut acheter.",
+   "scene": "Casiers de rangement",
+   "aside_note": "31 armes : 26 arme de poing et 5 revolvers, selon la catégorie du jeu.",
+   "strip": [
+    [
+     "31",
+     "Armes de la famille"
+    ],
+    [
+     "26",
+     "Armes de poing"
+    ],
+    [
+     "5",
+     "Revolvers"
+    ],
+    [
+     "12",
+     "Calibres différents"
+    ],
+    [
+     "3",
+     "Avec offre en magasin"
+    ]
+   ],
+   "hero_links": [
+    [
+     "reperes",
+     "Repères de la famille"
+    ],
+    [
+     "catalogue",
+     "Le catalogue de la famille"
+    ],
+    [
+     "presets",
+     "Presets publiés"
+    ],
+    [
+     "conduite",
+     "Comment s’équiper"
+    ]
+   ],
+   "toc": [
+    [
+     "reperes",
+     "Repères de la famille"
+    ],
+    [
+     "catalogue",
+     "Le catalogue de la famille"
+    ],
+    [
+     "presets",
+     "Presets publiés"
+    ],
+    [
+     "acquisition",
+     "Acquisition et disponibilité"
+    ],
+    [
+     "conduite",
+     "Comment s’équiper"
+    ],
+    [
+     "sources",
+     "Sources et limites"
+    ]
+   ]
+  },
+  {
+   "gabarit": "famille-arme",
+   "slug": "melee",
+   "route": "pages/weapons/melee.html",
+   "famille": "arme-de-melee",
+   "titre": "Armes de mêlée",
+   "description": "Vingt-sept armes de mêlée : baïonnettes, couteaux, machettes, haches, tomahawks et glaives, avec dégâts de taille et de pointe, et leur usage en jeu.",
+   "image": "images/weapons/famille-melee.jpg",
+   "alt": "Baïonnette et coutelas alignés sur une bâche de rangement, lame courte dans la lumière rasante.",
+   "crumb": "Armes de mêlée",
+   "kicker": "Famille d’armes · 27 modèles",
+   "headline": "Armes",
+   "headline_tail": "de mêlée",
+   "lead": "Vingt-sept armes qui n’ont ni balle ni balistique : la taille blesse, la pointe transperce, et le rayon d’atteinte décide de l’utilité réelle.",
+   "scene": "Bâche de rangement",
+   "aside_note": "27 armes, avec les dégâts de taille et de pointe publiés par l’export.",
+   "strip": [
+    [
+     "27",
+     "Armes de la famille"
+    ],
+    [
+     "0",
+     "Munitions associées"
+    ],
+    [
+     "0,35",
+     "Rayon d’atteinte minimal"
+    ],
+    [
+     "0,90",
+     "Rayon d’atteinte maximal"
+    ]
+   ],
+   "hero_links": [
+    [
+     "reperes",
+     "Repères de la famille"
+    ],
+    [
+     "catalogue",
+     "Le catalogue de la famille"
+    ],
+    [
+     "presets",
+     "Presets publiés"
+    ],
+    [
+     "conduite",
+     "Comment s’équiper"
+    ]
+   ],
+   "toc": [
+    [
+     "reperes",
+     "Repères de la famille"
+    ],
+    [
+     "catalogue",
+     "Le catalogue de la famille"
+    ],
+    [
+     "presets",
+     "Presets publiés"
+    ],
+    [
+     "acquisition",
+     "Acquisition et disponibilité"
+    ],
+    [
+     "conduite",
+     "Comment s’équiper"
+    ],
+    [
+     "sources",
+     "Sources et limites"
+    ]
+   ]
+  },
+  {
+   "gabarit": "famille-arme",
+   "slug": "grenade-launchers",
+   "route": "pages/weapons/grenade-launchers.html",
+   "famille": "lance-grenades",
+   "titre": "Lance-grenades et lanceurs spéciaux",
+   "description": "Dix armes classées en lanceurs : FN40GL Mk2, RShG-2, ZiD SP-81 et les fusées ROP-30 et RSP-30, avec leurs munitions et leurs prix.",
+   "image": "images/weapons/famille-lanceur.jpg",
+   "alt": "Lance-grenades autonome et lance-roquettes posés sur un râtelier de matériel spécialisé, munitions inertes alignées à côté.",
+   "crumb": "Lance-grenades",
+   "kicker": "Famille d’armes · 10 modèles",
+   "headline": "Lance-grenades",
+   "headline_tail": "et lanceurs",
+   "lead": "Dix armes à projectile, à ne pas confondre : le lance-grenade autonome, le lanceur sous-canon et le lance-roquettes n’ont ni les mêmes munitions ni les mêmes règles.",
+   "scene": "Râtelier de matériel",
+   "aside_note": "10 armes : 8 fusées de détresse, 1 lance-grenades et 1 lance-roquettes.",
+   "strip": [
+    [
+     "10",
+     "Armes de la famille"
+    ],
+    [
+     "9",
+     "Lance-grenades et sous-canon"
+    ],
+    [
+     "1",
+     "Lance-roquettes"
+    ],
+    [
+     "2",
+     "Avec offre en magasin"
+    ]
+   ],
+   "hero_links": [
+    [
+     "reperes",
+     "Repères de la famille"
+    ],
+    [
+     "catalogue",
+     "Le catalogue de la famille"
+    ],
+    [
+     "presets",
+     "Presets publiés"
+    ],
+    [
+     "conduite",
+     "Comment s’équiper"
+    ]
+   ],
+   "toc": [
+    [
+     "reperes",
+     "Repères de la famille"
+    ],
+    [
+     "catalogue",
+     "Le catalogue de la famille"
+    ],
+    [
+     "presets",
+     "Presets publiés"
+    ],
+    [
+     "acquisition",
+     "Acquisition et disponibilité"
+    ],
+    [
+     "conduite",
+     "Comment s’équiper"
+    ],
+    [
+     "sources",
+     "Sources et limites"
+    ]
+   ]
+  },
+  {
+   "gabarit": "famille-arme",
+   "slug": "weapon-mods",
+   "route": "pages/weapons/weapon-mods.html",
+   "famille": "pieces",
+   "titre": "Modifications et accessoires",
+   "description": "Deux mille deux cent quatre-vingt-trois pièces d’arme classées par emplacement : crosse, garde-main, rail, canon, chargeur, optique, cache-flamme et lunette.",
+   "image": "images/weapons/mods-composants.jpg",
+   "alt": "Composants d’un preset d’arme démontés et alignés : crosse, canon, frein de bouche, chargeur et optique.",
+   "crumb": "Modifications",
+   "kicker": "Famille d’armes · 2 283 pièces",
+   "headline": "Modifications",
+   "headline_tail": "et accessoires",
+   "lead": "Toutes les pièces du catalogue, classées par emplacement, avec leur poids et leur prix de base : la mécanique du build, et la raison pour laquelle le rééquilibrage de mars 2026 a chauffé les forums.",
+   "scene": "Composants de preset",
+   "aside_note": "2 283 pièces classées par emplacement, compatibilités à vérifier dans le client.",
+   "strip": [
+    [
+     "2 283",
+     "Pièces au catalogue"
+    ],
+    [
+     "23",
+     "Emplacements distincts"
+    ],
+    [
+     "292",
+     "Crosses"
+    ],
+    [
+     "287",
+     "Garde-mains"
+    ],
+    [
+     "219",
+     "Chargeurs"
+    ],
+    [
+     "196",
+     "Canons"
+    ]
+   ],
+   "hero_links": [
+    [
+     "reperes",
+     "Repères de la famille"
+    ],
+    [
+     "catalogue",
+     "Le catalogue de la famille"
+    ],
+    [
+     "presets",
+     "Presets publiés"
+    ],
+    [
+     "conduite",
+     "Comment s’équiper"
+    ]
+   ],
+   "toc": [
+    [
+     "reperes",
+     "Repères de la famille"
+    ],
+    [
+     "catalogue",
+     "Le catalogue de la famille"
+    ],
+    [
+     "presets",
+     "Presets publiés"
+    ],
+    [
+     "acquisition",
+     "Acquisition et disponibilité"
+    ],
+    [
+     "conduite",
+     "Comment s’équiper"
+    ],
+    [
+     "sources",
+     "Sources et limites"
+    ]
+   ]
+  }
+ ],
+ "outil": {
+  "gabarit": "outil",
+  "slug": "tableau-balistique",
+  "route": "pages/ammo/ammo-chart.html",
+  "titre": "Tableau balistique interactif",
+  "description": "Tableau des 200 munitions de l’export : pénétration, dégâts, classe d’armure atteinte, prix marchand et horodatage, filtrable et trié.",
+  "image": "images/weapons/balistique-calibres.jpg",
+  "alt": "Série de cartouches de 5,56 x 45, 7,62 x 51 et .338 alignées en calibre décroissant sur une table d’atelier.",
+  "crumb": "Tableau balistique",
+  "kicker": "Outil · 200 munitions filtrables",
+  "headline": "Tableau",
+  "headline_tail": "balistique",
+  "lead": "Les deux cent munitions de l’export, avec pénétration, dégâts, classe d’armure atteinte, prix marchand et horodatage du relevé : filtrable, triable, et lisible sans JavaScript.",
+  "scene": "Calibres alignés",
+  "aside_note": "Relevé du 18 novembre 2026, 200 cartouches et 31 calibres.",
+  "strip": [
+   [
+    "200",
+    "Cartouches listées"
+   ],
+   [
+    "31",
+    "Calibres"
+   ],
+   [
+    "6",
+    "Classes d’armure"
+   ],
+   [
+    "154",
+    "Avec offre en magasin"
+   ],
+   [
+    "26",
+    "Traçantes"
+   ],
+   [
+    "15",
+    "Coups multiples"
+   ]
+  ],
+  "hero_links": [
+   [
+    "nuage",
+    "Le nuage pénétration / dégâts"
+   ],
+   [
+    "tableau",
+    "Le tableau complet"
+   ],
+   [
+    "method",
+    "Méthode et limites"
+   ]
+  ],
+  "toc": [
+   [
+    "reperes",
+    "Ce que contient l’outil"
+   ],
+   [
+    "nuage",
+    "Le nuage pénétration / dégâts"
+   ],
+   [
+    "tableau",
+    "Le tableau complet"
+   ],
+   [
+    "method",
+    "Méthode et limites"
+   ],
+   [
+    "sources",
+    "Sources"
+   ]
+  ]
+ }
+}

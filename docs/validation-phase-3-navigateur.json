@@ -1,0 +1,135 @@
+{
+  "statut": "OK",
+  "rubriques": [
+    "Parcours : dix étapes, raccourcis d’évitement et d’ancre, deux checklists indépendantes restaurées et réinitialisées, avec retour du focus et compteur.",
+    "Commandes : trois dispositions, 12 actions, édition et restauration locales, reset clavier. FAQ : 24 volets natifs, dont ouverture par Entrée.",
+    "Lore : quatre repères de carte accessibles, onglets au clavier, jalons ouvrables. Trois volets sans révélation au chargement, remise à zéro et fermeture groupée.",
+    "Accueil, méga-menu et recherche : accès aux deux routes, repères focusables, alias /pages/lore/ et portée Pages publiées. Pas de spoiler ouvert par un lien de recherche.",
+    "Tactile : menu, sommaire, onglets et cases utilisables. Les deux pages tiennent aux cinq largeurs sans défilement horizontal.",
+    "Sans JavaScript : contenus, QWERTY, FAQ, légendes, chronologies et volets natifs. Sans stockage : cases et modifications utilisables avec un avis local."
+  ],
+  "largeursPx": [
+    320,
+    390,
+    768,
+    1024,
+    1440
+  ],
+  "wcag": [
+    {
+      "scope": "Guide sur bureau",
+      "violations": [],
+      "controleHumain": [
+        {
+          "id": "color-contrast",
+          "noeuds": 106
+        }
+      ],
+      "reglesReussies": 32
+    },
+    {
+      "scope": "Guide, commandes personnalisées",
+      "violations": [],
+      "controleHumain": [
+        {
+          "id": "color-contrast",
+          "noeuds": 106
+        }
+      ],
+      "reglesReussies": 31
+    },
+    {
+      "scope": "Guide, méga-menu ouvert",
+      "violations": [],
+      "controleHumain": [
+        {
+          "id": "color-contrast",
+          "noeuds": 126
+        }
+      ],
+      "reglesReussies": 31
+    },
+    {
+      "scope": "Lore sur bureau, révélations fermées",
+      "violations": [],
+      "controleHumain": [
+        {
+          "id": "color-contrast",
+          "noeuds": 61
+        }
+      ],
+      "reglesReussies": 30
+    },
+    {
+      "scope": "Lore, un onglet et deux révélations ouvertes",
+      "violations": [],
+      "controleHumain": [
+        {
+          "id": "color-contrast",
+          "noeuds": 66
+        }
+      ],
+      "reglesReussies": 30
+    },
+    {
+      "scope": "Lore, contraste renforcé",
+      "violations": [],
+      "controleHumain": [
+        {
+          "id": "color-contrast",
+          "noeuds": 61
+        }
+      ],
+      "reglesReussies": 30
+    },
+    {
+      "scope": "Lore tactile, onglet des dates",
+      "violations": [],
+      "controleHumain": [
+        {
+          "id": "color-contrast",
+          "noeuds": 62
+        }
+      ],
+      "reglesReussies": 29
+    },
+    {
+      "scope": "Guide tactile",
+      "violations": [],
+      "controleHumain": [
+        {
+          "id": "color-contrast",
+          "noeuds": 105
+        }
+      ],
+      "reglesReussies": 30
+    }
+  ],
+  "console": [],
+  "erreursHttp": [],
+  "perf": {
+    "guide-phase3": {
+      "initial": 19,
+      "audio": 0,
+      "index": 0,
+      "tiers": 0,
+      "lcpLocal": {
+        "ms": 280,
+        "element": "IMG",
+        "ressource": "/images/guide/preparation-pmc.jpg"
+      }
+    },
+    "lore-phase3": {
+      "initial": 20,
+      "audio": 0,
+      "index": 0,
+      "tiers": 0,
+      "lcpLocal": {
+        "ms": 376,
+        "element": "IMG",
+        "ressource": "/images/lore/tarkov-crepuscule.jpg"
+      }
+    }
+  },
+  "chromium": "141.0.7390.0"
+}

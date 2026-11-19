@@ -1,0 +1,168 @@
+{
+  "statut": "OK",
+  "rubriques": [
+    "Arsenal : 10 fiches de famille, 199 lignes de catalogue et compteur initial cohérent.",
+    "Arsenal : recherche textuelle active (3 lignes pour « AK-74 »).",
+    "Arsenal : filtre par famille (23 pistolets-mitrailleurs) et restauration à 199 lignes.",
+    "Arsenal : seuil de recul vertical à 80 (27 lignes) opérationnel.",
+    "Comparateur : trois armes, 13 indicateurs et quatre colonnes de tableau.",
+    "Arsenal : lien d’évitement, cible de focus et sommaire ancre fonctionnels au clavier.",
+    "Familles : dix pages chargées en 200, tableaux légendés, images décodées, effectifs de catalogue exacts.",
+    "Balistique : page chargée, tableaux de classes, de calibres, de traceurs, de grenades et d’achats présents.",
+    "Tableau balistique : 200 lignes de cartouches et compteur initial cohérent.",
+    "Tableau balistique : filtres calibre (4 lignes) et recherche (3 lignes) opérationnels.",
+    "Nuage : Chart.js local chargé, 200 points et 27610 pixels rendus dans la toile.",
+    "Phase « bureau » terminée.",
+    "Responsive : 320, 768, 1024, 1440 px sans débordement horizontal ni cible hors écran sur l’arsenal, une fiche et le tableau.",
+    "Phase « responsive » terminée.",
+    "Repli sans JavaScript : catalogue complet, dix fiches de famille et deux cents cartouches lisibles.",
+    "Phase « repli sans script » terminée.",
+    "Stockage bloqué : l’arsenal reste complet sans stockage local.",
+    "Phase « stockage bloqué » terminée.",
+    "Aucune erreur console ni réponse HTTP en erreur sur les parcours joués."
+  ],
+  "largeursPx": [
+    320,
+    768,
+    1024,
+    1440
+  ],
+  "wcag": [
+    {
+      "scope": "Arsenal sur bureau",
+      "violations": [],
+      "controleHumain": [
+        {
+          "id": "color-contrast",
+          "noeuds": 64
+        }
+      ],
+      "reglesReussies": 34
+    },
+    {
+      "scope": "Fiche fusils d’assaut sur bureau",
+      "violations": [],
+      "controleHumain": [
+        {
+          "id": "color-contrast",
+          "noeuds": 42
+        }
+      ],
+      "reglesReussies": 29
+    },
+    {
+      "scope": "Balistique sur bureau",
+      "violations": [],
+      "controleHumain": [
+        {
+          "id": "color-contrast",
+          "noeuds": 40
+        }
+      ],
+      "reglesReussies": 29
+    },
+    {
+      "scope": "Tableau balistique sur bureau",
+      "violations": [],
+      "controleHumain": [
+        {
+          "id": "color-contrast",
+          "noeuds": 47
+        }
+      ],
+      "reglesReussies": 35
+    }
+  ],
+  "console": [],
+  "erreursHttp": [],
+  "perf": {
+    "arsenal": {
+      "initial": 19,
+      "lcpLocal": {
+        "ms": 336,
+        "element": "IMG",
+        "ressource": "/images/weapons/arsenal-etabli.jpg"
+      }
+    },
+    "assault-rifles": {
+      "initial": 19,
+      "lcpLocal": {
+        "ms": 128,
+        "element": "IMG",
+        "ressource": "/images/weapons/famille-assaut.jpg"
+      }
+    },
+    "smgs": {
+      "initial": 19,
+      "lcpLocal": {
+        "ms": 152,
+        "element": "IMG",
+        "ressource": "/images/weapons/famille-smg.jpg"
+      }
+    },
+    "shotguns": {
+      "initial": 19,
+      "lcpLocal": {
+        "ms": 168,
+        "element": "IMG",
+        "ressource": "/images/weapons/famille-pompe.jpg"
+      }
+    },
+    "sniper-rifles": {
+      "initial": 19,
+      "lcpLocal": {
+        "ms": 112,
+        "element": "IMG",
+        "ressource": "/images/weapons/famille-precision.jpg"
+      }
+    },
+    "dmrs": {
+      "initial": 19,
+      "lcpLocal": {
+        "ms": 420,
+        "element": "IMG",
+        "ressource": "/images/weapons/famille-dmr.jpg"
+      }
+    },
+    "lmgs": {
+      "initial": 19,
+      "lcpLocal": {
+        "ms": 508,
+        "element": "IMG",
+        "ressource": "/images/weapons/famille-mitrailleuse.jpg"
+      }
+    },
+    "pistols": {
+      "initial": 19,
+      "lcpLocal": {
+        "ms": 664,
+        "element": "IMG",
+        "ressource": "/images/weapons/famille-pistolet.jpg"
+      }
+    },
+    "melee": {
+      "initial": 19,
+      "lcpLocal": {
+        "ms": 464,
+        "element": "IMG",
+        "ressource": "/images/weapons/famille-melee.jpg"
+      }
+    },
+    "grenade-launchers": {
+      "initial": 19,
+      "lcpLocal": {
+        "ms": 600,
+        "element": "IMG",
+        "ressource": "/images/weapons/famille-lanceur.jpg"
+      }
+    },
+    "weapon-mods": {
+      "initial": 19,
+      "lcpLocal": {
+        "ms": 372,
+        "element": "IMG",
+        "ressource": "/images/weapons/mods-composants.jpg"
+      }
+    }
+  }
+}
